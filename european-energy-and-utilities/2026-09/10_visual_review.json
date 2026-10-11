@@ -1,0 +1,13 @@
+{
+  "reviewer": "Manus visual inspection",
+  "review_date": "2026-10-11",
+  "review_artifact": "13_cyber_sectorial_analysis_review.pdf",
+  "slide_count": 7,
+  "all_slides_inspected": true,
+  "readable_text": true,
+  "no_clipped_elements": true,
+  "no_overlaps": true,
+  "design_compliant": true,
+  "source_free_slides": true,
+  "observations": "All seven exported slides were inspected. Text is readable, elements are contained within the canvas, the white-background and emerald-accent design is consistent, and no citations, dates, footnotes, page numbers, URLs or source identifiers are visible."
+}

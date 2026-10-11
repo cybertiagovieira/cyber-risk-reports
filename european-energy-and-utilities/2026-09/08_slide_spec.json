@@ -1,0 +1,88 @@
+{
+  "slides": [
+    {
+      "number": 1,
+      "title": "Sector Exposure & Executive Risk Outlook",
+      "decision": "Set the sector thesis and evidence boundary for Risk Committee discussion.",
+      "executive_conclusion": "Connected generation, remote operations and shared digital dependencies expand the sector exposure surface; no reviewed source establishes a quantified EU or UK September 2026 sector incident.",
+      "claim_ids": ["C-001", "C-002"],
+      "metric_ids": [],
+      "scenario_ids": [],
+      "visual_type": "Exposure driver chain",
+      "maximum_body_points": 3,
+      "speaker_notes": "No sources, URLs, dates, footnotes or metadata. Traceability remains in the evidence pack."
+    },
+    {
+      "number": 2,
+      "title": "Key Threats & Top 5 Cyber Attacks",
+      "decision": "Rank the threat patterns that can impair energy-sector operational visibility, control or recovery.",
+      "executive_conclusion": "Remote-access exposure, exposed engineering systems, ransomware on edge infrastructure, destructive malware and dependency targeting are the priority public patterns.",
+      "claim_ids": ["C-003", "C-004", "C-005"],
+      "metric_ids": ["M-001"],
+      "scenario_ids": [],
+      "visual_type": "Threat-to-service matrix",
+      "maximum_body_points": 3,
+      "speaker_notes": "No sources, URLs, dates, footnotes or metadata. Traceability remains in the evidence pack."
+    },
+    {
+      "number": 3,
+      "title": "Financial Impact: European Energy and Utilities",
+      "decision": "Explain sector financial and operational transmission without creating a bank-loss estimate.",
+      "executive_conclusion": "Loss of visibility or control can prompt operating restrictions and recovery demand before any customer supply interruption is observed.",
+      "claim_ids": ["C-003", "C-006"],
+      "metric_ids": [],
+      "scenario_ids": [],
+      "visual_type": "Financial and operational transmission chain",
+      "maximum_body_points": 3,
+      "speaker_notes": "No sources, URLs, dates, footnotes or metadata. Traceability remains in the evidence pack."
+    },
+    {
+      "number": 4,
+      "title": "Financial Impact: Worst-Case Scenarios",
+      "decision": "Test three plausible high-impact pathways and their monitoring indicators.",
+      "executive_conclusion": "The most decision-relevant stress pathways combine shared digital dependencies, exposed operational technology and uncertainty over IT-to-OT separation.",
+      "claim_ids": ["C-007", "C-008", "C-009"],
+      "metric_ids": [],
+      "scenario_ids": ["SC-001", "SC-002", "SC-003"],
+      "visual_type": "Three-scenario triptych",
+      "maximum_body_points": 3,
+      "speaker_notes": "No sources, URLs, dates, footnotes or metadata. Traceability remains in the evidence pack."
+    },
+    {
+      "number": 5,
+      "title": "Case Study: Colonial Pipeline Ransomware Incident",
+      "decision": "Demonstrate a completed historical causal chain and define its bounded read-across.",
+      "executive_conclusion": "The historical lesson is that uncertainty about IT-to-OT separation can drive a precautionary operating decision and multi-party restoration coordination.",
+      "claim_ids": ["C-010"],
+      "metric_ids": ["M-003", "M-004"],
+      "scenario_ids": [],
+      "visual_type": "Incident timeline",
+      "maximum_body_points": 3,
+      "speaker_notes": "No sources, URLs, dates, footnotes or metadata. Traceability remains in the evidence pack."
+    },
+    {
+      "number": 6,
+      "title": "Systemic Dependencies & Regulatory Outlook",
+      "decision": "Identify formal dependency-monitoring expectations and regulatory developments that change the sector outlook.",
+      "executive_conclusion": "EU electricity rules formalise dependency and cross-border propagation assessment; Great Britain is considering a wider downstream energy perimeter.",
+      "claim_ids": ["C-011", "C-012"],
+      "metric_ids": [],
+      "scenario_ids": [],
+      "visual_type": "Dependency chain and regulatory horizon",
+      "maximum_body_points": 3,
+      "speaker_notes": "No sources, URLs, dates, footnotes or metadata. Traceability remains in the evidence pack."
+    },
+    {
+      "number": 7,
+      "title": "Mitigation Strategies & Security Framework",
+      "decision": "Set external-evidence monitoring priorities and public comparator themes.",
+      "executive_conclusion": "Use public comparator themes to monitor connected-generation, supplier and maintenance exposure, while preserving the boundary between sector intelligence and operator assurance.",
+      "claim_ids": ["C-013"],
+      "metric_ids": [],
+      "scenario_ids": [],
+      "visual_type": "Prioritised monitoring roadmap",
+      "maximum_body_points": 3,
+      "speaker_notes": "No sources, URLs, dates, footnotes or metadata. Traceability remains in the evidence pack."
+    }
+  ]
+}

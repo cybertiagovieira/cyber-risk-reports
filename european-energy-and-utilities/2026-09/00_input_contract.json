@@ -1,0 +1,26 @@
+{
+  "run_id": "20261011-european-energy-utilities-sep2026",
+  "sector": "European Energy and Utilities",
+  "geography": ["European Union", "United Kingdom"],
+  "reporting_period": {
+    "start": "2026-09-01",
+    "end": "2026-09-30"
+  },
+  "evidence_cutoff": "2026-10-10",
+  "case_study_title": "Colonial Pipeline Ransomware Incident",
+  "audience": "1LoD operational management and Risk Committee",
+  "output_language": "English (US)",
+  "analysis_boundary": "external_data_only",
+  "priority_questions": [
+    "Which September 2026 threat and dependency pathways create the highest operational and systemic exposure for European energy and utilities?",
+    "Which public incidents, exploitation patterns and regulatory developments changed the sector risk outlook during the reporting period?",
+    "Which sector-informed actions and external indicators should management prioritise over the next 12 months?"
+  ],
+  "regulatory_scope": [
+    "European Union NIS2 Directive and national implementation",
+    "European Union energy-sector resilience and cyber requirements",
+    "United Kingdom energy-sector cyber resilience context"
+  ],
+  "delivery_destination": "https://github.com/cybertiagovieira/cyber-risk-reports",
+  "analysis_level": "sector_exposure_and_scenarios"
+}
