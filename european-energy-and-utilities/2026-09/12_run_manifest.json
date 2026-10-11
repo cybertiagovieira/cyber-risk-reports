@@ -86,7 +86,7 @@
   "delivery": {
     "destination": "https://github.com/cybertiagovieira/cyber-risk-reports",
     "repository_url": "https://github.com/cybertiagovieira/cyber-risk-reports",
-    "commit_sha": "4c6e9207b9750d52c497331ab6d12344595b2001",
+    "commit_sha": "b642d7684624a8ce8197464df5007b8bdb22e881",
     "paths": [
       "european-energy-and-utilities/2026-09/00_input_contract.json",
       "european-energy-and-utilities/2026-09/01_research_plan.md",
@@ -102,6 +102,9 @@
       "european-energy-and-utilities/2026-09/11_presentation_qc.json",
       "european-energy-and-utilities/2026-09/13_cyber_sectorial_analysis.pptx"
     ],
-    "delivery_status": "PASS"
+    "delivery_status": "PASS",
+    "repository_delivery_receipt_commit_sha": "b642d7684624a8ce8197464df5007b8bdb22e881",
+    "repository_visibility": "private",
+    "default_branch": "main"
   }
 }
