@@ -1,0 +1,23 @@
+{
+  "seven_slide_sequence": "PASS",
+  "evidence_traceability": "PASS",
+  "scenario_labelling": "PASS",
+  "language_controls": "PASS",
+  "visual_review": "PASS",
+  "export_opened": "PASS",
+  "deck_contains_no_sources_or_metadata": "PASS",
+  "delivery_evidence": "PASS",
+  "release_status": "PASS",
+  "validation_evidence": {
+    "research_bundle": "PASS",
+    "deck_validator": "PASS",
+    "slide_xml_language_scan": "PASS",
+    "visual_inspection": "PASS",
+    "core_delivery_commit": "4c6e9207b9750d52c497331ab6d12344595b2001"
+  },
+  "limitations": [
+    "No reviewed authoritative source disclosed a named EU or UK energy or utility cyber event during September 2026 with quantified operational or financial impact.",
+    "The Polish operational case and Colonial Pipeline case are historical context and are labelled as such in the evidence artefacts.",
+    "Public evidence does not provide a European utility supplier-concentration ratio, comparable EU-UK loss series or operator-level control-effectiveness data."
+  ]
+}

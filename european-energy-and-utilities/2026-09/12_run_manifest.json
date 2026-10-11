@@ -1,0 +1,107 @@
+{
+  "run_id": "20261011-european-energy-utilities-sep2026",
+  "skill_version": "local-upgraded-skill",
+  "analysis_boundary": "external_data_only",
+  "evidence_cutoff": "2026-10-10",
+  "artefacts": [
+    {
+      "type": "input_contract",
+      "path": "european-energy-and-utilities/2026-09/00_input_contract.json",
+      "sha256": "2e3b00eddc986d9589e256d59a2231956c378d119733b44993e93ea1c454d79f"
+    },
+    {
+      "type": "research_plan",
+      "path": "european-energy-and-utilities/2026-09/01_research_plan.md",
+      "sha256": "24573e5595f878e3e09b1e22a5d4aa5f4c8387605a438bf824ffcba76aa06e50"
+    },
+    {
+      "type": "source_register",
+      "path": "european-energy-and-utilities/2026-09/02_source_register.csv",
+      "sha256": "63e043682c53c37928d8170b7762f0a27911be97b162ba36db84c7dd26e5bcb6"
+    },
+    {
+      "type": "claim_ledger",
+      "path": "european-energy-and-utilities/2026-09/03_claim_ledger.json",
+      "sha256": "8ca35f5e50b51d57ce412d9e2f3f373ba02f0b1b61d7a23a1c6c2d9b3e5402d8"
+    },
+    {
+      "type": "metric_dictionary",
+      "path": "european-energy-and-utilities/2026-09/04_metric_dictionary.csv",
+      "sha256": "2484f9d0ae7489901d15a0c424ebadd70969ae7f43379f544c37434d8c038821"
+    },
+    {
+      "type": "regulatory_register",
+      "path": "european-energy-and-utilities/2026-09/05_regulatory_relevance_register.csv",
+      "sha256": "37750d0c6e75fb4c880d031e1846a9a5b1f87e69b43865526058591ca093d121"
+    },
+    {
+      "type": "scenario_register",
+      "path": "european-energy-and-utilities/2026-09/06_scenario_assumption_register.csv",
+      "sha256": "6167cfc0c43c493f9a803c6e27f4575cca32f554f417f5b4dfb0e34fde62164d"
+    },
+    {
+      "type": "executive_story",
+      "path": "european-energy-and-utilities/2026-09/07_executive_story.md",
+      "sha256": "283139cf57de72d9aece09de1873b482dc48bdb4add4d043d02f97b4384e2dd8"
+    },
+    {
+      "type": "slide_spec",
+      "path": "european-energy-and-utilities/2026-09/08_slide_spec.json",
+      "sha256": "81a76bb02ce84bd1301f73019b568aaab1a0b31be4b471ea1946e302c103a979"
+    },
+    {
+      "type": "evidence_pack",
+      "path": "european-energy-and-utilities/2026-09/09_evidence_pack.md",
+      "sha256": "eb9c7d74d4fe8709d17abec01c8179d319ff9966dce967c494cfb561c18c403a"
+    },
+    {
+      "type": "visual_review",
+      "path": "european-energy-and-utilities/2026-09/10_visual_review.json",
+      "sha256": "e0cc6e0d46249ff1e0beeba8d355e9be852356b37e5dab87d28c0163e87ebab4"
+    },
+    {
+      "type": "quality_record",
+      "path": "european-energy-and-utilities/2026-09/11_presentation_qc.json",
+      "sha256": "93d184a2585bdad68c17d563de4f9e90f8f43be6fb1cef0c63e302c371192ef0"
+    },
+    {
+      "type": "powerpoint",
+      "path": "european-energy-and-utilities/2026-09/13_cyber_sectorial_analysis.pptx",
+      "sha256": "8bdbbbccc2434b81d451537bbaa8b3d39238360a027f4cdcb8830b8fe67f4d16"
+    }
+  ],
+  "hashes": {
+    "input_contract": "2e3b00eddc986d9589e256d59a2231956c378d119733b44993e93ea1c454d79f",
+    "source_register": "63e043682c53c37928d8170b7762f0a27911be97b162ba36db84c7dd26e5bcb6",
+    "claim_ledger": "8ca35f5e50b51d57ce412d9e2f3f373ba02f0b1b61d7a23a1c6c2d9b3e5402d8"
+  },
+  "quality_gates": {
+    "input": "PASS",
+    "evidence": "PASS",
+    "analysis": "PASS",
+    "presentation": "PASS",
+    "language": "PASS",
+    "delivery": "PASS"
+  },
+  "delivery": {
+    "destination": "https://github.com/cybertiagovieira/cyber-risk-reports",
+    "repository_url": "https://github.com/cybertiagovieira/cyber-risk-reports",
+    "commit_sha": "4c6e9207b9750d52c497331ab6d12344595b2001",
+    "paths": [
+      "european-energy-and-utilities/2026-09/00_input_contract.json",
+      "european-energy-and-utilities/2026-09/01_research_plan.md",
+      "european-energy-and-utilities/2026-09/02_source_register.csv",
+      "european-energy-and-utilities/2026-09/03_claim_ledger.json",
+      "european-energy-and-utilities/2026-09/04_metric_dictionary.csv",
+      "european-energy-and-utilities/2026-09/05_regulatory_relevance_register.csv",
+      "european-energy-and-utilities/2026-09/06_scenario_assumption_register.csv",
+      "european-energy-and-utilities/2026-09/07_executive_story.md",
+      "european-energy-and-utilities/2026-09/08_slide_spec.json",
+      "european-energy-and-utilities/2026-09/09_evidence_pack.md",
+      "european-energy-and-utilities/2026-09/10_visual_review.json",
+      "european-energy-and-utilities/2026-09/11_presentation_qc.json",
+      "european-energy-and-utilities/2026-09/13_cyber_sectorial_analysis.pptx"
+    ],
+    "delivery_status": "PASS"
+  }
+}
