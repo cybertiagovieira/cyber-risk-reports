@@ -1,0 +1,94 @@
+{
+  "schema_version": "3.0.0",
+  "status": "PASS",
+  "reviewer": "Independent editorial challenge agent (separate from drafting role; session subagent a28b2d3c36cb60459), two passes on 14 October 2026; resolutions applied by drafting role",
+  "report_sha256": "0da8f67be791a95171fd906e7957f9f4172483357102f08ec85b64a982bbb5de",
+  "docx_sha256": "5a4c40b5b8c7a093ce16ca19bb0af5ec56b6a41685f3ade006fa2eeee1261b80",
+  "pptx_sha256": "edf2b717bbc9c8b9f8a3174eaca8bf100b6d081c1e24e1d2110242c323d0e450",
+  "review_scope": "Principal judgements, public financial evidence, case selection and facts (spot-checked against S-001, S-002, S-005, S-006, S-007, S-008, S-010 via live fetch), scenario assumptions, legal applicability, exported readability, language controls, cross-artefact consistency.",
+  "criteria": {
+    "standalone_completeness": {
+      "status": "PASS",
+      "observation": "Each slide carries conclusion, evidence base, interpretation, implication and limitation; acronyms (OT, ERP, MFA, 1LoD, NIS2, CER) now expanded on the slides where used."
+    },
+    "evidence_specificity": {
+      "status": "PASS",
+      "observation": "O2 fixed: Dragos 176 of 1,140 restated as a manufacturing subsector (report, slide 1, C-001). O9 fixed: Miljödata customer breadth split into regulator finding (majority of municipalities) and Tier 3 detail. O8 fixed: bottom line now referenced; unverifiable 'largest project' description removed."
+    },
+    "sector_relevance": {
+      "status": "PASS",
+      "observation": "O4 fixed: judgement 1 reframed as best-documented propagation pathway with competing explanation (owner-side over-representation; leak-site data show many more construction claims than public disclosures)."
+    },
+    "financial_transmission": {
+      "status": "PASS",
+      "observation": "O1 fixed: RBKC payment disruption now 'constrained, duration undisclosed' (controlled run paid existing invoices). O5 fixed: insolvency count presented as a count, not a rate, without buffer inference. O6/O7 cost labels and 'one regulator in period' aligned."
+    },
+    "scenario_distinctness": {
+      "status": "PASS",
+      "observation": "O13 fixed: scenario 1 is an availability failure without compromise; scenario 3 a compromise spreading through supplier access, data or payments. No probabilities; no forecasts; 'most likely' softened."
+    },
+    "regulatory_accuracy": {
+      "status": "PASS",
+      "observation": "Jurisdiction, status and date types confirmed for NIS2, CER, CRA, GDPR, UK NIS, EU procurement proposal, UK bill and SEC. O11 fixed: UK GDPR as UK domestic law; PPN 014 (policy note) separated from Procurement Act 2023 (statute); CRA reporting described as a duty now applying."
+    },
+    "actionability": {
+      "status": "PASS",
+      "observation": "Six actions each tied to an evidenced exposure, role type, horizon, completion evidence, residual dependency and external trigger; six challenge questions for 1LoD and Risk Committee."
+    },
+    "readability": {
+      "status": "PASS",
+      "observation": "All seven slides and 21 DOCX pages inspected at normal reading size after final export; slide 2 and slide 6 table overflow and slide 5 overlap corrected before release; no clipped elements remain."
+    },
+    "limitations_and_confidence": {
+      "status": "PASS",
+      "observation": "O3 fixed: OT judgement confidence medium-low, no claimed rise, competing explanation (opportunistic or criminal scanning) stated; limitations sit beside findings and are consolidated in the methodology chapter."
+    },
+    "cross_artifact_consistency": {
+      "status": "PASS",
+      "observation": "Numbers, names and counts consistent across report, slides, claim ledger, metric dictionary and evidence pack after regeneration from one source of truth; O14 MNIT wording aligned to 'malicious activity'."
+    }
+  },
+  "objections_log": [
+    {
+      "id": "O1",
+      "severity": "material",
+      "resolution": "Payment-disruption duration removed; constraint and controlled run described."
+    },
+    {
+      "id": "O2",
+      "severity": "material",
+      "resolution": "Dragos ranking removed; subsector framing used."
+    },
+    {
+      "id": "O3",
+      "severity": "material",
+      "resolution": "Judgement 3 rewritten; confidence medium-low; competing explanation added."
+    },
+    {
+      "id": "O4",
+      "severity": "material",
+      "resolution": "Judgement 1 reframed; alternative hypothesis added to report."
+    },
+    {
+      "id": "O5",
+      "severity": "material",
+      "resolution": "Insolvency count used as context only."
+    },
+    {
+      "id": "O6-O14",
+      "severity": "minor",
+      "resolution": "Resolved; second-pass check confirmed."
+    },
+    {
+      "id": "O15",
+      "severity": "minor",
+      "resolution": "Not changed by design: the user's run instruction requires exactly seven slides with the titles used, which governs over the older five-section project default; literal [Source/Title][n] citations in DOCX implement the project reference format with resolvable numbering."
+    },
+    {
+      "id": "N1-N2",
+      "severity": "minor",
+      "resolution": "Leak-site wording and slide 3 causal phrasing corrected after second pass."
+    }
+  ],
+  "unresolved_material_issues": []
+}

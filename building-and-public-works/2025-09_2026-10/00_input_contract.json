@@ -1,0 +1,58 @@
+{
+  "run_id": "20261014-building-public-works-global-eu-uk-2025-09_2026-10",
+  "sector": "Building & Public Works",
+  "geography": [
+    "Global",
+    "European Union (primary)",
+    "European Economic Area (primary)",
+    "United Kingdom (primary)",
+    "North America (comparative)"
+  ],
+  "subsectors": [
+    "Construction companies",
+    "Civil engineering",
+    "Public works contractors",
+    "Engineering and project-management firms",
+    "Infrastructure construction",
+    "Building materials and equipment dependencies",
+    "Construction technology platforms",
+    "Building-management and building-automation systems",
+    "Public-sector project owners"
+  ],
+  "reporting_period": {
+    "start": "2025-09-01",
+    "end": "2026-10-14"
+  },
+  "evidence_cutoff": "2026-10-14",
+  "report_date": "2026-10-14",
+  "case_study_title": "Kensington and Chelsea Shared-IT Cyber Attack",
+  "audience": "1LoD operational management and Risk Committee",
+  "output_language": "English (UK)",
+  "analysis_boundary": "external_data_only",
+  "priority_questions": [
+    "Which Building & Public Works threat, incident and dependency pathways require management attention in the EU, EEA and UK, with global comparison?",
+    "Which public developments between 1 September 2025 and 14 October 2026 changed operational, financial or regulatory exposure, and what public outcomes are disclosed?",
+    "Which actions, challenge questions and monitoring triggers should 1LoD operational management and the Risk Committee prioritise?"
+  ],
+  "regulatory_scope": [
+    "EU NIS2 Directive (EU) 2022/2555 and national transposition",
+    "EU CER Directive (EU) 2022/2557 where applicable",
+    "EU GDPR (EU) 2016/679",
+    "EU Cyber Resilience Act (EU) 2024/2847",
+    "EU public-procurement and cyber supply-chain requirements",
+    "UK NIS Regulations 2018 and UK cyber resilience legislative developments",
+    "UK GDPR and Data Protection Act 2018",
+    "UK procurement and public-sector cyber requirements",
+    "US and other global regimes as comparative evidence only",
+    "ISO/IEC 27001, ISO/IEC 27002, ISO/IEC 27036, IEC 62443, NIST CSF 2.0, CISA guidance and CIS Controls as voluntary references"
+  ],
+  "delivery_destination": "https://github.com/cybertiagovieira/cyber-risk-reports",
+  "analysis_level": "sector_exposure_and_scenarios",
+  "product_mode": "standalone_publication",
+  "primary_output": "full_report_docx_and_markdown",
+  "analytical_readout_slides": 7,
+  "research_horizon_months": 18,
+  "prior_report_path": null,
+  "schedule_changes": "none - first manual run",
+  "case_study_selection_note": "Selected after discovery on 14 October 2026; see 01_research_plan.md and report Chapter 5 selection matrix."
+}

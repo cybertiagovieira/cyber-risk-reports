@@ -1,0 +1,1404 @@
+{
+  "schema_version": "3.0.0",
+  "reading_mode": "standalone_publication",
+  "primary_report": "14_sectorial_report.md",
+  "design": {
+    "background": "FFFFFF",
+    "text": "1F2328",
+    "accent": "00915E",
+    "canvas": "13.333 x 7.5 in"
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": "Sector Exposure & Executive Risk Outlook",
+      "decision": "Treat B&PW cyber risk as a concentration and counterparty-liquidity issue.",
+      "visual_type": "Judgement table with confidence and change conditions",
+      "table_headers": {
+        "T1": [
+          "Principal judgement",
+          "Confidence",
+          "What would change it"
+        ]
+      },
+      "table_widths": {
+        "T1": [
+          3.9,
+          1.0,
+          2.0
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "The best-documented Building & Public Works cyber propagation runs through shared digital layers - owner shared services, sector platforms, cloud hosting, materials suppliers and payment chains - and reaches the financial system mainly through contractor liquidity, not direct loss.",
+          "claim_ids": [
+            "C-036",
+            "C-039"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Public records for the reporting period across the EU, EEA and UK with global comparison: five named incidents; council, auditor, regulator, state and stock-exchange disclosures; two ransomware leak-site datasets; official insolvency statistics.",
+          "claim_ids": [
+            "C-001",
+            "C-003",
+            "C-013",
+            "C-017",
+            "C-025"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "Construction ranks among the most frequently claimed ransomware victim groups: 176 of 1,140 industrial claims in the latest published quarter and third across all sectors over 12 months. The best-documented disruption hit a public project owner, halting planning for about 15 weeks and constraining invoice processing.",
+          "claim_ids": [
+            "C-001",
+            "C-003",
+            "C-014"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "j1",
+          "role": "evidence",
+          "visible_text": "Shared owner services, sector SaaS and cloud are the best-documented propagation pathway Medium Large contractor-level disruptions with quantified programme impact",
+          "claim_ids": [
+            "C-036"
+          ],
+          "zone": "table",
+          "table": "T1",
+          "row_cells": [
+            "Shared owner services, sector SaaS and cloud are the best-documented propagation pathway",
+            "Medium",
+            "Large contractor-level disruptions with quantified programme impact"
+          ]
+        },
+        {
+          "element_id": "j2",
+          "role": "interpretation",
+          "visible_text": "Time-sensitive site and marine operations turn IT outages into schedule loss Medium Evidence that contract float routinely absorbs outages",
+          "claim_ids": [
+            "C-037"
+          ],
+          "zone": "table",
+          "table": "T1",
+          "row_cells": [
+            "Time-sensitive site and marine operations turn IT outages into schedule loss",
+            "Medium",
+            "Evidence that contract float routinely absorbs outages"
+          ]
+        },
+        {
+          "element_id": "j3",
+          "role": "interpretation",
+          "visible_text": "Exposed public-works OT is an active pressure point; contractors are mostly collateral Medium-low Official attribution, or proof of untargeted scanning",
+          "claim_ids": [
+            "C-038"
+          ],
+          "zone": "table",
+          "table": "T1",
+          "row_cells": [
+            "Exposed public-works OT is an active pressure point; contractors are mostly collateral",
+            "Medium-low",
+            "Official attribution, or proof of untargeted scanning"
+          ]
+        },
+        {
+          "element_id": "j4",
+          "role": "interpretation",
+          "visible_text": "Financial transmission runs through working capital, payment constraint and supplier default Medium Liquidity buffers shown to absorb cyber-driven delay",
+          "claim_ids": [
+            "C-039",
+            "C-025"
+          ],
+          "zone": "table",
+          "table": "T1",
+          "row_cells": [
+            "Financial transmission runs through working capital, payment constraint and supplier default",
+            "Medium",
+            "Liquidity buffers shown to absorb cyber-driven delay"
+          ]
+        },
+        {
+          "element_id": "j5",
+          "role": "interpretation",
+          "visible_text": "Regulation reaches construction indirectly through owners, procurement, product and data rules High National rules designating construction entities directly",
+          "claim_ids": [
+            "C-040"
+          ],
+          "zone": "table",
+          "table": "T1",
+          "row_cells": [
+            "Regulation reaches construction indirectly through owners, procurement, product and data rules",
+            "High",
+            "National rules designating construction entities directly"
+          ]
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Map which owners, platforms and suppliers the largest sector counterparties depend on, and test how a multi-month owner payment delay would surface in contractor working-capital indicators.",
+          "claim_ids": [
+            "C-039",
+            "C-047"
+          ],
+          "zone": "bottom_left"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "No contractor disclosed a quantified cyber cost or delay in the period; public-owner cases are over-represented and leak-site counts measure visibility, not attack rates.",
+          "claim_ids": [
+            "C-042"
+          ],
+          "zone": "bottom_right"
+        }
+      ],
+      "claim_ids": [
+        "C-001",
+        "C-003",
+        "C-013",
+        "C-014",
+        "C-017",
+        "C-025",
+        "C-036",
+        "C-037",
+        "C-038",
+        "C-039",
+        "C-040",
+        "C-042",
+        "C-047"
+      ],
+      "scenario_ids": [],
+      "metric_ids": [
+        "M-001",
+        "M-003",
+        "M-017"
+      ],
+      "executive_conclusion": "The best-documented Building & Public Works cyber propagation runs through shared digital layers - owner shared services, sector platforms, cloud hosting, materials suppliers and payment chains - and reaches the financial system mainly through contractor liquidity, not direct loss.",
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No substantive information in notes. All essential analysis must be visible."
+    },
+    {
+      "number": 2,
+      "title": "Key Threats & Top 5 Cyber Attacks",
+      "decision": "Distinguish patterns from named incidents and prioritise pathways with propagation.",
+      "visual_type": "Named-incident table plus pathway list",
+      "table_headers": {
+        "T2": [
+          "Named incident",
+          "Subsector and geography",
+          "Operational consequence",
+          "Evidence strength"
+        ]
+      },
+      "table_widths": {
+        "T2": [
+          1.75,
+          1.75,
+          2.45,
+          1.45
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "Five incidents in the period meet the evidence standard, but only two hit a contractor or materials supplier: owner, supplier and operational-technology pathways matter as much as direct ransomware against contractors.",
+          "claim_ids": [
+            "C-011",
+            "C-013",
+            "C-017",
+            "C-018",
+            "C-020"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "patterns",
+          "role": "evidence",
+          "visible_text": "Threat pathways (patterns, not attacks): P1 ransomware and data extortion; P2 phishing and edge or VPN access without multi-factor authentication; P3 shared IT and software-as-a-service dependency; P4 internet-exposed operational technology (OT) and building systems; P5 payment-chain fraud on supplier invoices.",
+          "claim_ids": [
+            "C-006",
+            "C-008",
+            "C-009",
+            "C-004"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "Phishing (about 60%) and vulnerability exploitation (about 21%) dominate initial access in the latest EU cross-sector baseline, which pre-dates the period. Materials suppliers are repeatedly targeted because of reliance on enterprise resource planning (ERP) systems and tight timelines. A national authority warned of opportunistic Iranian targeting of exposed infrastructure; unattributed US water OT activity followed.",
+          "claim_ids": [
+            "C-006",
+            "C-002",
+            "C-010"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "i1",
+          "role": "evidence",
+          "visible_text": "Femern Link Contractors (Fehmarnbelt tunnel) Infrastructure construction; Denmark and Germany Owner confirmed incident; media report network shutdown, access-control loss, idle vessels Owner statement; effects unconfirmed",
+          "claim_ids": [
+            "C-011",
+            "C-012"
+          ],
+          "zone": "table",
+          "table": "T2",
+          "row_cells": [
+            "Femern Link Contractors (Fehmarnbelt tunnel)",
+            "Infrastructure construction; Denmark and Germany",
+            "Owner confirmed incident; media report network shutdown, access-control loss, idle vessels",
+            "Owner statement; effects unconfirmed"
+          ]
+        },
+        {
+          "element_id": "i2",
+          "role": "evidence",
+          "visible_text": "Kensington and Chelsea shared IT Public project owner; London, UK Planning, repairs, finance and revenues disrupted; data exfiltrated Council and auditor records",
+          "claim_ids": [
+            "C-013",
+            "C-014"
+          ],
+          "zone": "table",
+          "table": "T2",
+          "row_cells": [
+            "Kensington and Chelsea shared IT",
+            "Public project owner; London, UK",
+            "Planning, repairs, finance and revenues disrupted; data exfiltrated",
+            "Council and auditor records"
+          ]
+        },
+        {
+          "element_id": "i3",
+          "role": "evidence",
+          "visible_text": "Miljödata supplier compromise Software supplier to public owners; Sweden 2.2 million people affected; GDPR fine; customers under review Regulator decision",
+          "claim_ids": [
+            "C-017"
+          ],
+          "zone": "table",
+          "table": "T2",
+          "row_cells": [
+            "Miljödata supplier compromise",
+            "Software supplier to public owners; Sweden",
+            "2.2 million people affected; GDPR fine; customers under review",
+            "Regulator decision"
+          ]
+        },
+        {
+          "element_id": "i4",
+          "role": "evidence",
+          "visible_text": "Minnesota community water systems Public-works OT; United States Malicious activity at more than 30 systems on controllers and operator screens; no water-use change State statements",
+          "claim_ids": [
+            "C-018",
+            "C-019"
+          ],
+          "zone": "table",
+          "table": "T2",
+          "row_cells": [
+            "Minnesota community water systems",
+            "Public-works OT; United States",
+            "Malicious activity at more than 30 systems on controllers and operator screens; no water-use change",
+            "State statements"
+          ]
+        },
+        {
+          "element_id": "i5",
+          "role": "evidence",
+          "visible_text": "SANKO TECHNO subsidiary Building materials; Japan and Vietnam Subsidiary encrypted; contained by isolation; cost under review Exchange disclosure",
+          "claim_ids": [
+            "C-020"
+          ],
+          "zone": "table",
+          "table": "T2",
+          "row_cells": [
+            "SANKO TECHNO subsidiary",
+            "Building materials; Japan and Vietnam",
+            "Subsidiary encrypted; contained by isolation; cost under review",
+            "Exchange disclosure"
+          ]
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Weight counterparty reviews towards propagation pathways - shared services, platforms, suppliers and exposed OT - rather than counting contractor ransomware claims alone.",
+          "claim_ids": [
+            "C-036",
+            "C-047"
+          ],
+          "zone": "bottom_left"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Fehmarnbelt effects are media-reported; attribution of the US water activity is preliminary; private contractor victims seen only on leak sites were excluded, so contractor incidents are under-counted.",
+          "claim_ids": [
+            "C-012",
+            "C-019",
+            "C-042"
+          ],
+          "zone": "bottom_right"
+        }
+      ],
+      "claim_ids": [
+        "C-002",
+        "C-004",
+        "C-006",
+        "C-008",
+        "C-009",
+        "C-010",
+        "C-011",
+        "C-012",
+        "C-013",
+        "C-014",
+        "C-017",
+        "C-018",
+        "C-019",
+        "C-020",
+        "C-036",
+        "C-042",
+        "C-047"
+      ],
+      "scenario_ids": [],
+      "metric_ids": [],
+      "executive_conclusion": "Five incidents in the period meet the evidence standard, but only two hit a contractor or materials supplier: owner, supplier and operational-technology pathways matter as much as direct ransomware against contractors.",
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No substantive information in notes. All essential analysis must be visible."
+    },
+    {
+      "number": 3,
+      "title": "Financial Impact: Building & Public Works",
+      "decision": "Use time and liquidity, not summed losses, as the financial lens.",
+      "visual_type": "Impact-type evidence matrix",
+      "table_headers": {
+        "T3": [
+          "Impact type",
+          "Public evidence",
+          "Status"
+        ]
+      },
+      "table_widths": {
+        "T3": [
+          1.7,
+          3.9,
+          1.6
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "Public financial evidence is thin and cannot be added up: in-period quantified outcomes come from one public owner and one regulator, and the evidence suggests time is the main cost driver - weeks of site downtime and months of owner process disruption.",
+          "claim_ids": [
+            "C-042",
+            "C-004",
+            "C-014"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Benchmarks: about 24 days average ransomware downtime in construction (insurer research, method undisclosed); council cyber costs of GBP 1.2 million in one financial year; SEK 1.8 million GDPR fine on a public-sector software supplier; historical GBP 4.4 million UK fine on a construction group.",
+          "claim_ids": [
+            "C-004",
+            "C-015",
+            "C-017",
+            "C-022"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "Transmission to banks is conditional: owner payment delays strain contractor working capital; construction already records the highest insolvency count in England and Wales; payment-diversion fraud targets stage payments; a government-guaranteed bank loan was provided to support a manufacturer's supply chain after a cyber stoppage.",
+          "claim_ids": [
+            "C-039",
+            "C-025",
+            "C-009",
+            "C-023"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "f1",
+          "role": "evidence",
+          "visible_text": "Project delay Reported idle vessels on a major tunnel programme; 24-day downtime benchmark Indicated, not quantified",
+          "claim_ids": [
+            "C-012",
+            "C-004"
+          ],
+          "zone": "table",
+          "table": "T3",
+          "row_cells": [
+            "Project delay",
+            "Reported idle vessels on a major tunnel programme; 24-day downtime benchmark",
+            "Indicated, not quantified"
+          ]
+        },
+        {
+          "element_id": "f2",
+          "role": "evidence",
+          "visible_text": "Recovery cost GBP 1.2 million recognised by one council in one year; further costs unquantified Observed for one owner",
+          "claim_ids": [
+            "C-015"
+          ],
+          "zone": "table",
+          "table": "T3",
+          "row_cells": [
+            "Recovery cost",
+            "GBP 1.2 million recognised by one council in one year; further costs unquantified",
+            "Observed for one owner"
+          ]
+        },
+        {
+          "element_id": "f3",
+          "role": "evidence",
+          "visible_text": "Contractual and cost escalation Insurer research cites disputes, escalating costs and subcontractor knock-on Qualitative only",
+          "claim_ids": [
+            "C-004"
+          ],
+          "zone": "table",
+          "table": "T3",
+          "row_cells": [
+            "Contractual and cost escalation",
+            "Insurer research cites disputes, escalating costs and subcontractor knock-on",
+            "Qualitative only"
+          ]
+        },
+        {
+          "element_id": "f4",
+          "role": "evidence",
+          "visible_text": "Revenue and public service Planning back after about 15 weeks; revenues and benefits down about six months Observed",
+          "claim_ids": [
+            "C-014"
+          ],
+          "zone": "table",
+          "table": "T3",
+          "row_cells": [
+            "Revenue and public service",
+            "Planning back after about 15 weeks; revenues and benefits down about six months",
+            "Observed"
+          ]
+        },
+        {
+          "element_id": "f5",
+          "role": "evidence",
+          "visible_text": "Regulatory outcome SEK 1.8 million fine and reviews of supplier customers Observed",
+          "claim_ids": [
+            "C-017"
+          ],
+          "zone": "table",
+          "table": "T3",
+          "row_cells": [
+            "Regulatory outcome",
+            "SEK 1.8 million fine and reviews of supplier customers",
+            "Observed"
+          ]
+        },
+        {
+          "element_id": "f6",
+          "role": "evidence",
+          "visible_text": "Insurance effect Expert appointed via insurers; no claim value disclosed Not quantified",
+          "claim_ids": [
+            "C-015"
+          ],
+          "zone": "table",
+          "table": "T3",
+          "row_cells": [
+            "Insurance effect",
+            "Expert appointed via insurers; no claim value disclosed",
+            "Not quantified"
+          ]
+        },
+        {
+          "element_id": "f7",
+          "role": "evidence",
+          "visible_text": "Wider economic transmission GBP 1.5 billion guaranteed bank loan for a supply chain (cross-sector precedent) Proxy only",
+          "claim_ids": [
+            "C-023"
+          ],
+          "zone": "table",
+          "table": "T3",
+          "row_cells": [
+            "Wider economic transmission",
+            "GBP 1.5 billion guaranteed bank loan for a supply chain (cross-sector precedent)",
+            "Proxy only"
+          ]
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Monitor unusual facility drawdown and overdue public-counterparty receivables at sector borrowers after owner or platform incidents, and add payment-change verification to contractor payment flows.",
+          "claim_ids": [
+            "C-039",
+            "C-009"
+          ],
+          "zone": "bottom_left"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Values differ in currency, statistic type and population and are not summed; no contractor disclosed cyber cost or delay, which is a disclosure gap, not evidence of zero loss.",
+          "claim_ids": [
+            "C-042"
+          ],
+          "zone": "bottom_right"
+        }
+      ],
+      "claim_ids": [
+        "C-004",
+        "C-009",
+        "C-012",
+        "C-014",
+        "C-015",
+        "C-017",
+        "C-022",
+        "C-023",
+        "C-025",
+        "C-039",
+        "C-042"
+      ],
+      "scenario_ids": [],
+      "metric_ids": [
+        "M-004",
+        "M-005",
+        "M-009",
+        "M-011",
+        "M-013",
+        "M-015",
+        "M-017"
+      ],
+      "executive_conclusion": "Public financial evidence is thin and cannot be added up: in-period quantified outcomes come from one public owner and one regulator, and the evidence suggests time is the main cost driver - weeks of site downtime and months of owner process disruption.",
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No substantive information in notes. All essential analysis must be visible."
+    },
+    {
+      "number": 4,
+      "title": "Financial Impact: Worst-Case Scenarios",
+      "decision": "Use three distinct stress narratives to test concentration, programme and supplier pathways.",
+      "visual_type": "Three-scenario comparison matrix",
+      "scenario_ids": [
+        "SC-001",
+        "SC-002",
+        "SC-003"
+      ],
+      "table_headers": {
+        "T4": [
+          "Dimension",
+          "1 Common digital dependency",
+          "2 Targeted operational disruption",
+          "3 Supply-chain concentration"
+        ]
+      },
+      "table_widths": {
+        "T4": [
+          1.35,
+          2.25,
+          2.25,
+          2.25
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "Three distinct stress pathways - shared platform failure, targeted disruption of a major programme and compromise of a shared supplier - all converge on delayed certification, payment and claims; they are stress narratives, not forecasts or loss estimates.",
+          "claim_ids": [
+            "C-044",
+            "C-045",
+            "C-046"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "s1",
+          "role": "evidence",
+          "visible_text": "Trigger Multi-day availability failure of a common construction platform, identity provider or cloud region Ransomware or operational-technology (OT) intrusion at a tier-1 contractor or public-works operator for one to four weeks Compromise spreading through a supplier's access, data or payments",
+          "claim_ids": [
+            "C-044",
+            "C-045",
+            "C-046"
+          ],
+          "zone": "table",
+          "table": "T4",
+          "row_cells": [
+            "Trigger",
+            "Multi-day availability failure of a common construction platform, identity provider or cloud region",
+            "Ransomware or operational-technology (OT) intrusion at a tier-1 contractor or public-works operator for one to four weeks",
+            "Compromise spreading through a supplier's access, data or payments"
+          ]
+        },
+        {
+          "element_id": "s2",
+          "role": "interpretation",
+          "visible_text": "Propagation Many contractors and owners lose drawings, permits and payment applications at once Isolation stops access control, scheduling and vessel or plant operation One supplier reaches many owners and contractors; regulator reviews customers",
+          "claim_ids": [
+            "C-024",
+            "C-012",
+            "C-017"
+          ],
+          "zone": "table",
+          "table": "T4",
+          "row_cells": [
+            "Propagation",
+            "Many contractors and owners lose drawings, permits and payment applications at once",
+            "Isolation stops access control, scheduling and vessel or plant operation",
+            "One supplier reaches many owners and contractors; regulator reviews customers"
+          ]
+        },
+        {
+          "element_id": "s3",
+          "role": "interpretation",
+          "visible_text": "Financial transmission Delayed valuations; concurrent facility drawdown across sector borrowers Standby costs, delay damages, bond and guarantee disputes Correlated delay, notification costs, payment fraud, supplier default",
+          "claim_ids": [
+            "C-039"
+          ],
+          "zone": "table",
+          "table": "T4",
+          "row_cells": [
+            "Financial transmission",
+            "Delayed valuations; concurrent facility drawdown across sector borrowers",
+            "Standby costs, delay damages, bond and guarantee disputes",
+            "Correlated delay, notification costs, payment fraud, supplier default"
+          ]
+        },
+        {
+          "element_id": "s4",
+          "role": "evidence",
+          "visible_text": "Early signposts Provider outage notices; phishing against platform users Contractor incident notices; agency alerts on exposed OT Supplier breach notices; leak-site claims against suppliers",
+          "claim_ids": [
+            "C-011",
+            "C-018",
+            "C-017"
+          ],
+          "zone": "table",
+          "table": "T4",
+          "row_cells": [
+            "Early signposts",
+            "Provider outage notices; phishing against platform users",
+            "Contractor incident notices; agency alerts on exposed OT",
+            "Supplier breach notices; leak-site claims against suppliers"
+          ]
+        },
+        {
+          "element_id": "s5",
+          "role": "limitation",
+          "visible_text": "Limiting conditions Offline copies and multi-region hosting Manual fallback; one US town reportedly restored a plant in about 90 minutes Segregation, as one materials group contained its incident",
+          "claim_ids": [
+            "C-019",
+            "C-020"
+          ],
+          "zone": "table",
+          "table": "T4",
+          "row_cells": [
+            "Limiting conditions",
+            "Offline copies and multi-region hosting",
+            "Manual fallback; one US town reportedly restored a plant in about 90 minutes",
+            "Segregation, as one materials group contained its incident"
+          ]
+        },
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Assumptions draw on one platform reporting 17,850 customers on third-party cloud, insurer downtime research, the tunnel contractor and US water incidents, and the Swedish supplier case; durations are illustrative.",
+          "claim_ids": [
+            "C-024",
+            "C-004",
+            "C-012",
+            "C-018",
+            "C-017"
+          ],
+          "zone": "under_table"
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Ask which major counterparties depend on the same platforms and suppliers, and whether time-sensitive programmes have tested manual fallback before a contractual milestone is missed.",
+          "claim_ids": [
+            "C-047"
+          ],
+          "zone": "bottom_left"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "No probabilities are assigned because no defensible external basis exists; no sector-wide platform outage was observed in the period.",
+          "claim_ids": [
+            "C-044"
+          ],
+          "zone": "bottom_right"
+        }
+      ],
+      "claim_ids": [
+        "C-004",
+        "C-011",
+        "C-012",
+        "C-017",
+        "C-018",
+        "C-019",
+        "C-020",
+        "C-024",
+        "C-039",
+        "C-044",
+        "C-045",
+        "C-046",
+        "C-047"
+      ],
+      "metric_ids": [],
+      "executive_conclusion": "Three distinct stress pathways - shared platform failure, targeted disruption of a major programme and compromise of a shared supplier - all converge on delayed certification, payment and claims; they are stress narratives, not forecasts or loss estimates.",
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No substantive information in notes. All essential analysis must be visible."
+    },
+    {
+      "number": 5,
+      "title": "Case Study: Kensington and Chelsea Shared-IT Cyber Attack",
+      "decision": "Use the case as a recovery benchmark for owner-side disruption.",
+      "visual_type": "Elapsed-time recovery timeline",
+      "table_headers": {
+        "T5": [
+          "Phase",
+          "Elapsed time",
+          "What happened"
+        ]
+      },
+      "table_widths": {
+        "T5": [
+          1.5,
+          1.25,
+          4.35
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "An intrusion into IT shared by three London boroughs, attributed by the auditor to human error, halted planning for about 15 weeks and revenues and benefits for about six months and constrained invoice processing, showing how owner-side disruption reaches contractors that depend on consents and payments.",
+          "claim_ids": [
+            "C-013",
+            "C-014",
+            "C-015",
+            "C-043"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Evidence base: council decision, scrutiny and audit-committee reports, the external auditor's annual report and the council's public FAQ; selected because it is the only case in the period with full chronology, disclosed cost and auditor findings.",
+          "claim_ids": [
+            "C-041",
+            "C-015"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "Cause and constraint: the auditor attributes the incident to human error and slow recovery to a fragmented legacy estate. Disruption came from containing and rebuilding shared systems, not from attacker encryption.",
+          "claim_ids": [
+            "C-015",
+            "C-043"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "t1",
+          "role": "evidence",
+          "visible_text": "Detection Day 0 Unusual activity; emergency command; shared systems isolated",
+          "claim_ids": [
+            "C-013"
+          ],
+          "zone": "table",
+          "table": "T5",
+          "row_cells": [
+            "Detection",
+            "Day 0",
+            "Unusual activity; emergency command; shared systems isolated"
+          ]
+        },
+        {
+          "element_id": "t2",
+          "role": "evidence",
+          "visible_text": "Notification Days 3-28 Data exfiltration confirmed; regulator notified twice; police investigation",
+          "claim_ids": [
+            "C-013",
+            "C-016"
+          ],
+          "zone": "table",
+          "table": "T5",
+          "row_cells": [
+            "Notification",
+            "Days 3-28",
+            "Data exfiltration confirmed; regulator notified twice; police investigation"
+          ]
+        },
+        {
+          "element_id": "t3",
+          "role": "evidence",
+          "visible_text": "Containment Weeks 1-7 Manual workarounds; controlled run paid more than GBP 5 million of invoices",
+          "claim_ids": [
+            "C-014"
+          ],
+          "zone": "table",
+          "table": "T5",
+          "row_cells": [
+            "Containment",
+            "Weeks 1-7",
+            "Manual workarounds; controlled run paid more than GBP 5 million of invoices"
+          ]
+        },
+        {
+          "element_id": "t4",
+          "role": "evidence",
+          "visible_text": "Phased reopening Months 2-4 Finance and HR restored; planning system back after about 15 weeks",
+          "claim_ids": [
+            "C-014"
+          ],
+          "zone": "table",
+          "table": "T5",
+          "row_cells": [
+            "Phased reopening",
+            "Months 2-4",
+            "Finance and HR restored; planning system back after about 15 weeks"
+          ]
+        },
+        {
+          "element_id": "t5",
+          "role": "evidence",
+          "visible_text": "Revenues restart About month 6 Benefits and revenues restart; local tax bills issued late",
+          "claim_ids": [
+            "C-014"
+          ],
+          "zone": "table",
+          "table": "T5",
+          "row_cells": [
+            "Revenues restart",
+            "About month 6",
+            "Benefits and revenues restart; local tax bills issued late"
+          ]
+        },
+        {
+          "element_id": "t6",
+          "role": "evidence",
+          "visible_text": "Assurance About month 10 GBP 1.2 million costs in the year; auditor reports governance weakness",
+          "claim_ids": [
+            "C-015"
+          ],
+          "zone": "table",
+          "table": "T5",
+          "row_cells": [
+            "Assurance",
+            "About month 10",
+            "GBP 1.2 million costs in the year; auditor reports governance weakness"
+          ]
+        },
+        {
+          "element_id": "lesson",
+          "role": "interpretation",
+          "visible_text": "Transferable lesson: shared-service models concentrate risk across authorities; consents, instructions and supplier payments are the owner functions that drive contractor activity.",
+          "claim_ids": [
+            "C-043"
+          ],
+          "zone": "under_table"
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Treat owner digital disruption as foreseeable in contractor cash-flow and contract planning, and ask public-owner counterparties how they would certify and pay during a multi-month outage.",
+          "claim_ids": [
+            "C-039",
+            "C-043"
+          ],
+          "zone": "bottom_left"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "The case does not show quantified contractor losses, project delay, the initial access vector or insurance recovery; it concerns one UK local-authority shared service.",
+          "claim_ids": [
+            "C-041",
+            "C-043"
+          ],
+          "zone": "bottom_right"
+        }
+      ],
+      "claim_ids": [
+        "C-013",
+        "C-014",
+        "C-015",
+        "C-016",
+        "C-039",
+        "C-041",
+        "C-043"
+      ],
+      "scenario_ids": [],
+      "metric_ids": [
+        "M-005",
+        "M-006",
+        "M-007",
+        "M-008"
+      ],
+      "executive_conclusion": "An intrusion into IT shared by three London boroughs, attributed by the auditor to human error, halted planning for about 15 weeks and revenues and benefits for about six months and constrained invoice processing, showing how owner-side disruption reaches contractors that depend on consents and payments.",
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No substantive information in notes. All essential analysis must be visible."
+    },
+    {
+      "number": 6,
+      "title": "Systemic Dependencies & Regulatory Outlook",
+      "decision": "Recognise indirect legal reach and unregulated concentration.",
+      "visual_type": "Dependency chains and regulatory status matrix",
+      "table_headers": {
+        "T6": [
+          "Regime",
+          "Legal status",
+          "Meaning for Building & Public Works"
+        ]
+      },
+      "table_widths": {
+        "T6": [
+          2.0,
+          1.6,
+          3.5
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "Construction is not a listed sector under the EU NIS2 Directive, the EU CER Directive on entity resilience or the UK NIS Regulations, so obligations arrive indirectly - through owners' supply-chain duties, procurement terms, product rules and data protection - while shared platforms and suppliers create concentration that no regime addresses directly.",
+          "claim_ids": [
+            "C-040",
+            "C-026",
+            "C-028",
+            "C-033"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Evidenced dependency chains: owner shared IT -> planning, repairs and payment; public-sector SaaS -> most municipalities in one country; construction-management SaaS -> third-party cloud; materials suppliers -> ERP-dependent supply; public-works operational technology -> many small operators; stage payments -> invoice fraud.",
+          "claim_ids": [
+            "C-013",
+            "C-017",
+            "C-024",
+            "C-002",
+            "C-018",
+            "C-009"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "Pressure is rising in the period: product reporting duties started, entity identification under CER fell due, an EU procurement reform with cyber and resilience terms was proposed, and four Member States were taken to court over NIS2.",
+          "claim_ids": [
+            "C-029",
+            "C-028",
+            "C-031",
+            "C-027"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "r1",
+          "role": "evidence",
+          "visible_text": "NIS2 Binding via national law Water, road and public-administration owners pass supply-chain duties to contractors",
+          "claim_ids": [
+            "C-026"
+          ],
+          "zone": "table",
+          "table": "T6",
+          "row_cells": [
+            "NIS2",
+            "Binding via national law",
+            "Water, road and public-administration owners pass supply-chain duties to contractors"
+          ]
+        },
+        {
+          "element_id": "r2",
+          "role": "evidence",
+          "visible_text": "CER Directive Binding via national law Designated operators can impose resilience terms on construction suppliers",
+          "claim_ids": [
+            "C-028"
+          ],
+          "zone": "table",
+          "table": "T6",
+          "row_cells": [
+            "CER Directive",
+            "Binding via national law",
+            "Designated operators can impose resilience terms on construction suppliers"
+          ]
+        },
+        {
+          "element_id": "r3",
+          "role": "evidence",
+          "visible_text": "Cyber Resilience Act EU regulation, directly applicable Reporting duty now applies to building-automation and site-product makers",
+          "claim_ids": [
+            "C-029"
+          ],
+          "zone": "table",
+          "table": "T6",
+          "row_cells": [
+            "Cyber Resilience Act",
+            "EU regulation, directly applicable",
+            "Reporting duty now applies to building-automation and site-product makers"
+          ]
+        },
+        {
+          "element_id": "r4",
+          "role": "evidence",
+          "visible_text": "EU GDPR; UK GDPR and DPA 2018 EU regulation; UK domestic law Data theft triggers notification and fines across the chain",
+          "claim_ids": [
+            "C-030",
+            "C-017"
+          ],
+          "zone": "table",
+          "table": "T6",
+          "row_cells": [
+            "EU GDPR; UK GDPR and DPA 2018",
+            "EU regulation; UK domestic law",
+            "Data theft triggers notification and fines across the chain"
+          ]
+        },
+        {
+          "element_id": "r5",
+          "role": "evidence",
+          "visible_text": "EU Public Procurement Act Proposal only Would add cybersecurity and security-of-supply conditions to public works",
+          "claim_ids": [
+            "C-031"
+          ],
+          "zone": "table",
+          "table": "T6",
+          "row_cells": [
+            "EU Public Procurement Act",
+            "Proposal only",
+            "Would add cybersecurity and security-of-supply conditions to public works"
+          ]
+        },
+        {
+          "element_id": "r6",
+          "role": "evidence",
+          "visible_text": "UK Cyber Security and Resilience Bill Bill in House of Lords Could reach managed service providers and designated suppliers",
+          "claim_ids": [
+            "C-032"
+          ],
+          "zone": "table",
+          "table": "T6",
+          "row_cells": [
+            "UK Cyber Security and Resilience Bill",
+            "Bill in House of Lords",
+            "Could reach managed service providers and designated suppliers"
+          ]
+        },
+        {
+          "element_id": "r7",
+          "role": "evidence",
+          "visible_text": "UK PPN 014; Procurement Act 2023 Policy note; statute Cyber Essentials baseline for central-government suppliers",
+          "claim_ids": [
+            "C-034"
+          ],
+          "zone": "table",
+          "table": "T6",
+          "row_cells": [
+            "UK PPN 014; Procurement Act 2023",
+            "Policy note; statute",
+            "Cyber Essentials baseline for central-government suppliers"
+          ]
+        },
+        {
+          "element_id": "r8",
+          "role": "evidence",
+          "visible_text": "ISO 19650-5, NIST CSF 2.0 Voluntary, not law Reference vocabulary for information and governance",
+          "claim_ids": [
+            "C-035"
+          ],
+          "zone": "table",
+          "table": "T6",
+          "row_cells": [
+            "ISO 19650-5, NIST CSF 2.0",
+            "Voluntary, not law",
+            "Reference vocabulary for information and governance"
+          ]
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Check that lending and guarantee documentation for major projects reflects owner-imposed cyber and notification terms, and track the UK bill, CER outcomes and the procurement proposal.",
+          "claim_ids": [
+            "C-047",
+            "C-040"
+          ],
+          "zone": "bottom_left"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "National NIS2 scope extensions were not surveyed exhaustively; the bill and the proposal may change; construction platform market shares are not public.",
+          "claim_ids": [
+            "C-040",
+            "C-027",
+            "C-024"
+          ],
+          "zone": "bottom_right"
+        }
+      ],
+      "claim_ids": [
+        "C-002",
+        "C-009",
+        "C-013",
+        "C-017",
+        "C-018",
+        "C-024",
+        "C-026",
+        "C-027",
+        "C-028",
+        "C-029",
+        "C-030",
+        "C-031",
+        "C-032",
+        "C-033",
+        "C-034",
+        "C-035",
+        "C-040",
+        "C-047"
+      ],
+      "scenario_ids": [],
+      "metric_ids": [],
+      "executive_conclusion": "Construction is not a listed sector under the EU NIS2 Directive, the EU CER Directive on entity resilience or the UK NIS Regulations, so obligations arrive indirectly - through owners' supply-chain duties, procurement terms, product rules and data protection - while shared platforms and suppliers create concentration that no regime addresses directly.",
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No substantive information in notes. All essential analysis must be visible."
+    },
+    {
+      "number": 7,
+      "title": "Mitigation Strategies & Security Framework",
+      "decision": "Assign evidence-linked priorities with completion evidence and triggers.",
+      "visual_type": "Action, evidence and trigger table",
+      "table_headers": {
+        "T7": [
+          "Priority and horizon",
+          "Challenge question for first line (1LoD)",
+          "Evidence of completion",
+          "Monitoring trigger"
+        ]
+      },
+      "table_widths": {
+        "T7": [
+          1.75,
+          2.75,
+          1.75,
+          1.85
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "Six evidence-linked priorities address the five pathways: map shared dependencies, harden identity and remote access, segregate operational technology (OT) and site systems, confirm payment changes, align contractual flow-down and test manual fallback for time-sensitive works.",
+          "claim_ids": [
+            "C-047"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "a1",
+          "role": "evidence",
+          "visible_text": "A1 Shared dependencies (0-6 months) Which owners, platforms and cloud regions do top sector counterparties rely on? Dependency map; continuity test results Provider outage or breach notice",
+          "claim_ids": [
+            "C-036",
+            "C-024",
+            "C-013"
+          ],
+          "zone": "table",
+          "table": "T7",
+          "row_cells": [
+            "A1 Shared dependencies (0-6 months)",
+            "Which owners, platforms and cloud regions do top sector counterparties rely on?",
+            "Dependency map; continuity test results",
+            "Provider outage or breach notice"
+          ]
+        },
+        {
+          "element_id": "a2",
+          "role": "evidence",
+          "visible_text": "A2 Identity and remote access (0-3 months) Do assessments test multi-factor authentication (MFA) on all remote access, and edge and backup patching? Assessment evidence New joint advisory on edge flaws",
+          "claim_ids": [
+            "C-008",
+            "C-006"
+          ],
+          "zone": "table",
+          "table": "T7",
+          "row_cells": [
+            "A2 Identity and remote access (0-3 months)",
+            "Do assessments test multi-factor authentication (MFA) on all remote access, and edge and backup patching?",
+            "Assessment evidence",
+            "New joint advisory on edge flaws"
+          ]
+        },
+        {
+          "element_id": "a3",
+          "role": "evidence",
+          "visible_text": "A3 OT and site systems (3-12 months) Is internet exposure of controllers removed and OT segregated from IT? OT inventory and segregation attestations Agency alert on exposed OT",
+          "claim_ids": [
+            "C-018",
+            "C-021",
+            "C-004"
+          ],
+          "zone": "table",
+          "table": "T7",
+          "row_cells": [
+            "A3 OT and site systems (3-12 months)",
+            "Is internet exposure of controllers removed and OT segregated from IT?",
+            "OT inventory and segregation attestations",
+            "Agency alert on exposed OT"
+          ]
+        },
+        {
+          "element_id": "a4",
+          "role": "evidence",
+          "visible_text": "A4 Payment-chain fraud (0-3 months) Are payment-detail changes confirmed out of band? Procedure and fraud metrics Police alert on business email fraud",
+          "claim_ids": [
+            "C-009"
+          ],
+          "zone": "table",
+          "table": "T7",
+          "row_cells": [
+            "A4 Payment-chain fraud (0-3 months)",
+            "Are payment-detail changes confirmed out of band?",
+            "Procedure and fraud metrics",
+            "Police alert on business email fraud"
+          ]
+        },
+        {
+          "element_id": "a5",
+          "role": "evidence",
+          "visible_text": "A5 Contractual flow-down (6-12 months) Do project documents reflect owner cyber and notification terms? Documentation review record Court ruling, law adoption",
+          "claim_ids": [
+            "C-026",
+            "C-031",
+            "C-032"
+          ],
+          "zone": "table",
+          "table": "T7",
+          "row_cells": [
+            "A5 Contractual flow-down (6-12 months)",
+            "Do project documents reflect owner cyber and notification terms?",
+            "Documentation review record",
+            "Court ruling, law adoption"
+          ]
+        },
+        {
+          "element_id": "a6",
+          "role": "evidence",
+          "visible_text": "A6 Manual fallback (6-12 months) Is fallback tested for access, positioning and scheduling? Fallback test records Incident notice on a major programme",
+          "claim_ids": [
+            "C-037",
+            "C-011"
+          ],
+          "zone": "table",
+          "table": "T7",
+          "row_cells": [
+            "A6 Manual fallback (6-12 months)",
+            "Is fallback tested for access, positioning and scheduling?",
+            "Fallback test records",
+            "Incident notice on a major programme"
+          ]
+        },
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Evidence base: state recommendations for OT, a joint ransomware advisory, the EU threat baseline, a law-enforcement fraud alert, insurer research and the case study.",
+          "claim_ids": [
+            "C-018",
+            "C-008",
+            "C-006",
+            "C-009",
+            "C-004",
+            "C-043"
+          ],
+          "zone": "under_table"
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "Frameworks are reference vocabularies, not law: NIST CSF 2.0 Govern and Recover, ISO 19650-5 for built-asset information and IEC 62443 for OT.",
+          "claim_ids": [
+            "C-035"
+          ],
+          "zone": "under_table2"
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Give each priority a 1LoD owner and a dated completion artefact, and escalate to the Risk Committee when a monitoring trigger fires.",
+          "claim_ids": [
+            "C-047"
+          ],
+          "zone": "bottom_left"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Actions are sector priorities drawn from public evidence, not findings about any institution's controls, losses or risk appetite.",
+          "claim_ids": [
+            "C-047"
+          ],
+          "zone": "bottom_right"
+        }
+      ],
+      "claim_ids": [
+        "C-004",
+        "C-006",
+        "C-008",
+        "C-009",
+        "C-011",
+        "C-013",
+        "C-018",
+        "C-021",
+        "C-024",
+        "C-026",
+        "C-031",
+        "C-032",
+        "C-035",
+        "C-036",
+        "C-037",
+        "C-043",
+        "C-047"
+      ],
+      "scenario_ids": [],
+      "metric_ids": [],
+      "executive_conclusion": "Six evidence-linked priorities address the five pathways: map shared dependencies, harden identity and remote access, segregate operational technology (OT) and site systems, confirm payment changes, align contractual flow-down and test manual fallback for time-sensitive works.",
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No substantive information in notes. All essential analysis must be visible."
+    }
+  ]
+}

@@ -1,0 +1,895 @@
+{
+  "run_id": "20261014-building-public-works-global-eu-uk-2025-09_2026-10",
+  "claims": [
+    {
+      "claim_id": "C-001",
+      "claim_text": "Dragos counted 1,140 industrial ransomware incidents in Q2 2026 (1,020 in Q1); 176 concerned construction, reported by Dragos as a manufacturing subsector within the 747 manufacturing claims, with Europe at 316 and North America at 514.",
+      "claim_type": "Sector benchmark",
+      "source_ids": [
+        "S-020"
+      ],
+      "exact_locator": "Key Findings; Ransomware by Sector - Manufacturing; Ransomware by Region",
+      "event_or_publication_date": "2026-08-10",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Counts reflect leak-site visibility rather than true attack frequency"
+      ],
+      "contrary_evidence": "Dragos notes counts are alleged claims and include bulk disclosures",
+      "sector_relevance": "Places construction among the most frequently claimed industrial victim groups in the reporting period",
+      "limitations": "Leak-site claims only; sector assignment method not stated; not a sector attack rate",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-002",
+      "claim_text": "Dragos reports that suppliers of building materials, construction services and equipment were repeatedly targeted, linking this to reliance on ERP systems, distributed locations and tight project timelines.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-020"
+      ],
+      "exact_locator": "Ransomware by Sector - Manufacturing subsection",
+      "event_or_publication_date": "2026-08-10",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "Identifies materials and equipment suppliers as a concentration point for contractor supply",
+      "limitations": "Qualitative statement; no supplier-level counts",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-003",
+      "claim_text": "Black Kite recorded 7,551 publicly disclosed ransomware victims between April 2025 and March 2026 (up 24.9%); construction ranked third with 541 victims, while Germany rose 48% to 281 and Italy 96% to 188 across all sectors.",
+      "claim_type": "Sector benchmark",
+      "source_ids": [
+        "S-021"
+      ],
+      "exact_locator": "Report landing page: headline totals, industry ranking, regional growth",
+      "event_or_publication_date": "2026",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Growth may reflect group posting behaviour"
+      ],
+      "contrary_evidence": "Black Kite states true attack volume is almost certainly higher than leak sites show",
+      "sector_relevance": "Confirms construction prominence over a 12-month window and rising European victim counts",
+      "limitations": "Publicly disclosed victims only; construction share not stated; country figures are cross-sector",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-004",
+      "claim_text": "QBE and Control Risks report that ransomware incidents in construction averaged 24 days of downtime in 2025, that inadequate IT/OT segmentation contributed to 81% of OT incident cases in 2025 (Dragos data), and that ransomware groups affected 526 construction organisations in 2025 (Dragos data).",
+      "claim_type": "Sector benchmark",
+      "source_ids": [
+        "S-018",
+        "S-019"
+      ],
+      "exact_locator": "Report page statistics list; press release p.2, p.11 references",
+      "event_or_publication_date": "2026-05-06",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Methodology for the downtime average is not disclosed",
+      "sector_relevance": "Quantifies the operational interruption that drives programme delay and cost",
+      "limitations": "Downtime basis undisclosed; OT figure is cross-industrial, not construction-only",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-005",
+      "claim_text": "In a 2023 survey cited by QBE, 77% of respondents said they could tolerate no more than five days without project documentation before severe operational impact.",
+      "claim_type": "Sector benchmark",
+      "source_ids": [
+        "S-018"
+      ],
+      "exact_locator": "Report page: downtime and ransomware statistics",
+      "event_or_publication_date": "2026-05-06",
+      "likelihood": "not_applicable",
+      "confidence": "low",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Survey population and sample not disclosed on the page",
+      "sector_relevance": "Indicates low tolerance for loss of shared project-information platforms",
+      "limitations": "Historical survey (2023) relayed by a 2026 report; population unknown",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-006",
+      "claim_text": "ENISA analysed 4,875 incidents from July 2024 to June 2025: phishing accounted for about 60% of observed initial access and vulnerability exploitation for 21.3%; public administration was the most targeted sector at 38%; OT threats were 18.2% and supply-chain threats 10.6% of threat categories.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-023"
+      ],
+      "exact_locator": "pp.6-9, pp.16-17",
+      "event_or_publication_date": "2025-10",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "EU baseline showing identity and edge exploitation as the dominant entry routes, relevant to contractors and public owners",
+      "limitations": "Observation period ends June 2025; construction not separately analysed",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-007",
+      "claim_text": "The UK NCSC handled 429 incidents in the year to August 2025, of which 204 were nationally significant (89 in the prior year) and 18 highly significant.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-024"
+      ],
+      "exact_locator": "Opening paragraphs of release",
+      "event_or_publication_date": "2025-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "UK national incident baseline for the period preceding the reporting window",
+      "limitations": "No sector breakdown; change partly reflects NCSC categorisation",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-008",
+      "claim_text": "The November 2025 update to the joint Akira advisory reports about USD 244.17 million in proceeds as of late September 2025, initial access through VPNs without MFA, SonicWall and Cisco vulnerabilities and unpatched Veeam backup servers, and data exfiltration in just over two hours in some incidents; construction is not among the sectors listed.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-022"
+      ],
+      "exact_locator": "Update note p.3; Initial Access p.6; Exfiltration and Impact p.9",
+      "event_or_publication_date": "2025-11-13",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Construction not named as a target sector",
+      "sector_relevance": "Shows the access routes and speed relevant to contractors running remote-access and backup estates",
+      "limitations": "Group-specific; proceeds are criminal revenue, not victim loss",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-009",
+      "claim_text": "The Australian Federal Police reported AUD 152.6 million stolen through business email compromise in 2024 (up 66% from AUD 91.6 million), BEC at 13% of business cybercrime reports, and warned that criminals target construction firms because of high-value, frequent transactions, using spoofed or compromised supplier email to replace bank details on invoices.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-026"
+      ],
+      "exact_locator": "Release body: figures, modus operandi and case studies",
+      "event_or_publication_date": "2025-10-28",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Loss figure is economy-wide, not construction-specific",
+      "sector_relevance": "Payment-chain fraud directly affects contractor and subcontractor liquidity and bank payment flows",
+      "limitations": "Australian data; the loss total covers all sectors",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-010",
+      "claim_text": "The Canadian Centre for Cyber Security judged it very likely that Iran would use its cyber programme in response to the US/Israel strikes of February 2026 and noted that Iranian state-sponsored actors opportunistically target poorly secured infrastructure networks and internet-connected devices, naming water and energy.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-025"
+      ],
+      "exact_locator": "Key judgements; targeting section",
+      "event_or_publication_date": "2026-03-01",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Construction and building systems not named",
+      "sector_relevance": "Raises the geopolitical threat to internet-exposed OT used by public-works operators and connected sites",
+      "limitations": "Canadian perspective; estimative language, not observation",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-011",
+      "claim_text": "On 13 October 2026 Femern A/S stated that its main contractor Femern Link Contractors (FLC) had informed it of a cyber incident and that it had no further information.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-001"
+      ],
+      "exact_locator": "News item body, Jens Villemoes quotes",
+      "event_or_publication_date": "2026-10-13",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "Confirms an in-period incident at a major European cross-border infrastructure construction programme",
+      "limitations": "No scope, cause, duration or cost disclosed",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-012",
+      "claim_text": "Danish and German media reported, without owner confirmation, that problems began overnight into Monday 12 October 2026, that large parts of FLC's network were shut down, that staff were told not to use computers, Wi-Fi or contractor email, that digital access control and time registration were unavailable and that several vessels stopped; the project had already been reported in May 2026 as about two years delayed for non-cyber reasons.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-001",
+        "S-002",
+        "S-003",
+        "S-004"
+      ],
+      "exact_locator": "S-002 body; S-003 schedule section; S-004 lead paragraphs",
+      "event_or_publication_date": "2026-10-13",
+      "likelihood": "not_applicable",
+      "confidence": "low",
+      "alternative_hypotheses": [
+        "Effects may be precautionary isolation rather than attacker action"
+      ],
+      "contrary_evidence": "Owner statement gives no operational detail",
+      "sector_relevance": "Illustrates how contractor IT disruption can reach marine and site operations",
+      "limitations": "Reported effects unconfirmed; any schedule or cost effect unknown; pre-existing delay must not be attributed to the incident",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-013",
+      "claim_text": "Kensington and Chelsea detected unusual activity on 24 November 2025, invoked emergency arrangements, and confirmed that files were exfiltrated from IT infrastructure shared with Westminster City Council and the London Borough of Hammersmith and Fulham; the ICO was notified on 27 November and 22 December 2025 and the Metropolitan Police leads the investigation.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-005",
+        "S-008"
+      ],
+      "exact_locator": "S-005 paras 1.1, 4.1-4.3, 8.1; S-008 discovery and data sections",
+      "event_or_publication_date": "2026-01-13",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "Primary account of a shared-service attack on a public-sector project owner",
+      "limitations": "Data scope and personal-data volume not quantified",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-014",
+      "claim_text": "At Kensington and Chelsea, planning and licensing applications could not be processed normally until the planning and land-search system returned on 9 March 2026; repairs ran on backup systems with lower call volumes; core finance was constrained, with a controlled payment run processing over GBP 5 million of invoices; and revenues and benefits systems were unavailable from November 2025 to early June 2026.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-005",
+        "S-006",
+        "S-008"
+      ],
+      "exact_locator": "S-005 paras 5.4-5.8; S-006 paras 3.2-3.6; S-008 services section",
+      "event_or_publication_date": "2026-03",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "Shows owner-side outages reaching planning consent, repairs ordering and supplier payment, the processes contractors depend on",
+      "limitations": "No measure of contractor-side delay or loss is published",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-015",
+      "claim_text": "Kensington and Chelsea recorded GBP 1.2 million of cyber costs in 2025/26; its external auditor reported a significant governance weakness linked to the November 2025 incident, stated that the incident was caused by human error and that recovery was affected by the fragmented nature of the council's ICT estate, and listed further recovery costs as an unquantified risk.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-007"
+      ],
+      "exact_locator": "Minutes Item 5 p.8; AAR p.9 (agenda p.33); AAR pp.21, 23",
+      "event_or_publication_date": "2026-09",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "Only quantified public cost and assurance outcome among the in-period sector cases",
+      "limitations": "Covers 2025/26 only; insurance position not disclosed",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-016",
+      "claim_text": "Westminster stated that copied data sat in the shared environment hosted by Kensington and Chelsea and that it was working with the National Crime Agency, NCSC and the Metropolitan Police; Hammersmith and Fulham reported no evidence that its own systems were compromised.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-009",
+        "S-005"
+      ],
+      "exact_locator": "S-009 article body; S-005 para 4.1",
+      "event_or_publication_date": "2025-12-18",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "Shows partial containment across a three-authority shared service",
+      "limitations": "Statements relayed by specialist media",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-017",
+      "claim_text": "Sweden's data protection authority fined Miljödata SEK 1.8 million on 22 September 2026 under GDPR Article 32(1) after the August 2025 attack affecting about 2.2 million people, citing insufficient checks when installing new software and no automatic real-time intrusion monitoring, and opened investigations into two municipalities and one region; affected customers include a majority of Swedish municipalities (regulator) and, per secondary reporting, regions, state agencies and companies.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-010",
+        "S-011"
+      ],
+      "exact_locator": "S-010 decision notice; S-011 attack date 25 August 2025",
+      "event_or_publication_date": "2026-09-22",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "Demonstrates single-supplier concentration across public owners and companies and supervisory reach to customers",
+      "limitations": "Customer counts not stated by IMY; full decision not reviewed",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-018",
+      "claim_text": "Minnesota reported malicious activity at more than 30 community water systems on 26-27 July 2026, mostly involving remotely accessible PLCs and HMIs; the state stressed that impacted does not necessarily mean service disruption, made no attribution, and reported no requests to change drinking-water use.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-012",
+        "S-013"
+      ],
+      "exact_locator": "S-012 body; S-013 definition, attribution and recommended actions",
+      "event_or_publication_date": "2026-07-30",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "Malicious activity at public-works operational technology during the reporting period",
+      "limitations": "Operational effects still being assessed by the state",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-019",
+      "claim_text": "Media reporting citing unnamed officials described a preliminary assessment that Iran was likely responsible for the Minnesota activity; one affected town isolated its system, restored from backup and restarted its plant within about 90 minutes.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-014",
+        "S-013"
+      ],
+      "exact_locator": "S-014 article body; S-013 attribution status",
+      "event_or_publication_date": "2026-07-30",
+      "likelihood": "not_applicable",
+      "confidence": "low",
+      "alternative_hypotheses": [
+        "Actors may be posing as Iran-based"
+      ],
+      "contrary_evidence": "State officially made no attribution",
+      "sector_relevance": "Links public-works OT intrusion to the 2026 geopolitical context",
+      "limitations": "Anonymous, preliminary attribution",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-020",
+      "claim_text": "SANKO TECHNO, a Japanese supplier of post-installed anchors and fasteners for construction, disclosed on 28 August 2026 that ransomware had encrypted servers and PCs at its Vietnamese subsidiary, detected on 25 August; the subsidiary network was isolated, no group-wide impact was confirmed and the financial effect remained under review.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-015",
+        "S-016"
+      ],
+      "exact_locator": "S-015 disclosure body; S-016 business description",
+      "event_or_publication_date": "2026-08-28",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "In-period building-materials supplier incident showing containment by network segregation",
+      "limitations": "No financial or delivery impact disclosed",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-021",
+      "claim_text": "Norway's Police Security Service confirmed on 13 August 2025 that it was investigating two connected attacks on Norwegian industrial systems including the Bremanger dam and described them as methods Russia uses to influence the security situation; QBE reports that outflow valves were opened for about four hours and that weak password protection and poor IT/OT separation were root causes.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-017",
+        "S-018"
+      ],
+      "exact_locator": "S-017 news body; S-018 Z-Pentest case study",
+      "event_or_publication_date": "2025-08-21",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "European precedent of state-aligned manipulation of public-works OT",
+      "limitations": "Observation (April 2025) slightly outside the 18-month horizon; contextual only",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-022",
+      "claim_text": "The ICO fined construction and outsourcing group Interserve GBP 4.4 million after a phishing email led to malware, compromise of 283 systems and 16 accounts, removal of anti-virus and encryption of staff personal data; failings included not investigating an alert, outdated systems, inadequate training and insufficient risk assessment. QBE reports a further GBP 7 million of recovery and advisory fees.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-030",
+        "S-018"
+      ],
+      "exact_locator": "S-030 news body; S-018 costs section",
+      "event_or_publication_date": "2022-10",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Staff-affected count differs between ICO article and video",
+      "sector_relevance": "Enduring construction precedent for regulatory and recovery cost after an identity-led intrusion",
+      "limitations": "Historical (2020 incident, 2022 penalty); recovery fee figure is secondary",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-023",
+      "claim_text": "On 28 September 2025 the UK Government backed a commercial bank loan of up to GBP 1.5 billion to Jaguar Land Rover through a UK Export Finance guarantee typically covering up to 80% of lender risk, repayable over five years, explicitly to support the supply chain during the cyber-related production shutdown.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-029"
+      ],
+      "exact_locator": "Release body and notes to editors",
+      "event_or_publication_date": "2025-09-28",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "Cross-sector precedent showing cyber disruption transmitting to supplier liquidity and bank lending",
+      "limitations": "Automotive case; not a construction event",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-024",
+      "claim_text": "Procore reported 17,850 customers running projects in about 160 countries at 31 December 2025 and states that it relies on third-party data centres such as AWS to host its platform, that customers depend on continuous availability and have a low tolerance for interruptions.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-027"
+      ],
+      "exact_locator": "Item 1; Item 1A risk factors on third-party data centres",
+      "event_or_publication_date": "2026",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "Evidence of shared construction-management SaaS with a hyperscale fourth party",
+      "limitations": "Customer count excludes some acquired customers; market share not disclosed",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-025",
+      "claim_text": "Construction had the highest number of company insolvencies in England and Wales in the 12 months to July 2026, with 3,841 cases or 17% of cases where industry was recorded.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-031"
+      ],
+      "exact_locator": "Industry breakdown paragraph",
+      "event_or_publication_date": "2026-08-18",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "Context for counterparty fragility when cyber shocks delay payment or schedule; a count, not a rate",
+      "limitations": "Not cyber-related; industry recorded for a subset of cases",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-026",
+      "claim_text": "NIS2 applies from 18 October 2024; its annexes cover sectors including drinking water, waste water, road transport authorities, public administration and specified manufacturing subsectors but do not list construction; Article 21(2)(d) requires supply-chain security measures, Article 23(4) sets 24-hour, 72-hour and one-month reporting steps, and Article 20 makes management bodies accountable for approving and overseeing measures.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-032"
+      ],
+      "exact_locator": "Arts 20, 21(2)(d), 23(4), 41(1); Annexes I-II",
+      "event_or_publication_date": "2022-12-27",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Member States may extend scope nationally",
+      "sector_relevance": "Construction firms mostly meet NIS2 through contracts with in-scope owners rather than direct designation",
+      "limitations": "National transposition and scope extensions vary",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-027",
+      "claim_text": "On 8 July 2026 the European Commission referred Ireland, Spain, France and the Netherlands to the Court of Justice for not notifying full NIS2 transposition and asked for lump-sum and daily penalties; letters of formal notice were sent on 28 November 2024 and reasoned opinions on 7 May 2025.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-033"
+      ],
+      "exact_locator": "News body",
+      "event_or_publication_date": "2026-07-08",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "Contractors operating across these markets face uneven national obligations",
+      "limitations": "National status may change after the referral",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-028",
+      "claim_text": "The CER Directive required transposition by 17 October 2024 and identification of designated entities by Member States by 17 July 2026; construction is not an Annex sector, but designated operators in transport, water and other sectors procure construction and maintenance work.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-034"
+      ],
+      "exact_locator": "Arts 6(1), 26(1); Annex",
+      "event_or_publication_date": "2022-12-27",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "In-period milestone that can push resilience requirements into infrastructure construction contracts",
+      "limitations": "Contract flow-down is an inference, not a legal obligation on contractors",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-029",
+      "claim_text": "The Cyber Resilience Act entered into force on 10 December 2024; manufacturers must report actively exploited vulnerabilities and severe incidents from 11 September 2026 through ENISA's Single Reporting Platform (24-hour early warning, 72-hour notification, final report), with the main obligations applying from 11 December 2027.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-035",
+        "S-036"
+      ],
+      "exact_locator": "S-035 ELI metadata and Arts 14, 71; S-036 page body",
+      "event_or_publication_date": "2026-09-11",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "Reaches building-automation controllers, connected site equipment and construction software sold in the EU",
+      "limitations": "Applies to manufacturers of products with digital elements, not to contractors as users",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-030",
+      "claim_text": "GDPR Articles 28, 32 and 33 require processor contracts, appropriate security and notification to the supervisory authority within 72 hours where feasible; the UK Data Protection Act 2018 supplements the retained UK GDPR framework.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-037",
+        "S-046"
+      ],
+      "exact_locator": "S-037 Arts 28, 32, 33; S-046 Part 2",
+      "event_or_publication_date": "2016-05-04",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "Data exfiltration at contractors and owners triggers regulatory exposure independent of operational impact",
+      "limitations": "UK amendments after 2018 not reviewed",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-031",
+      "claim_text": "On 9 September 2026 the Commission proposed a Public Procurement Act regulation, COM(2026) 590, to replace the procurement directives; its explanatory memorandum describes provisions on cybersecurity compliance, security of supply and resilience, and exclusion of operators during contract performance for security reasons.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-038"
+      ],
+      "exact_locator": "Cover page; explanatory memorandum Chapter 4; recitals 29-30",
+      "event_or_publication_date": "2026-09-10",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "Signals future cyber and resilience conditions in EU public-works contracts",
+      "limitations": "Proposal only; subject to co-decision; article numbering not reviewed",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-032",
+      "claim_text": "The UK Cyber Security and Resilience (Network and Information Systems) Bill, introduced in November 2025, remained in the House of Lords at report stage on 13 October 2026 (HL Bill 49 as amended in Grand Committee, 7 September 2026) and is not yet law.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-039",
+        "S-019"
+      ],
+      "exact_locator": "S-039 bill page; S-019 introduction month",
+      "event_or_publication_date": "2026-10-13",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "Main UK reform affecting managed service providers and designated suppliers to regulated operators",
+      "limitations": "Content and commencement may change",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-033",
+      "claim_text": "The UK NIS Regulations 2018 cover energy, transport, health, drinking water and digital infrastructure plus relevant digital service providers; construction is not an in-scope sector.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-041"
+      ],
+      "exact_locator": "Reg 1(1); Schedule 1; Schedule 2 para 7",
+      "event_or_publication_date": "2018-04-19",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "UK construction exposure to NIS arises through operators of essential services as clients",
+      "limitations": "As-made text; amendments not reviewed",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-034",
+      "claim_text": "PPN 014 requires central government in-scope bodies, from 24 February 2025, to require Cyber Essentials or equivalent controls for higher-risk contracts and leaves application optional for other public bodies; the Procurement Act 2023 regime also went live on 24 February 2025.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-040",
+        "S-042"
+      ],
+      "exact_locator": "S-040 scope, requirement, paras 6 and 10; S-042 briefing body",
+      "event_or_publication_date": "2025-02-17",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "Sets the contractual cyber baseline for suppliers to UK central government projects",
+      "limitations": "Local authorities not mandated; Cyber Essentials is a baseline, not resilience assurance",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-035",
+      "claim_text": "ISO 19650-5:2020 sets a security-minded approach to information management for built assets and BIM and was confirmed after systematic review in October 2025; NIST CSF 2.0 (February 2024) is a voluntary outcomes framework including supply-chain risk management; the SEC requires US registrants to file Form 8-K Item 1.05 within four business days of determining that an incident is material.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-043",
+        "S-044",
+        "S-047"
+      ],
+      "exact_locator": "S-043 abstract and status; S-044 publication page; S-047 guide",
+      "event_or_publication_date": "2025-10-24",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "Voluntary frameworks give a control vocabulary; SEC rules shape disclosure by US-listed sector participants",
+      "limitations": "Standards are voluntary and not binding law; SEC rule is comparative only",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-036",
+      "claim_text": "Principal judgement 1: the best-documented Building & Public Works propagation pathway in the period runs through shared digital layers - owner shared services, sector SaaS and cloud hosting - because the best-documented in-period disruptions (Kensington and Chelsea, Miljödata) propagated across many dependent organisations; leak-site data show many more construction ransomware claims than public disclosures.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-005",
+        "S-007",
+        "S-010",
+        "S-027"
+      ],
+      "exact_locator": "See C-013 to C-017 and C-024",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Leak-site data show many more construction ransomware claims than public disclosures, so direct attacks may dominate"
+      ],
+      "contrary_evidence": "Leak-site data (Dragos, Black Kite) show many direct contractor attacks",
+      "sector_relevance": "Directs management attention to concentration and propagation, the channels with systemic reach",
+      "limitations": "Public evidence is skewed to public bodies that must report; private contractor disruptions are under-disclosed",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-037",
+      "claim_text": "Principal judgement 2: in construction, IT disruption converts into schedule loss quickly where work depends on time-sensitive, sequenced operations such as marine placement, tunnelling or site access, so the cost driver is programme delay and contractual allocation rather than IT recovery alone.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-018",
+        "S-019",
+        "S-001",
+        "S-002"
+      ],
+      "exact_locator": "QBE delay and cost statements; Femern reported effects",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Contract buffers and float may absorb short outages"
+      ],
+      "contrary_evidence": "No in-period contractor has disclosed a quantified cyber-driven delay",
+      "sector_relevance": "Explains why cyber events can escalate into project cost overrun and counterparty stress",
+      "limitations": "Femern effects unconfirmed; QBE quantification partly undisclosed",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-038",
+      "claim_text": "Principal judgement 3: internet-exposed public-works OT is an active pressure point - a national authority warned of opportunistic Iranian targeting and unattributed malicious activity followed at Minnesota water systems - with construction firms more likely to be collateral or access-path victims than primary targets; no baseline shows a rise.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-025",
+        "S-012",
+        "S-013",
+        "S-017",
+        "S-018"
+      ],
+      "exact_locator": "C-010, C-018, C-021",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "low",
+      "alternative_hypotheses": [
+        "Activity may be opportunistic or criminal scanning rather than state direction"
+      ],
+      "contrary_evidence": "State attribution for Minnesota not made",
+      "sector_relevance": "Translates threat-actor intent into geopolitical exposure for public-works owners and their contractors",
+      "limitations": "Attribution is preliminary or contextual",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-039",
+      "claim_text": "Principal judgement 4: financial-system transmission is conditional and runs through contractor working capital, owner payment delays, supplier insolvency, guarantees and emergency lending rather than direct bank loss; the sector's leading insolvency count is context (a count, not a rate).",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-005",
+        "S-029",
+        "S-031",
+        "S-026"
+      ],
+      "exact_locator": "C-014, C-023, C-025, C-009",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Large contractors may absorb shocks through liquidity buffers"
+      ],
+      "contrary_evidence": "No in-period case showed a contractor default linked to cyber",
+      "sector_relevance": "Explains generic bank relevance without asserting any bank's exposure",
+      "limitations": "Channels inferred from analogous and partial evidence",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-040",
+      "claim_text": "Principal judgement 5: the regulatory perimeter for construction is mostly indirect - construction is not an NIS2, CER or UK NIS sector - so obligations arrive through owners' supply-chain duties, procurement conditions, product rules under the CRA and data-protection law, with uneven national NIS2 application.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-032",
+        "S-034",
+        "S-041",
+        "S-038",
+        "S-035",
+        "S-033"
+      ],
+      "exact_locator": "C-026 to C-034",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [
+        "Some Member States may extend NIS2 to construction-related entities"
+      ],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "Indicates where compliance pressure and contract change will reach contractors",
+      "limitations": "National extensions not surveyed exhaustively",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-041",
+      "claim_text": "Case selection: Kensington and Chelsea was selected over the Femern contractor incident because it combines Tier 1 chronology, disclosed cost, auditor findings and service-level restoration dates, whereas the Femern evidence is one to two days old and discloses no cause, duration or cost.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-005",
+        "S-006",
+        "S-007",
+        "S-001"
+      ],
+      "exact_locator": "Selection matrix in report Chapter 5",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [
+        "Femern has higher subsector relevance and may supersede in the next edition"
+      ],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "Prioritises causal clarity and disclosed outcomes for a standalone lesson",
+      "limitations": "Council is a project owner, not a contractor",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-042",
+      "claim_text": "Public financial disclosure gap: none of the in-period contractor or supplier incidents reviewed disclosed a quantified cost, contractual effect or project delay; quantified outcomes come from a public body (GBP 1.2 million) and regulators (SEK 1.8 million; historical GBP 4.4 million).",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-001",
+        "S-015",
+        "S-007",
+        "S-010",
+        "S-030"
+      ],
+      "exact_locator": "C-011, C-020, C-015, C-017, C-022",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [
+        "None material identified"
+      ],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "Prevents false precision in loss estimates and supports scenario-based analysis",
+      "limitations": "Absence of disclosure is not evidence of no loss",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-043",
+      "claim_text": "Case lessons: a shared IT estate with fragmented legacy systems, a human-error entry point and multi-month restoration of revenue, planning and finance functions are transferable risks for public owners and for contractors that depend on owner approvals and payments.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-005",
+        "S-006",
+        "S-007",
+        "S-008"
+      ],
+      "exact_locator": "C-013 to C-015",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Council-specific legacy systems may limit transferability"
+      ],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "Gives a recovery benchmark (about 15 weeks for planning, about six months for revenues) for owner-dependency planning",
+      "limitations": "Root-cause review not yet published",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-044",
+      "claim_text": "Scenario 1 assumption: a multi-day availability failure (without data compromise) of a widely used construction-management or common-data-environment platform, or of its hosting cloud region, removes access to drawings, RFIs, permits-to-work and payment applications for many contractors and owners at once.",
+      "claim_type": "Scenario assumption",
+      "source_ids": [
+        "S-027",
+        "S-018"
+      ],
+      "exact_locator": "C-024, C-005",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "low",
+      "alternative_hypotheses": [
+        "Offline copies and alternative channels may limit impact"
+      ],
+      "contrary_evidence": "No in-period sector-wide platform outage was identified",
+      "sector_relevance": "Tests common digital-dependency concentration",
+      "limitations": "Structured stress narrative, not a forecast",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-045",
+      "claim_text": "Scenario 2 assumption: ransomware or OT intrusion at a major contractor or public-works operator halts time-sensitive site, marine or plant operations during a sequenced programme phase for one to four weeks.",
+      "claim_type": "Scenario assumption",
+      "source_ids": [
+        "S-001",
+        "S-002",
+        "S-012",
+        "S-018"
+      ],
+      "exact_locator": "C-011, C-012, C-018, C-004",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "low",
+      "alternative_hypotheses": [
+        "Manual workarounds may sustain safety-relevant operations"
+      ],
+      "contrary_evidence": "Minnesota town restored within about 90 minutes",
+      "sector_relevance": "Tests targeted operational disruption",
+      "limitations": "Duration band derived from the QBE 24-day average and is illustrative",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-046",
+      "claim_text": "Scenario 3 assumption: a compromise spreading through a shared supplier's access, data or payment relationships - a public-sector software supplier, managed service provider or building-materials manufacturer - simultaneously disrupts multiple owners, contractors and programmes and triggers data-protection duties across its customers.",
+      "claim_type": "Scenario assumption",
+      "source_ids": [
+        "S-010",
+        "S-020",
+        "S-015"
+      ],
+      "exact_locator": "C-017, C-002, C-020",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "low",
+      "alternative_hypotheses": [
+        "Supplier diversity may limit simultaneous effects"
+      ],
+      "contrary_evidence": "SANKO TECHNO contained impact to one subsidiary",
+      "sector_relevance": "Tests third- and fourth-party concentration",
+      "limitations": "Structured stress narrative, not a forecast",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-047",
+      "claim_text": "Mitigation priority: the evidence supports prioritising owner and platform dependency mapping, identity and remote-access hardening, OT and site-system segregation, payment-change verification, contractual cyber clauses with flow-down, and tested manual fallback for programme-time-sensitive operations.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-013",
+        "S-022",
+        "S-026",
+        "S-018",
+        "S-043",
+        "S-040"
+      ],
+      "exact_locator": "Chapter 7 action table",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Priorities may differ for SMEs versus tier-1 contractors"
+      ],
+      "contrary_evidence": "None identified in the reviewed source set",
+      "sector_relevance": "Links each action to an evidenced exposure for 1LoD challenge",
+      "limitations": "Sector priorities, not an assessment of any bank or firm",
+      "approved_for_slide": true
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "run_id": "20261014-building-public-works-global-eu-uk-2025-09_2026-10",
+  "skill_version": "3.0.0-local-publication-standard",
+  "skill_sha256": "76b969befc528d58ac325d97eaf08e2f4f8eff76ee19b187549ee296da595453",
+  "product_mode": "standalone_publication",
+  "analysis_boundary": "external_data_only",
+  "sector": "Building & Public Works",
+  "reporting_period": {
+    "start": "2025-09-01",
+    "end": "2026-10-14"
+  },
+  "evidence_cutoff": "2026-10-14",
+  "edition_state": "READY_FOR_DELIVERY",
+  "artefacts": [
+    {
+      "type": "input_contract",
+      "path": "00_input_contract.json",
+      "sha256": "a2601fbfe96ac9afefa3ef88d848cf912da8e5f5f32ca78fe3a5de130f8182f7"
+    },
+    {
+      "type": "research_plan",
+      "path": "01_research_plan.md",
+      "sha256": "9573a010e12778f0e483734db4ef46476d1ae3ae080468d83622fd0a3f207621"
+    },
+    {
+      "type": "source_register",
+      "path": "02_source_register.csv",
+      "sha256": "44452ea5cad0969379266726b7d9fecf1f2bac85d5316d46e9d48d8d7d8b1785"
+    },
+    {
+      "type": "claim_ledger",
+      "path": "03_claim_ledger.json",
+      "sha256": "6c758de02b1b4afd53469a13717f5b490c8d7d7781f0684c08cb3d08cce508e8"
+    },
+    {
+      "type": "metric_dictionary",
+      "path": "04_metric_dictionary.csv",
+      "sha256": "5e6df93d4c1d164d68e2a68cf188c9a28651d526e55d74df0a289710c8bec8bd"
+    },
+    {
+      "type": "regulatory_register",
+      "path": "05_regulatory_relevance_register.csv",
+      "sha256": "8d884db967255cce524e1677c8119cc423a51afefd103e0b503aaf7ae8768f7d"
+    },
+    {
+      "type": "scenario_register",
+      "path": "06_scenario_assumption_register.csv",
+      "sha256": "0610264ab8cf98344657966744918ac1132bf2203b5b6c4a1490fa49b5722719"
+    },
+    {
+      "type": "executive_story",
+      "path": "07_executive_story.md",
+      "sha256": "a965091384216f6f2a77b7ce46ac9e6efc4248ef49fae1d15efa92c95f243a94"
+    },
+    {
+      "type": "slide_spec",
+      "path": "08_slide_spec.json",
+      "sha256": "5c0234ccd19d3561de73e76a9cd12498c4cc72f0c6f0b46095eb542e5a4f520b"
+    },
+    {
+      "type": "evidence_pack",
+      "path": "09_evidence_pack.md",
+      "sha256": "9bc93246c565721d03f01d5858fc76c456392811fb2cffcda98f44d594307a8e"
+    },
+    {
+      "type": "visual_review",
+      "path": "10_visual_review.json",
+      "sha256": "54c20b3c7390666970a391d6bf34a7581e30afe3af37508a3d8e88600050f591"
+    },
+    {
+      "type": "quality_record",
+      "path": "11_presentation_qc.json",
+      "sha256": "1ffa5a4fc3de404c4f963ad2dcf63bddadf15653a29c77831fcd5d34de846950"
+    },
+    {
+      "type": "powerpoint",
+      "path": "13_cyber_sectorial_analysis.pptx",
+      "sha256": "edf2b717bbc9c8b9f8a3174eaca8bf100b6d081c1e24e1d2110242c323d0e450"
+    },
+    {
+      "type": "full_report",
+      "path": "14_sectorial_report.md",
+      "sha256": "0da8f67be791a95171fd906e7957f9f4172483357102f08ec85b64a982bbb5de"
+    },
+    {
+      "type": "word_report",
+      "path": "15_sectorial_report.docx",
+      "sha256": "5a4c40b5b8c7a093ce16ca19bb0af5ec56b6a41685f3ade006fa2eeee1261b80"
+    },
+    {
+      "type": "editorial_review",
+      "path": "16_editorial_review.json",
+      "sha256": "75f16d01f7d1aa5a8291eb167d472f07d469d1a2aa29a4f2022aa38d00304195"
+    },
+    {
+      "type": "research_coverage",
+      "path": "17_research_coverage.csv",
+      "sha256": "5ce303438eff3b38cf4019fbb0596f18a1b011b0ca1b6e50545bf77d580799d0"
+    },
+    {
+      "type": "delivery_index",
+      "path": "README.md",
+      "sha256": "258dd86a04813737f5be1c6bc050646edc967b4a52f26b42aed5cca0568d93a7"
+    }
+  ],
+  "hashes": {
+    "input_contract": "a2601fbfe96ac9afefa3ef88d848cf912da8e5f5f32ca78fe3a5de130f8182f7",
+    "source_register": "44452ea5cad0969379266726b7d9fecf1f2bac85d5316d46e9d48d8d7d8b1785",
+    "claim_ledger": "6c758de02b1b4afd53469a13717f5b490c8d7d7781f0684c08cb3d08cce508e8",
+    "full_report": "0da8f67be791a95171fd906e7957f9f4172483357102f08ec85b64a982bbb5de"
+  },
+  "renderers": {
+    "pptx": "pptxgenjs (pptx skill) + LibreOffice headless for inspection",
+    "docx": "docx-js (docx skill) + LibreOffice headless for inspection"
+  },
+  "quality_gates": {
+    "input": "PASS",
+    "evidence": "PASS",
+    "analysis": "PASS",
+    "publication": "PASS",
+    "presentation": "PASS",
+    "language": "PASS",
+    "delivery": "NOT_RUN"
+  },
+  "schedule_changes": "none",
+  "delivery": {
+    "destination": "https://github.com/cybertiagovieira/cyber-risk-reports",
+    "repository_url": "",
+    "repository_visibility": "",
+    "commit_sha": "",
+    "artefact_commit_sha": "",
+    "receipt_commit_sha": "",
+    "paths": [],
+    "delivery_status": "NOT_RUN"
+  }
+}
