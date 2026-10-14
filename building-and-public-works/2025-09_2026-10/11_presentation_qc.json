@@ -11,9 +11,9 @@
   "visual_review": "PASS",
   "export_opened": "PASS",
   "deck_contains_no_sources_or_metadata": "PASS",
-  "delivery_evidence": "NOT_RUN",
-  "release_status": "READY_FOR_DELIVERY",
-  "notes": "Structural, analytical/editorial and delivery states are recorded separately. Delivery remains NOT_RUN until an actual GitHub receipt exists. Slides skill: the session's pptx skill was used (pptxgenjs); no separate Slides artefact type was used because the user requested a PowerPoint deliverable. Docx skill (docx-js) used for the Word export.",
+  "delivery_evidence": "PASS",
+  "release_status": "PASS",
+  "notes": "Structural, analytical/editorial and delivery states are recorded separately. Delivery remains NOT_RUN until an actual GitHub receipt exists. Slides skill: the session's pptx skill was used (pptxgenjs); no separate Slides artefact type was used because the user requested a PowerPoint deliverable. Docx skill (docx-js) used for the Word export. Delivery receipt: artefact commit 707894404de75f94946f489a51d9f4855dc896a7 on main of private repository cybertiagovieira/cyber-risk-reports; 18 of 18 committed artefacts matched local SHA-256 hashes via the GitHub contents API on 14 October 2026.",
   "quality_gates_15": {
     "scope_and_period": "PASS",
     "source_recency_temporal": "PASS",
@@ -29,6 +29,6 @@
     "readability_standalone": "PASS",
     "cross_section_consistency": "PASS",
     "file_integrity_export": "PASS",
-    "delivery": "NOT_RUN"
+    "delivery": "PASS"
   }
 }
