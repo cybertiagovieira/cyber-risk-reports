@@ -1,0 +1,1326 @@
+{
+  "run_id": "20261014-healthcare-global-eu-uk-2025-09_2026-10",
+  "access_date": "2026-10-15",
+  "claims": [
+    {
+      "claim_id": "C-001",
+      "claim_text": "ENISA's NIS360 2026 places health in the risk zone (lower-than-average maturity with sector importance exceeding maturity); health maturity improved within the moderate band; providers struggle more than pharmaceutical manufacturers, citing budgets and skilled staff.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-032"
+      ],
+      "exact_locator": "pp. 5, 8, 12-13, 31-32",
+      "event_or_publication_date": "2026-05",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified.",
+      "sector_relevance": "EU-level maturity signal for the sector.",
+      "limitations": "No numeric score change disclosed.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-002",
+      "claim_text": "ENISA Threat Landscape 2026 (2025 data): health is among the top five sectors in Member State NIS2 reporting; unauthorised access against health led by financially motivated attacks (46%), ransomware 26.8%; providers account for 63.6% of health data breaches and 85.5% of DDoS claims; Qilin, INC Ransom and SafePay most deployed.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-031"
+      ],
+      "exact_locator": "pp. 19, 38, 49",
+      "event_or_publication_date": "2026-09",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "ENISA notes open-source bias.",
+      "sector_relevance": "EU threat profile for Healthcare.",
+      "limitations": "Open-source dataset; imperfect sector categorisation.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-003",
+      "claim_text": "French health incident observatory 2025: 764 reports (+2%), 400 malicious (+22%), 28 ransomware incidents (-30%), 288 reports (38%) involving degraded or interrupted care; messaging-account compromise 50% of system-compromise vectors; 75% of non-malicious infrastructure dysfunctions on the provider side.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-033"
+      ],
+      "exact_locator": "pp. 4, 10, 24, 27-28, 30, 34",
+      "event_or_publication_date": "2026",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Report share figures use differing denominators.",
+      "sector_relevance": "National evidence that care disruption is common and account abuse rising.",
+      "limitations": "France-specific mandatory reporting.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-004",
+      "claim_text": "Judgement: supplier and manufacturer outages were the most publicly evidenced care-continuity channel in the period, evidenced by three SEC Item 1.05 manufacturer filings and NHS supply measures; at providers, loss of clinical information is the main mechanism (C-005).",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-001",
+        "S-003",
+        "S-012",
+        "S-015",
+        "S-002"
+      ],
+      "exact_locator": "See cited items",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Listed manufacturers have mandatory disclosure, so the pathway may be over-represented relative to providers."
+      ],
+      "contrary_evidence": "Provider incidents (AZ Monica, French observatory) also disrupted care directly.",
+      "sector_relevance": "Shapes counterparty and supply monitoring priorities.",
+      "limitations": "Selection effect of disclosure regimes.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-005",
+      "claim_text": "Judgement: loss of trusted clinical information (EPR, laboratory results, ordering) rather than device compromise drives most observed care disruption.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-033",
+        "S-021",
+        "S-023",
+        "S-002",
+        "S-013"
+      ],
+      "exact_locator": "See cited items",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Device manipulation may be under-reported."
+      ],
+      "contrary_evidence": "Boston Scientific remote-monitoring activations were disrupted, a connected-device service effect.",
+      "sector_relevance": "Directs resilience effort to information availability and downtime procedures.",
+      "limitations": "AZ Monica detail is Tier 3.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-006",
+      "claim_text": "Judgement: credential and access abuse at software vendors and providers is the main data-exposure pathway and transmits through regulation and litigation.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-017",
+        "S-025",
+        "S-030",
+        "S-068"
+      ],
+      "exact_locator": "See cited items",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "medium-high",
+      "alternative_hypotheses": [
+        "Ransomware exfiltration may dominate in other jurisdictions."
+      ],
+      "contrary_evidence": "ENISA records ransomware at 26.8% of unauthorised access.",
+      "sector_relevance": "Links data exposure to fines and notification cost.",
+      "limitations": "Limited EU notification statistics by vector.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-007",
+      "claim_text": "Judgement: state-linked hacktivist activity has reached the healthcare supply chain; Handala claimed the Stryker attack (media-reported) and the FBI assesses Handala is linked to an MOIS-operated entity; Stryker does not attribute the attack.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-010",
+        "S-009",
+        "S-001"
+      ],
+      "exact_locator": "FBI FLASH actor background; HIPAA Journal attribution section",
+      "event_or_publication_date": "2026-03-20",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "The claim could be opportunistic."
+      ],
+      "contrary_evidence": "No government attribution of the Stryker incident identified.",
+      "sector_relevance": "Geopolitical threat translates into manufacturer earnings and hospital supply exposure.",
+      "limitations": "Attribution not confirmed by the victim or a government authority.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-008",
+      "claim_text": "Judgement: public financial disclosure is concentrated in listed, mostly US-domiciled manufacturers and processors; EU and UK publicly funded providers rarely publish incident costs, so absence of a European loss figure is an evidence gap.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-005",
+        "S-041",
+        "S-028",
+        "S-022"
+      ],
+      "exact_locator": "See cited items",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [
+        "None material identified"
+      ],
+      "contrary_evidence": "None identified.",
+      "sector_relevance": "Prevents misreading absence of data as low loss.",
+      "limitations": "Structural disclosure gap.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-009",
+      "claim_text": "Judgement: five conditional financial-system channels: counterparty earnings and working capital; provider liquidity when claims clearing stops; regulatory fines and notification costs; litigation; public-budget absorption. No insurance recovery disclosed in filings reviewed.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-006",
+        "S-012",
+        "S-037",
+        "S-030"
+      ],
+      "exact_locator": "See cited items",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Channels may be immaterial at portfolio level for diversified exposures."
+      ],
+      "contrary_evidence": "Stryker maintained full-year guidance.",
+      "sector_relevance": "Defines bank-relevant transmission without asserting exposure.",
+      "limitations": "No bank-specific evidence; conditional only.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-010",
+      "claim_text": "Stryker identified the incident on 11 March 2026, determined a material impact on operations and Q1 2026 results, and by 9 April 2026 was fully operational across global manufacturing with ordering and distribution restored.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-001"
+      ],
+      "exact_locator": "Item 1.05",
+      "event_or_publication_date": "2026-04-09",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Confirms material manufacturer outage.",
+      "limitations": "No quantified financial effect in the filing.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-011",
+      "claim_text": "Stryker stated the event was contained to its internal Microsoft environment, connected products were safe, some personalised implant customers were disrupted, some patient cases in the week of 16 March were rescheduled for shipping delays, a malicious file was used to run commands, and it was fully operational on 1 April 2026.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-002"
+      ],
+      "exact_locator": "Updates 11, 15, 19, 23 March and 1 April 2026",
+      "event_or_publication_date": "2026-04-01",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Early updates said no malware; 23 March update described a malicious file.",
+      "sector_relevance": "Documents care-continuity effect via supply.",
+      "limitations": "Self-reported.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-012",
+      "claim_text": "NHS England (18 March 2026) estimated UK supply-chain stock at about two weeks, cancelled orders of 11-16 March, placed six NHS Supply Chain lines under control demand management, required mutual aid and a SitRep from acute, community, mental-health and ambulance trusts by 19 March.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-003"
+      ],
+      "exact_locator": "Current position; Actions 1-3",
+      "event_or_publication_date": "2026-03-18",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Shows national health-system transmission from one supplier.",
+      "limitations": "Supply risk, not patient outcomes.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-013",
+      "claim_text": "On 27 March 2026 the British Orthopaedic Association relayed that Stryker production had resumed and trauma and elective orthopaedic procedures could continue as planned.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-004"
+      ],
+      "exact_locator": "Update body",
+      "event_or_publication_date": "2026-03-27",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Bounds the UK supply effect duration.",
+      "limitations": "Relays supplier statements.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-014",
+      "claim_text": "Boston Scientific identified an incident on 25 August 2026 that disrupted manufacturing, order processing and shipping globally; on 8 September it said it was unlikely to meet Q3 and full-year 2026 net sales growth and adjusted EPS guidance, expected to recover part of lost revenue and did not expect a material long-term impact.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-011",
+        "S-012"
+      ],
+      "exact_locator": "Item 8.01; Item 1.05",
+      "event_or_publication_date": "2026-09-08",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Second manufacturer event with guidance effect.",
+      "limitations": "Quantification due 28 October 2026, after cut-off.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-015",
+      "claim_text": "Boston Scientific reported sterilisation operational, distribution at or above normal, and new LATITUDE remote-monitoring activations disrupted then restored, with no impairment to product function.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-013"
+      ],
+      "exact_locator": "Updates 5 and 8 September 2026",
+      "event_or_publication_date": "2026-09-08",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Connected-device service dependency on manufacturer IT.",
+      "limitations": "Self-reported.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-016",
+      "claim_text": "Media reported the Boston Scientific CEO saying all plants and distribution centres were shut globally and some procedures were lost due to hospital supply shortages.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-014",
+        "S-012"
+      ],
+      "exact_locator": "Article body; Item 1.05",
+      "event_or_publication_date": "2026-09-11",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Filing does not repeat the lost-procedure statement.",
+      "sector_relevance": "Indicates downstream care effect.",
+      "limitations": "CEO remarks are Tier 3 relayed.",
+      "approved_for_slide": false
+    },
+    {
+      "claim_id": "C-017",
+      "claim_text": "West Pharmaceutical detected an intrusion on 4 May 2026, determined materiality on 7 May, reported data exfiltration and system encryption, took systems offline globally and restarted operations site by site; fully operational 20 May 2026.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-015",
+        "S-073"
+      ],
+      "exact_locator": "Item 1.05; updates 11-20 May",
+      "event_or_publication_date": "2026-05-20",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Extends manufacturing pathway to pharmaceutical components.",
+      "limitations": "Downstream medicine supply effect not disclosed.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-018",
+      "claim_text": "West's Q2 2026 non-GAAP adjustments include USD 6.9 million pre-tax nonrecurring professional fees combining the cyber incident and legal matters.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-016"
+      ],
+      "exact_locator": "Footnote (5)",
+      "event_or_publication_date": "2026-07-23",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Cyber share not separated.",
+      "sector_relevance": "Only quantified cost reference for West.",
+      "limitations": "Combined line.",
+      "approved_for_slide": false
+    },
+    {
+      "claim_id": "C-019",
+      "claim_text": "Cegedim Sante stated the MLM incident was detected end-2025; a published file holds 15.8 million administrative records after deduplication; about 165,000 (about 1%) include a doctor's free-text note that may be sensitive; only MLM affected; CNIL informed and complaint filed.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-017"
+      ],
+      "exact_locator": "Full statement",
+      "event_or_publication_date": "2026-03-04",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Media cited 11-15 million patients before deduplication.",
+      "sector_relevance": "Clinical software vendor concentration in primary care.",
+      "limitations": "No operational or cost disclosure.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-020",
+      "claim_text": "About 1,500 of 3,800 MLM doctor users were reported affected (Tier 3); ministers summoned Cegedim on 5 March 2026 and asked for accelerated NIS2 and CRA compliance and generalised MFA.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-018",
+        "S-017"
+      ],
+      "exact_locator": "Chronology section",
+      "event_or_publication_date": "2026-03",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "No ministry release retrieved.",
+      "sector_relevance": "Government escalation of a vendor breach.",
+      "limitations": "Tier 3 detail.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-021",
+      "claim_text": "AZ Monica attack confirmed by a parliamentary question answered on 3 February 2026; media-relayed hospital statements report server shutdown at both campuses on 13 January 2026, cancelled scheduled surgery, seven unstable patients transferred, emergency department at reduced capacity, mobile emergency teams unavailable, EPR restarted 5 February, full operation after about four weeks, ransom refused, backups intact, no sign of data theft.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-023",
+        "S-019",
+        "S-020",
+        "S-021",
+        "S-022"
+      ],
+      "exact_locator": "CRIV 56 COM 312 p. 51; article bodies",
+      "event_or_publication_date": "2026-08-14",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Ransomware characterisation sourced to a newspaper only.",
+      "sector_relevance": "Direct EU acute-care disruption profile.",
+      "limitations": "Impact detail Tier 3; no primary hospital statement retrieved.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-022",
+      "claim_text": "McKesson discovered a cybersecurity incident on 25 August 2026; investigation in early stages; not determined material at filing.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-024"
+      ],
+      "exact_locator": "Item 7.01",
+      "event_or_publication_date": "2026-08-28",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Company did not address attacker claims in the filing.",
+      "sector_relevance": "Distribution subsector exposure.",
+      "limitations": "Limited disclosure.",
+      "approved_for_slide": false
+    },
+    {
+      "claim_id": "C-023",
+      "claim_text": "Veradigm reported a third-party vendor's credentials to its API were used to download patient personal data including some Social Security numbers; no operational disruption; not reasonably likely material.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-025"
+      ],
+      "exact_locator": "Item 8.01",
+      "event_or_publication_date": "2026-09-08",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Vendor API credential pathway.",
+      "limitations": "Count not stated.",
+      "approved_for_slide": false
+    },
+    {
+      "claim_id": "C-024",
+      "claim_text": "Health-ISAC (24 August 2026) reported a ShinyHunters-linked campaign combining voice phishing, a lookalike SSO portal and MFA push approval; it recommends restricting SaaS access to managed devices and monitoring lookalike domains.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-068"
+      ],
+      "exact_locator": "Alert summary and mitigations",
+      "event_or_publication_date": "2026-08-24",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Directly affected entity was a security firm, not a health entity.",
+      "sector_relevance": "Identity-plane pattern relevant to health SaaS.",
+      "limitations": "Single-incident alert.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-025",
+      "claim_text": "CNIL fined Hopital Prive de la Loire EUR 500,000 (decision 3 September 2026): 524,867 patients and 202,246 trusted third parties affected; no VPN or MFA on remote access to the patient summary; no care-team access control; no real-time detection; third parties not notified.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-030"
+      ],
+      "exact_locator": "News item body",
+      "event_or_publication_date": "2026-09-09",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "In-period GDPR enforcement for provider control gaps.",
+      "limitations": "Summary, not full decision.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-026",
+      "claim_text": "ICO fined Advanced Computer Software Group GBP 3,076,320 (27 March 2025) after a 2022 ransomware attack entered via a customer account lacking MFA, disrupting NHS 111 and affecting 79,404 people.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-043"
+      ],
+      "exact_locator": "News item body",
+      "event_or_publication_date": "2025-03-27",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "UK precedent for managed-IT supplier liability.",
+      "limitations": "Contextual (older than 18 months).",
+      "approved_for_slide": false
+    },
+    {
+      "claim_id": "C-027",
+      "claim_text": "Judgement: Top 5 selection: incidents identified or disclosed in the period with Tier 1 confirmation, disclosed outcome and distinct subsector; five meet the standard: Stryker, Boston Scientific, Cegedim Sante MLM, West Pharmaceutical, AZ Monica.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-001",
+        "S-012",
+        "S-017",
+        "S-015",
+        "S-023"
+      ],
+      "exact_locator": "Selection rule in report Chapter 2",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "McKesson could rank higher if scope were disclosed."
+      ],
+      "contrary_evidence": "AZ Monica impact detail is Tier 3.",
+      "sector_relevance": "Transparent prioritisation.",
+      "limitations": "Disclosure-driven sample.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-028",
+      "claim_text": "Stryker Q1 2026: net sales USD 6,020 million (+2.6% reported, +2.4% organic), adjusted EPS USD 2.60 (-8.5%), adjusted operating margin 21.1% (-180 bp), full-year guidance maintained.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-006",
+        "S-005"
+      ],
+      "exact_locator": "Release body; statements of earnings",
+      "event_or_publication_date": "2026-04-30",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Margin decline also attributed to tariffs and interest.",
+      "sector_relevance": "Counterparty earnings channel.",
+      "limitations": "Incident effect not separated.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-029",
+      "claim_text": "Stryker management said the company could not make product for almost three weeks and cited lost manufacturing absorption; the 8-K/A confirms a material Q1 impact.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-007",
+        "S-001"
+      ],
+      "exact_locator": "Prepared remarks; Item 1.05",
+      "event_or_publication_date": "2026-04-30",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Duration benchmark for production halts.",
+      "limitations": "Transcript is Tier 3.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-030",
+      "claim_text": "Stryker Q2 2026: net sales USD 6,589 million, organic growth 9.0%, guidance narrowed to 8.3-9.3% organic; CEO cites significant recovery progress.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-008"
+      ],
+      "exact_locator": "Release body",
+      "event_or_publication_date": "2026-07-30",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Timing shock rather than permanent loss.",
+      "limitations": "Recovery not quantified.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-031",
+      "claim_text": "UnitedHealth 9M 2024: USD 2,457 million pre-tax cyberattack impacts (USD 1,710 million direct response, USD 747 million business disruption); USD 8,904 million loans advanced to care providers and USD 3,189 million repaid.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-037"
+      ],
+      "exact_locator": "Supplemental table; cash flow statement",
+      "event_or_publication_date": "2024-10-15",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Historical benchmark for claims-clearing liquidity transmission.",
+      "limitations": "Historical; nine-month figures.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-032",
+      "claim_text": "HHS OCR reports about 192.7 million individuals impacted by the Change Healthcare incident (figure as of 31 July 2025).",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-038"
+      ],
+      "exact_locator": "FAQ",
+      "event_or_publication_date": "2025-08-13",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Scale of a single clearing dependency.",
+      "limitations": "Entity-reported count.",
+      "approved_for_slide": false
+    },
+    {
+      "claim_id": "C-033",
+      "claim_text": "Conduent recorded USD 25 million direct response costs for its January 2025 cyber event in the six months to 30 June 2025.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-041"
+      ],
+      "exact_locator": "Note 4 footnote (1)",
+      "event_or_publication_date": "2026",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Claims and payments processor cost benchmark.",
+      "limitations": "Cumulative cost not retrieved.",
+      "approved_for_slide": false
+    },
+    {
+      "claim_id": "C-034",
+      "claim_text": "Sophos 2025 survey (292 healthcare respondents, 17 countries, fieldwork Jan-Mar 2025): average recovery cost excluding ransom USD 1.02 million; median ransom paid USD 150,000; 36% paid; 58% recovered within a week; exploited vulnerabilities 33%, compromised credentials 18%.",
+      "claim_type": "Sector benchmark",
+      "source_ids": [
+        "S-034"
+      ],
+      "exact_locator": "pp. 2-4, 9-13",
+      "event_or_publication_date": "2025",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Vendor-commissioned; mid-size organisations only.",
+      "sector_relevance": "Recovery cost benchmark.",
+      "limitations": "Not applicable to large systems or any entity.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-035",
+      "claim_text": "IBM 2026 Cost of a Data Breach: global average USD 4.99 million (+12%); healthcare reported as costliest at USD 6.64 million, down 10.5% from USD 7.42 million.",
+      "claim_type": "Sector benchmark",
+      "source_ids": [
+        "S-035",
+        "S-036"
+      ],
+      "exact_locator": "Key findings; article body",
+      "event_or_publication_date": "2026-07",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Healthcare figure from trade summary.",
+      "sector_relevance": "Breach cost benchmark.",
+      "limitations": "Full report not reviewed.",
+      "approved_for_slide": false
+    },
+    {
+      "claim_id": "C-036",
+      "claim_text": "Synnovis (historical): 10,152 acute outpatient appointments and 1,710 elective procedures postponed between 3 June and 22 September 2024 (unvalidated management information).",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-039"
+      ],
+      "exact_locator": "Cumulative figures paragraph",
+      "event_or_publication_date": "2024-09-26",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Benchmark for laboratory-dependency care disruption.",
+      "limitations": "Historical; unvalidated.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-037",
+      "claim_text": "Judgement: in-period financial evidence is non-additive and comes from filings and penalties; no EU or UK provider disclosed a cost; care disruption is evidenced in counts and service reductions.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-006",
+        "S-012",
+        "S-041",
+        "S-030",
+        "S-028"
+      ],
+      "exact_locator": "See cited items",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [
+        "None material identified"
+      ],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Prevents incompatible aggregation.",
+      "limitations": "Evidence gap.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-038",
+      "claim_text": "Judgement: Stryker shows a timing shock (material Q1, maintained guidance, 9.0% Q2 organic growth); Boston Scientific moved to a guidance miss; claims-clearing outages transmit into provider liquidity; public programmes absorb disruption as throughput loss.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-001",
+        "S-008",
+        "S-012",
+        "S-037",
+        "S-028"
+      ],
+      "exact_locator": "See cited items",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Boston Scientific Q3 figures may show recovery comparable to Stryker."
+      ],
+      "contrary_evidence": "Stryker maintained guidance.",
+      "sector_relevance": "Counterparty monitoring signal.",
+      "limitations": "Quantification after cut-off.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-039",
+      "claim_text": "Scenario 1 (common digital-dependency failure): a shared EHR, clinical cloud, identity or claims platform used by many providers is compromised, causing simultaneous loss of scheduling, records, prescribing or claims submission.",
+      "claim_type": "Scenario assumption",
+      "source_ids": [
+        "S-017",
+        "S-068",
+        "S-025",
+        "S-032",
+        "S-037"
+      ],
+      "exact_locator": "Scenario register SC-001",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Offline modes and tenant segmentation may limit concurrency."
+      ],
+      "contrary_evidence": "No in-period EU platform-wide outage observed.",
+      "sector_relevance": "Provider cash-flow and vendor-liability channel.",
+      "limitations": "Not a forecast.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-040",
+      "claim_text": "Scenario 2 (targeted operational disruption): ransomware or destructive intrusion forces shutdown at a major hospital group, pathology or diagnostic provider, removing EPR, laboratory and ordering systems with regional diversion.",
+      "claim_type": "Scenario assumption",
+      "source_ids": [
+        "S-031",
+        "S-020",
+        "S-039",
+        "S-033",
+        "S-069"
+      ],
+      "exact_locator": "Scenario register SC-002",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Intact backups and mutual aid may shorten disruption, as at AZ Monica."
+      ],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Operator revenue and recovery-cost channel.",
+      "limitations": "Not a forecast.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-041",
+      "claim_text": "Scenario 3 (third- or fourth-party concentration): disruption or suspension of a manufacturer, distributor or outsourced laboratory serving many providers depletes stock buffers and substitute capacity, leading to controlled allocation, rescheduled procedures and programme throughput reductions.",
+      "claim_type": "Scenario assumption",
+      "source_ids": [
+        "S-001",
+        "S-003",
+        "S-012",
+        "S-015",
+        "S-028",
+        "S-027"
+      ],
+      "exact_locator": "Scenario register SC-003",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Consigned inventory and multi-sourcing may absorb short halts."
+      ],
+      "contrary_evidence": "BOA reported procedures continued once production resumed.",
+      "sector_relevance": "Supplier earnings and downstream activity channel.",
+      "limitations": "Not a forecast.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-042",
+      "claim_text": "Clinical Diagnostics timeline: hack July 2025; operator informed early August; crisis structure 6 August; AP, RIVM and IGJ notified 7 August; media 11 August.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-028"
+      ],
+      "exact_locator": "pp. 6, 25-26",
+      "event_or_publication_date": "2026",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Foreword and incident section differ slightly on the notification date.",
+      "sector_relevance": "Case chronology.",
+      "limitations": "Exact laboratory detection date not stated.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-043",
+      "claim_text": "Clinical Diagnostics scale: file of about 485,000 people; about 405,000 linked and notified 19-20 August 2025; further ~230,000 confirmed; operator to write to 941,000 participants whose data was shared since 2017; data included identity details, citizen service number, test type and result and GP name; possibly obtained via another client of the laboratory.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-026",
+        "S-027",
+        "S-028"
+      ],
+      "exact_locator": "News items; annual report p. 27",
+      "event_or_publication_date": "2025-08-29",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Laboratory could not confirm full extent.",
+      "sector_relevance": "Scale and fourth-party element.",
+      "limitations": "Final count not stated.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-044",
+      "claim_text": "Clinical Diagnostics operations: cooperation suspended; backup laboratories (Jeroen Bosch Ziekenhuis, Symbiant) at about 150% capacity for six months; work in progress unmanageable by December 2025; primary invitations reduced 50% from 22 December 2025 with follow-up tests continued in full.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-028"
+      ],
+      "exact_locator": "pp. 6, 25-26",
+      "event_or_publication_date": "2026",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "In-period care-continuity effect of supplier concentration.",
+      "limitations": "No turnaround or clinical outcome data.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-045",
+      "claim_text": "IGJ (13 May 2026): Clinical Diagnostics did not meet NEN 7510 during the July 2025 hack or the December 2025 inspection; no independent audit; no periodic risk mapping; IGJ cannot impose punitive measures under the Wabvpz; AP investigating under GDPR; providers must actively verify third parties' information security.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-029"
+      ],
+      "exact_locator": "News item body",
+      "event_or_publication_date": "2026-05-13",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Company reports a positive external audit and expected certification.",
+      "sector_relevance": "Regulatory outcome and third-party assurance expectation.",
+      "limitations": "AP outcome pending.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-046",
+      "claim_text": "Judgement: a confidentiality breach at an outsourced clinical service became a programme availability problem because the purchaser suspended the supplier and substitutes lacked spare capacity; the same buffer-driven mechanism appears in the Stryker supply case.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-028",
+        "S-029",
+        "S-003"
+      ],
+      "exact_locator": "See cited items",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "medium-high",
+      "alternative_hypotheses": [
+        "Throughput reduction may partly reflect pre-existing laboratory capacity constraints."
+      ],
+      "contrary_evidence": "None identified.",
+      "sector_relevance": "Transferable lesson for supplier assurance.",
+      "limitations": "Single programme case.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-047",
+      "claim_text": "Judgement: the case does not establish clinical harm, incident cost, attacker identity or similar gaps at other laboratories.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-028",
+        "S-029"
+      ],
+      "exact_locator": "See cited items",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [
+        "None material identified"
+      ],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Bounds the read-across.",
+      "limitations": "Evidence boundary.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-048",
+      "claim_text": "NIS2 scope: Annex I health covers healthcare providers, EU reference laboratories, medicinal-product R&D, manufacture of basic pharmaceutical products and preparations, and medical devices needed in a public health emergency; Annex II covers medical-device and IVD manufacturers.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-045",
+        "S-044"
+      ],
+      "exact_locator": "CCB scope visual; Directive annexes",
+      "event_or_publication_date": "2022-12-27",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Defines in-scope Healthcare entities.",
+      "limitations": "Summary visual; national thresholds apply.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-049",
+      "claim_text": "NIS2 Article 21(2) requires measures including supply-chain security (d) and MFA or continuous authentication (j); Article 23(4) sets early warning within 24 hours, notification within 72 hours and a final report within one month.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-044"
+      ],
+      "exact_locator": "Articles 21(2), 23(4)",
+      "event_or_publication_date": "2022-12-27",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Binding control and reporting baseline.",
+      "limitations": "Applies via national law.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-050",
+      "claim_text": "The Commission referred Ireland, Spain, France and the Netherlands to the Court of Justice on 8 July 2026 for not notifying full NIS2 transposition (deadline 17 October 2024) and seeks lump sums and daily penalties.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-046"
+      ],
+      "exact_locator": "News item body",
+      "event_or_publication_date": "2026-07-08",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Later notifications not checked.",
+      "sector_relevance": "Legal perimeter gaps in key EU health markets.",
+      "limitations": "Status at 8 July 2026.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-051",
+      "claim_text": "CER Directive: Member States identify designated entities by 17 July 2026 (Article 6(1)); initial incident notification within 24 hours (Article 15); does not apply to matters covered by NIS2 (Article 1(2)); seven Member States referred for non-transposition (IP/26/910).",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-047",
+        "S-048"
+      ],
+      "exact_locator": "Articles 1(2), 6(1), 13, 15; press release",
+      "event_or_publication_date": "2026",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Operational resilience duties for identified health entities.",
+      "limitations": "Exact referral day not shown on retrieved page (secondary reporting: 29 April 2026).",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-052",
+      "claim_text": "GDPR: health data is a special category (Article 9(1)); Article 32 security; Article 33(1) notification within 72 hours where feasible; Article 34(1) communication to individuals when high risk.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-049"
+      ],
+      "exact_locator": "Articles 4(15), 9(1), 32, 33(1), 34(1)",
+      "event_or_publication_date": "2016-05-04",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Data-exposure regulatory channel.",
+      "limitations": "UK GDPR mirrors but is separate.",
+      "approved_for_slide": false
+    },
+    {
+      "claim_id": "C-053",
+      "claim_text": "EHDS Regulation (EU) 2025/327: published 5 March 2025, in force 26 March 2025; implementing acts March 2027; first priority categories March 2029; second group March 2031; EHR harmonised components self-assess security and logging, with general security via the CRA.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-050",
+        "S-051"
+      ],
+      "exact_locator": "Recitals 36, 39; timeline",
+      "event_or_publication_date": "2025-03-05",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Future EHR security obligations.",
+      "limitations": "Month-level dates.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-054",
+      "claim_text": "MDR Annex I 17.2 and 17.4 (IVDR 16.2 and 16.4) require secure software lifecycle and minimum IT security requirements; MDCG 2019-16 Rev.1 is not legally binding and describes shared responsibility with operators.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-052"
+      ],
+      "exact_locator": "Table 1; responsibilities",
+      "event_or_publication_date": "2020-07",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Device cybersecurity basis.",
+      "limitations": "Guidance, not law.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-055",
+      "claim_text": "CRA excludes products covered by MDR and IVDR (recital 25); reporting obligations apply from 11 September 2026, notified-body provisions from 11 June 2026 and main obligations from 11 December 2027.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-054",
+        "S-053"
+      ],
+      "exact_locator": "Recital 25; timeline",
+      "event_or_publication_date": "2024-11-20",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Clarifies product-law interaction.",
+      "limitations": "Article 2(2) wording not captured.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-056",
+      "claim_text": "Regulation (EU) 2026/1744 (in force 27 July 2026) sets 2 August 2028 for AI Act high-risk obligations in Annex I products including medical devices and 2 December 2027 for Annex III.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-055"
+      ],
+      "exact_locator": "Recitals 18, 40, 46",
+      "event_or_publication_date": "2026-07-24",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Deferral for AI medical devices.",
+      "limitations": "Article 113 text not captured.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-057",
+      "claim_text": "The EU action plan on hospital cybersecurity (January 2025) is non-legislative, with four pillars and an EU early warning subscription service planned by 2026.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-056"
+      ],
+      "exact_locator": "Page body",
+      "event_or_publication_date": "2025-01",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "No 2026 follow-up reported on page.",
+      "sector_relevance": "Policy direction.",
+      "limitations": "Contextual.",
+      "approved_for_slide": false
+    },
+    {
+      "claim_id": "C-058",
+      "claim_text": "UK NIS health (England): OES include NHS trusts and foundation trusts, ICBs and certain independent providers; incidents reported within 72 hours via DSPT; thresholds include drug or device unavailability over 24 hours; penalties up to GBP 17 million.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-057"
+      ],
+      "exact_locator": "Guide sections",
+      "event_or_publication_date": "2023-09-27",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Binding UK regime.",
+      "limitations": "England only.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-059",
+      "claim_text": "DSPT 2025-26 version 8 is aligned to CAF 3.4 with a 30 June 2026 deadline.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-058"
+      ],
+      "exact_locator": "News item",
+      "event_or_publication_date": "2025-09-18",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "UK assurance route.",
+      "limitations": "Organisation-type mapping partial.",
+      "approved_for_slide": false
+    },
+    {
+      "claim_id": "C-060",
+      "claim_text": "The UK Cyber Security and Resilience Bill was at House of Lords Report stage (HL Bill 49 dated 7 September 2026) with no Royal Assent at 14 October 2026.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-060"
+      ],
+      "exact_locator": "Bill stages page",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "UK reform not yet law.",
+      "limitations": "Status may change after cut-off.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-061",
+      "claim_text": "NHS supplier cyber security charter is a voluntary statement of intent covering MFA, patching, immutable backups, 24/7 monitoring, board exercises and incident reporting.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-059"
+      ],
+      "exact_locator": "Commitments 1-8",
+      "event_or_publication_date": "2026-09-28",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Self-declarations not independently checked.",
+      "sector_relevance": "Supplier expectations in England.",
+      "limitations": "Voluntary.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-062",
+      "claim_text": "MHRA post-market surveillance amendments in force 16 June 2025 shorten the general device incident-reporting deadline to 15 days (previously 30); device cybersecurity secondary legislation is planned but not enacted.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-061",
+        "S-062"
+      ],
+      "exact_locator": "News body; work package 5",
+      "event_or_publication_date": "2025-06-16",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "UK device regulatory direction.",
+      "limitations": "Planned measures only.",
+      "approved_for_slide": false
+    },
+    {
+      "claim_id": "C-063",
+      "claim_text": "US HIPAA Security Rule amendments: proposed rule published 6 January 2025; Spring 2025 agenda estimated final action May 2026; no final rule identified at cut-off; trade press reports deferral to 2027.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-063",
+        "S-064",
+        "S-065"
+      ],
+      "exact_locator": "Header; timetable; article",
+      "event_or_publication_date": "2026-08",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Comparative US direction.",
+      "limitations": "Later agenda not read in primary form.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-064",
+      "claim_text": "FD&C Act section 524B (effective 29 March 2023) requires cyber-device submissions to include a vulnerability monitoring plan, assurance and patching processes and an SBOM; HHS HPH CPGs are voluntary and include MFA and vendor requirements.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-066",
+        "S-067"
+      ],
+      "exact_locator": "FAQ; CPG page",
+      "event_or_publication_date": "2025-06-26",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Comparative device and provider baselines.",
+      "limitations": "US only.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-065",
+      "claim_text": "Judgement: regulated medical-device product security sits under MDR or IVDR rather than the CRA; manufacturers are separately within NIS2 for their networks; EHR systems fall under EHDS and the CRA; the Stryker and Boston Scientific events were enterprise-network incidents of the NIS2 type.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-054",
+        "S-052",
+        "S-045",
+        "S-050"
+      ],
+      "exact_locator": "See cited items",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "medium-high",
+      "alternative_hypotheses": [
+        "National thresholds may exclude some entities."
+      ],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Avoids misapplying product law.",
+      "limitations": "Applicability varies by entity.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-066",
+      "claim_text": "Judgement: dependency chains evidenced: supplier IT platform to hospital stock; outsourced laboratory to programme throughput; practice software to patient records; vendor API to EHR customer data; claims clearing to provider cash flow (historical); component manufacturer to medicine supply; manufacturer IT to remote monitoring.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-002",
+        "S-003",
+        "S-028",
+        "S-017",
+        "S-025",
+        "S-037",
+        "S-073",
+        "S-013"
+      ],
+      "exact_locator": "See cited items",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Chains may be shorter where consigned stock or alternatives exist."
+      ],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Systemic map for monitoring.",
+      "limitations": "Downstream effects not always disclosed.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-067",
+      "claim_text": "Action: sector-informed priorities: administration-plane controls at suppliers; single-source and buffer mapping; outsourced laboratory assurance with substitution capacity; vendor API and account monitoring; MFA and real-time detection at providers; tested restoration; claims-clearing liquidity contingency; legal-status register.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-002",
+        "S-003",
+        "S-028",
+        "S-029",
+        "S-025",
+        "S-030",
+        "S-022",
+        "S-037",
+        "S-060"
+      ],
+      "exact_locator": "Report Chapter 7 table",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Some actions may already be in place at specific counterparties."
+      ],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Management action set.",
+      "limitations": "Not a statement about any entity's controls.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-068",
+      "claim_text": "Judgement: monitoring triggers: Item 1.05 or exchange disclosures; national supply notices; inspectorate or DPA findings on outsourced services; ISAC identity alerts; observatory degraded-care trends; UK Bill and CJEU status changes.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-001",
+        "S-003",
+        "S-029",
+        "S-068",
+        "S-033",
+        "S-060"
+      ],
+      "exact_locator": "Report Chapter 7 triggers",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "None material identified"
+      ],
+      "contrary_evidence": "None.",
+      "sector_relevance": "Escalation design.",
+      "limitations": "Public-signal lag.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-069",
+      "claim_text": "HSSIB (27 November 2025) found EPR design and implementation problems put patients at risk and announced further work on EPR loss and downtime.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-069"
+      ],
+      "exact_locator": "News item body",
+      "event_or_publication_date": "2025-11-27",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "Not cyber-specific.",
+      "sector_relevance": "Patient-safety relevance of downtime.",
+      "limitations": "Downtime work not yet published.",
+      "approved_for_slide": false
+    },
+    {
+      "claim_id": "C-070",
+      "claim_text": "Judgement: clinical-impact attribution is excluded where only media report it; the 2024 Synnovis contributing-factor death report is not used as evidence; the affected trust's November 2025 statement covers data notification only.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-040",
+        "S-072"
+      ],
+      "exact_locator": "Article body; trust statement",
+      "event_or_publication_date": "2026-04-17",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [
+        "None material identified"
+      ],
+      "contrary_evidence": "Clinical-governance reports may emerge later.",
+      "sector_relevance": "Evidential discipline on patient harm.",
+      "limitations": "Limitation.",
+      "approved_for_slide": false
+    }
+  ]
+}

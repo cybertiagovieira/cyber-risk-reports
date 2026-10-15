@@ -1,0 +1,1237 @@
+{
+  "schema_version": "3.0.0",
+  "reading_mode": "standalone_publication",
+  "primary_report": "14_sectorial_report.md",
+  "design": {
+    "canvas": "13.333 x 7.5 in (LAYOUT_WIDE)",
+    "background": "FFFFFF",
+    "text": "1A1A1A",
+    "accent": "00915E",
+    "font": "Arial",
+    "notes": "none"
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": "Sector Exposure & Executive Risk Outlook",
+      "decision": "Agree that Healthcare monitoring should centre on supplier and platform concentration rather than device compromise.",
+      "visual_type": "Principal-judgement evidence table with three-part interpretation band",
+      "claim_ids": [
+        "C-001",
+        "C-002",
+        "C-003",
+        "C-004",
+        "C-005",
+        "C-006",
+        "C-007",
+        "C-008",
+        "C-009",
+        "C-010",
+        "C-012",
+        "C-019",
+        "C-021",
+        "C-025",
+        "C-050"
+      ],
+      "metric_ids": [
+        "M-007",
+        "M-010",
+        "M-012",
+        "M-018"
+      ],
+      "scenario_ids": [],
+      "table": {
+        "header": [
+          "Principal judgement",
+          "Evidence base",
+          "Confidence"
+        ],
+        "widths": [
+          4.3,
+          6.4,
+          1.53
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "Healthcare cyber risk in the period was most visible through suppliers: manufacturer outages and an outsourced laboratory breach reduced care capacity, while public loss data stayed thin in Europe.",
+          "claim_ids": [
+            "C-004",
+            "C-044",
+            "C-008"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "j1",
+          "role": "evidence",
+          "visible_text": "1. Supplier and manufacturer outages were the most publicly evidenced care channel Three material manufacturer incident filings (March to September 2026); NHS England controlled allocation of six product lines Medium",
+          "claim_ids": [
+            "C-004",
+            "C-010",
+            "C-012"
+          ],
+          "zone": "table",
+          "cells": [
+            "1. Supplier and manufacturer outages were the most publicly evidenced care channel",
+            "Three material manufacturer incident filings (March to September 2026); NHS England controlled allocation of six product lines",
+            "Medium"
+          ]
+        },
+        {
+          "element_id": "j2",
+          "role": "evidence",
+          "visible_text": "2. Loss of clinical information, not device compromise, drives care disruption French observatory: 288 of 764 reports with degraded or interrupted care in 2025; a Belgian hospital ran on paper for about three weeks (media-reported) Medium",
+          "claim_ids": [
+            "C-005",
+            "C-003",
+            "C-021"
+          ],
+          "zone": "table",
+          "cells": [
+            "2. Loss of clinical information, not device compromise, drives care disruption",
+            "French observatory: 288 of 764 reports with degraded or interrupted care in 2025; a Belgian hospital ran on paper for about three weeks (media-reported)",
+            "Medium"
+          ]
+        },
+        {
+          "element_id": "j3",
+          "role": "evidence",
+          "visible_text": "3. Credential and access abuse is the main data-exposure pathway French practice-software breach of 15.8 million administrative records; EUR 500,000 French fine for missing multi-factor authentication (MFA) Medium-high",
+          "claim_ids": [
+            "C-006",
+            "C-019",
+            "C-025"
+          ],
+          "zone": "table",
+          "cells": [
+            "3. Credential and access abuse is the main data-exposure pathway",
+            "French practice-software breach of 15.8 million administrative records; EUR 500,000 French fine for missing multi-factor authentication (MFA)",
+            "Medium-high"
+          ]
+        },
+        {
+          "element_id": "j4",
+          "role": "evidence",
+          "visible_text": "4. State-linked hacktivist activity has reached the supply chain A persona the US Federal Bureau of Investigation (FBI) links to Iranian intelligence claimed a manufacturer attack (media-reported; the company does not attribute) Medium",
+          "claim_ids": [
+            "C-007"
+          ],
+          "zone": "table",
+          "cells": [
+            "4. State-linked hacktivist activity has reached the supply chain",
+            "A persona the US Federal Bureau of Investigation (FBI) links to Iranian intelligence claimed a manufacturer attack (media-reported; the company does not attribute)",
+            "Medium"
+          ]
+        },
+        {
+          "element_id": "j5",
+          "role": "evidence",
+          "visible_text": "5. EU maturity lags sector importance and legal coverage is uneven The EU cyber agency ENISA keeps health in its risk zone (May 2026); four Member States referred to court over the NIS2 cyber directive Medium",
+          "claim_ids": [
+            "C-001",
+            "C-050"
+          ],
+          "zone": "table",
+          "cells": [
+            "5. EU maturity lags sector importance and legal coverage is uneven",
+            "The EU cyber agency ENISA keeps health in its risk zone (May 2026); four Member States referred to court over the NIS2 cyber directive",
+            "Medium"
+          ]
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "Exposure concentrates where many providers depend on one manufacturer, laboratory, software platform or claims processor. Stock buffers and substitute capacity, not technical recovery, set the time before patients are affected.",
+          "claim_ids": [
+            "C-046",
+            "C-012",
+            "C-044"
+          ],
+          "zone": "band1"
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Financial-system relevance is conditional: counterparty earnings and working capital, provider liquidity if claims stop, fines and litigation, and public budgets. Monitor supplier disclosures and single-source dependencies.",
+          "claim_ids": [
+            "C-009",
+            "C-068"
+          ],
+          "zone": "band2"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Evidence is public and disclosure-driven: listed manufacturers report, European public providers rarely publish costs. No clinical harm is attributed and no bank exposure is inferred.",
+          "claim_ids": [
+            "C-008",
+            "C-070"
+          ],
+          "zone": "band3"
+        }
+      ],
+      "executive_conclusion": "Healthcare cyber risk in the period was most visible through suppliers: manufacturer outages and an outsourced laboratory breach reduced care capacity, while public loss data stayed thin in Europe.",
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No speaker notes. All essential analysis is visible."
+    },
+    {
+      "number": 2,
+      "title": "Key Threats & Top 5 Cyber Attacks",
+      "decision": "Recognise the five named incidents and the five threat patterns as distinct evidence types.",
+      "visual_type": "Ranked named-incident table with separate pattern line",
+      "claim_ids": [
+        "C-027",
+        "C-010",
+        "C-011",
+        "C-012",
+        "C-014",
+        "C-015",
+        "C-017",
+        "C-019",
+        "C-020",
+        "C-021",
+        "C-024",
+        "C-002",
+        "C-006",
+        "C-022"
+      ],
+      "metric_ids": [
+        "M-007",
+        "M-010",
+        "M-027"
+      ],
+      "scenario_ids": [],
+      "table": {
+        "header": [
+          "#",
+          "Named incident",
+          "Subsector, place, date",
+          "Consequence"
+        ],
+        "widths": [
+          0.45,
+          2.3,
+          3.6,
+          5.88
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "Five named incidents meet the evidence standard. Three hit manufacturers, showing that supplier platforms, not clinical devices, carried the most widely disclosed care effects.",
+          "claim_ids": [
+            "C-027",
+            "C-004"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "i1",
+          "role": "evidence",
+          "visible_text": "1 Stryker Medical devices; global, Irish headquarters; March 2026 Production, ordering and shipping disrupted for about three weeks; NHS rationed six product lines; some patient cases rescheduled",
+          "claim_ids": [
+            "C-010",
+            "C-011",
+            "C-012"
+          ],
+          "zone": "table",
+          "cells": [
+            "1",
+            "Stryker",
+            "Medical devices; global, Irish headquarters; March 2026",
+            "Production, ordering and shipping disrupted for about three weeks; NHS rationed six product lines; some patient cases rescheduled"
+          ]
+        },
+        {
+          "element_id": "i2",
+          "role": "evidence",
+          "visible_text": "2 Boston Scientific Medical devices; global; August 2026 Plants and distribution disrupted; guidance expected to be missed; remote-monitoring activations paused",
+          "claim_ids": [
+            "C-014",
+            "C-015"
+          ],
+          "zone": "table",
+          "cells": [
+            "2",
+            "Boston Scientific",
+            "Medical devices; global; August 2026",
+            "Plants and distribution disrupted; guidance expected to be missed; remote-monitoring activations paused"
+          ]
+        },
+        {
+          "element_id": "i3",
+          "role": "evidence",
+          "visible_text": "3 Cegedim Santé MLM Practice software; France; disclosed February 2026 15.8 million administrative records published; ministers summoned the vendor",
+          "claim_ids": [
+            "C-019",
+            "C-020"
+          ],
+          "zone": "table",
+          "cells": [
+            "3",
+            "Cegedim Santé MLM",
+            "Practice software; France; disclosed February 2026",
+            "15.8 million administrative records published; ministers summoned the vendor"
+          ]
+        },
+        {
+          "element_id": "i4",
+          "role": "evidence",
+          "visible_text": "4 West Pharmaceutical Packaging and delivery components; global; May 2026 Systems encrypted and data stolen; sites restarted in stages; fully operational after 16 days",
+          "claim_ids": [
+            "C-017"
+          ],
+          "zone": "table",
+          "cells": [
+            "4",
+            "West Pharmaceutical",
+            "Packaging and delivery components; global; May 2026",
+            "Systems encrypted and data stolen; sites restarted in stages; fully operational after 16 days"
+          ]
+        },
+        {
+          "element_id": "i5",
+          "role": "evidence",
+          "visible_text": "5 AZ Monica Acute hospital; Belgium; January 2026 Surgery cancelled, seven patients transferred, emergency capacity cut; impact detail media-reported",
+          "claim_ids": [
+            "C-021"
+          ],
+          "zone": "table",
+          "cells": [
+            "5",
+            "AZ Monica",
+            "Acute hospital; Belgium; January 2026",
+            "Surgery cancelled, seven patients transferred, emergency capacity cut; impact detail media-reported"
+          ]
+        },
+        {
+          "element_id": "patterns",
+          "role": "evidence",
+          "visible_text": "Threat patterns, not incidents: identity and administration-plane abuse; ransomware and destructive intrusion; credential misuse at software vendors; outsourced-service concentration; geopolitical targeting.",
+          "claim_ids": [
+            "C-002",
+            "C-006",
+            "C-007",
+            "C-024"
+          ],
+          "zone": "patterns"
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "One compromised identity or management environment can stop manufacturing worldwide; vendor accounts without strong authentication expose the patients of many practices at once.",
+          "claim_ids": [
+            "C-011",
+            "C-019",
+            "C-024"
+          ],
+          "zone": "band1"
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Track cyber disclosures by Healthcare suppliers and processors, and test whether counterparties depend on one manufacturer or software platform.",
+          "claim_ids": [
+            "C-068",
+            "C-067"
+          ],
+          "zone": "band2"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Selection depends on public disclosure. Distributor and telehealth evidence is thin; a distributor incident was excluded because its scope was undetermined.",
+          "claim_ids": [
+            "C-022",
+            "C-027"
+          ],
+          "zone": "band3"
+        }
+      ],
+      "executive_conclusion": "Five named incidents meet the evidence standard. Three hit manufacturers, showing that supplier platforms, not clinical devices, carried the most widely disclosed care effects.",
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No speaker notes. All essential analysis is visible."
+    },
+    {
+      "number": 3,
+      "title": "Financial Impact: Healthcare",
+      "decision": "Use corporate filings and penalties as the evidence of loss; treat absent European provider costs as a gap.",
+      "visual_type": "Impact-type evidence table separating incompatible measures",
+      "claim_ids": [
+        "C-037",
+        "C-028",
+        "C-030",
+        "C-014",
+        "C-033",
+        "C-018",
+        "C-044",
+        "C-012",
+        "C-025",
+        "C-026",
+        "C-031",
+        "C-034",
+        "C-038",
+        "C-008"
+      ],
+      "metric_ids": [
+        "M-002",
+        "M-003",
+        "M-005",
+        "M-008",
+        "M-009",
+        "M-012",
+        "M-014",
+        "M-015",
+        "M-020",
+        "M-024"
+      ],
+      "scenario_ids": [],
+      "table": {
+        "header": [
+          "Impact type",
+          "Public evidence",
+          "Period"
+        ],
+        "widths": [
+          2.5,
+          7.6,
+          2.13
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "Quantified losses in the period come from corporate filings and fines. European providers disclosed none, and care effects appear as cancelled or reduced activity rather than money.",
+          "claim_ids": [
+            "C-037",
+            "C-008"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "f1",
+          "role": "evidence",
+          "visible_text": "Revenue and margin Stryker: adjusted earnings per share (EPS) down 8.5% and adjusted operating margin down 180 basis points; full-year guidance kept Q1 2026",
+          "claim_ids": [
+            "C-028"
+          ],
+          "zone": "table",
+          "cells": [
+            "Revenue and margin",
+            "Stryker: adjusted earnings per share (EPS) down 8.5% and adjusted operating margin down 180 basis points; full-year guidance kept",
+            "Q1 2026"
+          ]
+        },
+        {
+          "element_id": "f2",
+          "role": "evidence",
+          "visible_text": "Guidance Boston Scientific: third-quarter and full-year guidance expected to be missed; amount due 28 October 2026 Q3 2026",
+          "claim_ids": [
+            "C-014"
+          ],
+          "zone": "table",
+          "cells": [
+            "Guidance",
+            "Boston Scientific: third-quarter and full-year guidance expected to be missed; amount due 28 October 2026",
+            "Q3 2026"
+          ]
+        },
+        {
+          "element_id": "f3",
+          "role": "evidence",
+          "visible_text": "Response cost West USD 6.9 million, combined with legal fees; claims processor Conduent USD 25 million (pre-period comparator) 2026; 2025",
+          "claim_ids": [
+            "C-018",
+            "C-033"
+          ],
+          "zone": "table",
+          "cells": [
+            "Response cost",
+            "West USD 6.9 million, combined with legal fees; claims processor Conduent USD 25 million (pre-period comparator)",
+            "2026; 2025"
+          ]
+        },
+        {
+          "element_id": "f4",
+          "role": "evidence",
+          "visible_text": "Care-service reduction Dutch screening invitations cut by 50%; NHS controlled allocation of six product lines 2025-2026",
+          "claim_ids": [
+            "C-044",
+            "C-012"
+          ],
+          "zone": "table",
+          "cells": [
+            "Care-service reduction",
+            "Dutch screening invitations cut by 50%; NHS controlled allocation of six product lines",
+            "2025-2026"
+          ]
+        },
+        {
+          "element_id": "f5",
+          "role": "evidence",
+          "visible_text": "Regulatory outcome French private hospital fined EUR 500,000; UK NHS IT provider fined GBP 3.08 million (pre-period comparator) 2026; 2025",
+          "claim_ids": [
+            "C-025",
+            "C-026"
+          ],
+          "zone": "table",
+          "cells": [
+            "Regulatory outcome",
+            "French private hospital fined EUR 500,000; UK NHS IT provider fined GBP 3.08 million (pre-period comparator)",
+            "2026; 2025"
+          ]
+        },
+        {
+          "element_id": "f6",
+          "role": "evidence",
+          "visible_text": "Liquidity support Change Healthcare precedent: USD 8.9 billion of loans advanced to US providers in nine months 2024",
+          "claim_ids": [
+            "C-031"
+          ],
+          "zone": "table",
+          "cells": [
+            "Liquidity support",
+            "Change Healthcare precedent: USD 8.9 billion of loans advanced to US providers in nine months",
+            "2024"
+          ]
+        },
+        {
+          "element_id": "f7",
+          "role": "evidence",
+          "visible_text": "Insurance No insurance recovery disclosed in the filings reviewed 2026",
+          "claim_ids": [
+            "C-037"
+          ],
+          "zone": "table",
+          "cells": [
+            "Insurance",
+            "No insurance recovery disclosed in the filings reviewed",
+            "2026"
+          ]
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "Large manufacturers show a timing shock: Stryker returned to 9.0% organic growth the next quarter. Claims-clearing failure transmits faster, straight into provider cash flow.",
+          "claim_ids": [
+            "C-030",
+            "C-038",
+            "C-031"
+          ],
+          "zone": "band1"
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "For Healthcare counterparties, watch guidance changes, single-processor dependency and backlog funding. A survey recovery cost of USD 1.02 million is a benchmark, not an entity estimate.",
+          "claim_ids": [
+            "C-038",
+            "C-034",
+            "C-067"
+          ],
+          "zone": "band2"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Figures differ in currency, period and definition and are not added. Absence of European cost data is a disclosure gap, not evidence of low loss.",
+          "claim_ids": [
+            "C-037",
+            "C-008"
+          ],
+          "zone": "band3"
+        }
+      ],
+      "executive_conclusion": "Quantified losses in the period come from corporate filings and fines. European providers disclosed none, and care effects appear as cancelled or reduced activity rather than money.",
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No speaker notes. All essential analysis is visible."
+    },
+    {
+      "number": 4,
+      "title": "Financial Impact: Worst-Case Scenarios",
+      "decision": "Use three distinct stress pathways to test counterparty dependency mapping.",
+      "visual_type": "Three-scenario comparison matrix",
+      "claim_ids": [
+        "C-039",
+        "C-040",
+        "C-041",
+        "C-012",
+        "C-031",
+        "C-021"
+      ],
+      "metric_ids": [
+        "M-006"
+      ],
+      "scenario_ids": [
+        "SC-001",
+        "SC-002",
+        "SC-003"
+      ],
+      "table": {
+        "header": [
+          "Scenario",
+          "Trigger and propagation",
+          "Financial transmission",
+          "Early signposts"
+        ],
+        "widths": [
+          2.2,
+          4.4,
+          3.2,
+          2.43
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "Three distinct stress pathways show how one cyber event could reach many providers. They are structured narratives built from 2024-2026 cases, not forecasts, patient-harm estimates or loss estimates.",
+          "claim_ids": [
+            "C-039",
+            "C-040",
+            "C-041"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "s1",
+          "role": "evidence",
+          "visible_text": "A. Common digital dependency Shared electronic health record (EHR), identity or claims platform compromised; every dependent provider loses scheduling, records or claims at once Provider cash-flow delay; vendor liability; notification cost and fines Vendor disclosures; identity-campaign alerts",
+          "claim_ids": [
+            "C-039"
+          ],
+          "zone": "table",
+          "cells": [
+            "A. Common digital dependency",
+            "Shared electronic health record (EHR), identity or claims platform compromised; every dependent provider loses scheduling, records or claims at once",
+            "Provider cash-flow delay; vendor liability; notification cost and fines",
+            "Vendor disclosures; identity-campaign alerts"
+          ]
+        },
+        {
+          "element_id": "s2",
+          "role": "evidence",
+          "visible_text": "B. Targeted operational disruption Ransomware forces a hospital group or laboratory offline; paper operation and diversion to neighbouring providers Lost activity income; recovery spend; covenant pressure for leveraged operators Regional ransomware claims; emergency diversion notices",
+          "claim_ids": [
+            "C-040"
+          ],
+          "zone": "table",
+          "cells": [
+            "B. Targeted operational disruption",
+            "Ransomware forces a hospital group or laboratory offline; paper operation and diversion to neighbouring providers",
+            "Lost activity income; recovery spend; covenant pressure for leveraged operators",
+            "Regional ransomware claims; emergency diversion notices"
+          ]
+        },
+        {
+          "element_id": "s3",
+          "role": "evidence",
+          "visible_text": "C. Supply-chain concentration Manufacturer, distributor or laboratory stops; stock buffers (about two weeks in the UK Stryker case) and substitute capacity run out Supplier earnings and guidance; deferred procedures; backlog funding Material-incident filings; national supply notices",
+          "claim_ids": [
+            "C-041",
+            "C-012"
+          ],
+          "zone": "table",
+          "cells": [
+            "C. Supply-chain concentration",
+            "Manufacturer, distributor or laboratory stops; stock buffers (about two weeks in the UK Stryker case) and substitute capacity run out",
+            "Supplier earnings and guidance; deferred procedures; backlog funding",
+            "Material-incident filings; national supply notices"
+          ]
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "The scenarios differ by point of failure: a shared platform fails everywhere at once, a single operator fails locally, a supplier fails in sequence as buffers deplete.",
+          "claim_ids": [
+            "C-039",
+            "C-040",
+            "C-041"
+          ],
+          "zone": "band1"
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Map which Healthcare counterparties rely on shared platforms, on one dominant regional operator, or on single-source suppliers, and how long their buffers last.",
+          "claim_ids": [
+            "C-067",
+            "C-041"
+          ],
+          "zone": "band2"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "No probability or duration is assigned. Offline modes, intact backups, consigned stock and multi-sourcing can each limit the effect.",
+          "claim_ids": [
+            "C-039",
+            "C-040",
+            "C-041"
+          ],
+          "zone": "band3"
+        }
+      ],
+      "executive_conclusion": "Three distinct stress pathways show how one cyber event could reach many providers. They are structured narratives built from 2024-2026 cases, not forecasts, patient-harm estimates or loss estimates.",
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No speaker notes. All essential analysis is visible."
+    },
+    {
+      "number": 5,
+      "title": "Case Study: Dutch Screening Laboratory Breach",
+      "decision": "Adopt supplier assurance that combines security evidence with tested substitution capacity.",
+      "visual_type": "Five-step timeline with mechanism, outcome and boundary",
+      "claim_ids": [
+        "C-042",
+        "C-043",
+        "C-044",
+        "C-045",
+        "C-046",
+        "C-047"
+      ],
+      "metric_ids": [
+        "M-015",
+        "M-016",
+        "M-017"
+      ],
+      "scenario_ids": [
+        "SC-003"
+      ],
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "A July 2025 data breach at one outsourced laboratory became an in-period capacity problem: the Dutch national cervical screening programme halved primary invitations five months later.",
+          "claim_ids": [
+            "C-044",
+            "C-046"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "t1",
+          "role": "evidence",
+          "visible_text": "Laboratory hacked; programme operator informed more than a month later",
+          "claim_ids": [
+            "C-042"
+          ],
+          "zone": "timeline",
+          "date": "July 2025"
+        },
+        {
+          "element_id": "t2",
+          "role": "evidence",
+          "visible_text": "Laboratory suspended; 941,000 participants to be written to",
+          "claim_ids": [
+            "C-043",
+            "C-044"
+          ],
+          "zone": "timeline",
+          "date": "August 2025"
+        },
+        {
+          "element_id": "t3",
+          "role": "evidence",
+          "visible_text": "Two backup laboratories run at about 150% of capacity for six months",
+          "claim_ids": [
+            "C-044"
+          ],
+          "zone": "timeline",
+          "date": "From August 2025"
+        },
+        {
+          "element_id": "t4",
+          "role": "evidence",
+          "visible_text": "Primary invitations cut by 50%; follow-up tests continue in full",
+          "claim_ids": [
+            "C-044"
+          ],
+          "zone": "timeline",
+          "date": "22 December 2025"
+        },
+        {
+          "element_id": "t5",
+          "role": "evidence",
+          "visible_text": "Inspectorate finds the laboratory below the Dutch NEN 7510 health information-security norm",
+          "claim_ids": [
+            "C-045"
+          ],
+          "zone": "timeline",
+          "date": "13 May 2026"
+        },
+        {
+          "element_id": "mechanism",
+          "role": "interpretation",
+          "visible_text": "Data was stolen, not encrypted. The service effect came from suspending an untrusted supplier when only two substitute laboratories existed.",
+          "claim_ids": [
+            "C-046",
+            "C-043"
+          ],
+          "zone": "mid1",
+          "label": "Mechanism"
+        },
+        {
+          "element_id": "outcome",
+          "role": "evidence",
+          "visible_text": "Regulatory: inspectorate finding; data-protection investigation pending. Financial: no cost disclosed. Recovery depended on re-establishing trust in the supplier.",
+          "claim_ids": [
+            "C-045",
+            "C-047"
+          ],
+          "zone": "mid2",
+          "label": "Outcome"
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Supplier assurance needs independent security evidence and a tested substitution plan with capacity figures, as the Dutch inspectorate now expects of providers.",
+          "claim_ids": [
+            "C-045",
+            "C-046",
+            "C-067"
+          ],
+          "zone": "band2"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "The case shows no clinical harm, cost or attacker identity, and concerns one programme with three laboratories; larger supplier pools may absorb a similar loss.",
+          "claim_ids": [
+            "C-047"
+          ],
+          "zone": "band3"
+        },
+        {
+          "element_id": "relevance",
+          "role": "interpretation",
+          "visible_text": "The same buffer-driven mechanism appeared in the UK when a manufacturer outage left about two weeks of stock.",
+          "claim_ids": [
+            "C-046",
+            "C-012"
+          ],
+          "zone": "band1"
+        }
+      ],
+      "executive_conclusion": "A July 2025 data breach at one outsourced laboratory became an in-period capacity problem: the Dutch national cervical screening programme halved primary invitations five months later.",
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No speaker notes. All essential analysis is visible."
+    },
+    {
+      "number": 6,
+      "title": "Systemic Dependencies & Regulatory Outlook",
+      "decision": "Track concentration chains and separate enacted from proposed rules.",
+      "visual_type": "Dependency-chain table beside regulatory status table",
+      "claim_ids": [
+        "C-066",
+        "C-065",
+        "C-048",
+        "C-050",
+        "C-051",
+        "C-053",
+        "C-055",
+        "C-056",
+        "C-060",
+        "C-063",
+        "C-031"
+      ],
+      "metric_ids": [],
+      "scenario_ids": [],
+      "table": {
+        "header": [
+          "Dependency",
+          "Observed chain"
+        ],
+        "widths": [
+          1.55,
+          3.65
+        ]
+      },
+      "table2": {
+        "header": [
+          "Regime",
+          "Status at 14 October 2026"
+        ],
+        "widths": [
+          2.75,
+          4.03
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "Healthcare concentration sits in shared suppliers and platforms, while the EU and UK rules that address it are partly unapplied, deferred or still in Parliament.",
+          "claim_ids": [
+            "C-066",
+            "C-050",
+            "C-060"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "d1",
+          "role": "evidence",
+          "visible_text": "Supplier IT platform Manufacturer network → ordering and shipping → hospital stock → procedures",
+          "claim_ids": [
+            "C-066",
+            "C-012"
+          ],
+          "zone": "table",
+          "cells": [
+            "Supplier IT platform",
+            "Manufacturer network → ordering and shipping → hospital stock → procedures"
+          ]
+        },
+        {
+          "element_id": "d2",
+          "role": "evidence",
+          "visible_text": "Outsourced laboratory Laboratory → national programme → backup laboratories → invitations",
+          "claim_ids": [
+            "C-066",
+            "C-044"
+          ],
+          "zone": "table",
+          "cells": [
+            "Outsourced laboratory",
+            "Laboratory → national programme → backup laboratories → invitations"
+          ]
+        },
+        {
+          "element_id": "d3",
+          "role": "evidence",
+          "visible_text": "Practice software Vendor platform → about 1,500 doctor users → administrative patient records",
+          "claim_ids": [
+            "C-066",
+            "C-020"
+          ],
+          "zone": "table",
+          "cells": [
+            "Practice software",
+            "Vendor platform → about 1,500 doctor users → administrative patient records"
+          ]
+        },
+        {
+          "element_id": "d4",
+          "role": "evidence",
+          "visible_text": "Claims clearing Clearing house → claims → provider cash flow (US precedent)",
+          "claim_ids": [
+            "C-066",
+            "C-031"
+          ],
+          "zone": "table",
+          "cells": [
+            "Claims clearing",
+            "Clearing house → claims → provider cash flow (US precedent)"
+          ]
+        },
+        {
+          "element_id": "r1",
+          "role": "evidence",
+          "visible_text": "NIS2 (EU network and information security directive) Applies through national law; four Member States referred to the Court of Justice",
+          "claim_ids": [
+            "C-048",
+            "C-050"
+          ],
+          "zone": "table2",
+          "cells": [
+            "NIS2 (EU network and information security directive)",
+            "Applies through national law; four Member States referred to the Court of Justice"
+          ]
+        },
+        {
+          "element_id": "r2",
+          "role": "evidence",
+          "visible_text": "CER Directive (EU entity-resilience directive) Identification deadline of 17 July 2026 passed; seven Member States referred for non-transposition",
+          "claim_ids": [
+            "C-051"
+          ],
+          "zone": "table2",
+          "cells": [
+            "CER Directive (EU entity-resilience directive)",
+            "Identification deadline of 17 July 2026 passed; seven Member States referred for non-transposition"
+          ]
+        },
+        {
+          "element_id": "r3",
+          "role": "evidence",
+          "visible_text": "Cyber Resilience Act Reporting applies from 11 September 2026; excludes regulated medical devices",
+          "claim_ids": [
+            "C-055"
+          ],
+          "zone": "table2",
+          "cells": [
+            "Cyber Resilience Act",
+            "Reporting applies from 11 September 2026; excludes regulated medical devices"
+          ]
+        },
+        {
+          "element_id": "r4",
+          "role": "evidence",
+          "visible_text": "European Health Data Space (EHDS) In force; most obligations from March 2029",
+          "claim_ids": [
+            "C-053"
+          ],
+          "zone": "table2",
+          "cells": [
+            "European Health Data Space (EHDS)",
+            "In force; most obligations from March 2029"
+          ]
+        },
+        {
+          "element_id": "r5",
+          "role": "evidence",
+          "visible_text": "AI Act for medical devices High-risk duties deferred to 2 August 2028",
+          "claim_ids": [
+            "C-056"
+          ],
+          "zone": "table2",
+          "cells": [
+            "AI Act for medical devices",
+            "High-risk duties deferred to 2 August 2028"
+          ]
+        },
+        {
+          "element_id": "r6",
+          "role": "evidence",
+          "visible_text": "UK Cyber Security and Resilience Bill Bill only: Lords Report stage, no Royal Assent",
+          "claim_ids": [
+            "C-060"
+          ],
+          "zone": "table2",
+          "cells": [
+            "UK Cyber Security and Resilience Bill",
+            "Bill only: Lords Report stage, no Royal Assent"
+          ]
+        },
+        {
+          "element_id": "r7",
+          "role": "evidence",
+          "visible_text": "US HIPAA Security Rule update Proposal only; no final rule issued",
+          "claim_ids": [
+            "C-063"
+          ],
+          "zone": "table2",
+          "cells": [
+            "US HIPAA Security Rule update",
+            "Proposal only; no final rule issued"
+          ]
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "Device product security sits under medical-device law; manufacturers' own networks fall under NIS2, which is where the 2026 manufacturer outages occurred.",
+          "claim_ids": [
+            "C-065"
+          ],
+          "zone": "band1"
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Keep a register that separates enacted, applicable, deferred and proposed rules; do not treat UK or US proposals as binding.",
+          "claim_ids": [
+            "C-067",
+            "C-060",
+            "C-063"
+          ],
+          "zone": "band2"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Applicability depends on national transposition, entity size and identification decisions; some instruments were read in part.",
+          "claim_ids": [
+            "C-065",
+            "C-051"
+          ],
+          "zone": "band3"
+        }
+      ],
+      "executive_conclusion": "Healthcare concentration sits in shared suppliers and platforms, while the EU and UK rules that address it are partly unapplied, deferred or still in Parliament.",
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No speaker notes. All essential analysis is visible."
+    },
+    {
+      "number": 7,
+      "title": "Mitigation Strategies & Security Framework",
+      "decision": "Prioritise five evidence-linked actions and their monitoring triggers.",
+      "visual_type": "Action, completion-evidence and trigger matrix",
+      "claim_ids": [
+        "C-067",
+        "C-068",
+        "C-011",
+        "C-024",
+        "C-012",
+        "C-045",
+        "C-025",
+        "C-031",
+        "C-064"
+      ],
+      "metric_ids": [],
+      "scenario_ids": [],
+      "table": {
+        "header": [
+          "Exposure",
+          "Action or challenge question",
+          "Evidence of completion",
+          "Monitoring trigger"
+        ],
+        "widths": [
+          2.3,
+          4.7,
+          2.6,
+          2.63
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "Priorities follow the observed pathways: control supplier administration planes, map single-source dependencies, assure outsourced clinical services, and treat MFA and tested restoration as baseline.",
+          "claim_ids": [
+            "C-067"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "a1",
+          "role": "evidence",
+          "visible_text": "Supplier identity and management planes Is there evidence of phishing-resistant multi-factor authentication (MFA) and approval controls for mass device actions? Attestation or post-incident disclosure Identity-campaign alerts; material-incident filings",
+          "claim_ids": [
+            "C-067",
+            "C-011",
+            "C-024"
+          ],
+          "zone": "table",
+          "cells": [
+            "Supplier identity and management planes",
+            "Is there evidence of phishing-resistant multi-factor authentication (MFA) and approval controls for mass device actions?",
+            "Attestation or post-incident disclosure",
+            "Identity-campaign alerts; material-incident filings"
+          ]
+        },
+        {
+          "element_id": "a2",
+          "role": "evidence",
+          "visible_text": "Single-source products Which counterparties rely on one manufacturer, and how many days of stock do they hold? Single-source map with buffer days National supply notices",
+          "claim_ids": [
+            "C-067",
+            "C-012"
+          ],
+          "zone": "table",
+          "cells": [
+            "Single-source products",
+            "Which counterparties rely on one manufacturer, and how many days of stock do they hold?",
+            "Single-source map with buffer days",
+            "National supply notices"
+          ]
+        },
+        {
+          "element_id": "a3",
+          "role": "evidence",
+          "visible_text": "Outsourced laboratories Require independent security assessment and a tested substitute with stated capacity Certificate; exercised backup protocol Inspectorate findings",
+          "claim_ids": [
+            "C-067",
+            "C-045"
+          ],
+          "zone": "table",
+          "cells": [
+            "Outsourced laboratories",
+            "Require independent security assessment and a tested substitute with stated capacity",
+            "Certificate; exercised backup protocol",
+            "Inspectorate findings"
+          ]
+        },
+        {
+          "element_id": "a4",
+          "role": "evidence",
+          "visible_text": "Provider access and detection Treat MFA on remote clinical access and real-time alerting as baseline Coverage evidence; alert tests Data-protection fines",
+          "claim_ids": [
+            "C-067",
+            "C-025"
+          ],
+          "zone": "table",
+          "cells": [
+            "Provider access and detection",
+            "Treat MFA on remote clinical access and real-time alerting as baseline",
+            "Coverage evidence; alert tests",
+            "Data-protection fines"
+          ]
+        },
+        {
+          "element_id": "a5",
+          "role": "evidence",
+          "visible_text": "Claims concentration Which provider clients would need bridging liquidity if one processor stopped? Dependency map; contingency terms Processor disclosures",
+          "claim_ids": [
+            "C-067",
+            "C-031"
+          ],
+          "zone": "table",
+          "cells": [
+            "Claims concentration",
+            "Which provider clients would need bridging liquidity if one processor stopped?",
+            "Dependency map; contingency terms",
+            "Processor disclosures"
+          ]
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "Each action targets a mechanism seen in the period rather than a generic control list. Voluntary frameworks such as NIST CSF 2.0 and IEC 81001-5-1 can support design but are not law.",
+          "claim_ids": [
+            "C-067",
+            "C-064"
+          ],
+          "zone": "band1"
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "1LoD owners should refresh Healthcare counterparty reviews after supplier disclosures and escalate only on source-supported changes in exposure.",
+          "claim_ids": [
+            "C-068"
+          ],
+          "zone": "band2"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Actions are sector priorities, not findings about any bank's or counterparty's controls; completion evidence depends on what counterparties disclose.",
+          "claim_ids": [
+            "C-067"
+          ],
+          "zone": "band3"
+        }
+      ],
+      "executive_conclusion": "Priorities follow the observed pathways: control supplier administration planes, map single-source dependencies, assure outsourced clinical services, and treat MFA and tested restoration as baseline.",
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No speaker notes. All essential analysis is visible."
+    }
+  ]
+}

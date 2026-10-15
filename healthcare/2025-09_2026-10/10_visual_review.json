@@ -1,0 +1,11 @@
+{
+  "reviewer": "Drafting-side visual inspection of LibreOffice renders of the final PowerPoint and Word exports, 15 October 2026",
+  "all_slides_inspected": true,
+  "readable_text": true,
+  "no_clipped_elements": true,
+  "design_compliant": true,
+  "renderer": "LibreOffice headless to PDF; pdftoppm at 80 dpi; seven slides and 29 report pages inspected",
+  "pptx_sha256": "397e6231e8f6d8332ac3deb806263c3f36e74610fc28a066b5453ff4dd9bfdda",
+  "docx_sha256": "2109fbad3f8411be784b3f546f1656924f662c640d4a676a0c986aeb9c9abba2",
+  "observations": "Earlier build left an empty band under the tables on slides 3, 4 and 7 with 12-13.5 pt table text. A first enlargement (15-16 pt) made the tables on slides 2, 3 and 6 overrun the bottom band; final sizes are 13 pt (slide 1), 12.5 pt (slides 2 and 3), 15 pt (slides 4 and 7) and 12 pt (slide 6, with the regulatory table widened to 6.78 in). After the editorial-challenge text changes, slides 1, 3 and 6 were re-rendered and no element overlaps or clips. Titles 28 pt, conclusions 15 pt, band text 13 pt. White background, dark text, emerald 00915E accent, hairline rules only; no imagery, icons, gradients, shadows or rounded cards; no footers, dates of publication, page numbers, sources, URLs or speaker notes on slides. Word export: 29 A4 pages with landscape sections for wide tables, header-free, page-numbered footer, all tables and references legible."
+}

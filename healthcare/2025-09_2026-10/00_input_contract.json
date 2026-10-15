@@ -1,0 +1,63 @@
+{
+  "run_id": "20261014-healthcare-global-eu-uk-2025-09_2026-10",
+  "sector": "Healthcare",
+  "subsectors": [
+    "Hospitals and integrated health systems",
+    "Primary and community care",
+    "Mental-health and long-term care providers",
+    "Emergency and ambulance services",
+    "Clinical laboratories, pathology and diagnostic imaging",
+    "Blood and transplant services",
+    "Pharmaceutical and biotechnology manufacturing",
+    "Medical-device and in-vitro diagnostic manufacturers",
+    "Pharmaceutical wholesale and pharmacy distribution",
+    "Health insurers and payers",
+    "Claims-processing and clearing services",
+    "EHR and clinical software vendors",
+    "Health-data platforms and research infrastructures",
+    "Telehealth providers",
+    "Connected medical devices and clinical operational technology",
+    "Managed IT and outsourced clinical-support providers",
+    "Public health authorities where supported by evidence"
+  ],
+  "geography": [
+    "Global",
+    "Primary focus: European Union, European Economic Area and United Kingdom",
+    "Comparative: North America and other global evidence"
+  ],
+  "reporting_period": {"start": "2025-09-01", "end": "2026-10-14"},
+  "evidence_cutoff": "2026-10-14",
+  "report_date": "2026-10-14",
+  "case_study_title": "Dutch Screening Laboratory Breach",
+  "case_study_selection": "Selected after discovery: Clinical Diagnostics NMDL (Netherlands) laboratory breach of July 2025 with in-period care-continuity and regulatory consequences (screening invitations reduced from 22 December 2025; inspectorate finding published 13 May 2026).",
+  "audience": "1LoD operational management and Risk Committee",
+  "output_language": "English (UK)",
+  "analysis_boundary": "external_data_only",
+  "priority_questions": [
+    "Which Healthcare threat, dependency and supplier-concentration pathways require management attention?",
+    "Which public developments between September 2025 and October 2026 changed operational, care-continuity, financial and regulatory exposure?",
+    "Which actions, challenge questions and monitoring indicators should 1LoD management and the Risk Committee prioritise?"
+  ],
+  "regulatory_scope": [
+    "EU NIS2 Directive (EU) 2022/2555 and national transposition status",
+    "EU CER Directive (EU) 2022/2557 health sector",
+    "EU GDPR (EU) 2016/679 Articles 9, 32, 33, 34",
+    "European Health Data Space Regulation (EU) 2025/327",
+    "EU MDR (EU) 2017/745, IVDR (EU) 2017/746 and MDCG 2019-16",
+    "EU Cyber Resilience Act (EU) 2024/2847 including MDR and IVDR exclusion",
+    "EU AI Act (EU) 2024/1689 as amended by (EU) 2026/1744",
+    "European action plan on the cybersecurity of hospitals and healthcare providers",
+    "UK NIS Regulations 2018 health sector, Cyber Security and Resilience Bill status, UK GDPR and DPA 2018, UK Medical Devices Regulations 2002 and MHRA, NHS DSPT and CAF",
+    "US comparative: HIPAA Security Rule and proposed amendments, FD&C Act section 524B, HHS HPH cybersecurity performance goals",
+    "Voluntary frameworks: ISO/IEC 27001, 27002, ISO 27799, ISO/IEC 27036, IEC 62304, IEC 81001-5-1, IEC 80001-1, ISO 14971, IEC 62443, HSCC, NIST CSF 2.0, CISA, CIS Controls"
+  ],
+  "delivery_destination": "https://github.com/cybertiagovieira/cyber-risk-reports",
+  "delivery_path": "healthcare/2025-09_2026-10",
+  "analysis_level": "sector_exposure_and_scenarios",
+  "product_mode": "standalone_publication",
+  "primary_output": "full_report_docx_and_markdown",
+  "analytical_readout_slides": 7,
+  "research_horizon_months": 18,
+  "prior_report_path": null,
+  "schedule_changes_permitted": false
+}

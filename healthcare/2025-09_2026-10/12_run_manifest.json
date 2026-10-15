@@ -1,0 +1,138 @@
+{
+  "run_id": "20261014-healthcare-global-eu-uk-2025-09_2026-10",
+  "skill_version": "3.0.0-local-publication-standard",
+  "skill_sha256": "76b969befc528d58ac325d97eaf08e2f4f8eff76ee19b187549ee296da595453",
+  "product_mode": "standalone_publication",
+  "analysis_boundary": "external_data_only",
+  "sector": "Healthcare",
+  "reporting_period": {
+    "start": "2025-09-01",
+    "end": "2026-10-14"
+  },
+  "evidence_cutoff": "2026-10-14",
+  "edition_state": "READY_FOR_DELIVERY",
+  "artefacts": [
+    {
+      "type": "input_contract",
+      "path": "00_input_contract.json",
+      "sha256": "30e22bfd2baf0815bba11eb01191054654ba16f11b4730ef570ed9e1e21d3089"
+    },
+    {
+      "type": "research_plan",
+      "path": "01_research_plan.md",
+      "sha256": "97c51e3bfc554be790029faacde00dc5458f41d33803e8784a0ffc979743d3ec"
+    },
+    {
+      "type": "source_register",
+      "path": "02_source_register.csv",
+      "sha256": "cba69db0d77df8dfd8a05605b89b0ea69f5890de838d57d5f5d43519967d27a1"
+    },
+    {
+      "type": "claim_ledger",
+      "path": "03_claim_ledger.json",
+      "sha256": "fd094cb89c5803871885923bf16e6c9cea4f6109e05bdd0a15034176d7365953"
+    },
+    {
+      "type": "metric_dictionary",
+      "path": "04_metric_dictionary.csv",
+      "sha256": "62d172f831fa7f4fcdc1a799f190e4f1d3226f59dd887484807d80669e7ae505"
+    },
+    {
+      "type": "regulatory_register",
+      "path": "05_regulatory_relevance_register.csv",
+      "sha256": "3d882d0ad3409e61c97d3c535b483ff723f1fac9dab437f15c90c7fa768cb795"
+    },
+    {
+      "type": "scenario_register",
+      "path": "06_scenario_assumption_register.csv",
+      "sha256": "1256c0a233c7c1a270702d68d5cc57e68b34ef746899bb558aae98b96f58d17b"
+    },
+    {
+      "type": "executive_story",
+      "path": "07_executive_story.md",
+      "sha256": "4e4e3ad488847dcf52b6027f323fa4598b11a50576b2a37f5a0a62db32ce0ff2"
+    },
+    {
+      "type": "slide_spec",
+      "path": "08_slide_spec.json",
+      "sha256": "e5c797c1055b5c6651a85d8621399beeb6ef14fd537b69af69ce158099138d0a"
+    },
+    {
+      "type": "evidence_pack",
+      "path": "09_evidence_pack.md",
+      "sha256": "8da6598760b579c7872565ba477762f99ae5212e01a9e354552c47ff1a5321ef"
+    },
+    {
+      "type": "visual_review",
+      "path": "10_visual_review.json",
+      "sha256": "608f10ed74b4df26ab69cd533305a4547fcd5ad4e22e2d6ca717f7a78ae1a470"
+    },
+    {
+      "type": "quality_record",
+      "path": "11_presentation_qc.json",
+      "sha256": "6804468beb12854ded02ecce756573192b7f2d3e044fdd4dd2862c8254471626"
+    },
+    {
+      "type": "powerpoint",
+      "path": "13_cyber_sectorial_analysis.pptx",
+      "sha256": "397e6231e8f6d8332ac3deb806263c3f36e74610fc28a066b5453ff4dd9bfdda"
+    },
+    {
+      "type": "full_report",
+      "path": "14_sectorial_report.md",
+      "sha256": "0f22bd2d4c220f269d5ea886b85faca7c9a5fbbe0cebf52354bc2e7cb144c36d"
+    },
+    {
+      "type": "word_report",
+      "path": "15_sectorial_report.docx",
+      "sha256": "2109fbad3f8411be784b3f546f1656924f662c640d4a676a0c986aeb9c9abba2"
+    },
+    {
+      "type": "editorial_review",
+      "path": "16_editorial_review.json",
+      "sha256": "45ca48d8a687bb6c26136ca08388df536394913ef752e7e04f60d4f2e8c5aa22"
+    },
+    {
+      "type": "research_coverage",
+      "path": "17_research_coverage.csv",
+      "sha256": "84466ed1531d51f0814d1932e3392b48580aa9759a10f9b2d5ed7b282e90a0fe"
+    },
+    {
+      "type": "delivery_index",
+      "path": "README.md",
+      "sha256": "e104c38c43ec6a2f15b1cd262d08ae3e1f02f274f4941a30f1778cf26059f5eb"
+    }
+  ],
+  "hashes": {
+    "input_contract": "30e22bfd2baf0815bba11eb01191054654ba16f11b4730ef570ed9e1e21d3089",
+    "source_register": "cba69db0d77df8dfd8a05605b89b0ea69f5890de838d57d5f5d43519967d27a1",
+    "claim_ledger": "fd094cb89c5803871885923bf16e6c9cea4f6109e05bdd0a15034176d7365953",
+    "full_report": "0f22bd2d4c220f269d5ea886b85faca7c9a5fbbe0cebf52354bc2e7cb144c36d"
+  },
+  "renderers": {
+    "pptx": "pptxgenjs (pptx skill) + LibreOffice headless for inspection",
+    "docx": "docx-js (docx skill) + LibreOffice headless for inspection"
+  },
+  "quality_gates": {
+    "input": "PASS",
+    "evidence": "PASS",
+    "analysis": "PASS",
+    "publication": "PASS",
+    "presentation": "PASS",
+    "language": "PASS",
+    "delivery": "NOT_RUN"
+  },
+  "schedule_changes": "none",
+  "delivery": {
+    "destination": "https://github.com/cybertiagovieira/cyber-risk-reports",
+    "repository_url": "",
+    "repository_visibility": "",
+    "branch": "",
+    "commit_sha": "",
+    "artefact_commit_sha": "",
+    "receipt_commit_sha": "",
+    "paths": [],
+    "remote_hash_comparison": "",
+    "delivery_status": "NOT_RUN"
+  }
+}

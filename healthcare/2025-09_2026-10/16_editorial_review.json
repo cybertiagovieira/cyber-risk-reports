@@ -1,0 +1,194 @@
+{
+  "schema_version": "3.0.0",
+  "status": "PASS",
+  "reviewer": "Independent editorial challenge agent (session subagent a67bfbe9760a52ce2, separate from the drafting role, no access to drafting reasoning), one pass on 15 October 2026 with live re-fetch of primary sources; resolutions applied and re-validated by the drafting role",
+  "review_date": "2026-10-15",
+  "independence_note": "The challenger is a separate agent instance of the same model family; this is role separation, not organisational independence. A documented human review is still advisable before Risk Committee use.",
+  "report_sha256": "0f22bd2d4c220f269d5ea886b85faca7c9a5fbbe0cebf52354bc2e7cb144c36d",
+  "docx_sha256": "2109fbad3f8411be784b3f546f1656924f662c640d4a676a0c986aeb9c9abba2",
+  "pptx_sha256": "397e6231e8f6d8332ac3deb806263c3f36e74610fc28a066b5453ff4dd9bfdda",
+  "review_scope": "Principal judgements, case selection, scenario labelling, legal applicability and dates (NIS2, CER, EHDS, CRA, AI Act amendment, UK NIS England guide, DSPT, MHRA, UK Bill, HIPAA proposal, section 524B), company filings (Stryker, Boston Scientific, McKesson, Veradigm, Cegedim, UnitedHealth, ICO, NHS England Synnovis), slide standalone reading and language controls. Drafting-side live spot-checks also covered Stryker updates and Q1/Q2 releases, BVO annual report, Conduent 10-Q, ANS CERT Sante observatory, Digital Omnibus on AI, FBI FLASH, West updates.",
+  "criteria": {
+    "standalone_completeness": {
+      "status": "PASS",
+      "observation": "Each slide shows conclusion, named evidence base, interpretation, management implication and limitation; acronyms now expanded; slide 5 states the pre-period trigger; Tier 3 caveats visible on rows j2, j4 and i5."
+    },
+    "evidence_specificity": {
+      "status": "PASS",
+      "observation": "Material figures trace to Tier 1 filings, regulators or operators; the Stryker non-GAAP source was moved from an aggregator to SEC Exhibit 99.1; the production-halt duration is anchored on company updates."
+    },
+    "sector_relevance": {
+      "status": "PASS",
+      "observation": "Coverage spans hospitals, primary care software, laboratories and public screening, medical-device and pharmaceutical-component manufacturing, distribution, claims processing and EHR vendors; telehealth recorded as a gap."
+    },
+    "financial_transmission": {
+      "status": "PASS",
+      "observation": "Impact types are separated and not added; pre-period comparators labelled; channels are conditional and no bank exposure is inferred; Boston Scientific quantification correctly placed after the cut-off."
+    },
+    "scenario_distinctness": {
+      "status": "PASS",
+      "observation": "Three scenarios differ by point of failure, mode and financial channel; no probabilities; the buffer parameter is tied to its single source case."
+    },
+    "regulatory_accuracy": {
+      "status": "PASS",
+      "observation": "Challenger confirmed NIS2 articles and dates, CER Articles 1(2), 6(1), 13 and 15, EHDS and CRA milestones, UK NIS England guide, DSPT, Bill status and US comparators; MHRA deadline wording and NIS2 Article 21(2)(j) qualifier corrected."
+    },
+    "actionability": {
+      "status": "PASS",
+      "observation": "Eight actions each tie an observed exposure to control objective, role type, horizon, completion evidence, residual dependency and trigger, framed as sector priorities."
+    },
+    "readability": {
+      "status": "PASS",
+      "observation": "Rendered slides and Word pages inspected; no overlaps after table resizing; report reads without a presenter."
+    },
+    "limitations_and_confidence": {
+      "status": "PASS",
+      "observation": "Judgement confidence adjusted (J1 to medium); disclosure bias, Tier 3 reliance for AZ Monica, absent European cost data and clinical-impact attribution limits are stated beside the findings."
+    },
+    "cross_artifact_consistency": {
+      "status": "PASS",
+      "observation": "Report, slide specification, claim ledger, source register and evidence pack aligned after resolutions; research-bundle, publication, Word-retention and reference checks re-run with no errors."
+    }
+  },
+  "objections_log": [
+    {
+      "id": "O1",
+      "severity": "material",
+      "issue": "MHRA reporting deadline described as applying to highest-severity incidents",
+      "resolution": "Corrected to the general deadline of 15 days (previously 30), with shorter deadlines for the most urgent categories noted as not detailed in the source read; claim C-062 updated."
+    },
+    {
+      "id": "O2",
+      "severity": "material",
+      "issue": "Project instructions describe five sections and five slides with different titles",
+      "resolution": "Not changed by design: the user's latest explicit request requires exactly seven slides with the titles used (including Financial Impact: Healthcare and Worst-Case Scenarios); the project decision hierarchy places the latest explicit request first."
+    },
+    {
+      "id": "O3",
+      "severity": "material",
+      "issue": "Judgements 1 and 2 both claimed the leading role; judgement 1 over-confident",
+      "resolution": "Judgement 1 reframed as the most publicly evidenced channel, confidence lowered to medium, relationship to judgement 2 stated; slide 1 conclusion and row j1 updated; claim C-004 updated."
+    },
+    {
+      "id": "O4",
+      "severity": "material",
+      "issue": "Destructive characterisation of the Stryker event rested on Tier 3 sources; slide omitted attribution caveat",
+      "resolution": "Judgement 4 now reads state-linked hacktivist activity; report states wiping descriptions come from media and researchers; slide row j4 states media-reported claim and that the company does not attribute."
+    },
+    {
+      "id": "O5",
+      "severity": "material",
+      "issue": "Cegedim count stated as 1,500 practices; source says doctor users",
+      "resolution": "Changed to about 1,500 doctor users (Tier 3) in report, slide d3 and claim C-020."
+    },
+    {
+      "id": "O6",
+      "severity": "minor",
+      "issue": "Slides omitted administrative qualifier on Cegedim records",
+      "resolution": "Added on slides j3 and d3."
+    },
+    {
+      "id": "O7",
+      "severity": "minor",
+      "issue": "CER referral date ambiguity; forward horizon listed wrong states; slide r2 read as future",
+      "resolution": "Report states separate 2026 decision IP/26/910; horizon lists both referral sets; slide r2 says identification deadline passed; source limitation records secondary-reported date."
+    },
+    {
+      "id": "O8",
+      "severity": "minor",
+      "issue": "Pre-period Conduent cost and ICO fine not labelled as pre-period",
+      "resolution": "Labelled pre-period comparator in report and slides; slide cells reordered with periods 2026; 2025."
+    },
+    {
+      "id": "O9",
+      "severity": "minor",
+      "issue": "GBP 3,076,320 rounded to 3.07 million",
+      "resolution": "Corrected to GBP 3.08 million on slide 3."
+    },
+    {
+      "id": "O10",
+      "severity": "minor",
+      "issue": "Stryker non-GAAP figures cited from an aggregator",
+      "resolution": "Source S-006 replaced with Stryker Exhibit 99.1 on SEC EDGAR (Tier 1); figures re-checked live."
+    },
+    {
+      "id": "O11",
+      "severity": "minor",
+      "issue": "Three-week production halt rested on a call transcript",
+      "resolution": "Duration now anchored on company updates of 11 March and 1 April 2026; transcript retained as Tier 3 context."
+    },
+    {
+      "id": "O12",
+      "severity": "minor",
+      "issue": "Halted applied to all three manufacturers",
+      "resolution": "Changed to disrupted in the bottom line and the Stryker rows."
+    },
+    {
+      "id": "O13",
+      "severity": "minor",
+      "issue": "Attacker claims attributed to a filing that does not mention them",
+      "resolution": "Phrase removed; claim C-022 contrary-evidence field corrected."
+    },
+    {
+      "id": "O14",
+      "severity": "minor",
+      "issue": "Two-week buffer generalised from one case",
+      "resolution": "Stated as about two weeks in the UK Stryker case in scenario row s3 and action A2."
+    },
+    {
+      "id": "O15",
+      "severity": "minor",
+      "issue": "Case-study justification one-sided; slide omitted pre-period trigger",
+      "resolution": "Eight-criterion comparison matrix (Dutch case, Stryker, AZ Monica) added to the report; slide 5 conclusion states the July 2025 trigger and in-period consequence."
+    },
+    {
+      "id": "O16",
+      "severity": "minor",
+      "issue": "Backup-capacity timing inconsistent between report and slide",
+      "resolution": "Report timeline now reads August 2025 onwards, matching slide t3."
+    },
+    {
+      "id": "O17",
+      "severity": "minor",
+      "issue": "Report dated 14 October with access on 15 October",
+      "resolution": "Methodology now explains that the specified report date and cut-off are retained and that one-day-later retrieval does not extend the evidence window."
+    },
+    {
+      "id": "O18",
+      "severity": "minor",
+      "issue": "Acronyms not expanded on slides",
+      "resolution": "EPS, MFA, EHR, FBI, ENISA, NIS2, CER, EHDS and NEN 7510 expanded or described on the slides where used."
+    },
+    {
+      "id": "O19",
+      "severity": "minor",
+      "issue": "NIS2 Article 21(2)(j) read as an absolute MFA mandate",
+      "resolution": "Where-appropriate qualifier and continuous-authentication alternative added in both places."
+    },
+    {
+      "id": "O20",
+      "severity": "minor",
+      "issue": "HIPAA status should cite latest agenda",
+      "resolution": "Retained: report states no final rule at cut-off, cites the proposal and agenda entry, and records trade-press reporting of deferral to 2027 as Tier 3; status conclusion unchanged."
+    },
+    {
+      "id": "O21",
+      "severity": "minor",
+      "issue": "CRA exclusion locator",
+      "resolution": "Reference locator changed to Article 2(2)(a)-(b) and recital 25."
+    },
+    {
+      "id": "L1",
+      "severity": "minor",
+      "issue": "Criticality (ENISA term) contains a restricted word stem",
+      "resolution": "Replaced with sector importance in report, slides and claim ledger; official CER title kept only in the source and regulatory registers."
+    },
+    {
+      "id": "D1",
+      "severity": "minor",
+      "issue": "Drafting-side locator check: annual-report pages for the Dutch case",
+      "resolution": "Locators corrected to pp. 6, 12, 25-26 after live re-check; West incident-date inconsistency (4 vs 5 May) recorded in source limitations."
+    }
+  ],
+  "unresolved_material_issues": []
+}
