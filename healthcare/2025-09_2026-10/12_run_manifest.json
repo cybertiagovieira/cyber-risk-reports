@@ -10,7 +10,7 @@
     "end": "2026-10-14"
   },
   "evidence_cutoff": "2026-10-14",
-  "edition_state": "READY_FOR_DELIVERY",
+  "edition_state": "PUBLISHED",
   "artefacts": [
     {
       "type": "input_contract",
@@ -70,7 +70,7 @@
     {
       "type": "quality_record",
       "path": "11_presentation_qc.json",
-      "sha256": "6804468beb12854ded02ecce756573192b7f2d3e044fdd4dd2862c8254471626"
+      "sha256": "31e550b048a08a9f038c4bb0031c6d1a4ca5746e92dded67a9022a704a534b76"
     },
     {
       "type": "powerpoint",
@@ -120,19 +120,39 @@
     "publication": "PASS",
     "presentation": "PASS",
     "language": "PASS",
-    "delivery": "NOT_RUN"
+    "delivery": "PASS"
   },
   "schedule_changes": "none",
   "delivery": {
     "destination": "https://github.com/cybertiagovieira/cyber-risk-reports",
-    "repository_url": "",
-    "repository_visibility": "",
-    "branch": "",
-    "commit_sha": "",
-    "artefact_commit_sha": "",
-    "receipt_commit_sha": "",
-    "paths": [],
-    "remote_hash_comparison": "",
-    "delivery_status": "NOT_RUN"
+    "repository_url": "https://github.com/cybertiagovieira/cyber-risk-reports",
+    "repository_visibility": "private",
+    "branch": "main",
+    "commit_sha": "e09c8d86a271858724d19fb6e989d231f8b39558",
+    "artefact_commit_sha": "e09c8d86a271858724d19fb6e989d231f8b39558",
+    "receipt_commit_sha": "recorded in the subsequent commit message and git history (not self-referenced)",
+    "paths": [
+      "healthcare/2025-09_2026-10/00_input_contract.json",
+      "healthcare/2025-09_2026-10/01_research_plan.md",
+      "healthcare/2025-09_2026-10/02_source_register.csv",
+      "healthcare/2025-09_2026-10/03_claim_ledger.json",
+      "healthcare/2025-09_2026-10/04_metric_dictionary.csv",
+      "healthcare/2025-09_2026-10/05_regulatory_relevance_register.csv",
+      "healthcare/2025-09_2026-10/06_scenario_assumption_register.csv",
+      "healthcare/2025-09_2026-10/07_executive_story.md",
+      "healthcare/2025-09_2026-10/08_slide_spec.json",
+      "healthcare/2025-09_2026-10/09_evidence_pack.md",
+      "healthcare/2025-09_2026-10/10_visual_review.json",
+      "healthcare/2025-09_2026-10/11_presentation_qc.json",
+      "healthcare/2025-09_2026-10/12_run_manifest.json",
+      "healthcare/2025-09_2026-10/13_cyber_sectorial_analysis.pptx",
+      "healthcare/2025-09_2026-10/14_sectorial_report.md",
+      "healthcare/2025-09_2026-10/15_sectorial_report.docx",
+      "healthcare/2025-09_2026-10/16_editorial_review.json",
+      "healthcare/2025-09_2026-10/17_research_coverage.csv",
+      "healthcare/2025-09_2026-10/README.md"
+    ],
+    "remote_hash_comparison": "19 of 19 committed files matched local SHA-256 hashes via the GitHub contents API at the artefact commit on 15 October 2026; 11_presentation_qc.json and 12_run_manifest.json updated in the receipt commit",
+    "delivery_status": "PASS"
   }
 }
