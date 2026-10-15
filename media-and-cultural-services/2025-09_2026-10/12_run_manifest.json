@@ -10,7 +10,7 @@
     "end": "2026-10-15"
   },
   "evidence_cutoff": "2026-10-15",
-  "edition_state": "READY_FOR_DELIVERY",
+  "edition_state": "PUBLISHED",
   "artefacts": [
     {
       "type": "input_contract",
@@ -70,7 +70,7 @@
     {
       "type": "quality_record",
       "path": "11_presentation_qc.json",
-      "sha256": "ed063bd380110d56cbd04b6177cfcd27bd92dbfc7b66780b9e02bb73d7de7625"
+      "sha256": "015f42d2585503dcd10f20264382b166ff9dae9189ebd4d87438d412d934f625"
     },
     {
       "type": "powerpoint",
@@ -120,19 +120,39 @@
     "publication": "PASS",
     "presentation": "PASS",
     "language": "PASS",
-    "delivery": "NOT_RUN"
+    "delivery": "PASS"
   },
   "schedule_changes": "none",
   "delivery": {
     "destination": "https://github.com/cybertiagovieira/cyber-risk-reports",
-    "repository_url": "",
-    "repository_visibility": "",
-    "branch": "",
-    "commit_sha": "",
-    "artefact_commit_sha": "",
-    "receipt_commit_sha": "",
-    "paths": [],
-    "remote_hash_comparison": "",
-    "delivery_status": "NOT_RUN"
+    "repository_url": "https://github.com/cybertiagovieira/cyber-risk-reports",
+    "repository_visibility": "private",
+    "branch": "main",
+    "commit_sha": "4ddd4692a83d01a25a5a80d9cacd5855ac725b78",
+    "artefact_commit_sha": "4ddd4692a83d01a25a5a80d9cacd5855ac725b78",
+    "receipt_commit_sha": "recorded in the subsequent commit message and git history (not self-referenced)",
+    "paths": [
+      "media-and-cultural-services/2025-09_2026-10/00_input_contract.json",
+      "media-and-cultural-services/2025-09_2026-10/01_research_plan.md",
+      "media-and-cultural-services/2025-09_2026-10/02_source_register.csv",
+      "media-and-cultural-services/2025-09_2026-10/03_claim_ledger.json",
+      "media-and-cultural-services/2025-09_2026-10/04_metric_dictionary.csv",
+      "media-and-cultural-services/2025-09_2026-10/05_regulatory_relevance_register.csv",
+      "media-and-cultural-services/2025-09_2026-10/06_scenario_assumption_register.csv",
+      "media-and-cultural-services/2025-09_2026-10/07_executive_story.md",
+      "media-and-cultural-services/2025-09_2026-10/08_slide_spec.json",
+      "media-and-cultural-services/2025-09_2026-10/09_evidence_pack.md",
+      "media-and-cultural-services/2025-09_2026-10/10_visual_review.json",
+      "media-and-cultural-services/2025-09_2026-10/11_presentation_qc.json",
+      "media-and-cultural-services/2025-09_2026-10/12_run_manifest.json",
+      "media-and-cultural-services/2025-09_2026-10/13_cyber_sectorial_analysis.pptx",
+      "media-and-cultural-services/2025-09_2026-10/14_sectorial_report.md",
+      "media-and-cultural-services/2025-09_2026-10/15_sectorial_report.docx",
+      "media-and-cultural-services/2025-09_2026-10/16_editorial_review.json",
+      "media-and-cultural-services/2025-09_2026-10/17_research_coverage.csv",
+      "media-and-cultural-services/2025-09_2026-10/README.md"
+    ],
+    "remote_hash_comparison": "19 of 19 committed files matched local SHA-256 hashes via the GitHub contents API at the artefact commit on 15 October 2026; 11_presentation_qc.json and 12_run_manifest.json updated in the receipt commit",
+    "delivery_status": "PASS"
   }
 }
