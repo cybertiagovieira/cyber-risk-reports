@@ -1,0 +1,53 @@
+{
+  "schema_version": "3.0.0",
+  "status": "PASS",
+  "reviewer": "Independent editorial challenge agent (session subagent ad8ea92cd6f49dd8a), separate from the drafting role; two passes on 15 October 2026 (18 objections, then re-verification); resolutions applied by the drafting role (work/apply_challenge.py and residual fixes)",
+  "report_sha256": "6c38170e7d410f8e7517dac19d45f15e29535f8a1ee93217a8b0ee48837eca45",
+  "docx_sha256": "e79992903c2c11fb949ccc2b6bec0ce6dad6fd897e3630a3144736d414470e67",
+  "pptx_sha256": "a57a9871a4a885b981163a726898c841d23804d01d1304984b485288716ec100",
+  "review_scope": "Principal judgements, public financial evidence, case selection and Dresden facts (S-001, S-003 and the Lee 10-K re-fetched by the reviewer), scenario assumptions, legal applicability including late-added regimes, slide standalone reading and readability from renders, language controls, cross-artefact consistency.",
+  "criteria": {
+    "standalone_completeness": {
+      "status": "PASS",
+      "observation": "Every slide keeps Conclusion / Evidence / Interpretation / Management implication / Limitation blocks with no URLs, date footers or page numbers; the report carries full chronology, outcomes, scenarios and legal status without a presenter."
+    },
+    "evidence_specificity": {
+      "status": "PASS",
+      "observation": "Objection 1 resolved: the March 2026 shared ticketing ransomware was moved from named incident to pattern case because no Tier 1 source records the incident (BnF notice returned a server error); named incident 5 is now the live-events group breach backed by the Vermont Attorney General register (date reported 10-1-2026) and a federal complaint (Case No. 2:26-cv-11664). Bottom-line label corrected to Judgement."
+    },
+    "sector_relevance": {
+      "status": "PASS",
+      "observation": "Subsector table records in-period evidence and gaps for eleven subsectors; the live-events row now pairs a Tier 1 regulator notice and complaint with the Tier 3 ticketing ransomware."
+    },
+    "financial_transmission": {
+      "status": "PASS",
+      "observation": "Lee figures marked 'not additive: the debt reflects waived payments'; USD 322 million relabelled 'Award, not a loss measure'; intellectual-property judgement narrowed to 'no public evidence of a valuation or collateral effect'; revenue point limited to 'the two quantified cases'."
+    },
+    "scenario_distinctness": {
+      "status": "PASS",
+      "observation": "Scenario 1 is an availability failure of shared infrastructure, Scenario 3 a compromise of an application-layer supplier; each scenario has an Assumptions bullet stating no probability is assigned; slide 4 limitation now reads 'no 2026 cloud or delivery-network outage of comparable scale was found'."
+    },
+    "regulatory_accuracy": {
+      "status": "PASS",
+      "observation": "UK managed-service-provider coverage now stated as dependent on the Bill; telecoms security scope uses the public-network test with the code described as statutory guidance; Omnibus and Article 50 wording consistent with the transition's origin recorded as an open item; AVMSD cited as 2010/13/EU as amended; Media Act, SOCI, FCC and COPPA date types made explicit; NIS2 public-administration route added."
+    },
+    "actionability": {
+      "status": "PASS",
+      "observation": "Actions A1-A6 each carry role type, horizon, completion evidence, residual dependency and an external trigger; A1 rests on the Tier 1 provider dependency and cloud/CDN post-mortems rather than on the excluded incident."
+    },
+    "readability": {
+      "status": "PASS",
+      "observation": "Slides legible at normal size with no clipping; Word tables fixed for mid-word wrapping and overflow; the reference-first format makes paragraphs dense but is mandated."
+    },
+    "limitations_and_confidence": {
+      "status": "PASS",
+      "observation": "Confidence paragraph reduced to medium-high for the remaining regulatory rows and names the open items (Digital Omnibus effect on Article 50, AVMSD, national Article 85 laws, UK telecoms security scope); shortfall statement names the excluded EU event."
+    },
+    "cross_artifact_consistency": {
+      "status": "PASS",
+      "observation": "Slides 2, 4 and 5 match the report after the residual fix to the 'What changed' bullet; executive story regenerated from the slide specification; DOCX text retention checked by the release gate."
+    }
+  },
+  "objection_log": "18 objections in pass 1 (5 material: Tier 3-only lead incident, Bottom-line label, Bill presented as obligation, Omnibus logic, telecoms scope test; 13 minor). Pass 2: 17 RESOLVED, 1 PARTLY (COPPA date type), 3 new minor items (What-changed label, Live Nation vulnerability cell, S-087 hosting). All four residual items fixed afterwards. Decisions recorded: chapter titles follow the user's mandated seven titles; open items are disclosed limitations, accepted by the reviewer as not material errors.",
+  "unresolved_material_issues": []
+}

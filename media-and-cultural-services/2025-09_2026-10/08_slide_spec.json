@@ -1,0 +1,1459 @@
+{
+  "schema_version": "3.0.0",
+  "reading_mode": "standalone_publication",
+  "primary_report": "14_sectorial_report.md",
+  "design": {
+    "background": "FFFFFF",
+    "text": "1F2328",
+    "accent": "00915E",
+    "canvas": "13.333 x 7.5 in"
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": "Sector Exposure & Executive Risk Outlook",
+      "decision": "Treat Media & Cultural Services cyber risk as a shared-platform, live-output and revenue-continuity issue.",
+      "executive_conclusion": "Exposure is concentrated in shared front-of-house platforms and live-output integrity and reaches the financial system mainly through revenue lines, media-group credit and long recovery tails.",
+      "visual_type": "Judgement table with confidence and change conditions",
+      "table_headers": {
+        "T1": [
+          "Principal judgement",
+          "Confidence",
+          "What would change it"
+        ]
+      },
+      "table_widths": {
+        "T1": [
+          4.6,
+          1.1,
+          2.6
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "Media & Cultural Services cyber exposure is concentrated in shared front-of-house platforms and live-output integrity; it reaches the financial system mainly through revenue lines, media-group credit and long recovery tails; ransom payments are rarely disclosed, so their role cannot be assessed.",
+          "claim_ids": [
+            "C-070",
+            "C-073"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Evidence base: public records for 1 September 2025 to 15 October 2026 across the EU, EEA and UK with global comparison - institution, ministry, prosecutor, regulator and court releases; company filings; ENISA, EEAS, Cloudflare and UK official statistics.",
+          "claim_ids": [
+            "C-001",
+            "C-010",
+            "C-014",
+            "C-016",
+            "C-017",
+            "C-020"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "Footprint: 8.9 million people worked in EU cultural employment in 2025 (4.3% of jobs) and UK creative industries produced 5.5% of gross value added in 2024. Media drew 14.2% of mitigated DDoS requests on one large network in H1 2026, more than any other industry.",
+          "claim_ids": [
+            "C-021",
+            "C-022",
+            "C-016"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "t1r1",
+          "role": "evidence",
+          "visible_text": "Shared ticketing, payment, cloud and content delivery platforms are the best-documented disruption pathway Medium Disclosed content or archive losses larger than access effects",
+          "claim_ids": [
+            "C-070"
+          ],
+          "zone": "table",
+          "table": "T1",
+          "row_cells": [
+            "Shared ticketing, payment, cloud and content delivery platforms are the best-documented disruption pathway",
+            "Medium",
+            "Disclosed content or archive losses larger than access effects"
+          ]
+        },
+        {
+          "element_id": "t1r2",
+          "role": "evidence",
+          "visible_text": "Broadcast signal and content-insertion integrity is under-secured in the US and Pakistani evidence Medium Evidence that EU and UK playout meets equivalent baselines",
+          "claim_ids": [
+            "C-071"
+          ],
+          "zone": "table",
+          "table": "T1",
+          "row_cells": [
+            "Broadcast signal and content-insertion integrity is under-secured in the US and Pakistani evidence",
+            "Medium",
+            "Evidence that EU and UK playout meets equivalent baselines"
+          ]
+        },
+        {
+          "element_id": "t1r3",
+          "role": "evidence",
+          "visible_text": "DDoS and information-manipulation pressure is high but rarely produces disclosed losses Medium Quantified revenue loss from a multi-day DDoS outage",
+          "claim_ids": [
+            "C-072"
+          ],
+          "zone": "table",
+          "table": "T1",
+          "row_cells": [
+            "DDoS and information-manipulation pressure is high but rarely produces disclosed losses",
+            "Medium",
+            "Quantified revenue loss from a multi-day DDoS outage"
+          ]
+        },
+        {
+          "element_id": "t1r4",
+          "role": "evidence",
+          "visible_text": "Financial effects arrive through revenue lines, lender waivers and multi-year recovery Medium In-period EU or UK disclosures of short, low-cost recoveries",
+          "claim_ids": [
+            "C-073"
+          ],
+          "zone": "table",
+          "table": "T1",
+          "row_cells": [
+            "Financial effects arrive through revenue lines, lender waivers and multi-year recovery",
+            "Medium",
+            "In-period EU or UK disclosures of short, low-cost recoveries"
+          ]
+        },
+        {
+          "element_id": "t1r5",
+          "role": "evidence",
+          "visible_text": "Regulation reaches the sector indirectly through providers, products and media rules High National measures designating media or cultural entities directly",
+          "claim_ids": [
+            "C-074"
+          ],
+          "zone": "table",
+          "table": "T1",
+          "row_cells": [
+            "Regulation reaches the sector indirectly through providers, products and media rules",
+            "High",
+            "National measures designating media or cultural entities directly"
+          ]
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Management implication: map which ticketing, payment, cloud and delivery providers large media and cultural counterparties share, and track waiver and liquidity signals at leveraged media borrowers after sector incidents.",
+          "claim_ids": [
+            "C-077",
+            "C-090"
+          ],
+          "zone": "implication"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Limitation: no EU or UK entity disclosed a quantified cost for an in-period incident; quantified cases are US and Japanese with earlier attack dates, and benchmarks measure targeting, not impact.",
+          "claim_ids": [
+            "C-075"
+          ],
+          "zone": "limitation"
+        }
+      ],
+      "claim_ids": [
+        "C-070",
+        "C-073",
+        "C-001",
+        "C-010",
+        "C-014",
+        "C-016",
+        "C-017",
+        "C-020",
+        "C-021",
+        "C-022",
+        "C-071",
+        "C-072",
+        "C-074",
+        "C-077",
+        "C-090",
+        "C-075"
+      ],
+      "metric_ids": [
+        "M-016",
+        "M-023",
+        "M-024"
+      ],
+      "scenario_ids": [],
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No substantive information in notes. All essential analysis must be visible."
+    },
+    {
+      "number": 2,
+      "title": "Key Threats & Top 5 Cyber Attacks",
+      "decision": "Weight reviews toward shared suppliers, live-output equipment and catalogue protection.",
+      "executive_conclusion": "Five incidents meet the evidence standard; shared platforms, signal paths and catalogues are exposure points alongside institutions' own networks.",
+      "visual_type": "Named incident table with pattern list",
+      "table_headers": {
+        "T2": [
+          "Named incident",
+          "Subsector and geography",
+          "Operational consequence",
+          "Evidence strength"
+        ]
+      },
+      "table_widths": {
+        "T2": [
+          2.6,
+          2.1,
+          2.4,
+          1.3
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "Five incidents meet the evidence standard; together with a shared ticketing outage known mainly from media relays, they show that signal paths, catalogues, customer data and shared platforms are exposure points alongside institutions' own networks.",
+          "claim_ids": [
+            "C-001",
+            "C-011",
+            "C-012",
+            "C-014",
+            "C-067",
+            "C-008"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Threat pathways (patterns, not attacks): P1 ransomware and extortion; P2 shared ticketing, payment and SaaS integrations; P3 broadcast signal and content insertion; P4 hacktivist DDoS and information manipulation around conflicts, elections and live events; P5 content theft; P6 personal-data exposure and litigation.",
+          "claim_ids": [
+            "C-016",
+            "C-017",
+            "C-018",
+            "C-070"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "ENISA found broadcast media mostly faced hacktivist disruption of public-facing sites in 2025; the EEAS counted 540 manipulation incidents, including impersonation of established outlets.",
+          "claim_ids": [
+            "C-017",
+            "C-018"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "t2r1",
+          "role": "evidence",
+          "visible_text": "1 Dresden State Art Collections attack National museums; Germany, January 2026 Online shop, visitor services and card payment down; police special commission Institution, ministry, prosecutor",
+          "claim_ids": [
+            "C-001",
+            "C-003"
+          ],
+          "zone": "table",
+          "table": "T2",
+          "row_cells": [
+            "1 Dresden State Art Collections attack",
+            "National museums; Germany, January 2026",
+            "Online shop, visitor services and card payment down; police special commission",
+            "Institution, ministry, prosecutor"
+          ]
+        },
+        {
+          "element_id": "t2r2",
+          "role": "evidence",
+          "visible_text": "2 Radio stream hijacks via streaming devices Broadcast radio; United States, November 2025 Live output replaced; regulator warning and new rule Regulator order records the attacks",
+          "claim_ids": [
+            "C-010",
+            "C-011"
+          ],
+          "zone": "table",
+          "table": "T2",
+          "row_cells": [
+            "2 Radio stream hijacks via streaming devices",
+            "Broadcast radio; United States, November 2025",
+            "Live output replaced; regulator warning and new rule",
+            "Regulator order records the attacks"
+          ]
+        },
+        {
+          "element_id": "t2r3",
+          "role": "evidence",
+          "visible_text": "3 Satellite feed hijacks of news channels Broadcast TV; Pakistan, March 2026 Unauthorised content aired; national CERT investigation Broadcaster statement",
+          "claim_ids": [
+            "C-012",
+            "C-013"
+          ],
+          "zone": "table",
+          "table": "T2",
+          "row_cells": [
+            "3 Satellite feed hijacks of news channels",
+            "Broadcast TV; Pakistan, March 2026",
+            "Unauthorised content aired; national CERT investigation",
+            "Broadcaster statement"
+          ]
+        },
+        {
+          "element_id": "t2r4",
+          "role": "evidence",
+          "visible_text": "4 Spotify catalogue scraping Audio streaming; global, December 2025 - April 2026 Worldwide injunction; reported USD 322 million judgment unlikely to be paid Court order; amount media-reported",
+          "claim_ids": [
+            "C-014",
+            "C-015"
+          ],
+          "zone": "table",
+          "table": "T2",
+          "row_cells": [
+            "4 Spotify catalogue scraping",
+            "Audio streaming; global, December 2025 - April 2026",
+            "Worldwide injunction; reported USD 322 million judgment unlikely to be paid",
+            "Court order; amount media-reported"
+          ]
+        },
+        {
+          "element_id": "t2r5",
+          "role": "evidence",
+          "visible_text": "5 Live-events group breach notice Ticketing and live events; United States, October 2026 Identity and health data notified to a regulator; class action within a week Regulator register; court complaint",
+          "claim_ids": [
+            "C-067"
+          ],
+          "zone": "table",
+          "table": "T2",
+          "row_cells": [
+            "5 Live-events group breach notice",
+            "Ticketing and live events; United States, October 2026",
+            "Identity and health data notified to a regulator; class action within a week",
+            "Regulator register; court complaint"
+          ]
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Management implication: weight counterparty reviews toward shared suppliers, live-output equipment and catalogue protection, not only the counterparty's own network.",
+          "claim_ids": [
+            "C-070",
+            "C-071",
+            "C-090"
+          ],
+          "zone": "implication"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Limitation: only one incident is in the EU and none in the UK has a retrievable primary statement; the March 2026 shared ticketing ransomware is excluded as a named incident because its detail is media-reported; hacktivist claims are excluded.",
+          "claim_ids": [
+            "C-008",
+            "C-009",
+            "C-067"
+          ],
+          "zone": "limitation"
+        }
+      ],
+      "claim_ids": [
+        "C-001",
+        "C-011",
+        "C-012",
+        "C-014",
+        "C-067",
+        "C-008",
+        "C-016",
+        "C-017",
+        "C-018",
+        "C-070",
+        "C-003",
+        "C-010",
+        "C-013",
+        "C-015",
+        "C-071",
+        "C-090",
+        "C-009"
+      ],
+      "metric_ids": [
+        "M-014",
+        "M-027"
+      ],
+      "scenario_ids": [],
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No substantive information in notes. All essential analysis must be visible."
+    },
+    {
+      "number": 3,
+      "title": "Financial Impact: Media & Cultural Services",
+      "decision": "Monitor revenue-line and credit signals rather than ransom or response-cost headlines.",
+      "executive_conclusion": "Public financial evidence is sparse and not additive; quantified losses come through curtailed revenue lines and slow recovery, and in one case became additional debt.",
+      "visual_type": "Impact-type evidence table",
+      "table_headers": {
+        "T3": [
+          "Impact type",
+          "Public evidence",
+          "Status"
+        ]
+      },
+      "table_widths": {
+        "T3": [
+          2.0,
+          4.6,
+          1.7
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "Public financial evidence is sparse and cannot be added up; where quantified, losses come through curtailed revenue lines and slow recovery, and in one case were converted into additional debt.",
+          "claim_ids": [
+            "C-073"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Evidence base: company filings from a US newspaper group and a Japanese publisher, British Library annual reports, institution notices and a court record; the two company attacks predate the period, their disclosures do not.",
+          "claim_ids": [
+            "C-026",
+            "C-028",
+            "C-030",
+            "C-014"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "Transmission is conditional: advertising and subscription dips, ticketing outages with phishing follow-on, lender waivers, insurance recoveries that lag costs, and public funding that absorbs cultural-body losses.",
+          "claim_ids": [
+            "C-077",
+            "C-029"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "t3r1",
+          "role": "evidence",
+          "visible_text": "Service disruption Museum network shop and ticketing down; shared-provider ticketing lost for 10 days or more Observed; ticketing duration media-reported",
+          "claim_ids": [
+            "C-002",
+            "C-008"
+          ],
+          "zone": "table",
+          "table": "T3",
+          "row_cells": [
+            "Service disruption",
+            "Museum network shop and ticketing down; shared-provider ticketing lost for 10 days or more",
+            "Observed; ticketing duration media-reported"
+          ]
+        },
+        {
+          "element_id": "t3r2",
+          "role": "evidence",
+          "visible_text": "Response cost USD 3.7 million expensed by a US newspaper group Observed, one company",
+          "claim_ids": [
+            "C-026"
+          ],
+          "zone": "table",
+          "table": "T3",
+          "row_cells": [
+            "Response cost",
+            "USD 3.7 million expensed by a US newspaper group",
+            "Observed, one company"
+          ]
+        },
+        {
+          "element_id": "t3r3",
+          "role": "evidence",
+          "visible_text": "Revenue and cash flow USD 10.5 million cash-flow loss; JPY 8.3 billion sales effect at a Japanese publisher Observed, earlier attacks",
+          "claim_ids": [
+            "C-026",
+            "C-028"
+          ],
+          "zone": "table",
+          "table": "T3",
+          "row_cells": [
+            "Revenue and cash flow",
+            "USD 10.5 million cash-flow loss; JPY 8.3 billion sales effect at a Japanese publisher",
+            "Observed, earlier attacks"
+          ]
+        },
+        {
+          "element_id": "t3r4",
+          "role": "evidence",
+          "visible_text": "Credit USD 11.3 million added to debt through lender and landlord waivers Observed, one borrower",
+          "claim_ids": [
+            "C-027"
+          ],
+          "zone": "table",
+          "table": "T3",
+          "row_cells": [
+            "Credit",
+            "USD 11.3 million added to debt through lender and landlord waivers",
+            "Observed, one borrower"
+          ]
+        },
+        {
+          "element_id": "t3r5",
+          "role": "evidence",
+          "visible_text": "Recovery and rebuild National library catalogue rebuilt after about 26 months; web archive still pending Derived from primary dates",
+          "claim_ids": [
+            "C-030",
+            "C-031"
+          ],
+          "zone": "table",
+          "table": "T3",
+          "row_cells": [
+            "Recovery and rebuild",
+            "National library catalogue rebuilt after about 26 months; web archive still pending",
+            "Derived from primary dates"
+          ]
+        },
+        {
+          "element_id": "t3r6",
+          "role": "evidence",
+          "visible_text": "Content and intellectual property Reported USD 322 million judgment unlikely to be collected Media-reported",
+          "claim_ids": [
+            "C-015"
+          ],
+          "zone": "table",
+          "table": "T3",
+          "row_cells": [
+            "Content and intellectual property",
+            "Reported USD 322 million judgment unlikely to be collected",
+            "Media-reported"
+          ]
+        },
+        {
+          "element_id": "t3r7",
+          "role": "evidence",
+          "visible_text": "Insurance USD 6.8 million claimed; recoveries lag costs; 35% of UK charities insured Observed",
+          "claim_ids": [
+            "C-026",
+            "C-034",
+            "C-020"
+          ],
+          "zone": "table",
+          "table": "T3",
+          "row_cells": [
+            "Insurance",
+            "USD 6.8 million claimed; recoveries lag costs; 35% of UK charities insured",
+            "Observed"
+          ]
+        },
+        {
+          "element_id": "t3r8",
+          "role": "evidence",
+          "visible_text": "Regulatory and litigation Investigations opened; live-events class action filed after a regulator notice; no penalty in period Observed",
+          "claim_ids": [
+            "C-003",
+            "C-013",
+            "C-067"
+          ],
+          "zone": "table",
+          "table": "T3",
+          "row_cells": [
+            "Regulatory and litigation",
+            "Investigations opened; live-events class action filed after a regulator notice; no penalty in period",
+            "Observed"
+          ]
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Management implication: watch for unscheduled waiver or amendment requests, merchant-volume drops and fraud alerts at media and cultural counterparties after a sector incident.",
+          "claim_ids": [
+            "C-077",
+            "C-027"
+          ],
+          "zone": "implication"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Limitation: values differ in currency, statistic type and population and are not summed; no heritage or public-trust loss is monetised; absence of disclosure is not zero loss.",
+          "claim_ids": [
+            "C-075"
+          ],
+          "zone": "limitation"
+        }
+      ],
+      "claim_ids": [
+        "C-073",
+        "C-026",
+        "C-028",
+        "C-030",
+        "C-014",
+        "C-077",
+        "C-029",
+        "C-002",
+        "C-008",
+        "C-027",
+        "C-031",
+        "C-015",
+        "C-034",
+        "C-020",
+        "C-003",
+        "C-013",
+        "C-067",
+        "C-075"
+      ],
+      "metric_ids": [
+        "M-001",
+        "M-002",
+        "M-003",
+        "M-004",
+        "M-006",
+        "M-011",
+        "M-015",
+        "M-022",
+        "M-027"
+      ],
+      "scenario_ids": [],
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No substantive information in notes. All essential analysis must be visible."
+    },
+    {
+      "number": 4,
+      "title": "Financial Impact: Worst-Case Scenarios",
+      "decision": "Use three distinct stress pathways to test counterparty dependency mapping.",
+      "executive_conclusion": "Three distinct pathways converge on lost revenue channels and long recovery; they are stress narratives, not forecasts.",
+      "visual_type": "Scenario comparison matrix",
+      "scenario_ids": [
+        "SC-001",
+        "SC-002",
+        "SC-003"
+      ],
+      "table_headers": {
+        "T4": [
+          "Dimension",
+          "1 Common digital dependency",
+          "2 Targeted operational disruption",
+          "3 Supply-chain concentration"
+        ]
+      },
+      "table_widths": {
+        "T4": [
+          1.8,
+          3.6,
+          3.6,
+          3.3
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "Three distinct stress pathways - a shared platform failure, a targeted hit on a broadcaster or national institution, and a compromised shared supplier - converge on lost revenue channels, with recovery ranging from hours to years; they are stress narratives, not forecasts or loss estimates.",
+          "claim_ids": [
+            "C-080",
+            "C-081",
+            "C-082"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "t4r1",
+          "role": "evidence",
+          "visible_text": "Trigger Multi-hour cloud, delivery-network or shared satellite-operator failure during a live event Ransomware, intrusion or output hijack at a broadcaster or national institution Compromise of a shared ticketing, collection, newsroom or playout supplier",
+          "claim_ids": [
+            "C-080",
+            "C-081",
+            "C-082"
+          ],
+          "zone": "table",
+          "table": "T4",
+          "row_cells": [
+            "Trigger",
+            "Multi-hour cloud, delivery-network or shared satellite-operator failure during a live event",
+            "Ransomware, intrusion or output hijack at a broadcaster or national institution",
+            "Compromise of a shared ticketing, collection, newsroom or playout supplier"
+          ]
+        },
+        {
+          "element_id": "t4r2",
+          "role": "evidence",
+          "visible_text": "Propagation Streaming, game, ticketing and news services fail at once Playout, ticketing and payment isolated; hijacked output reaches audiences One supplier removes sales or tools at many institutions at once",
+          "claim_ids": [
+            "C-023",
+            "C-024",
+            "C-011",
+            "C-002",
+            "C-008"
+          ],
+          "zone": "table",
+          "table": "T4",
+          "row_cells": [
+            "Propagation",
+            "Streaming, game, ticketing and news services fail at once",
+            "Playout, ticketing and payment isolated; hijacked output reaches audiences",
+            "One supplier removes sales or tools at many institutions at once"
+          ]
+        },
+        {
+          "element_id": "t4r3",
+          "role": "evidence",
+          "visible_text": "Financial transmission Lost live audiences, advertiser make-goods, refunds, correlated revenue dips Output loss, rebuild cost, regulatory scrutiny, funding draw Correlated ticketing loss, phishing and payment fraud, supplier disputes",
+          "claim_ids": [
+            "C-077",
+            "C-026",
+            "C-030",
+            "C-009"
+          ],
+          "zone": "table",
+          "table": "T4",
+          "row_cells": [
+            "Financial transmission",
+            "Lost live audiences, advertiser make-goods, refunds, correlated revenue dips",
+            "Output loss, rebuild cost, regulatory scrutiny, funding draw",
+            "Correlated ticketing loss, phishing and payment fraud, supplier disputes"
+          ]
+        },
+        {
+          "element_id": "t4r4",
+          "role": "evidence",
+          "visible_text": "Early signposts Provider status incidents; DDoS spikes before live events Regulator device warnings; election and conflict calendars Supplier breach notices; prosecutor statements naming a provider",
+          "claim_ids": [
+            "C-016",
+            "C-010",
+            "C-008"
+          ],
+          "zone": "table",
+          "table": "T4",
+          "row_cells": [
+            "Early signposts",
+            "Provider status incidents; DDoS spikes before live events",
+            "Regulator device warnings; election and conflict calendars",
+            "Supplier breach notices; prosecutor statements naming a provider"
+          ]
+        },
+        {
+          "element_id": "t4r5",
+          "role": "evidence",
+          "visible_text": "Limiting conditions Multi-provider delivery; both 2025 provider failures restored within a day Segregated playout and security; manual fallback Alternative ticket offices and on-site sales",
+          "claim_ids": [
+            "C-023",
+            "C-025",
+            "C-001",
+            "C-007"
+          ],
+          "zone": "table",
+          "table": "T4",
+          "row_cells": [
+            "Limiting conditions",
+            "Multi-provider delivery; both 2025 provider failures restored within a day",
+            "Segregated playout and security; manual fallback",
+            "Alternative ticket offices and on-site sales"
+          ]
+        },
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Evidence: a 14.5-hour cloud regional disruption and a 6-hour delivery-network outage in late 2025; Dresden, US newspaper and British Library recovery records; one ticketing provider serving France's national monuments network.",
+          "claim_ids": [
+            "C-023",
+            "C-025",
+            "C-001",
+            "C-026",
+            "C-030",
+            "C-006"
+          ],
+          "zone": "below"
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "Interpretation: scenario 1 is broad and short, scenario 2 narrow and deep, scenario 3 broad and deep through one supplier.",
+          "claim_ids": [
+            "C-080",
+            "C-081",
+            "C-082"
+          ],
+          "zone": "below"
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Management implication: ask which major counterparties share the same delivery, ticketing and playout suppliers, and whether rights-sensitive live events have tested fallback.",
+          "claim_ids": [
+            "C-090"
+          ],
+          "zone": "implication"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Limitation: no probabilities are assigned because no defensible external basis exists; durations are illustrative and no 2026 cloud or delivery-network outage of comparable scale was found.",
+          "claim_ids": [
+            "C-080"
+          ],
+          "zone": "limitation"
+        }
+      ],
+      "claim_ids": [
+        "C-080",
+        "C-081",
+        "C-082",
+        "C-023",
+        "C-024",
+        "C-011",
+        "C-002",
+        "C-008",
+        "C-077",
+        "C-026",
+        "C-030",
+        "C-009",
+        "C-016",
+        "C-010",
+        "C-025",
+        "C-001",
+        "C-007",
+        "C-006",
+        "C-090"
+      ],
+      "metric_ids": [
+        "M-025",
+        "M-026"
+      ],
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No substantive information in notes. All essential analysis must be visible."
+    },
+    {
+      "number": 5,
+      "title": "Case Study: Dresden State Art Collections Cyberattack",
+      "decision": "Treat online-sales and card-payment loss at public cultural counterparties as a foreseeable multi-week event.",
+      "executive_conclusion": "The security system kept running and museums stayed open while revenue channels recovered last.",
+      "visual_type": "Case timeline table",
+      "table_headers": {
+        "T5": [
+          "Phase",
+          "Date",
+          "What happened"
+        ]
+      },
+      "table_widths": {
+        "T5": [
+          2.0,
+          1.5,
+          4.8
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "A deliberate attack on Saxony's state museum network removed the online shop, visitor services and card payment while the security system kept running and museums stayed open; information channels returned within days and revenue channels recovered last.",
+          "claim_ids": [
+            "C-001",
+            "C-002",
+            "C-078"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Evidence base: institution and ministry releases of 22 and 29 January 2026, a prosecutor and state police release of 19 February 2026 and a ministerial answer relayed in July 2026; selected as the recent EU case with the most complete primary chronology.",
+          "claim_ids": [
+            "C-001",
+            "C-002",
+            "C-003",
+            "C-004"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "Interpretation: activity over several days before containment points to detection lag; information channels returned within a week, transactional channels within about a month (media-reported).",
+          "claim_ids": [
+            "C-004",
+            "C-002",
+            "C-005"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "t5r1",
+          "role": "evidence",
+          "visible_text": "Intrusion 17-21 January Attack activity over several days, per a ministerial answer",
+          "claim_ids": [
+            "C-004"
+          ],
+          "zone": "table",
+          "table": "T5",
+          "row_cells": [
+            "Intrusion",
+            "17-21 January",
+            "Attack activity over several days, per a ministerial answer"
+          ]
+        },
+        {
+          "element_id": "t5r2",
+          "role": "evidence",
+          "visible_text": "Attack date 21 January Large parts of the digital infrastructure hit, per the ministry; crisis team formed",
+          "claim_ids": [
+            "C-001"
+          ],
+          "zone": "table",
+          "table": "T5",
+          "row_cells": [
+            "Attack date",
+            "21 January",
+            "Large parts of the digital infrastructure hit, per the ministry; crisis team formed"
+          ]
+        },
+        {
+          "element_id": "t5r3",
+          "role": "evidence",
+          "visible_text": "Impact 22 January Shop and visitor services offline; security system unaffected; museums open",
+          "claim_ids": [
+            "C-001"
+          ],
+          "zone": "table",
+          "table": "T5",
+          "row_cells": [
+            "Impact",
+            "22 January",
+            "Shop and visitor services offline; security system unaffected; museums open"
+          ]
+        },
+        {
+          "element_id": "t5r4",
+          "role": "evidence",
+          "visible_text": "Partial restoration 26-29 January Website back after 5 days; telephone restored; cash-only sales",
+          "claim_ids": [
+            "C-002"
+          ],
+          "zone": "table",
+          "table": "T5",
+          "row_cells": [
+            "Partial restoration",
+            "26-29 January",
+            "Website back after 5 days; telephone restored; cash-only sales"
+          ]
+        },
+        {
+          "element_id": "t5r5",
+          "role": "evidence",
+          "visible_text": "Investigation 19 February State police special commission under prosecutor direction",
+          "claim_ids": [
+            "C-003"
+          ],
+          "zone": "table",
+          "table": "T5",
+          "row_cells": [
+            "Investigation",
+            "19 February",
+            "State police special commission under prosecutor direction"
+          ]
+        },
+        {
+          "element_id": "t5r6",
+          "role": "evidence",
+          "visible_text": "Transactional recovery By 20 February Online booking reported available again",
+          "claim_ids": [
+            "C-005"
+          ],
+          "zone": "table",
+          "table": "T5",
+          "row_cells": [
+            "Transactional recovery",
+            "By 20 February",
+            "Online booking reported available again"
+          ]
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Management implication: treat card-payment and online-sales loss at public cultural counterparties as a foreseeable multi-week event, and ask how merchant and donor flows continue.",
+          "claim_ids": [
+            "C-078",
+            "C-077"
+          ],
+          "zone": "implication"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Limitation: no cost, data loss, insurance, attacker or access vector was disclosed; a reported link to planned theft is unconfirmed; the case concerns one German museum network.",
+          "claim_ids": [
+            "C-005"
+          ],
+          "zone": "limitation"
+        }
+      ],
+      "claim_ids": [
+        "C-001",
+        "C-002",
+        "C-078",
+        "C-003",
+        "C-004",
+        "C-005",
+        "C-077"
+      ],
+      "metric_ids": [
+        "M-012",
+        "M-013"
+      ],
+      "scenario_ids": [],
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No substantive information in notes. All essential analysis must be visible."
+    },
+    {
+      "number": 6,
+      "title": "Systemic Dependencies & Regulatory Outlook",
+      "decision": "Assess supplier regulation status, AI-content controls and product reporting in counterparty reviews.",
+      "executive_conclusion": "The sector sits outside horizontal cyber regimes; resilience depends on regulated providers and media and product rules.",
+      "visual_type": "Dependency chain text and regime status table",
+      "table_headers": {
+        "T6": [
+          "Regime",
+          "Status",
+          "Meaning for Media & Cultural Services"
+        ]
+      },
+      "table_widths": {
+        "T6": [
+          2.2,
+          2.5,
+          4.0
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "Media and culture are not a named sector under NIS2, the CER Directive or the UK NIS Regulations, so resilience depends on regulated providers, product rules and media-specific law, while shared ticketing, cloud and signal paths concentrate risk that no regime addresses through the sector itself.",
+          "claim_ids": [
+            "C-074",
+            "C-040",
+            "C-041",
+            "C-051"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Evidenced dependency chains: shared ticketing -> national monuments network; cloud region -> streaming and online games; delivery network -> news and ticketing sites; streaming encoders and satellite uplinks -> live output.",
+          "claim_ids": [
+            "C-006",
+            "C-023",
+            "C-024",
+            "C-025",
+            "C-010",
+            "C-012"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "Interpretation: in-period movement came from AI transparency, product reporting and a US broadcast rule, not from horizontal cyber law; the UK bill is not yet law.",
+          "claim_ids": [
+            "C-074",
+            "C-044",
+            "C-045",
+            "C-052"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "t6r1",
+          "role": "evidence",
+          "visible_text": "NIS2 Directive Binding via national law Reached through delivery-network, cloud, managed-service and communications providers",
+          "claim_ids": [
+            "C-040"
+          ],
+          "zone": "table",
+          "table": "T6",
+          "row_cells": [
+            "NIS2 Directive",
+            "Binding via national law",
+            "Reached through delivery-network, cloud, managed-service and communications providers"
+          ]
+        },
+        {
+          "element_id": "t6r2",
+          "role": "evidence",
+          "visible_text": "CER Directive (entity resilience) Binding; entities identified by July 2026 No media or culture sector",
+          "claim_ids": [
+            "C-041"
+          ],
+          "zone": "table",
+          "table": "T6",
+          "row_cells": [
+            "CER Directive (entity resilience)",
+            "Binding; entities identified by July 2026",
+            "No media or culture sector"
+          ]
+        },
+        {
+          "element_id": "t6r3",
+          "role": "evidence",
+          "visible_text": "European Media Freedom Act Applies since August 2025 Protects journalistic sources against intrusive surveillance software",
+          "claim_ids": [
+            "C-042"
+          ],
+          "zone": "table",
+          "table": "T6",
+          "row_cells": [
+            "European Media Freedom Act",
+            "Applies since August 2025",
+            "Protects journalistic sources against intrusive surveillance software"
+          ]
+        },
+        {
+          "element_id": "t6r4",
+          "role": "evidence",
+          "visible_text": "AI Act Article 50 Applies since August 2026; older systems from December 2026 Deepfake disclosure; AI text on public-interest matters exempt if under editorial control",
+          "claim_ids": [
+            "C-044"
+          ],
+          "zone": "table",
+          "table": "T6",
+          "row_cells": [
+            "AI Act Article 50",
+            "Applies since August 2026; older systems from December 2026",
+            "Deepfake disclosure; AI text on public-interest matters exempt if under editorial control"
+          ]
+        },
+        {
+          "element_id": "t6r5",
+          "role": "evidence",
+          "visible_text": "Cyber Resilience Act Reporting since September 2026; full from December 2027 Broadcast equipment, connected TVs, apps and games as products",
+          "claim_ids": [
+            "C-045"
+          ],
+          "zone": "table",
+          "table": "T6",
+          "row_cells": [
+            "Cyber Resilience Act",
+            "Reporting since September 2026; full from December 2027",
+            "Broadcast equipment, connected TVs, apps and games as products"
+          ]
+        },
+        {
+          "element_id": "t6r6",
+          "role": "evidence",
+          "visible_text": "Political advertising Regulation Applies since October 2025 Labelling and targeting consent for publishers and ad services",
+          "claim_ids": [
+            "C-043"
+          ],
+          "zone": "table",
+          "table": "T6",
+          "row_cells": [
+            "Political advertising Regulation",
+            "Applies since October 2025",
+            "Labelling and targeting consent for publishers and ad services"
+          ]
+        },
+        {
+          "element_id": "t6r7",
+          "role": "evidence",
+          "visible_text": "UK Cyber Security and Resilience Bill Bill at Lords report stage Could reach managed service providers and designated suppliers",
+          "claim_ids": [
+            "C-052"
+          ],
+          "zone": "table",
+          "table": "T6",
+          "row_cells": [
+            "UK Cyber Security and Resilience Bill",
+            "Bill at Lords report stage",
+            "Could reach managed service providers and designated suppliers"
+          ]
+        },
+        {
+          "element_id": "t6r8",
+          "role": "evidence",
+          "visible_text": "US alerting order (comparative) Adopted June 2026; compliance 60 days after Federal Register publication Password, patch and segmentation baseline for content insertion",
+          "claim_ids": [
+            "C-010"
+          ],
+          "zone": "table",
+          "table": "T6",
+          "row_cells": [
+            "US alerting order (comparative)",
+            "Adopted June 2026; compliance 60 days after Federal Register publication",
+            "Password, patch and segmentation baseline for content insertion"
+          ]
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Management implication: ask about supplier regulation status, AI-content controls and product reporting in counterparty assessments, and track the UK bill and the December 2026 AI deadline.",
+          "claim_ids": [
+            "C-074",
+            "C-090"
+          ],
+          "zone": "implication"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Limitation: national NIS2 designations and national journalistic data-protection derogations were not surveyed; whether UK broadcast transmission falls under telecoms security duties is unconfirmed.",
+          "claim_ids": [
+            "C-074",
+            "C-063",
+            "C-065"
+          ],
+          "zone": "limitation"
+        }
+      ],
+      "claim_ids": [
+        "C-074",
+        "C-040",
+        "C-041",
+        "C-051",
+        "C-006",
+        "C-023",
+        "C-024",
+        "C-025",
+        "C-010",
+        "C-012",
+        "C-044",
+        "C-045",
+        "C-052",
+        "C-042",
+        "C-043",
+        "C-090",
+        "C-063",
+        "C-065"
+      ],
+      "metric_ids": [],
+      "scenario_ids": [],
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No substantive information in notes. All essential analysis must be visible."
+    },
+    {
+      "number": 7,
+      "title": "Mitigation Strategies & Security Framework",
+      "decision": "Assign each priority a 1LoD owner, completion artefact and escalation trigger.",
+      "executive_conclusion": "Six evidence-linked priorities address the pathways without asserting any institution's control gaps.",
+      "visual_type": "Action matrix",
+      "table_headers": {
+        "T7": [
+          "Priority and horizon",
+          "Challenge question for 1LoD",
+          "Evidence of completion",
+          "Monitoring trigger"
+        ]
+      },
+      "table_widths": {
+        "T7": [
+          2.4,
+          4.0,
+          2.2,
+          2.2
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "Six evidence-linked priorities address the pathways: map shared front-of-house suppliers, harden live-output equipment, segregate and test recovery, contain payment fraud after data exposure, protect brand provenance, and align credit and funding with long recovery.",
+          "claim_ids": [
+            "C-090"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "t7r1",
+          "role": "evidence",
+          "visible_text": "A1 Shared platforms (0-6 months) Which ticketing, payment, cloud and delivery providers do top counterparties share? Dependency map; fallback tests Supplier incident or prosecutor notice",
+          "claim_ids": [
+            "C-070",
+            "C-006",
+            "C-023"
+          ],
+          "zone": "table",
+          "table": "T7",
+          "row_cells": [
+            "A1 Shared platforms (0-6 months)",
+            "Which ticketing, payment, cloud and delivery providers do top counterparties share?",
+            "Dependency map; fallback tests",
+            "Supplier incident or prosecutor notice"
+          ]
+        },
+        {
+          "element_id": "t7r2",
+          "role": "evidence",
+          "visible_text": "A2 Live-output integrity (0-6 months) Do broadcasters meet a password, patch and segmentation baseline for content insertion? Baseline attestation Regulator device warning; hijack report",
+          "claim_ids": [
+            "C-010",
+            "C-011",
+            "C-059"
+          ],
+          "zone": "table",
+          "table": "T7",
+          "row_cells": [
+            "A2 Live-output integrity (0-6 months)",
+            "Do broadcasters meet a password, patch and segmentation baseline for content insertion?",
+            "Baseline attestation",
+            "Regulator device warning; hijack report"
+          ]
+        },
+        {
+          "element_id": "t7r3",
+          "role": "evidence",
+          "visible_text": "A3 Segregation and recovery (3-12 months) Are security, building and playout systems separate from corporate IT? Segregation and restoration tests Sector incident notice",
+          "claim_ids": [
+            "C-078",
+            "C-076"
+          ],
+          "zone": "table",
+          "table": "T7",
+          "row_cells": [
+            "A3 Segregation and recovery (3-12 months)",
+            "Are security, building and playout systems separate from corporate IT?",
+            "Segregation and restoration tests",
+            "Sector incident notice"
+          ]
+        },
+        {
+          "element_id": "t7r4",
+          "role": "evidence",
+          "visible_text": "A4 Payment fraud (0-3 months) Are fraud typologies monitored after ticket-holder data exposure? Monitoring and verification procedure Ticketing or subscriber data notice",
+          "claim_ids": [
+            "C-009",
+            "C-077"
+          ],
+          "zone": "table",
+          "table": "T7",
+          "row_cells": [
+            "A4 Payment fraud (0-3 months)",
+            "Are fraud typologies monitored after ticket-holder data exposure?",
+            "Monitoring and verification procedure",
+            "Ticketing or subscriber data notice"
+          ]
+        },
+        {
+          "element_id": "t7r5",
+          "role": "evidence",
+          "visible_text": "A5 Provenance (6-12 months) How are brand impersonation and AI-generated content detected and labelled? Provenance and labelling procedure Manipulation alert; election calendar",
+          "claim_ids": [
+            "C-018",
+            "C-044"
+          ],
+          "zone": "table",
+          "table": "T7",
+          "row_cells": [
+            "A5 Provenance (6-12 months)",
+            "How are brand impersonation and AI-generated content detected and labelled?",
+            "Provenance and labelling procedure",
+            "Manipulation alert; election calendar"
+          ]
+        },
+        {
+          "element_id": "t7r6",
+          "role": "evidence",
+          "visible_text": "A6 Credit and funding (6-12 months) What recovery time, insurance and waiver triggers apply to media borrowers? Recovery objectives; insurance schedule Waiver or amendment request",
+          "claim_ids": [
+            "C-027",
+            "C-030",
+            "C-020"
+          ],
+          "zone": "table",
+          "table": "T7",
+          "row_cells": [
+            "A6 Credit and funding (6-12 months)",
+            "What recovery time, insurance and waiver triggers apply to media borrowers?",
+            "Recovery objectives; insurance schedule",
+            "Waiver or amendment request"
+          ]
+        },
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Evidence base: the US alerting order, Dresden and British Library recovery records, ticketing data exposure, EEAS impersonation findings, lender waivers at a US newspaper group and UK charity insurance coverage.",
+          "claim_ids": [
+            "C-010",
+            "C-001",
+            "C-030",
+            "C-009",
+            "C-018",
+            "C-027",
+            "C-020"
+          ],
+          "zone": "below"
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "Frameworks are reference vocabularies, not law: NIST CSF 2.0, ISO/IEC 27001 and 27036, EBU R 148, C2PA content provenance and PCI DSS v4.0.1.",
+          "claim_ids": [
+            "C-059",
+            "C-090"
+          ],
+          "zone": "below"
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Management implication: give each priority a 1LoD owner and a dated completion artefact, and escalate to the Risk Committee when a monitoring trigger fires.",
+          "claim_ids": [
+            "C-090"
+          ],
+          "zone": "implication"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Limitation: actions are sector priorities drawn from public evidence, not findings about any institution's controls, losses or risk appetite.",
+          "claim_ids": [
+            "C-090"
+          ],
+          "zone": "limitation"
+        }
+      ],
+      "claim_ids": [
+        "C-090",
+        "C-070",
+        "C-006",
+        "C-023",
+        "C-010",
+        "C-011",
+        "C-059",
+        "C-078",
+        "C-076",
+        "C-009",
+        "C-077",
+        "C-018",
+        "C-044",
+        "C-027",
+        "C-030",
+        "C-020",
+        "C-001"
+      ],
+      "metric_ids": [
+        "M-022"
+      ],
+      "scenario_ids": [],
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No substantive information in notes. All essential analysis must be visible."
+    }
+  ]
+}

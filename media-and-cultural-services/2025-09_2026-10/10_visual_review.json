@@ -1,0 +1,11 @@
+{
+  "reviewer": "Drafting role visual inspection of LibreOffice renders (all 7 slides at 80 dpi; all 29 report pages at 60-90 dpi), corroborated by the independent editorial challenge agent's review of the same renders",
+  "all_slides_inspected": true,
+  "readable_text": true,
+  "no_clipped_elements": true,
+  "design_compliant": true,
+  "renderer": "LibreOffice headless (soffice) to PDF; pdftoppm JPEG; ImageMagick montage",
+  "pptx_sha256": "a57a9871a4a885b981163a726898c841d23804d01d1304984b485288716ec100",
+  "docx_sha256": "e79992903c2c11fb949ccc2b6bec0ce6dad6fd897e3630a3144736d414470e67",
+  "observations": "Deck: white background, dark text 1F2328, emerald 00915E labels and rules; hairline table grids; no imagery, icons, gradients, shadows, rounded cards, footers, dates, page numbers, sources or notes. Each slide shows Conclusion, Evidence, Interpretation, Management implication and Limitation; tables 11-12 pt, prose 13-14 pt; no clipping; slide 2 limitation runs four lines and stays inside the canvas; slide 5 keeps white space below the timeline. Report: first renders showed the Horizon (action table) and Jurisdiction (regulatory table) columns wrapping mid-word; fixed by word-length column floors in md2docx.js, then the eight-column Top 5 table overflowed the page and was fixed by proportional scaling, and the 'Geography and period' header was shortened to 'Place and date'. Final render: 29 pages, all tables inside margins, no mid-word breaks observed in table headers."
+}

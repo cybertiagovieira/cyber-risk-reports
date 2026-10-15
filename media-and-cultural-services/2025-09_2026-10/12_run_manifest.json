@@ -1,0 +1,138 @@
+{
+  "run_id": "20261015-media-cultural-services-global-eu-uk-2025-09_2026-10",
+  "skill_version": "3.0.0-local-publication-standard",
+  "skill_sha256": "76b969befc528d58ac325d97eaf08e2f4f8eff76ee19b187549ee296da595453",
+  "product_mode": "standalone_publication",
+  "analysis_boundary": "external_data_only",
+  "sector": "Media & Cultural Services",
+  "reporting_period": {
+    "start": "2025-09-01",
+    "end": "2026-10-15"
+  },
+  "evidence_cutoff": "2026-10-15",
+  "edition_state": "READY_FOR_DELIVERY",
+  "artefacts": [
+    {
+      "type": "input_contract",
+      "path": "00_input_contract.json",
+      "sha256": "654e85d3ca25650b18e514356596cf7366c2cf6d62ad9b7f918a2386497290b4"
+    },
+    {
+      "type": "research_plan",
+      "path": "01_research_plan.md",
+      "sha256": "38d2543c4aaeb21a6400138e1446b275970efab7439ebffe3d21883cddf7ca74"
+    },
+    {
+      "type": "source_register",
+      "path": "02_source_register.csv",
+      "sha256": "02cc4078bfaa42938ba55d2818fae01af9cbe04c696f7fc2b0c69ff5ea5ca9b1"
+    },
+    {
+      "type": "claim_ledger",
+      "path": "03_claim_ledger.json",
+      "sha256": "f6383631621b209029bd6e07fce52f22bdc0263309d56265eadf184dc8c3fec4"
+    },
+    {
+      "type": "metric_dictionary",
+      "path": "04_metric_dictionary.csv",
+      "sha256": "7f688342bbae5cdf8a833c9f2c97890af348e0e213f29e88bdbce490a1531768"
+    },
+    {
+      "type": "regulatory_register",
+      "path": "05_regulatory_relevance_register.csv",
+      "sha256": "c2b8c4870ad1e412ac3495079c3f7057cc70e8641e98663612ced3a2d35812c5"
+    },
+    {
+      "type": "scenario_register",
+      "path": "06_scenario_assumption_register.csv",
+      "sha256": "b3c4e3c681d6847e22c448e2b50b0ef5bd2674644eac814a03132e101e4f587d"
+    },
+    {
+      "type": "executive_story",
+      "path": "07_executive_story.md",
+      "sha256": "b0b52b1f019f4faa9f4b74da9bbc73bd3da0c036c01868a4590909ad53d2a2c9"
+    },
+    {
+      "type": "slide_spec",
+      "path": "08_slide_spec.json",
+      "sha256": "8506d6359a2267cbfb17b06e29f75d5ba78b572b028dda4d80762a650cac973e"
+    },
+    {
+      "type": "evidence_pack",
+      "path": "09_evidence_pack.md",
+      "sha256": "e7e63dce632286047533547308eb49e47772738fea97fa2642e23c2fe374eb64"
+    },
+    {
+      "type": "visual_review",
+      "path": "10_visual_review.json",
+      "sha256": "01a9e27fdaec05cb7a11742cd64c317966de0372de7b1c75c0cda15e58d0e9cb"
+    },
+    {
+      "type": "quality_record",
+      "path": "11_presentation_qc.json",
+      "sha256": "ed063bd380110d56cbd04b6177cfcd27bd92dbfc7b66780b9e02bb73d7de7625"
+    },
+    {
+      "type": "powerpoint",
+      "path": "13_cyber_sectorial_analysis.pptx",
+      "sha256": "a57a9871a4a885b981163a726898c841d23804d01d1304984b485288716ec100"
+    },
+    {
+      "type": "full_report",
+      "path": "14_sectorial_report.md",
+      "sha256": "6c38170e7d410f8e7517dac19d45f15e29535f8a1ee93217a8b0ee48837eca45"
+    },
+    {
+      "type": "word_report",
+      "path": "15_sectorial_report.docx",
+      "sha256": "e79992903c2c11fb949ccc2b6bec0ce6dad6fd897e3630a3144736d414470e67"
+    },
+    {
+      "type": "editorial_review",
+      "path": "16_editorial_review.json",
+      "sha256": "487fd35e07dd79f60928d1780d059c69689572c6168fc0e7058e2439ceb29f60"
+    },
+    {
+      "type": "research_coverage",
+      "path": "17_research_coverage.csv",
+      "sha256": "a62178608da883482ed68e126429195e1480f5b5a2cfa2919c2c0c52c6310e01"
+    },
+    {
+      "type": "delivery_index",
+      "path": "README.md",
+      "sha256": "c1ce3cbc65c5150e76da71c0fec43065d3e955bf924a05fbae1b2aed50f9b9ac"
+    }
+  ],
+  "hashes": {
+    "input_contract": "654e85d3ca25650b18e514356596cf7366c2cf6d62ad9b7f918a2386497290b4",
+    "source_register": "02cc4078bfaa42938ba55d2818fae01af9cbe04c696f7fc2b0c69ff5ea5ca9b1",
+    "claim_ledger": "f6383631621b209029bd6e07fce52f22bdc0263309d56265eadf184dc8c3fec4",
+    "full_report": "6c38170e7d410f8e7517dac19d45f15e29535f8a1ee93217a8b0ee48837eca45"
+  },
+  "renderers": {
+    "pptx": "pptxgenjs (pptx skill) + LibreOffice headless for inspection",
+    "docx": "docx-js (docx skill) + LibreOffice headless for inspection"
+  },
+  "quality_gates": {
+    "input": "PASS",
+    "evidence": "PASS",
+    "analysis": "PASS",
+    "publication": "PASS",
+    "presentation": "PASS",
+    "language": "PASS",
+    "delivery": "NOT_RUN"
+  },
+  "schedule_changes": "none",
+  "delivery": {
+    "destination": "https://github.com/cybertiagovieira/cyber-risk-reports",
+    "repository_url": "",
+    "repository_visibility": "",
+    "branch": "",
+    "commit_sha": "",
+    "artefact_commit_sha": "",
+    "receipt_commit_sha": "",
+    "paths": [],
+    "remote_hash_comparison": "",
+    "delivery_status": "NOT_RUN"
+  }
+}

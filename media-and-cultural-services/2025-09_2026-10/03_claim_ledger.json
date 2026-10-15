@@ -1,0 +1,1388 @@
+{
+  "schema_version": "3.0.0",
+  "run_id": "20261015-media-cultural-services-global-eu-uk-2025-09_2026-10",
+  "claims": [
+    {
+      "claim_id": "C-001",
+      "claim_text": "On 21 January 2026 the Dresden State Art Collections (SKD), a network of state museums, were hit by a deliberate cyberattack affecting large parts of their digital infrastructure; the online shop and visitor services were unavailable and telephone and digital contact was limited, while the security system remained operational and the museums stayed open.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-001",
+        "S-002"
+      ],
+      "exact_locator": "S-001 press release body; S-002 release of 22 January 2026",
+      "event_or_publication_date": "2026-01-21",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Public-access and revenue channels of a national cultural institution failed while physical security was unaffected.",
+      "limitations": "No data, attacker, cost or restoration date disclosed.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-002",
+      "claim_text": "By 29 January 2026 the SKD website had been available since 26 January except for some functions and telephone service was restored, but the online shop remained offline and on-site sales were cash only; tickets booked before the attack stayed valid.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-003"
+      ],
+      "exact_locator": "S-003 release of 29 January 2026",
+      "event_or_publication_date": "2026-01-29",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Shows recovery sequencing: information channels first, transactional and payment channels later.",
+      "limitations": "No full-restoration statement in Tier 1 sources.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-003",
+      "claim_text": "On 19 February 2026 the Dresden prosecutor general's office and the Saxon state criminal police (LKA) announced a special investigation commission; the investigation was ongoing and no further detail was given.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-004"
+      ],
+      "exact_locator": "S-004 joint release",
+      "event_or_publication_date": "2026-02-19",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Law-enforcement escalation indicates the incident was treated as a significant crime, not a routine IT outage.",
+      "limitations": "No attribution, data or cost information.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-004",
+      "claim_text": "A ministerial answer to a parliamentary question, as relayed by dpa in July 2026, states that the attack activity ran from 17 to 21 January 2026 and that the case against unknown persons remained pending under the Saxon cybercrime prosecution unit.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-006",
+        "S-004"
+      ],
+      "exact_locator": "S-006 article body; S-004 for investigation existence",
+      "event_or_publication_date": "2026-07-28",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Activity over several days before containment suggests detection lag in a state cultural body.",
+      "limitations": "Primary parliamentary document not retrieved; relayed by Tier 3 media.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-005",
+      "claim_text": "Regional media reported on 20 February 2026 that online tickets could be booked again, and relayed an unconfirmed tabloid report that foreign authorities had warned of a planned theft linked to the attack; the LKA neither confirmed nor denied it.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-005",
+        "S-004"
+      ],
+      "exact_locator": "S-005 article body; S-004 for special commission",
+      "event_or_publication_date": "2026-02-20",
+      "likelihood": "not_applicable",
+      "confidence": "low",
+      "alternative_hypotheses": [
+        "The theft-planning report may be speculative and unrelated to the cyberattack."
+      ],
+      "contrary_evidence": "Investigators declined to comment; no official confirmation.",
+      "sector_relevance": "Cyber-physical linkage would change the risk profile of museums, but is unconfirmed.",
+      "limitations": "Unconfirmed; not used as a finding.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-006",
+      "claim_text": "The official ticketing site of the Centre des monuments nationaux (CMN), which manages about a hundred national monuments, names Vivaticket S.p.A. as the provider that hosts and transmits ticketing data.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-008",
+        "S-010"
+      ],
+      "exact_locator": "S-008 personal data notice; S-010 for CMN site count",
+      "event_or_publication_date": "2026-10-15",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Documents a single-provider dependency for public access to a national heritage network.",
+      "limitations": "Page undated; does not describe an incident.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-007",
+      "claim_text": "The Musee Guimet published a notice that its online reservations were unavailable and redirected visitors to a third-party ticket office and on-site purchase.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-007"
+      ],
+      "exact_locator": "S-007 notice body",
+      "event_or_publication_date": "2026-10-15",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Confirms institution-level loss of online ticketing and a fallback channel.",
+      "limitations": "Notice undated; cause not stated.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-008",
+      "claim_text": "Multiple independent French outlets relaying statements by CMN, the City of Lyon and the national library (BnF) report that the ticketing provider was hit by ransomware on 2 March 2026, that online ticketing became unavailable at the BnF, Louvre-Lens, Musee des Arts et Metiers, Guimet and four Lyon municipal museums, and that CMN reopened online sales on 12 March while the BnF still could not sell online on 19 March; CNIL, ANSSI and the Ministry of Culture were informed and the Paris prosecutor opened an investigation.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-009",
+        "S-010",
+        "S-011",
+        "S-007",
+        "S-008"
+      ],
+      "exact_locator": "S-009 article body; S-010 CMN email; S-011 city statement; S-007 and S-008 Tier 1 corroboration of outage and dependency",
+      "event_or_publication_date": "2026-03-02",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Largest observed concentration event in the cultural subsector during the period.",
+      "limitations": "Event details rest on Tier 3 relays of institution statements; Tier 1 corroborates outage and dependency only.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-009",
+      "claim_text": "Reported scope reached nearly 3,500 European museums, monuments and cultural sites; institutions said email addresses, purchase history and some account data may have been exposed while bank-card data, handled by a separate payment provider, was not affected; a ransomware group claim is unconfirmed.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-012",
+        "S-010",
+        "S-008"
+      ],
+      "exact_locator": "S-012 brief; S-010 CMN email; S-008 provider role",
+      "event_or_publication_date": "2026-04-06",
+      "likelihood": "not_applicable",
+      "confidence": "low",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Scale indicator for the concentration pathway and the phishing follow-on risk.",
+      "limitations": "Scale figure is Tier 3 and unconfirmed by the provider.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-010",
+      "claim_text": "The US Federal Communications Commission (FCC) adopted on 25 June 2026 and released on 29 June 2026 an order requiring Emergency Alert System (EAS) participants to replace default passwords, patch promptly and segment remote management for EAS, studio-transmitter-link and other remotely managed equipment that inserts content into the programme stream; compliance applies 60 days after Federal Register publication and no incident-reporting duty was adopted.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-014"
+      ],
+      "exact_locator": "S-014 Report and Order summary and adopted requirements",
+      "event_or_publication_date": "2026-06-29",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "First binding broadcast-specific cyber baseline in a major jurisdiction; targets the content-insertion pathway.",
+      "limitations": "Federal Register date unknown at cut-off; comparative only for EU and UK.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-011",
+      "claim_text": "The FCC June 2026 order records attacks using improperly secured, remotely accessible equipment to air unauthorised audio including alert tones, citing a Houston station hack of 23 November 2025 and stating attacks continued into 2026. On 23 November 2025 a Houston sports radio station's programme was replaced with unauthorised offensive audio via backup streaming equipment activated after a power outage; the FCC public safety bureau warned that similar attacks had inserted simulated or real EAS tones and obscene material through unsecured studio-transmitter-link devices.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-013",
+        "S-014"
+      ],
+      "exact_locator": "S-014 paragraph 16 and footnote 61; S-013 article body",
+      "event_or_publication_date": "2025-11-23",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Shows how commodity streaming devices create a live-output integrity exposure.",
+      "limitations": "Station-level detail is Tier 3; the bureau notice itself was not retrieved.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-012",
+      "claim_text": "Geo News stated on 1 March 2026 that its satellite feed was hacked at the start of the 9 pm bulletin after 24 hours of repeated attempts, that unauthorised content was displayed, and that it had asked authorities to investigate.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-018"
+      ],
+      "exact_locator": "S-018 statement body",
+      "event_or_publication_date": "2026-03-01",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Direct evidence of satellite-delivered broadcast hijack; no attribution published.",
+      "limitations": "Self-report by an affected media organisation; duration and vector not stated.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-013",
+      "claim_text": "Reporting indicates that Geo News, Samaa TV and ARY News were affected, that Pakistan's National CERT opened a formal investigation examining a possible uplink intrusion without definitive findings, and that platforms were restored.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-019",
+        "S-020",
+        "S-018"
+      ],
+      "exact_locator": "S-019 article body; S-020 article body; S-018 statement",
+      "event_or_publication_date": "2026-03-03",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Multi-channel effect through a shared satellite distribution path.",
+      "limitations": "No official attribution; Tier 3 for breadth.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-014",
+      "claim_text": "On 20 January 2026 the Southern District of New York granted a worldwide preliminary injunction against Anna's Archive, finding the plaintiffs likely to prove infringement by scraping recordings from Spotify, ordering registries, registrars and hosting providers including Cloudflare to disable its domains, and noting the defendant appeared unable to satisfy a judgment from US assets.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-015"
+      ],
+      "exact_locator": "S-015 Document 17 findings and orders",
+      "event_or_publication_date": "2026-01-20",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Content-theft at platform scale; remedies depend on intermediaries and may not recover value.",
+      "limitations": "Findings rest on plaintiffs' submissions; defendant did not appear.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-015",
+      "claim_text": "The complaint alleges that Anna's Archive copied metadata for about 256 million tracks and about 86 million music files using thousands of accounts and circumvention of technical protections; Spotify said it disabled the accounts and added safeguards; media report a USD 322 million judgment on 14 April 2026 with collection doubtful.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-016",
+        "S-017",
+        "S-015"
+      ],
+      "exact_locator": "S-016 article body; S-017 article body; S-015 for case identity",
+      "event_or_publication_date": "2026-04-14",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Quantifies a content-theft outcome that is unlikely to be recovered in cash.",
+      "limitations": "Scale is alleged; judgment basis not read in primary form.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-016",
+      "claim_text": "Cloudflare reports that Media, Production and Publishing was the most attacked industry in both quarters of H1 2026, receiving 14.2% of all mitigated HTTP DDoS requests, nearly four times the runner-up, linking the focus to war coverage and the World Cup.",
+      "claim_type": "Sector benchmark",
+      "source_ids": [
+        "S-042"
+      ],
+      "exact_locator": "S-042 sections on most-attacked industries",
+      "event_or_publication_date": "2026-08-11",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Media is the leading DDoS target by request share on one large network.",
+      "limitations": "Single-provider visibility; request share is not victim count or impact.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-017",
+      "claim_text": "ENISA's 2026 threat landscape records 8,257 EU incidents in 2025; business services represented 8.45% of events, with hospitality, consultancy and broadcast media together 55.3% of those; broadcast media was mostly hit by hacktivist disruption of public-facing platforms such as a Lithuanian public broadcaster's news website, and NoName057(16) accounted for 35.8% of ideology-driven claims in that group.",
+      "claim_type": "Sector benchmark",
+      "source_ids": [
+        "S-041"
+      ],
+      "exact_locator": "S-041 pp. 9, 14, 25-26",
+      "event_or_publication_date": "2026-09",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "EU baseline shows broadcast media mainly exposed to visibility attacks rather than disclosed destructive incidents.",
+      "limitations": "Media not a separate sector; claim-based data for hacktivism.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-018",
+      "claim_text": "The EEAS recorded 540 foreign information manipulation and interference (FIMI) incidents in 2025 targeting about 200 organisations, describes the media sector as a priority target including through impersonation of established outlets, and lists 2025 elections targeted and 2026 elections at risk.",
+      "claim_type": "Sector benchmark",
+      "source_ids": [
+        "S-043"
+      ],
+      "exact_locator": "S-043 pp. 7, 10, 11, 15, 29-31",
+      "event_or_publication_date": "2026-03-12",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Brand impersonation and information-integrity attacks are a distinct media exposure separate from IT outages.",
+      "limitations": "Selective sample; minimum counts; no media-specific number.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-019",
+      "claim_text": "Europol's Operation Eastwood in July 2025 disrupted infrastructure of the NoName057(16) DDoS network across many systems and Germany issued six arrest warrants against suspects in Russia.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-047"
+      ],
+      "exact_locator": "S-047 press release body and metadata",
+      "event_or_publication_date": "2025-07",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Law-enforcement disruption has not removed hacktivist DDoS as a leading media pathway in 2026 data.",
+      "limitations": "Page body partly unavailable; counts differ between summaries.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-020",
+      "claim_text": "The UK Cyber Security Breaches Survey 2025/26 found 43% of businesses and 28% of charities reported breaches or attacks in the prior 12 months, 63% in the information and communication sector; 35% of charities held cyber insurance and 30% had board or trustee responsibility for cyber security.",
+      "claim_type": "Sector benchmark",
+      "source_ids": [
+        "S-044"
+      ],
+      "exact_locator": "S-044 summary and sector findings",
+      "event_or_publication_date": "2026-04-30",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Many cultural organisations are charities with thin governance and insurance coverage.",
+      "limitations": "Self-reported; arts and entertainment not separated.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-021",
+      "claim_text": "Eurostat reports 8.9 million people in cultural employment in the EU in 2025, 4.3% of total employment.",
+      "claim_type": "Sector benchmark",
+      "source_ids": [
+        "S-045"
+      ],
+      "exact_locator": "S-045 news body",
+      "event_or_publication_date": "2026-07-10",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Sector footprint for counterparty breadth.",
+      "limitations": "Employment definition includes cultural jobs outside the sector.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-022",
+      "claim_text": "DCMS estimates UK creative industries gross value added (GVA) at GBP 145.8 billion (5.5% of UK GVA) and the cultural sector at GBP 40.3 billion (1.5%) in 2024, with overlap between the two.",
+      "claim_type": "Sector benchmark",
+      "source_ids": [
+        "S-046"
+      ],
+      "exact_locator": "S-046 headline figures and overlap note",
+      "event_or_publication_date": "2026-02-05",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "UK sector footprint.",
+      "limitations": "Provisional; overlapping definitions.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-023",
+      "claim_text": "An AWS US-EAST-1 disruption from 19 to 20 October 2025, caused by a latent defect in automated DNS management for DynamoDB, lasted about 14 hours 32 minutes and affected many dependent AWS services.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-038"
+      ],
+      "exact_locator": "S-038 summary body",
+      "event_or_publication_date": "2025-10-20",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "A single cloud region failure propagates to many sector services at once.",
+      "limitations": "Provider does not name customers.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-024",
+      "claim_text": "Media reported that online games including Fortnite, Roblox and Dead by Daylight were disrupted during the AWS event, some by company acknowledgement.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-040",
+        "S-038"
+      ],
+      "exact_locator": "S-040 article body; S-038 for the underlying event",
+      "event_or_publication_date": "2025-10-20",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Online game services share hyperscale cloud dependencies.",
+      "limitations": "Customer effects are Tier 3.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-025",
+      "claim_text": "Cloudflare's global outage on 18 November 2025 was caused by an oversized internally generated configuration file, produced significant failures from 11:20 to 14:30 UTC with full restoration at 17:06 UTC, and was not caused by a cyberattack.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-039"
+      ],
+      "exact_locator": "S-039 post body",
+      "event_or_publication_date": "2025-11-18",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Non-malicious failure of a shared content delivery network produces the same customer outage as an attack.",
+      "limitations": "Customers not named.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-026",
+      "claim_text": "Lee Enterprises disclosed that a 3 February 2025 cyberattack encrypted key applications and exfiltrated files, caused a USD 10.5 million loss of cash flows in fiscal 2025 of which about USD 3.7 million was expensed in restructuring and other costs, with insurance claims filed for the remaining USD 6.8 million; print advertising capacity was limited for several months and the incident contributed to digital advertising decline and temporary liquidity disruption.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-030"
+      ],
+      "exact_locator": "S-030 Item 1C Material Effects; Item 7 Executive Overview, Operating Revenue, Liquidity",
+      "event_or_publication_date": "2025-11-26",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Clearest public cost and revenue disclosure for a news publisher.",
+      "limitations": "Revenue loss not quantified; incident observation historical.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-027",
+      "claim_text": "Lee's lender and landlord waived interest and lease payments for three months after the incident, increasing debt by USD 11.3 million as at 28 September 2025; Lee reported USD 6.4 million of insurance proceeds in the nine months to 28 June 2026 without linking them explicitly to the incident in the reviewed text.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-031",
+        "S-030"
+      ],
+      "exact_locator": "S-031 Note 8 Debt; income statement; S-030 Item 7",
+      "event_or_publication_date": "2026",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Direct evidence of a credit channel: cyber disruption converted into additional debt for a leveraged media group.",
+      "limitations": "Insurance link inferred, not stated.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-028",
+      "claim_text": "KADOKAWA reported that the June 2024 cyberattack reduced fiscal 2025 group sales by about JPY 8.3 billion and operating profit by about JPY 4.7 billion, with a special loss of about JPY 2.4 billion; Web Services sales fell about JPY 3.95 billion and domestic print publishing sales about JPY 3.65 billion.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-032"
+      ],
+      "exact_locator": "S-032 release text on segment effects",
+      "event_or_publication_date": "2025-05",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Segment-level revenue transmission for a publisher with an online video platform.",
+      "limitations": "Historical observation; company estimates.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-029",
+      "claim_text": "The British Library's 2024/25 report states recovery from the October 2023 attack took longer than anticipated with a long tail of impact, that DCMS support aided financial stabilisation and a grant-in-aid uplift was agreed for 2025/26, and that footfall-linked income fell.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-033"
+      ],
+      "exact_locator": "S-033 pp. 4, 34",
+      "event_or_publication_date": "2025-07-15",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Public funding absorbs cultural-institution cyber losses rather than entity-level loss disclosure.",
+      "limitations": "Cost figures not read.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-030",
+      "claim_text": "The British Library's 2025/26 report records a new main catalogue and library services platform in December 2025 replacing systems destroyed in 2023, UK Web Archive access expected in autumn 2026, 72.8% of KPIs within 10% of target versus 81.8% a year earlier, digital legal deposit measured at zero and website visits 14% below target.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-034"
+      ],
+      "exact_locator": "S-034 pp. 4, 7, 11, 34, 37, 38",
+      "event_or_publication_date": "2026-07-14",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Quantifies a recovery of more than two years for core public access at a legacy-heavy estate.",
+      "limitations": "Not all shortfalls attributed to the attack.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-031",
+      "claim_text": "In September 2026 public access remained unavailable for a number of British Library catalogues.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-035",
+        "S-034"
+      ],
+      "exact_locator": "S-035 article body; S-034 p. 11",
+      "event_or_publication_date": "2026-09-22",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Recovery long tail persists beyond the reporting period end.",
+      "limitations": "Tier 3 for current status; Tier 1 for expected dates.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-032",
+      "claim_text": "Toronto's Auditor General reported in May 2026 a cybersecurity audit of Toronto Public Library following its October 2023 attack, with findings held in a confidential attachment and implementation cost not determinable.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-036"
+      ],
+      "exact_locator": "S-036 pp. 1-4",
+      "event_or_publication_date": "2026-05-15",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Audit follow-up is a governance consequence; findings are rarely public.",
+      "limitations": "Substantive findings confidential.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-033",
+      "claim_text": "The Cour des comptes found the Louvre prioritised visible operations over maintenance including safety and security (EUR 26.7 million for maintenance and compliance versus EUR 105.4 million for acquisitions) and recommended a fully-fledged information systems and digital directorate by end-2026.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-037"
+      ],
+      "exact_locator": "S-037 summary pp. 4-5, 9",
+      "event_or_publication_date": "2025-11",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Under-investment in technical and digital governance at a flagship national museum.",
+      "limitations": "Summary only; not an incident report.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-034",
+      "claim_text": "Hasbro identified unauthorised network access on 28 March 2026, took systems offline and warned interim measures could last several weeks; its first-quarter release said legal and remediation costs began in the second quarter and insurance claims were being documented, without amounts or segment attribution.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-022",
+        "S-023"
+      ],
+      "exact_locator": "S-022 Item 8.01; S-023 release text",
+      "event_or_publication_date": "2026-05-20",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Shows cost-recognition lag and insurance timing mismatch for an entertainment-owning group.",
+      "limitations": "Not a core sector entity; no segment effect.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-040",
+      "claim_text": "NIS2 does not list media or culture as a sector; its Annex I group includes digital infrastructure (content delivery network, cloud, DNS and data centre providers, public electronic communications providers), ICT service management (managed and managed security service providers) and space, and its other group includes digital providers (online marketplaces, search engines, social networking platforms) and manufacturing of computers and electronics; Member States may identify smaller high-risk entities.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-049",
+        "S-048"
+      ],
+      "exact_locator": "S-049 FAQs on sectors and key elements; S-048 metadata",
+      "event_or_publication_date": "2023-01-16",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Sector entities are reached mainly through their providers or national designation.",
+      "limitations": "Commission FAQ, not the legal text; national extensions not surveyed exhaustively.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-041",
+      "claim_text": "The CER Directive covers eleven sectors that do not include media or culture; Member States had to identify covered entities by 17 July 2026.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-050"
+      ],
+      "exact_locator": "S-050 sectors and key dates",
+      "event_or_publication_date": "2026-07-17",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Media and cultural bodies are not directly designated under EU entity-resilience law.",
+      "limitations": "National lists not public.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-042",
+      "claim_text": "Most European Media Freedom Act provisions applied from 8 August 2025, including protection of journalistic sources and communications against intrusive surveillance software.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-051"
+      ],
+      "exact_locator": "S-051 page body",
+      "event_or_publication_date": "2025-08-08",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Creates a legal interest in newsroom communications security.",
+      "limitations": "Article-level dates not shown on page.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-043",
+      "claim_text": "EU political advertising rules apply from 10 October 2025, requiring labelling, explicit consent for targeting with personal data and barring third-country sponsors in the three months before an election, while excluding editorial content.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-052"
+      ],
+      "exact_locator": "S-052 news body",
+      "event_or_publication_date": "2025-10-10",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Publishers and ad-technology services carry compliance and data-integrity exposure in election periods.",
+      "limitations": "Publisher-specific guidance not read.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-044",
+      "claim_text": "AI Act Article 50 applies from 2 August 2026, with marking of synthetic content by systems placed on the market earlier required from 2 December 2026; deployers must disclose deepfakes and label AI-generated text published on matters of public interest unless it is under human review or editorial control; the Digital Omnibus on AI (Regulation (EU) 2026/1744) was adopted on 8 July 2026 and entered into force on 27 July 2026.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-053",
+        "S-054"
+      ],
+      "exact_locator": "S-053 FAQ; S-054 metadata",
+      "event_or_publication_date": "2026-08-02",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Newsrooms and producers need provenance controls for synthetic media.",
+      "limitations": "Omnibus amending provisions not read; interaction with Article 50 not confirmed from text.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-045",
+      "claim_text": "Cyber Resilience Act reporting obligations for manufacturers apply from 11 September 2026 and main obligations from 11 December 2027; its scope covers products with digital elements including apps and computer games.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-055"
+      ],
+      "exact_locator": "S-055 key dates and scope",
+      "event_or_publication_date": "2026-09-11",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Applies to broadcast equipment, consumer devices and games as products, not to services.",
+      "limitations": "Exclusions not listed on page.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-046",
+      "claim_text": "The Radio Equipment Directive cybersecurity delegated act (EU) 2022/30 applied from August 2025 and is repealed by Delegated Regulation (EU) 2026/339 with effect from 11 December 2027 to avoid overlap with the Cyber Resilience Act.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-056"
+      ],
+      "exact_locator": "S-056 section on cybersecurity delegated act",
+      "event_or_publication_date": "2026-04-29",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Interim requirement for connected radio equipment.",
+      "limitations": "Scope categories not detailed on page.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-047",
+      "claim_text": "The Digital Services Act requires the largest platforms to assess and mitigate systemic risks including threats to media freedom and pluralism and to electoral processes.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-057"
+      ],
+      "exact_locator": "S-057 systemic risks section",
+      "event_or_publication_date": "2026-10-15",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Platform distribution of media content is subject to systemic-risk duties outside media firms' control.",
+      "limitations": "No dates on page.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-048",
+      "claim_text": "The Commission's November 2025 stock-take found its 2023 Recommendation had not considerably curbed live-event piracy and said it would consider further action.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-058"
+      ],
+      "exact_locator": "S-058 news body",
+      "event_or_publication_date": "2025-11-20",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Piracy remains a revenue pathway with no binding EU instrument specific to live events.",
+      "limitations": "Context only; no loss figures.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-049",
+      "claim_text": "The European Democracy Shield is a Commission Communication of 12 November 2025 creating a European Centre for Democratic Resilience, a Media Resilience Programme and a fact-checker network, with no legislative proposal named.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-059"
+      ],
+      "exact_locator": "S-059 news body",
+      "event_or_publication_date": "2025-11-12",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Policy support, not binding obligations, for media resilience.",
+      "limitations": "Implementation details beyond the release not read.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-050",
+      "claim_text": "Under the GDPR, controllers must notify the supervisory authority of a personal data breach without undue delay and where feasible within 72 hours, and inform individuals where the breach is likely to result in a high risk.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-060"
+      ],
+      "exact_locator": "S-060 Articles 33(1) and 34(1)",
+      "event_or_publication_date": "2018-05-25",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Subscriber, player, donor and ticket-holder breaches trigger notification and potential litigation.",
+      "limitations": "Article 85 national laws not surveyed (see C-065).",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-051",
+      "claim_text": "The UK NIS Regulations 2018 have been in force since 10 May 2018 and define relevant digital services only as online marketplaces, online search engines and cloud computing services.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-063"
+      ],
+      "exact_locator": "S-063 regs 1(1), 1(2)",
+      "event_or_publication_date": "2018-05-10",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Media and cultural entities fall outside UK NIS except through provider status.",
+      "limitations": "Schedule 1 table not reproduced in session.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-052",
+      "claim_text": "The UK Cyber Security and Resilience Bill was at House of Lords report stage on 14 October 2026 without Royal Assent; it would bring medium and large managed service providers and data centres into scope, allow designation of key suppliers and require initial incident reports within 24 hours and fuller reports within 72 hours.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-061",
+        "S-062"
+      ],
+      "exact_locator": "S-061 bill page; S-062 summary",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Media suppliers could be reached as managed service providers or designated suppliers once enacted.",
+      "limitations": "Bill text may change.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-053",
+      "claim_text": "The UK consumer connectable product security regime has applied since 29 April 2024, banning universal default passwords and requiring vulnerability-reporting and update-period information.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-064"
+      ],
+      "exact_locator": "S-064 guidance body",
+      "event_or_publication_date": "2024-04-29",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Relevant to connected televisions and streaming devices sold in the UK where in scope.",
+      "limitations": "Product examples not named.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-054",
+      "claim_text": "The UK special purposes exemption for journalism, academic, artistic and literary processing can disapply listed provisions including communication of breaches to individuals, but does not list the security duty or breach notification to the regulator.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-065"
+      ],
+      "exact_locator": "S-065 Sch 2 para 26",
+      "event_or_publication_date": "2018-05-23",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Newsrooms and arts bodies remain subject to security and regulator-notification duties.",
+      "limitations": "Interpretation of the list; no case law reviewed.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-055",
+      "claim_text": "The UK government published its response to the ransomware consultation on 22 July 2025; the payment ban for public bodies and regulated infrastructure operators, a payment prevention regime and mandatory reporting remained proposals with no legislation introduced at the time of the reviewed commentary.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-066",
+        "S-067"
+      ],
+      "exact_locator": "S-066 page body; S-067 alert body",
+      "event_or_publication_date": "2025-07-22",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Publicly funded cultural bodies could become subject to a payment ban if enacted.",
+      "limitations": "Status after February 2026 not confirmed in primary text.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-056",
+      "claim_text": "The UK Government Cyber Action Plan (6 January 2026) keeps arm's-length bodies accountable for their own cyber resilience to their lead departments, and states that the 2030 resilience goal for government organisations is not achievable by the original date.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-068"
+      ],
+      "exact_locator": "S-068 sections on arm's-length bodies and strategy",
+      "event_or_publication_date": "2026-01-06",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "DCMS-sponsored museums and libraries sit inside this accountability chain.",
+      "limitations": "Text beyond 100,000 characters not read.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-057",
+      "claim_text": "US public companies must file Form 8-K Item 1.05 within four business days of determining a cybersecurity incident is material, with compliance from 18 December 2023 for non-smaller reporting companies.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-069"
+      ],
+      "exact_locator": "S-069 guide sections",
+      "event_or_publication_date": "2023-12-18",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Explains why listed media, gaming and entertainment groups disclose more than public cultural bodies.",
+      "limitations": "Comparative only.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-058",
+      "claim_text": "FTC amendments to the Children's Online Privacy Protection Rule were published in the Federal Register on 22 April 2025.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-070"
+      ],
+      "exact_locator": "S-070 notice page",
+      "event_or_publication_date": "2025-04-22",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Games and children's services face strengthened children's data obligations in the US.",
+      "limitations": "Effective and compliance dates not on page.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-059",
+      "claim_text": "EBU R 148 sets minimum security tests for networked media equipment; it was published in April 2018 and has not been updated since.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-071"
+      ],
+      "exact_locator": "S-071 publication page",
+      "event_or_publication_date": "2018-04-27",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Voluntary baseline for broadcast IP equipment is dated.",
+      "limitations": "Voluntary.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-060",
+      "claim_text": "Section 13 of the UK National Security Act 2023 creates offences of foreign interference, in force since 20 December 2023 and extended to designated bodies from 8 July 2026; it imposes no duties on media organisations.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-075"
+      ],
+      "exact_locator": "S-075 s. 13(1)-(3) and commencement and amendment notes",
+      "event_or_publication_date": "2023-12-20",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "State-linked information operations against UK media are criminal conduct, not a compliance duty for the outlet.",
+      "limitations": "Sections 14-15 not read.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-061",
+      "claim_text": "The UK Media Act 2024 (24 May 2024) reforms public service television and Ofcom's broadcasting powers; the text reviewed contains no cybersecurity or network security obligations.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-076"
+      ],
+      "exact_locator": "S-076 long title, Part 1, ss. 18-19",
+      "event_or_publication_date": "2024-05-24",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Broadcast licensees' cyber duties do not come from the Media Act.",
+      "limitations": "Only Part 1 read; Ofcom licence conditions not reviewed.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-062",
+      "claim_text": "Under the UK Online Safety Act 2023, illegal content duties became enforceable on 17 March 2025 and children's risk assessments were due by 24 July 2025 for user-to-user and search services; categorised-service duties were not yet in effect at the explainer's last visible update.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-077"
+      ],
+      "exact_locator": "S-077 duties-in-force sections",
+      "event_or_publication_date": "2025-03-17",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Platforms that distribute media content carry safety duties; outlets themselves are not the regulated service.",
+      "limitations": "Explainer update date April 2025.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-063",
+      "claim_text": "UK telecoms security duties under sections 105A-105Z of the Communications Act 2003 and the Electronic Communications (Security Measures) Regulations 2022 have applied since 1 October 2022 to providers of public electronic communications networks and services, tiered by turnover; Ofcom has recorded that Arqiva provides an electronic communications network whose sites support terrestrial television and radio transmission.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-078",
+        "S-079"
+      ],
+      "exact_locator": "S-078 paras 0.13-0.26; S-079 paras 1.13, 1.15",
+      "event_or_publication_date": "2022-10-01",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Broadcast transmission may be reached by telecoms security duties if the provider is a public provider in a relevant tier.",
+      "limitations": "Whether broadcast transmission networks are public networks within a tier is not confirmed in the sources read.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-064",
+      "claim_text": "Australia's infrastructure security law (SOCI Act 2018) defines in-scope broadcasting assets in section 12E, covering transmission assets at a prescribed transmission site, at least 50 transmission sites of one entity, or a prescribed entity; it is the only national regime found that names broadcasting assets in infrastructure security law.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-080",
+        "S-081"
+      ],
+      "exact_locator": "S-080 p. 6; S-081 s. 12E heading",
+      "event_or_publication_date": "2026-06-04",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Multinational broadcasters and transmission operators can face infrastructure-security duties outside Europe.",
+      "limitations": "Which obligations apply to broadcasting assets not confirmed from the operative text.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-065",
+      "claim_text": "GDPR Article 85 requires Member States to reconcile data protection with freedom of expression and to provide exemptions or derogations, where necessary, from Chapters II to VII and IX for journalistic, academic, artistic and literary purposes, notifying the Commission; national law can therefore modify Chapter IV duties, which include security and breach notification.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-060",
+        "S-083"
+      ],
+      "exact_locator": "Article 85(1)-(3), text read via S-083",
+      "event_or_publication_date": "2018-05-25",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Newsroom and arts-body breach duties vary by Member State, unlike the UK where the special purposes exemption does not list the security and regulator-notification duties.",
+      "limitations": "National Article 85 laws not surveyed; Article 85 text read via a verbatim reproduction.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-066",
+      "claim_text": "Commission guidance states AI Act Article 50 applies from 2 August 2026; guidance and legal commentary report a transition to 2 December 2026 for Article 50(2) marking by systems placed on the market before 2 August 2026, and commentary reports that the Digital Omnibus on AI left the 2 August 2026 application unchanged; the amending text was not read, so the source of the transition is not confirmed.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-053",
+        "S-085"
+      ],
+      "exact_locator": "S-053 FAQ; S-085 Article 50 sections",
+      "event_or_publication_date": "2026-08-02",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Newsrooms and producers face synthetic-media marking and disclosure duties now, with no general postponement.",
+      "limitations": "Omnibus amending text not read; commentary predates Official Journal publication; open item for the next edition.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-067",
+      "claim_text": "Live Nation Entertainment reported a security breach to the Vermont Attorney General on 1 October 2026 involving Social Security numbers, government ID numbers and health records (two Vermont residents listed, total not disclosed); a proposed class action filed on 7 October 2026 in the Central District of California alleges notice came more than four months after the company learned of the breach, and trade media report three such complaints and a company statement that the incident was limited in scope with no operational impact.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-086",
+        "S-087",
+        "S-074"
+      ],
+      "exact_locator": "S-086 table row; S-087 paras 1, 25, 27, 103; S-074 article body",
+      "event_or_publication_date": "2026-10-07",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Shows how a limited breach notice at a live-events and ticketing group becomes litigation exposure within a week.",
+      "limitations": "Notification evidence only; allegations untested; total affected not disclosed.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-070",
+      "claim_text": "The best-documented disruption pathway in the period runs through front-of-house digital services and shared platforms - online ticketing, shops, payments, content delivery and cloud - rather than through loss of content or collections.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-001",
+        "S-003",
+        "S-008",
+        "S-007",
+        "S-038",
+        "S-039"
+      ],
+      "exact_locator": "Synthesis of C-001, C-002, C-006 to C-008, C-023, C-025",
+      "event_or_publication_date": "2026-10-15",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Public institutions disclose access effects while back-office and content losses go unreported."
+      ],
+      "contrary_evidence": "British Library case shows deep collection and catalogue loss is possible.",
+      "sector_relevance": "Visitor revenue, subscriptions and access fail first; this is where counterparties feel cash-flow effects.",
+      "limitations": "Disclosure bias toward visible public-access effects.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-071",
+      "claim_text": "Broadcast signal and content-insertion integrity is an active and historically under-secured exposure: a US regulator has moved to a mandatory baseline for content-insertion equipment and Pakistani news channels' satellite feeds have been hijacked, with no attribution published.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-014",
+        "S-018",
+        "S-041"
+      ],
+      "exact_locator": "Synthesis of C-010 to C-013, C-017",
+      "event_or_publication_date": "2026-10-15",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Hijacks may be opportunistic and concentrated outside the EU and UK."
+      ],
+      "contrary_evidence": "No EU or UK broadcaster signal hijack was found in Tier 1 sources in the period.",
+      "sector_relevance": "A hijacked live output or false alert creates regulatory, reputational and public-safety exposure in minutes.",
+      "limitations": "Few EU or UK cases disclosed.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-072",
+      "claim_text": "Media is the most DDoS-targeted industry on Cloudflare's network and a priority FIMI target, but these attacks rarely produce disclosed operational or financial outcomes; their main effect is on visibility, brand integrity and editorial continuity.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-042",
+        "S-041",
+        "S-043"
+      ],
+      "exact_locator": "Synthesis of C-016 to C-019",
+      "event_or_publication_date": "2026-10-15",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Undisclosed DDoS losses (advertising, subscriptions) may be larger than visible."
+      ],
+      "contrary_evidence": "None found.",
+      "sector_relevance": "Brand impersonation and availability attacks matter most around elections, conflicts and major live events.",
+      "limitations": "Benchmarks measure targeting, not impact.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-073",
+      "claim_text": "Financial transmission is evidenced mainly through revenue-line disruption and long recovery tails rather than ransom or one-off response cost: Lee lost USD 10.5 million of cash flows and, separately and not additively, added USD 11.3 million of debt through waived payments, KADOKAWA lost about JPY 8.3 billion of sales, and the British Library needed more than two years to restore its main catalogue.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-030",
+        "S-031",
+        "S-032",
+        "S-034"
+      ],
+      "exact_locator": "Synthesis of C-026 to C-030",
+      "event_or_publication_date": "2026-10-15",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Disclosed cases are the most severe; typical outcomes may be smaller."
+      ],
+      "contrary_evidence": "Hasbro reported no change to guidance (C-034).",
+      "sector_relevance": "Banks see effects through borrower cash flow, covenant waivers and public-funding absorption.",
+      "limitations": "Small, biased sample of disclosed cases.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-074",
+      "claim_text": "The regulatory perimeter is indirect: media and culture are not a named NIS2, CER or UK NIS sector, so obligations arrive through providers (content delivery, cloud, managed services, communications), product rules (Cyber Resilience Act reporting from September 2026), media-specific rules (source protection, synthetic-media transparency, political advertising) and data protection.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-049",
+        "S-050",
+        "S-055",
+        "S-051",
+        "S-053",
+        "S-063",
+        "S-061"
+      ],
+      "exact_locator": "Synthesis of C-040 to C-056",
+      "event_or_publication_date": "2026-10-15",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [
+        "Some Member States may designate cultural or media entities nationally."
+      ],
+      "contrary_evidence": "Commentary on Italy's NIS2 decree reports that entities carrying out activities of cultural interest can be classified as important entities under specific conditions; not confirmed in primary text.",
+      "sector_relevance": "Sector entities depend on supplier regulation for resilience they cannot contract for directly.",
+      "limitations": "National designations not surveyed exhaustively.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-075",
+      "claim_text": "Disclosure is asymmetric: public cultural bodies publish chronologies but rarely costs, listed groups disclose costs and revenue effects, and private platforms surface mainly through notices, litigation or attacker claims.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-001",
+        "S-030",
+        "S-032",
+        "S-034",
+        "S-015"
+      ],
+      "exact_locator": "Comparison of disclosure across cases",
+      "event_or_publication_date": "2026-10-15",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Public bodies may absorb small costs that need no disclosure."
+      ],
+      "contrary_evidence": "None found.",
+      "sector_relevance": "Absence of cost disclosure for cultural bodies is a data gap, not evidence of low loss.",
+      "limitations": "Interpretive.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-076",
+      "claim_text": "Legacy-heavy cultural estates turn a cyberattack into a multi-year public-access recovery even after core infrastructure is rebuilt.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-033",
+        "S-034",
+        "S-037"
+      ],
+      "exact_locator": "Synthesis of C-029, C-030, C-033",
+      "event_or_publication_date": "2026-10-15",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "The British Library case may be unusually severe."
+      ],
+      "contrary_evidence": "SKD restored its website within five days (C-002).",
+      "sector_relevance": "Prolonged service loss affects funding, performance indicators and commercial income.",
+      "limitations": "Single detailed case.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-077",
+      "claim_text": "Generic financial-system channels are: credit to leveraged media groups (waivers, covenants), advertising and subscription revenue disruption, ticketing and payment flows with follow-on phishing, intellectual-property value erosion, insurance recoveries with timing lag, and public-funding absorption for cultural bodies.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-030",
+        "S-031",
+        "S-023",
+        "S-044",
+        "S-033",
+        "S-015",
+        "S-009"
+      ],
+      "exact_locator": "Synthesis across Chapter 3",
+      "event_or_publication_date": "2026-10-15",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Some channels may not materialise if losses are insured or absorbed."
+      ],
+      "contrary_evidence": "None found.",
+      "sector_relevance": "Channels a bank can monitor through counterparty and payment data.",
+      "limitations": "Channels are conditional and not bank-specific.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-078",
+      "claim_text": "The Dresden case shows the security system remained operational and museums stayed open while ticketing, shop and payment channels recovered last; segregation from corporate IT is a plausible but unconfirmed reason.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-001",
+        "S-002",
+        "S-003",
+        "S-005"
+      ],
+      "exact_locator": "Synthesis of C-001, C-002, C-005",
+      "event_or_publication_date": "2026-10-15",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Security systems may have been out of attacker scope regardless of design."
+      ],
+      "contrary_evidence": "None found.",
+      "sector_relevance": "Transferable to museums, venues and broadcasters that sell access digitally.",
+      "limitations": "Single case; restoration date for payments partly Tier 3.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-080",
+      "claim_text": "Scenario 1 assumes a multi-hour failure or attack on a shared cloud region, content delivery network or identity service used by many broadcasters' streaming services, online games and ticketing platforms, coinciding with a major live event.",
+      "claim_type": "Scenario assumption",
+      "source_ids": [
+        "S-038",
+        "S-039",
+        "S-042",
+        "S-040"
+      ],
+      "exact_locator": "Built on C-023 to C-025 and C-016",
+      "event_or_publication_date": "2026-10-15",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Multi-provider architectures may limit the effect."
+      ],
+      "contrary_evidence": "Both 2025 provider failures were restored within a day.",
+      "sector_relevance": "Correlated outage across many media and venue counterparties at the same moment.",
+      "limitations": "Durations illustrative; no probability assigned.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-081",
+      "claim_text": "Scenario 2 assumes ransomware or an intrusion at a major broadcaster, news organisation or national cultural institution, or compromise of content-insertion or alerting equipment, during a time-sensitive period such as an election or live event.",
+      "claim_type": "Scenario assumption",
+      "source_ids": [
+        "S-014",
+        "S-018",
+        "S-001",
+        "S-030",
+        "S-034"
+      ],
+      "exact_locator": "Built on C-001 to C-005, C-010 to C-013, C-026, C-030",
+      "event_or_publication_date": "2026-10-15",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Manual fallback and segregated playout may keep output on air."
+      ],
+      "contrary_evidence": "RTV Noord kept radio on air with physical media (Tier 3).",
+      "sector_relevance": "Deep effect on one counterparty with regulatory and public-trust exposure.",
+      "limitations": "No probability assigned; durations illustrative.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-082",
+      "claim_text": "Scenario 3 assumes compromise of a shared ticketing, collection-management, newsroom, playout, media asset management or managed service provider that serves many institutions at once.",
+      "claim_type": "Scenario assumption",
+      "source_ids": [
+        "S-008",
+        "S-007",
+        "S-009",
+        "S-049",
+        "S-062"
+      ],
+      "exact_locator": "Built on C-006 to C-009 and C-040, C-052",
+      "event_or_publication_date": "2026-10-15",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Customers may hold offline fallback channels."
+      ],
+      "contrary_evidence": "Guimet redirected sales to an alternative ticket office (C-007).",
+      "sector_relevance": "Many counterparties lose revenue channels simultaneously; supplier regulation is the main control lever.",
+      "limitations": "No probability assigned.",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-090",
+      "claim_text": "Sector priorities are: map shared front-office and cloud dependencies of large media and cultural counterparties; harden content-insertion, playout and alerting equipment; prepare manual and alternative sales channels; protect brand and provenance against impersonation and synthetic media; segregate security and building systems; and align insurance, funding and disclosure expectations with long recovery tails.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-014",
+        "S-071",
+        "S-008",
+        "S-053",
+        "S-001",
+        "S-034",
+        "S-044"
+      ],
+      "exact_locator": "Mapping of Chapters 2 to 6 to Chapter 7",
+      "event_or_publication_date": "2026-10-15",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Counterparties may already operate these controls."
+      ],
+      "contrary_evidence": "None found.",
+      "sector_relevance": "Converts evidence into 1LoD challenge questions without asserting any bank's control gaps.",
+      "limitations": "Generic priorities; not a control assessment.",
+      "approved_for_slide": true
+    }
+  ]
+}
