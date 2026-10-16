@@ -10,7 +10,7 @@
     "end": "2026-10-16"
   },
   "evidence_cutoff": "2026-10-16",
-  "edition_state": "READY_FOR_DELIVERY",
+  "edition_state": "PUBLISHED",
   "artefacts": [
     {
       "type": "input_contract",
@@ -70,7 +70,7 @@
     {
       "type": "quality_record",
       "path": "11_presentation_qc.json",
-      "sha256": "704de432a7545d211d5770c94ca1c423e1eaa6cf58aa9822b803528f8afb10df"
+      "sha256": "8a9d8f48f6c400339c56cea5d26ba4e560c6351ce79c61d3b700ca66f631185f"
     },
     {
       "type": "powerpoint",
@@ -120,7 +120,7 @@
     "publication": "PASS",
     "presentation": "PASS",
     "language": "PASS",
-    "delivery": "NOT_RUN"
+    "delivery": "PASS"
   },
   "schedule_changes": "none",
   "delivery": {
@@ -128,9 +128,9 @@
     "repository_url": "https://github.com/cybertiagovieira/cyber-risk-reports",
     "repository_visibility": "private",
     "branch": "main",
-    "commit_sha": "",
-    "artefact_commit_sha": "",
-    "receipt_commit_sha": "",
+    "commit_sha": "562d218c3ffc53f967249e281a133142fcaaa994",
+    "artefact_commit_sha": "562d218c3ffc53f967249e281a133142fcaaa994",
+    "receipt_commit_sha": "recorded in the subsequent commit message and git history (not self-referenced)",
     "paths": [
       "manufacturing/2025-09_2026-10/00_input_contract.json",
       "manufacturing/2025-09_2026-10/01_research_plan.md",
@@ -152,6 +152,7 @@
       "manufacturing/2025-09_2026-10/README.md",
       "manufacturing/2025-09_2026-10/12_run_manifest.json"
     ],
-    "delivery_status": "NOT_RUN"
+    "delivery_status": "PASS",
+    "remote_hash_comparison": "19 of 19 committed files matched local SHA-256 hashes via the GitHub contents API at the artefact commit on 16 October 2026; 11_presentation_qc.json and 12_run_manifest.json updated in the receipt commit"
   }
 }
