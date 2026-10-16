@@ -1,0 +1,1254 @@
+{
+  "claims": [
+    {
+      "claim_id": "C-001",
+      "claim_text": "EU manufacturing had about 2.2 million enterprises, 30.2 million persons employed (18.5% of business-economy employment) and about EUR 2.5 trillion value added (23.1% of business-economy value added) in 2023; machinery, food and motor vehicles were the largest divisions by value added.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-043"
+      ],
+      "exact_locator": "Key figures",
+      "event_or_publication_date": "2025-12",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Sector size and concentration in divisions that NIS2 Annex II names",
+      "limitations": "2023 reference year; business-economy denominator",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-002",
+      "claim_text": "Large enterprises are 0.2% of EU business-economy enterprises but account for 37% of employment and 49% of value added; micro and small firms are 99% of enterprises.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-044"
+      ],
+      "exact_locator": "News body",
+      "event_or_publication_date": "2025-10-13",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Supplier tiers are dominated by small firms whose buffers are thinner",
+      "limitations": "Economy-wide, not manufacturing-specific",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-003",
+      "claim_text": "ENISA recorded manufacturing as the fourth most affected EU sector (6.9% of 8,257 incidents in 2025) and the largest share of ransomware claims (25.2%), led by Qilin, Akira and SafePay.",
+      "claim_type": "Sector benchmark",
+      "source_ids": [
+        "S-041"
+      ],
+      "exact_locator": "pp. 7, 14, 31-32, 49",
+      "event_or_publication_date": "2026-09",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "EU baseline: manufacturing is the main ransomware target sector",
+      "limitations": "Open-source and claim-based; not attack frequency",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-004",
+      "claim_text": "ENISA observed a higher volume of unconfirmed hacktivist intrusion claims against manufacturing, mainly targeting OT, and a shift from encryption towards exfiltration and extortion (exfiltration in 73.3% of TTP observations; encryption 13.7%).",
+      "claim_type": "Sector benchmark",
+      "source_ids": [
+        "S-041"
+      ],
+      "exact_locator": "pp. 13, 33, 51",
+      "event_or_publication_date": "2026-09",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "OT claims require verification; data-extortion grows",
+      "limitations": "Claims unverified by ENISA",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-005",
+      "claim_text": "Dragos counted 1,140 ransomware incidents against industrial organisations in Q2 2026 (12% more than Q1), of which 747 (about 65%) were in manufacturing; Europe rose from 252 to 316 and Germany from 37 to 68.",
+      "claim_type": "Sector benchmark",
+      "source_ids": [
+        "S-039"
+      ],
+      "exact_locator": "Key findings; regional distribution",
+      "event_or_publication_date": "2026-08-10",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Rising European pressure on manufacturers",
+      "limitations": "Leak-site and disclosure counts; visibility not frequency",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-006",
+      "claim_text": "Dragos observed no Q2 2026 case in which a ransomware operator reached Stage 2 of the ICS Cyber Kill Chain; operational disruption came from encryption or precautionary shutdown of enterprise and virtualisation systems that OT depends on.",
+      "claim_type": "Sector benchmark",
+      "source_ids": [
+        "S-039"
+      ],
+      "exact_locator": "OT impact assessment",
+      "event_or_publication_date": "2026-08-10",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Production loss is mostly an IT-dependency outcome, not direct OT compromise",
+      "limitations": "Vendor assessment of public cases",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-007",
+      "claim_text": "Dragos counted 117 ransomware incidents in the ICS ecosystem (engineering firms, integrators and equipment makers) in Q2 2026, the second most affected category.",
+      "claim_type": "Sector benchmark",
+      "source_ids": [
+        "S-039"
+      ],
+      "exact_locator": "Sector counts",
+      "event_or_publication_date": "2026-08-10",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "OT suppliers and integrators are themselves targets and potential propagation points",
+      "limitations": "Claim-based",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-008",
+      "claim_text": "Black Kite counted 1,183 disclosed manufacturing ransomware victims in January-July 2026, 39.7% more than the same period of 2025; European victims rose 85.4% to 369, led by Germany (77), Italy (57), the UK (43) and France (40).",
+      "claim_type": "Sector benchmark",
+      "source_ids": [
+        "S-040"
+      ],
+      "exact_locator": "Key statistics",
+      "event_or_publication_date": "2026",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Trend corroborates rising European exposure",
+      "limitations": "Lower bound; leak-site visibility; publication date not stated",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-009",
+      "claim_text": "Machinery manufacturing (15.2%), fabricated metal products (11.2%), transportation equipment (9.2%), chemicals (9.2%), computer and electronic products (8.8%) and food (7.8%) were the largest classified subsectors among manufacturing ransomware victims from 2023 to July 2026.",
+      "claim_type": "Sector benchmark",
+      "source_ids": [
+        "S-040"
+      ],
+      "exact_locator": "Subsector shares",
+      "event_or_publication_date": "2026",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Victimisation concentrates in NIS2 Annex II divisions and SME-heavy metalworking",
+      "limitations": "Leak-site data",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-010",
+      "claim_text": "In Germany, 4,739 registrations selected manufacturing of goods, 1,986 food and 821 chemicals among Annex 2 sectors in the BSI NIS2 portal by 30 September 2026; 1,272 initial NIS2 incident reports were filed.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-045"
+      ],
+      "exact_locator": "Registration and sector tables",
+      "event_or_publication_date": "2026-10-07",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Manufacturing is the largest Annex 2 population under a national NIS2 law",
+      "limitations": "Sector selections overlap; not additive",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-011",
+      "claim_text": "The German Government told the Bundestag in September 2026 that it has no information on insolvencies caused by cyberattacks; 1,041 ransomware cases were reported to the BKA for 2025.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-047"
+      ],
+      "exact_locator": "Answers to questions 7 and statistics",
+      "event_or_publication_date": "2026-09-16",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Supplier-default pathway cannot be measured from official data",
+      "limitations": "Germany only",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-012",
+      "claim_text": "JLR proactively shut down its systems after a cyber incident; its retail and production activities were disrupted (statement of 2 September 2025).",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-001"
+      ],
+      "exact_locator": "Statement body",
+      "event_or_publication_date": "2025-09-02",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Precautionary IT shutdown halted global production",
+      "limitations": "No cause or scope disclosed",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-013",
+      "claim_text": "JLR restarted manufacturing on a phased basis from 8 October 2025, starting with engine and battery assembly in the West Midlands, then Nitra (Slovakia) and Solihull, and production returned to normal levels by mid-November 2025.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-003",
+        "S-005",
+        "S-006"
+      ],
+      "exact_locator": "Restart section; cyber statements; recovery status",
+      "event_or_publication_date": "2026-02-05",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Five-week production stop followed by about five weeks of ramp-up",
+      "limitations": "Plant-level dates beyond the first week not disclosed",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-014",
+      "claim_text": "JLR wholesales were 66,165 units in Q2 FY26 (down 24.2%) and 59,200 in Q3 FY26 (down 43.3% year on year; Europe down 47.6%, North America down 64.4%).",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-002",
+        "S-005"
+      ],
+      "exact_locator": "Volume summaries",
+      "event_or_publication_date": "2026-01-05",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Delivery effect persisted a full quarter after restart",
+      "limitations": "Volumes also reflect tariffs, China and Jaguar wind-down",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-015",
+      "claim_text": "JLR booked GBP 196 million of cyber-related exceptional costs in Q2 FY26 and GBP 64 million in Q3 FY26; Q2 revenue fell 24% to GBP 4.9 billion and Q3 revenue fell 39% to GBP 4.5 billion.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-004",
+        "S-006"
+      ],
+      "exact_locator": "Exceptional items; financial summary",
+      "event_or_publication_date": "2026-02-05",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Direct cost is small relative to revenue lost through stopped production",
+      "limitations": "Revenue falls have several causes; full-year cyber total not disclosed",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-016",
+      "claim_text": "JLR reported free cash outflow of GBP 791 million in Q2 FY26 and GBP 1.5 billion in Q3 FY26, and full-year FY26 free cash outflow of GBP 2.2 billion.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-004",
+        "S-006",
+        "S-007"
+      ],
+      "exact_locator": "Cash and liquidity sections",
+      "event_or_publication_date": "2026-05-14",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Working-capital drain is the main financial transmission",
+      "limitations": "Includes non-cyber drivers",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-017",
+      "claim_text": "JLR signed a GBP 2 billion bridge facility on 22 September 2025 and secured a GBP 1.5 billion UKEF-guaranteed commercial loan in October 2025; at 31 March 2026 the UKEF-guaranteed loan and GBP 1.0 billion of the bridge remained undrawn within GBP 6.9 billion liquidity.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-004",
+        "S-007"
+      ],
+      "exact_locator": "Cash and liquidity; liquidity paragraph",
+      "event_or_publication_date": "2026-05-14",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Bank lending channel and state-backed credit were mobilised",
+      "limitations": "Use of facilities beyond the reported dates not disclosed",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-018",
+      "claim_text": "The UK Government announced on 28 September 2025 an Export Development Guarantee expected to unlock up to GBP 1.5 billion of commercial bank lending to JLR over five years, to support the supply chain; JLR employs 34,000 people in the UK and supports a supply chain of about 120,000.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-009"
+      ],
+      "exact_locator": "Release body and notes to editors",
+      "event_or_publication_date": "2025-09-28",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "First evidenced government credit support for a manufacturing cyber incident in the UK",
+      "limitations": "Lender unnamed; guarantee share described as typical",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-019",
+      "claim_text": "JLR introduced a supplier financing scheme with a banking partner that prepaid qualifying suppliers shortly after order (accelerating payment by up to 120 days against 60-day standard terms) and set up manual invoice settlement; the Q2 release describes a GBP 500 million financing solution.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-003",
+        "S-004"
+      ],
+      "exact_locator": "Supplier financing section; supplier support",
+      "event_or_publication_date": "2025-11-14",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Customer-funded liquidity bridge for tier-1 suppliers",
+      "limitations": "Take-up and lower-tier reach not disclosed",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-020",
+      "claim_text": "The Cyber Monitoring Centre classed the JLR event as a Category 3 systemic event and modelled a UK loss of GBP 1.9 billion (range GBP 1.6-2.1 billion), mostly lost manufacturing output at JLR and its suppliers, affecting over 5,000 UK organisations.",
+      "claim_type": "Sector benchmark",
+      "source_ids": [
+        "S-010"
+      ],
+      "exact_locator": "Summary; loss components",
+      "event_or_publication_date": "2025-10-22",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Largest independent loss estimate for a UK cyber event; supplier cascade dominates",
+      "limitations": "Modelled; UK only; counts inconsistent (5,000 vs 2,700)",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-021",
+      "claim_text": "The CMC model assumes about five weeks of halted production at about 5,000 vehicles and GBP 108 million per week, around 1,000 tier-1 suppliers affected on the same profile, and key suppliers staying solvent; it notes cyber insurance typically excludes disruption at a major customer.",
+      "claim_type": "Sector benchmark",
+      "source_ids": [
+        "S-010"
+      ],
+      "exact_locator": "Loss components 1 and 3; insurance section",
+      "event_or_publication_date": "2025-10-22",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Insurance gap for supplier-side losses",
+      "limitations": "Assumption-based",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-022",
+      "claim_text": "ONS recorded that manufacture of motor vehicles, trailers and semi-trailers fell 28.6% in September 2025, contributing -0.17 percentage points to a 0.1% fall in monthly GDP, citing SMMT's attribution to the cyber incident.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-011",
+        "S-012"
+      ],
+      "exact_locator": "Main points; production section",
+      "event_or_publication_date": "2025-11-13",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Official record of national output effect",
+      "limitations": "Causal wording relayed from SMMT",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-023",
+      "claim_text": "SMMT reported UK car production of 51,090 units in September 2025, down 27.1%, which it attributed largely to the cyber-related stoppage.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-012"
+      ],
+      "exact_locator": "Headline figures",
+      "event_or_publication_date": "2025-10-24",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Sector output effect",
+      "limitations": "Trade association data",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-024",
+      "claim_text": "The Bank of England's November 2025 Monetary Policy Report cited disruption linked to the JLR cyberattack as one reason Q3 2025 GDP growth was lower than expected.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-013"
+      ],
+      "exact_locator": "Section 1.2",
+      "event_or_publication_date": "2025-11",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Central bank recognition of macro transmission",
+      "limitations": "Not quantified",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-025",
+      "claim_text": "No attribution of the JLR attack was published in the company's statements or results releases; media reported an unconfirmed claim by a criminal group, which JLR said it was investigating and the NCA did not confirm.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-001",
+        "S-004",
+        "S-015"
+      ],
+      "exact_locator": "Statement; results release; article body",
+      "event_or_publication_date": "2025-09-04",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Attribution unconfirmed",
+      "limitations": "Tier 3 record of a claim only",
+      "approved_for_slide": false
+    },
+    {
+      "claim_id": "C-026",
+      "claim_text": "The House of Commons Business and Trade Committee wrote to JLR on 9 September 2025 asking about supplier and dealer impacts, NCSC and NCA support, supplier financial support and whether taxpayer support would be needed.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-014"
+      ],
+      "exact_locator": "Letter body",
+      "event_or_publication_date": "2025-09-09",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Parliamentary scrutiny of supply-chain impact",
+      "limitations": "Questions only",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-027",
+      "claim_text": "Asahi detected ransomware encryption on 29 September 2025 after an intruder entered its data-centre network through network equipment at a group site; it isolated the data centre the same morning and later reported up to about 1.9 million personal records potentially exposed.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-016"
+      ],
+      "exact_locator": "Timeline; initial access; personal-records table",
+      "event_or_publication_date": "2025-11-27",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Process manufacturer halted shipments through IT dependency",
+      "limitations": "Ransom not addressed",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-028",
+      "claim_text": "Asahi estimated the 2025 impact of the system disruption at about JPY 40 billion (core operating profit decline plus JPY 17 billion of costs including inventory disposal and restoration), delayed its FY2025 results to July 2026 and reported Q1 2026 brewery sales at 84% of the prior year.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-019",
+        "S-017",
+        "S-018"
+      ],
+      "exact_locator": "Q&A Q4-Q5; sales ratios; results dates",
+      "event_or_publication_date": "2026-07",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Long revenue tail and reporting delay after a ransomware event",
+      "limitations": "Company estimates",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-029",
+      "claim_text": "Stryker determined that its March 2026 incident had a material impact on operations and Q1 2026 results; by 9 April 2026 it reported its global manufacturing network and ordering and distribution systems restored, and it maintained full-year guidance.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-021",
+        "S-022"
+      ],
+      "exact_locator": "Item 1.05; CEO statement",
+      "event_or_publication_date": "2026-04-30",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Device-management compromise stopped manufacturing and shipping across a global network",
+      "limitations": "Impact not quantified",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-030",
+      "claim_text": "Media reporting on the Stryker incident describes a wipe of company devices through a legitimate endpoint-management platform, claimed by a group the media describe as Iran-linked; CISA issued an endpoint-management hardening alert on 18 March 2026 after an attack on an unnamed US organisation; no US government attribution was found.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-023",
+        "S-024",
+        "S-025"
+      ],
+      "exact_locator": "Article bodies; alert title",
+      "event_or_publication_date": "2026-03-19",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Geopolitically motivated destructive activity reached a manufacturer through an administrative tool",
+      "limitations": "Mechanism from secondary reporting; claim unconfirmed",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-031",
+      "claim_text": "Boston Scientific reported on 8 September 2026 that a network outage from unauthorised activity in IT systems disrupted manufacturing and order processing and shipping, that it expected a material impact on Q3 and full-year 2026 results, and that it was unlikely to meet guidance.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-026",
+        "S-027"
+      ],
+      "exact_locator": "Item 8.01; Item 1.05",
+      "event_or_publication_date": "2026-09-08",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Material guidance effect from IT-dependent production loss",
+      "limitations": "Not quantified",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-032",
+      "claim_text": "West Pharmaceutical Services reported in May 2026 that data was exfiltrated and systems encrypted, that it took systems offline globally and that manufacturing, shipping and receiving restarted progressively.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-030"
+      ],
+      "exact_locator": "Item 1.05",
+      "event_or_publication_date": "2026-05-11",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Pharmaceutical packaging and component supplier: upstream dependency for drug makers",
+      "limitations": "Impact undetermined at filing",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-033",
+      "claim_text": "CERT-FR reported numerous compromises of internet-reachable remote controllers for refrigeration installations from Danfoss (AK-SC, AK-SM), Copeland and Dixell (xweb) on 12-13 October 2026, warned that campaigns were probably ongoing and advised removing internet exposure and resetting compromised units.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-035"
+      ],
+      "exact_locator": "Alert versions 12 and 13 October",
+      "event_or_publication_date": "2026-10-12",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Direct OT compromise of manufacturers' controllers in customer premises",
+      "limitations": "No count, method or attribution",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-034",
+      "claim_text": "Media reporting citing the French finance minister puts the number of affected supermarkets at about 700; vendors described affected units as outdated or end-of-life; no group had claimed responsibility by 14 October 2026.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-035",
+        "S-036"
+      ],
+      "exact_locator": "Alert (numerous compromises); scale; vendor positions; attribution",
+      "event_or_publication_date": "2026-10-14",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Scale and end-of-life support exposure",
+      "limitations": "Relayed statements; Tier 3",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-035",
+      "claim_text": "Egide, a French listed supplier of hermetic packages for sensitive electronic components, disclosed a cyberattack on 6 October 2026 through an external IT provider that led to a precautionary partial interruption of its Bollène site; it notified the CNIL and filed a complaint.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-034"
+      ],
+      "exact_locator": "Release body",
+      "event_or_publication_date": "2026-10-09",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Aerospace and defence component supplier disrupted via a managed IT provider",
+      "limitations": "No duration or cost",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-036",
+      "claim_text": "RTX reported a ransomware incident on systems supporting its MUSE passenger-processing product in September 2025, which ran on customer networks; customers moved to manual processes and flights were delayed; RTX said it was not material.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-037"
+      ],
+      "exact_locator": "Item 8.01",
+      "event_or_publication_date": "2025-09-24",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Manufacturer-supplied software as a shared dependency",
+      "limitations": "Customer losses not quantified",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-037",
+      "claim_text": "Hasbro identified unauthorised network access on 28 March 2026, took systems offline, expected some delays in order processing, shipping and invoicing, anticipated some impact on Q2 revenue and operating profit and reiterated full-year guidance.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-031",
+        "S-032"
+      ],
+      "exact_locator": "Item 8.01; release body",
+      "event_or_publication_date": "2026-04-23",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Consumer-goods delivery delay without guidance change",
+      "limitations": "Manufacturing not mentioned",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-038",
+      "claim_text": "Dragos records further 2026 production disruptions at Foxconn facilities in Wisconsin and Texas (about two weeks at Mount Pleasant from 1 May), at West Pharmaceutical and at two Queensland sugar mills.",
+      "claim_type": "Sector benchmark",
+      "source_ids": [
+        "S-039"
+      ],
+      "exact_locator": "Named incidents section",
+      "event_or_publication_date": "2026-08-10",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Electronics and food-processing examples",
+      "limitations": "Vendor summary; primary filings not all retrieved",
+      "approved_for_slide": false
+    },
+    {
+      "claim_id": "C-039",
+      "claim_text": "Production loss in the period was driven mainly by IT and enterprise-platform dependency and precautionary shutdowns, not by direct OT manipulation; direct OT compromise was evidenced only in field controllers sold by manufacturers (French refrigeration case) and in US PLC targeting.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-001",
+        "S-016",
+        "S-021",
+        "S-027",
+        "S-039",
+        "S-035"
+      ],
+      "exact_locator": "Combined",
+      "event_or_publication_date": "2026-10-16",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "OT effects in some cases may be undisclosed because companies describe only IT systems"
+      ],
+      "contrary_evidence": "CMC notes OT impact at JLR was unclear; Stryker and Boston Scientific do not describe OT",
+      "sector_relevance": "Controls should prioritise IT-OT dependency mapping and recovery",
+      "limitations": "Disclosure rarely specifies OT state",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-040",
+      "claim_text": "Financial transmission runs through lost output and working capital rather than through disclosed response cost: at JLR the labelled cyber costs (GBP 260 million across two quarters) were small compared with the revenue and cash effects, and at Asahi the larger part of the JPY 40 billion was a decline in core operating profit; the CMC modelled about GBP 108 million a week of JLR fixed cost and lost profit.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-004",
+        "S-006",
+        "S-019",
+        "S-010"
+      ],
+      "exact_locator": "Combined",
+      "event_or_publication_date": "2026-07",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Some revenue may be deferred rather than lost"
+      ],
+      "contrary_evidence": "Stryker and Hasbro kept full-year guidance, suggesting recovery of deferred sales",
+      "sector_relevance": "Counterparty liquidity is the main bank-relevant channel",
+      "limitations": "Two quantified cases",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-041",
+      "claim_text": "Supplier-cascade risk is the main systemic pathway in just-in-time discrete manufacturing: one OEM stop transmitted to an estimated 5,000 UK organisations and required customer-funded and state-guaranteed liquidity.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-010",
+        "S-009",
+        "S-003"
+      ],
+      "exact_locator": "Combined",
+      "event_or_publication_date": "2025-10-22",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Buffered or high-mix production may absorb short stops"
+      ],
+      "contrary_evidence": "No supplier insolvency was causally attributed in official sources",
+      "sector_relevance": "Tier-2 and tier-3 liquidity stress is the concentrated exposure",
+      "limitations": "One case; modelled scale",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-042",
+      "claim_text": "State-linked activity is a rising threat to industrial products and enterprise estates, but no official source in the period attributed a manufacturing disruption to a state actor; the US PLC advisory's named sectors did not include manufacturing.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-089",
+        "S-090",
+        "S-024",
+        "S-025",
+        "S-091"
+      ],
+      "exact_locator": "Combined",
+      "event_or_publication_date": "2026-04-22",
+      "likelihood": "not_applicable",
+      "confidence": "low",
+      "alternative_hypotheses": [
+        "Claims by state-linked personas may overstate impact or state direction"
+      ],
+      "contrary_evidence": "Most production losses in the period were financially motivated ransomware",
+      "sector_relevance": "Defence, medtech and OT-vendor counterparties face added intent",
+      "limitations": "US-centred evidence",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-043",
+      "claim_text": "Regulation reaches most manufacturers through product law and contracts rather than entity-level regimes such as NIS2: NIS2 covers only named divisions and sectors, while product-security, machinery and liability rules apply to manufacturers placing in-scope products on the EU market from 2026-2027.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-049",
+        "S-050",
+        "S-055",
+        "S-065",
+        "S-066"
+      ],
+      "exact_locator": "Combined",
+      "event_or_publication_date": "2026-10-16",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "National NIS2 extensions may widen coverage"
+      ],
+      "contrary_evidence": "Germany registered 4,739 manufacturing entities, showing NIS2 coverage is large where it applies",
+      "sector_relevance": "Contractual flow-down and product liability are the main compliance channels",
+      "limitations": "National extensions not surveyed exhaustively",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-044",
+      "claim_text": "Disclosure is asymmetric: quantified outcomes come from listed companies, while SME suppliers, where cascade losses concentrate, rarely disclose and official insolvency data does not identify cyber causes.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-047",
+        "S-040",
+        "S-010"
+      ],
+      "exact_locator": "Combined",
+      "event_or_publication_date": "2026-09-16",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [
+        "Supplier failures may be genuinely rare because customers bridge liquidity, as JLR did"
+      ],
+      "contrary_evidence": "CMC modelling partly fills the gap for one case",
+      "sector_relevance": "Absence of supplier failure evidence is not evidence of resilience",
+      "limitations": "Structural limitation",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-045",
+      "claim_text": "NIS2 Annex II names manufacturing of medical devices and in-vitro diagnostics and NACE divisions C26 to C30; chemicals manufacture and distribution and industrial food production and processing are separate Annex II sectors; Annex I health covers basic pharmaceutical manufacturing (C21) and devices listed as necessary in public-health emergencies.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-049",
+        "S-050"
+      ],
+      "exact_locator": "Annexes I and II",
+      "event_or_publication_date": "2022-12-27",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Defines which manufacturers are in scope",
+      "limitations": "Body text checked against a reproduction",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-046",
+      "claim_text": "NIS2 applies to medium and large entities (size-cap rule) with Member State discretion to include smaller entities; Annex II entities are important entities unless designated essential; management bodies must approve and oversee risk measures; entities must address supply-chain security; incidents require a 24-hour early warning, 72-hour notification and one-month final report; maximum fines are at least EUR 10 million or 2% of turnover for essential and EUR 7 million or 1.4% for important entities.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-049"
+      ],
+      "exact_locator": "Arts 2, 3, 20, 21(2)(d), 23(4), 34(4)-(5)",
+      "event_or_publication_date": "2022-12-27",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Obligations for in-scope manufacturers",
+      "limitations": "Text checked outside EUR-Lex rendering",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-047",
+      "claim_text": "The Commission referred Ireland, Spain, France and the Netherlands to the Court of Justice on 8 July 2026 for failing to notify full NIS2 transposition, seeking lump-sum and daily penalties; 19 Member States had received reasoned opinions on 7 May 2025.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-051",
+        "S-052"
+      ],
+      "exact_locator": "News body; reasoned opinion list",
+      "event_or_publication_date": "2026-07-08",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Uneven national obligations for multinational manufacturers",
+      "limitations": "Later notifications not checked",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-048",
+      "claim_text": "Germany's NIS2 implementation law entered into force on 6 December 2025, extending BSI supervision from about 4,500 to about 29,500 entities.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-046",
+        "S-045"
+      ],
+      "exact_locator": "Release body",
+      "event_or_publication_date": "2025-12-05",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Largest EU manufacturing economy now regulated",
+      "limitations": "Registrations below expected population",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-049",
+      "claim_text": "Manufacturers' vulnerability and incident reporting obligations under Regulation (EU) 2024/2847 have applied since 11 September 2026 through ENISA's Single Reporting Platform (24-hour early warning, 72-hour notification); main obligations apply from 11 December 2027; products under the medical-device, IVD, vehicle type-approval, civil aviation and marine-equipment regimes and products made exclusively for national security or defence are excluded.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-057",
+        "S-056",
+        "S-055",
+        "S-059"
+      ],
+      "exact_locator": "Release; timeline; Art 2",
+      "event_or_publication_date": "2026-09-11",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "New mandatory reporting for all manufacturers of connected products",
+      "limitations": "Penalties set nationally",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-050",
+      "claim_text": "The Machinery Regulation applies from 20 January 2027 and requires protection of machinery against accidental or intentional corruption from the design stage; supporting standard prEN 50742 was in development; Regulation (EU) 2026/1744 added powers to insert AI safety-component requirements by 2 August 2028.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-063",
+        "S-064",
+        "S-060",
+        "S-062"
+      ],
+      "exact_locator": "Application date; Annex III 1.1.9 and 1.2.1; paras 9-13",
+      "event_or_publication_date": "2026-08-03",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Cybersecurity becomes a machine safety requirement",
+      "limitations": "Standard harmonisation status at cut-off unconfirmed",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-051",
+      "claim_text": "Regulation (EU) 2026/1744 entered into force on 27 July 2026 and defers AI Act high-risk obligations to 2 December 2027 (Annex III) and 2 August 2028 (Annex I products).",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-061",
+        "S-060"
+      ],
+      "exact_locator": "Article body; memorandum",
+      "event_or_publication_date": "2026-08-07",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Later deadline for AI safety components in machinery and vehicles",
+      "limitations": "Dates from secondary source; EUR-Lex not rendered",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-052",
+      "claim_text": "The revised Product Liability Directive entered into force on 8 December 2024 and must be transposed by 9 December 2026; it brings software into scope and allows liability for defects arising from missing security updates.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-066",
+        "S-067"
+      ],
+      "exact_locator": "Metadata; update",
+      "event_or_publication_date": "2026-08-17",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Strict liability exposure for connected-product manufacturers",
+      "limitations": "National laws pending",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-053",
+      "claim_text": "Delegated Regulation (EU) 2026/339 entered into force on 19 May 2026 and ends the radio-equipment cybersecurity delegated act after 10 December 2027, when product-security obligations take over.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-068"
+      ],
+      "exact_locator": "Metadata",
+      "event_or_publication_date": "2026-02-16",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Transition for wireless product makers",
+      "limitations": "Body not rendered",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-054",
+      "claim_text": "The UK Cyber Security and Resilience Bill was at House of Lords report stage at the cut-off (HL Bill 49 of 7 September 2026) without Royal Assent; it would add managed service providers and data centres and allow designation of suppliers to essential services, with 24-hour and 72-hour reporting.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-075",
+        "S-076"
+      ],
+      "exact_locator": "Bill page; factsheet",
+      "event_or_publication_date": "2026-10-15",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Could reach MSPs and suppliers serving manufacturers' customers",
+      "limitations": "Bill; not law",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-055",
+      "claim_text": "UK ransomware proposals (payment ban for public bodies and regulated infrastructure, payment prevention regime, mandatory reporting with 72-hour initial reports) remained proposals; no bill was identified at the cut-off.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-077",
+        "S-078"
+      ],
+      "exact_locator": "pp. 26-47; page body",
+      "event_or_publication_date": "2025-07-22",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Private manufacturers could fall within prevention and reporting regimes",
+      "limitations": "Final reporting scope not retrieved",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-056",
+      "claim_text": "The US DFARS rule making CMMC a contract requirement took effect on 10 November 2025, with a second phase from 10 November 2026 introducing third-party Level 2 assessments under 32 CFR 170.3(e).",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-084",
+        "S-096",
+        "S-085"
+      ],
+      "exact_locator": "Effective date; phase section",
+      "event_or_publication_date": "2025-09-10",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Defence-supply-chain manufacturers face certification gates",
+      "limitations": "Phase dates from commentary",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-057",
+      "claim_text": "The US CIRCIA final rule had not been published at the cut-off (sent for White House review on 1 October 2026), and CFATS statutory authority lapsed in July 2023 with no reauthorisation found.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-086",
+        "S-087",
+        "S-088"
+      ],
+      "exact_locator": "Article bodies",
+      "event_or_publication_date": "2026-10-08",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "US mandatory reporting gap for manufacturers",
+      "limitations": "Secondary sources",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-058",
+      "claim_text": "The revised EU FDI Screening Regulation was adopted on 8 June 2026 and published on 26 June 2026; Member States have 18 months to apply minimum screening covering dual-use items, emerging technologies and raw materials.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-073",
+        "S-074"
+      ],
+      "exact_locator": "Release bodies",
+      "event_or_publication_date": "2026-06-26",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Strategic manufacturing ownership changes face screening",
+      "limitations": "Regulation number not stated",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-059",
+      "claim_text": "UN Regulation No. 155 requires a certified cyber security management system covering development, production and post-production for vehicle type approval, with the general exception for older types ending on 1 July 2024 for categories M, N and O.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-071"
+      ],
+      "exact_locator": "Paras 6, 7.2.2.1, 7.3.1",
+      "event_or_publication_date": "2025-01-10",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "OEMs must manage supplier cyber risk for approval",
+      "limitations": "Documentation copy",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-060",
+      "claim_text": "HSE treats cyber security of industrial automation and control systems at COMAH sites as part of plant safety, with operational guidance OG86 (2017); the Commission's 2025 Seveso III report does not address cyber events as accident initiators.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-079",
+        "S-072"
+      ],
+      "exact_locator": "Page body; report body",
+      "event_or_publication_date": "2026-06-29",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Major-hazard sites: safety regulator expectations exist in GB; EU review silent",
+      "limitations": "EU national practice not surveyed",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-061",
+      "claim_text": "The MOD's Cyber Security Model version 4 requires defence suppliers to meet Def Stan 05-138 controls by risk profile and to flow requirements down to subcontractors under DEFCON 658.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-081"
+      ],
+      "exact_locator": "Page body",
+      "event_or_publication_date": "2026-03-06",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "UK defence supply chain contractual baseline",
+      "limitations": "Guidance page",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-062",
+      "claim_text": "The EU GMP Annex 11 revision was consulted on from 7 July to 7 October 2025 alongside a new Annex 22 on AI; no final adoption was evidenced at the cut-off.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-070"
+      ],
+      "exact_locator": "Page body",
+      "event_or_publication_date": "2025-10-07",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Pharmaceutical computerised-system expectations rising",
+      "limitations": "Final text status unconfirmed",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-063",
+      "claim_text": "Scenario 1 assumes a multi-day loss of a common enterprise platform (identity, endpoint management, ERP or supplier-portal service) used by many manufacturers and suppliers, without OT compromise.",
+      "claim_type": "Scenario assumption",
+      "source_ids": [
+        "S-024",
+        "S-037",
+        "S-041",
+        "S-039"
+      ],
+      "exact_locator": "Combined",
+      "event_or_publication_date": "2026-10-16",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Platform failures are usually restored within a day"
+      ],
+      "contrary_evidence": "No in-period multi-day common-platform outage across many manufacturers was found",
+      "sector_relevance": "Correlated production and shipping stops across counterparties",
+      "limitations": "Illustrative durations; no probability",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-064",
+      "claim_text": "Scenario 2 assumes ransomware or destructive activity at a single high-volume OEM or tier-1 supplier causes a four- to eight-week precautionary production stop, as at JLR.",
+      "claim_type": "Scenario assumption",
+      "source_ids": [
+        "S-001",
+        "S-003",
+        "S-010",
+        "S-027"
+      ],
+      "exact_locator": "Combined",
+      "event_or_publication_date": "2026-10-16",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Better-segmented firms may restart within days, as Stryker did in under a month"
+      ],
+      "contrary_evidence": "Hasbro and Stryker kept full-year guidance",
+      "sector_relevance": "Deep, concentrated counterparty and supplier liquidity effect",
+      "limitations": "Duration informed by one case",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-065",
+      "claim_text": "Scenario 3 assumes compromise of a shared supplier layer - an OT vendor's fielded controllers, an integrator or MSP, or a component supplier - propagates to many customers at once.",
+      "claim_type": "Scenario assumption",
+      "source_ids": [
+        "S-035",
+        "S-034",
+        "S-039",
+        "S-030"
+      ],
+      "exact_locator": "Combined",
+      "event_or_publication_date": "2026-10-16",
+      "likelihood": "not_applicable",
+      "confidence": "medium",
+      "alternative_hypotheses": [
+        "Customer segmentation may contain propagation"
+      ],
+      "contrary_evidence": "French case shows propagation through exposure, not supplier compromise",
+      "sector_relevance": "Correlated product-liability, recall and supply effects",
+      "limitations": "No probability",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-066",
+      "claim_text": "Recommended priorities follow the evidenced pathways: IT-OT dependency mapping and recovery testing, identity and endpoint-management hardening, supplier liquidity and concentration monitoring, product end-of-life and exposure management, contractual flow-down and insurance alignment.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-010",
+        "S-024",
+        "S-035",
+        "S-039",
+        "S-049"
+      ],
+      "exact_locator": "Combined",
+      "event_or_publication_date": "2026-10-16",
+      "likelihood": "not_applicable",
+      "confidence": "medium-high",
+      "alternative_hypotheses": [
+        "Priorities could differ for buffered process industries where OT safety rather than supplier liquidity dominates"
+      ],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Management actions",
+      "limitations": "Sector priorities, not findings about any institution",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-068",
+      "claim_text": "Manufacturing is not an essential-service sector under the UK NIS Regulations 2018; the regime covers energy, transport, health, drinking water and digital infrastructure.",
+      "claim_type": "Observed external fact",
+      "source_ids": [
+        "S-095"
+      ],
+      "exact_locator": "Schedules 1 and 2",
+      "event_or_publication_date": "2018-04-19",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "UK manufacturers are outside horizontal UK cyber regulation",
+      "limitations": "Truncated retrieval",
+      "approved_for_slide": true
+    },
+    {
+      "claim_id": "C-067",
+      "claim_text": "Absence of public evidence on supplier insolvencies, ransom payments and OT state is a disclosure gap, not evidence of zero effect.",
+      "claim_type": "Analytic judgment",
+      "source_ids": [
+        "S-047",
+        "S-010"
+      ],
+      "exact_locator": "Combined",
+      "event_or_publication_date": "2026-10-16",
+      "likelihood": "not_applicable",
+      "confidence": "high",
+      "alternative_hypotheses": [
+        "Some effects may be genuinely small and therefore undisclosed"
+      ],
+      "contrary_evidence": "None identified in the reviewed source set.",
+      "sector_relevance": "Limits interpretation",
+      "limitations": "Structural",
+      "approved_for_slide": true
+    }
+  ]
+}

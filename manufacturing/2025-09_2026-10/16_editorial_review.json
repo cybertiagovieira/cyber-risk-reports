@@ -1,0 +1,53 @@
+{
+  "schema_version": "3.0.0",
+  "status": "PASS",
+  "reviewer": "Independent editorial challenge agent (session subagent a85d065ae6c59bd33), separate from the drafting role; two passes on 16 October 2026 (22 objections, then re-verification with 3 new issues); resolutions applied by the drafting role",
+  "report_sha256": "c80c2ab4adc0828e39c87ae54a2a0e6e0a8798a3eb9b26cc2acfdbdad8fb6d02",
+  "docx_sha256": "c47d30be601736c2f939050c6ab96b50b5d7108568db2dc8405b76774d47d915",
+  "pptx_sha256": "747d3a13872f3a25c15da1646e2fefc452ead604f5a50ac5051a2d74054216ae",
+  "review_scope": "Principal judgements; public financial evidence; JLR facts re-fetched by the reviewer (Q2 and Q3 results, Q3 volumes, TMPV FY26, CMC statement, ONS bulletin, guarantee release); Asahi Q&A; Stryker and Boston Scientific filings; CERT-FR alert; UK Bill page; scenario assumptions; legal applicability; slide standalone reading from renders; language controls; cross-artefact consistency.",
+  "criteria": {
+    "standalone_completeness": {
+      "status": "PASS",
+      "observation": "Slides define OT, ERP, MES, OEM, NACE, CRA and 1LoD after objection 17; report chapter cross-references to non-existent chapter numbers removed (objection 15); every slide carries conclusion, evidence, interpretation, implication and limitation."
+    },
+    "evidence_specificity": {
+      "status": "PASS",
+      "observation": "UK NIS scope now cited to SI 2018/506 schedules (S-095); Stryker renamed 'global IT disruption' with the wipe mechanism and Iran-linked claim marked media-reported and unconfirmed; law-firm source for Implementing Regulation 2025/2392 replaced by the EUR-Lex record; unsupported Data Act milestone and Scenario 1 anchor removed (second pass N1)."
+    },
+    "sector_relevance": {
+      "status": "PASS",
+      "observation": "Subsector table records evidence and gaps for nine subsector groups; controller case framed as manufacturers' product exposure; disclosure asymmetry stated."
+    },
+    "financial_transmission": {
+      "status": "PASS",
+      "observation": "Slide 5 and report now record tariffs and model wind-down as co-causes of JLR volume and cash effects; Asahi JPY 17 billion reclassified as incident-related expenses; output effects worded as ONS relaying the trade body's attribution; bridge drawdown sequence and GBP 500 million scheme added."
+    },
+    "scenario_distinctness": {
+      "status": "PASS",
+      "observation": "Shared platform, single large manufacturer and supplier layer remain distinct; RTX labelled a cross-sector analogue; severity anchors stated without unsupported facts; no probabilities."
+    },
+    "regulatory_accuracy": {
+      "status": "PASS",
+      "observation": "CRA named and exclusions completed (marine equipment, national security or defence); 'horizontal' wording removed; CMMC phase cited to 32 CFR 170.3(e); CIRCIA labelled Tier 3 only; Bill and ransomware measures labelled proposals."
+    },
+    "actionability": {
+      "status": "PASS",
+      "observation": "Seven actions with role type, horizon, completion evidence, residual dependency and external trigger, framed as sector priorities."
+    },
+    "readability": {
+      "status": "PASS",
+      "observation": "Renders legible; slide 7 spacing fixed; report tables within margins."
+    },
+    "limitations_and_confidence": {
+      "status": "PASS",
+      "observation": "Judgement 3 lowered to medium with a like-for-like CMC comparison; Judgement 4 rewritten and lowered to low; Judgement 5 lowered to medium; limitations list unassessed regimes."
+    },
+    "cross_artifact_consistency": {
+      "status": "PASS",
+      "observation": "Slide 3 insurance status, 2,700 count wording, P1 group names, West Pharmaceutical role and the restricted term in ledger and register aligned; executive story regenerated from the slide specification; Word retention checked by the release gate."
+    }
+  },
+  "objection_log": "Pass 1: 22 objections (8 material: slide 5 causal attribution, output attribution wording, Asahi cost classification, Judgement 3 confidence, Stryker Tier 3 mechanism, Judgement 4 scope, UK NIS citation, structure precedence; 14 minor). Pass 2: 16 resolved, 6 partly, 2 new material issues (unsupported Scenario 1 anchor and Data Act date; structure note basis) and 3 minor leftovers. All residual items fixed afterwards: Data Act clause removed, Scenario 1 anchor reworded, structure note now cites the user's run instruction of 16 October 2026 and the project context decision hierarchy (user's latest explicit request first), Asahi comparability note, 2,700 wording and CMMC horizon citation corrected. Accepted without change: S-095 locator kept on the schedules page because the sector table was within the retrieved text.",
+  "unresolved_material_issues": []
+}

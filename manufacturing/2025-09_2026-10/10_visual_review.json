@@ -1,0 +1,11 @@
+{
+  "reviewer": "Drafting role visual inspection of LibreOffice renders (all 7 slides at 80-110 dpi; all report pages at 50-80 dpi), corroborated by the independent editorial challenge agent's review of the same renders",
+  "all_slides_inspected": true,
+  "readable_text": true,
+  "no_clipped_elements": true,
+  "design_compliant": true,
+  "renderer": "LibreOffice headless to PDF; pdftoppm JPEG; ImageMagick montage",
+  "pptx_sha256": "747d3a13872f3a25c15da1646e2fefc452ead604f5a50ac5051a2d74054216ae",
+  "docx_sha256": "c47d30be601736c2f939050c6ab96b50b5d7108568db2dc8405b76774d47d915",
+  "observations": "Deck: white background, dark text 1F2328, emerald 00915E labels, hairline grey table grids and one divider rule; no imagery, icons, gradients, shadows, rounded cards, footers, dates, page numbers, sources or notes. Each slide shows Conclusion, Evidence, Interpretation, Management implication and Limitation; titles 26 pt, conclusions 14.5 pt, prose 13.5 pt, tables 12-12.5 pt. First render: slide 7 table overlapped the lower text; fixed by widening the priority column, 12 pt table text and moving the lower zone; a two-line header introduced by the review was shortened and the 1LoD definition moved to the implication. Report: 29 pages, all tables inside margins, no mid-word breaks observed."
+}

@@ -1,0 +1,1438 @@
+{
+  "schema_version": "3.0.0",
+  "reading_mode": "standalone_publication",
+  "primary_report": "14_sectorial_report.md",
+  "slides": [
+    {
+      "number": 1,
+      "title": "Sector Exposure & Executive Risk Outlook",
+      "decision": "Treat manufacturing cyber risk as an IT-dependent production, supplier-liquidity and product-liability issue.",
+      "executive_conclusion": "Exposure runs through the enterprise systems that release production and reaches the financial system through lost output, supplier liquidity and state-backed lending.",
+      "claim_ids": [
+        "C-039",
+        "C-040",
+        "C-041",
+        "C-042",
+        "C-043",
+        "C-001",
+        "C-003",
+        "C-005",
+        "C-044"
+      ],
+      "metric_ids": [
+        "M-019",
+        "M-023",
+        "M-025",
+        "M-026"
+      ],
+      "scenario_ids": [],
+      "visual_type": "Judgement table with confidence and change conditions",
+      "table_headers": {
+        "T1": [
+          "Principal judgement",
+          "Confidence",
+          "What would change it"
+        ]
+      },
+      "table_widths": {
+        "T1": [
+          4.3,
+          1.35,
+          3.25
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "Manufacturing cyber exposure in the period ran through the enterprise systems that release production, not through plant control systems; it reaches the financial system mainly through lost output, supplier liquidity and state-backed lending.",
+          "claim_ids": [
+            "C-039",
+            "C-040",
+            "C-041"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Evidence base: public records for the 13-month reporting period across the EU, EEA and UK with global comparison - company and securities filings, a national CERT alert, statistics-office and central-bank publications, an independent loss model, and ENISA, Dragos and Black Kite benchmarks.",
+          "claim_ids": [
+            "C-012",
+            "C-022",
+            "C-024",
+            "C-020",
+            "C-033",
+            "C-003",
+            "C-005",
+            "C-008"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "Footprint: EU manufacturing employs 30.2 million people and produces 23.1% of business-economy value added. It drew 25.2% of EU ransomware claims in ENISA's latest review and about 65% of industrial ransomware in the latest quarter tracked by Dragos.",
+          "claim_ids": [
+            "C-001",
+            "C-003",
+            "C-005"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "t1r1",
+          "role": "evidence",
+          "visible_text": "Production loss runs through IT dependency and precautionary shutdown, not direct operational technology (OT) compromise Medium Disclosed control-system manipulation causing damage at a manufacturer",
+          "claim_ids": [
+            "C-039"
+          ],
+          "zone": "table",
+          "table": "T1",
+          "row_cells": [
+            "Production loss runs through IT dependency and precautionary shutdown, not direct operational technology (OT) compromise",
+            "Medium",
+            "Disclosed control-system manipulation causing damage at a manufacturer"
+          ]
+        },
+        {
+          "element_id": "t1r2",
+          "role": "evidence",
+          "visible_text": "Supplier cascade and liquidity are the systemic pathway in just-in-time production Medium Evidence that lower-tier suppliers absorb multi-week stops without support",
+          "claim_ids": [
+            "C-041"
+          ],
+          "zone": "table",
+          "table": "T1",
+          "row_cells": [
+            "Supplier cascade and liquidity are the systemic pathway in just-in-time production",
+            "Medium",
+            "Evidence that lower-tier suppliers absorb multi-week stops without support"
+          ]
+        },
+        {
+          "element_id": "t1r3",
+          "role": "evidence",
+          "visible_text": "Financial effect is dominated by lost output and cash, not response cost Medium Rebuild and response costs exceeding lost margin",
+          "claim_ids": [
+            "C-040"
+          ],
+          "zone": "table",
+          "table": "T1",
+          "row_cells": [
+            "Financial effect is dominated by lost output and cash, not response cost",
+            "Medium",
+            "Rebuild and response costs exceeding lost margin"
+          ]
+        },
+        {
+          "element_id": "t1r4",
+          "role": "evidence",
+          "visible_text": "State-linked activity targets industrial controllers; no official attribution of a manufacturing disruption Low Official attribution of a European manufacturing disruption to a state",
+          "claim_ids": [
+            "C-042"
+          ],
+          "zone": "table",
+          "table": "T1",
+          "row_cells": [
+            "State-linked activity targets industrial controllers; no official attribution of a manufacturing disruption",
+            "Low",
+            "Official attribution of a European manufacturing disruption to a state"
+          ]
+        },
+        {
+          "element_id": "t1r5",
+          "role": "evidence",
+          "visible_text": "Regulation reaches most manufacturers through product law and contracts rather than entity-level regimes Medium National NIS2 designation beyond the named divisions",
+          "claim_ids": [
+            "C-043"
+          ],
+          "zone": "table",
+          "table": "T1",
+          "row_cells": [
+            "Regulation reaches most manufacturers through product law and contracts rather than entity-level regimes",
+            "Medium",
+            "National NIS2 designation beyond the named divisions"
+          ]
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Treat large manufacturing counterparties as IT-dependent production systems: ask how long they can release production without enterprise resource planning (ERP), manufacturing execution (MES) and identity services, and which suppliers depend on them for most of their revenue.",
+          "claim_ids": [
+            "C-039",
+            "C-041",
+            "C-066"
+          ],
+          "zone": "bottom_left"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Quantified outcomes come from listed companies; supplier failures, ransom payments and the state of plant control systems are not publicly disclosed, so their absence is a disclosure gap, not evidence of zero effect.",
+          "claim_ids": [
+            "C-044",
+            "C-067"
+          ],
+          "zone": "bottom_right"
+        }
+      ],
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No substantive information in notes. All essential analysis must be visible."
+    },
+    {
+      "number": 2,
+      "title": "Key Threats & Top 5 Cyber Attacks",
+      "decision": "Weight reviews towards IT-OT production dependency, administrative tools and installed products.",
+      "executive_conclusion": "Five incidents meet the evidence standard; four stopped production through IT-side compromise and one compromised manufacturers' fielded controllers.",
+      "claim_ids": [
+        "C-012",
+        "C-013",
+        "C-027",
+        "C-028",
+        "C-029",
+        "C-030",
+        "C-031",
+        "C-033",
+        "C-034",
+        "C-003",
+        "C-004",
+        "C-006",
+        "C-007"
+      ],
+      "metric_ids": [
+        "M-015",
+        "M-018",
+        "M-023"
+      ],
+      "scenario_ids": [],
+      "visual_type": "Named incident table with pattern list",
+      "table_headers": {
+        "T2": [
+          "Named incident",
+          "Subsector and place",
+          "Operational consequence",
+          "Evidence strength"
+        ]
+      },
+      "table_widths": {
+        "T2": [
+          2.2,
+          1.9,
+          2.9,
+          1.8
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "Five incidents meet the evidence standard; four stopped production through IT-side compromise and one compromised manufacturers' controllers in customer premises, so both the enterprise estate and the installed product base are exposure points.",
+          "claim_ids": [
+            "C-012",
+            "C-027",
+            "C-029",
+            "C-031",
+            "C-033",
+            "C-039"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Threat pathways (patterns, not attacks): P1 ransomware and data extortion against enterprise IT; P2 destructive misuse of administrative platforms; P3 internet-exposed OT and fielded products; P4 supplier and service-provider compromise; P5 data theft with intellectual-property and export-control exposure.",
+          "claim_ids": [
+            "C-003",
+            "C-004",
+            "C-030",
+            "C-033",
+            "C-035",
+            "C-032"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "ENISA found manufacturing the largest EU ransomware target, with exfiltration overtaking encryption; Dragos found no recent ransomware case reaching control-system manipulation, and 117 incidents at integrators and equipment makers in one quarter.",
+          "claim_ids": [
+            "C-003",
+            "C-004",
+            "C-006",
+            "C-007"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "t2r1",
+          "role": "evidence",
+          "visible_text": "1 Jaguar Land Rover shutdown Automotive original equipment manufacturer (OEM); UK and Slovakia About five weeks of halted production; supplier cascade; recorded vehicle-output fall Company filings, statistics office, central bank",
+          "claim_ids": [
+            "C-012",
+            "C-013",
+            "C-022"
+          ],
+          "zone": "table",
+          "table": "T2",
+          "row_cells": [
+            "1 Jaguar Land Rover shutdown",
+            "Automotive original equipment manufacturer (OEM); UK and Slovakia",
+            "About five weeks of halted production; supplier cascade; recorded vehicle-output fall",
+            "Company filings, statistics office, central bank"
+          ]
+        },
+        {
+          "element_id": "t2r2",
+          "role": "evidence",
+          "visible_text": "2 Asahi Group ransomware Beverages and food; Japan Shipments halted; about JPY 40 billion impact; results delayed five months Company disclosures",
+          "claim_ids": [
+            "C-027",
+            "C-028"
+          ],
+          "zone": "table",
+          "table": "T2",
+          "row_cells": [
+            "2 Asahi Group ransomware",
+            "Beverages and food; Japan",
+            "Shipments halted; about JPY 40 billion impact; results delayed five months",
+            "Company disclosures"
+          ]
+        },
+        {
+          "element_id": "t2r3",
+          "role": "evidence",
+          "visible_text": "3 Stryker global IT disruption Medical devices; global Material quarterly effect; manufacturing and ordering restored in about four weeks Securities filings; media-reported claim unconfirmed",
+          "claim_ids": [
+            "C-029",
+            "C-030"
+          ],
+          "zone": "table",
+          "table": "T2",
+          "row_cells": [
+            "3 Stryker global IT disruption",
+            "Medical devices; global",
+            "Material quarterly effect; manufacturing and ordering restored in about four weeks",
+            "Securities filings; media-reported claim unconfirmed"
+          ]
+        },
+        {
+          "element_id": "t2r4",
+          "role": "evidence",
+          "visible_text": "4 Boston Scientific outage Medical devices; global Manufacturing, ordering and shipping disrupted; guidance unlikely to be met Material-incident filing",
+          "claim_ids": [
+            "C-031"
+          ],
+          "zone": "table",
+          "table": "T2",
+          "row_cells": [
+            "4 Boston Scientific outage",
+            "Medical devices; global",
+            "Manufacturing, ordering and shipping disrupted; guidance unlikely to be met",
+            "Material-incident filing"
+          ]
+        },
+        {
+          "element_id": "t2r5",
+          "role": "evidence",
+          "visible_text": "5 Refrigeration controller compromise OT equipment makers; France Numerous controllers compromised; hundreds of stores affected National CERT alert; scale from media",
+          "claim_ids": [
+            "C-033",
+            "C-034"
+          ],
+          "zone": "table",
+          "table": "T2",
+          "row_cells": [
+            "5 Refrigeration controller compromise",
+            "OT equipment makers; France",
+            "Numerous controllers compromised; hundreds of stores affected",
+            "National CERT alert; scale from media"
+          ]
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Weight counterparty reviews towards IT-OT production dependency, controls over administrative tools and the exposure of manufacturers' installed products, rather than counting ransomware claims alone.",
+          "claim_ids": [
+            "C-039",
+            "C-066"
+          ],
+          "zone": "bottom_left"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Only two of five incidents are EU or UK, reflecting US disclosure rules; chemicals, metals and basic materials have no named case with an official outcome, and the controller case is days old.",
+          "claim_ids": [
+            "C-044",
+            "C-034"
+          ],
+          "zone": "bottom_right"
+        }
+      ],
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No substantive information in notes. All essential analysis must be visible."
+    },
+    {
+      "number": 3,
+      "title": "Financial Impact: Manufacturing",
+      "decision": "Monitor counterparty liquidity and supplier concentration after a major manufacturer incident.",
+      "executive_conclusion": "Lost output and cash, not response cost, drive the financial effect; one OEM stop coincided with an officially recorded fall in vehicle output and needed state-backed lending.",
+      "claim_ids": [
+        "C-015",
+        "C-016",
+        "C-017",
+        "C-018",
+        "C-019",
+        "C-020",
+        "C-021",
+        "C-022",
+        "C-024",
+        "C-028",
+        "C-029",
+        "C-040",
+        "C-011"
+      ],
+      "metric_ids": [
+        "M-003",
+        "M-006",
+        "M-007",
+        "M-010",
+        "M-011",
+        "M-012",
+        "M-016"
+      ],
+      "scenario_ids": [],
+      "visual_type": "Impact-type evidence table",
+      "table_headers": {
+        "T3": [
+          "Impact type",
+          "Public evidence",
+          "Status"
+        ]
+      },
+      "table_widths": {
+        "T3": [
+          2.0,
+          5.0,
+          1.8
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "Public financial evidence is thin and cannot be added up, but it consistently shows that lost output and cash, not response cost, drive the effect, and that a single OEM stop can show up in official vehicle-output statistics and require state-backed lending.",
+          "claim_ids": [
+            "C-040",
+            "C-022",
+            "C-018"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Evidence base: quarterly and annual company results, securities filings, the UK statistics office and central bank, an industry output series and the Cyber Monitoring Centre model of the JLR event.",
+          "claim_ids": [
+            "C-015",
+            "C-016",
+            "C-022",
+            "C-023",
+            "C-024",
+            "C-020"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "JLR's labelled cyber costs were GBP 260 million over two quarters while quarterly free cash outflow reached GBP 1.5 billion. Transmission ran through a GBP 2 billion bridge facility, supplier prepayment via a banking partner and a government-guaranteed GBP 1.5 billion loan.",
+          "claim_ids": [
+            "C-015",
+            "C-016",
+            "C-017",
+            "C-018",
+            "C-019"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "t3r1",
+          "role": "evidence",
+          "visible_text": "Production stoppage About five weeks at JLR; about four weeks to full restoration at Stryker Observed",
+          "claim_ids": [
+            "C-013",
+            "C-029"
+          ],
+          "zone": "table",
+          "table": "T3",
+          "row_cells": [
+            "Production stoppage",
+            "About five weeks at JLR; about four weeks to full restoration at Stryker",
+            "Observed"
+          ]
+        },
+        {
+          "element_id": "t3r2",
+          "role": "evidence",
+          "visible_text": "Incident-related cost GBP 260 million at JLR over two quarters; JPY 17 billion of expenses at Asahi incl. inventory write-offs Observed for two firms",
+          "claim_ids": [
+            "C-015",
+            "C-028"
+          ],
+          "zone": "table",
+          "table": "T3",
+          "row_cells": [
+            "Incident-related cost",
+            "GBP 260 million at JLR over two quarters; JPY 17 billion of expenses at Asahi incl. inventory write-offs",
+            "Observed for two firms"
+          ]
+        },
+        {
+          "element_id": "t3r3",
+          "role": "evidence",
+          "visible_text": "Revenue and delivery JLR quarterly revenue down 24% and 39%; wholesales down 43.3% Mixed causes",
+          "claim_ids": [
+            "C-014",
+            "C-015"
+          ],
+          "zone": "table",
+          "table": "T3",
+          "row_cells": [
+            "Revenue and delivery",
+            "JLR quarterly revenue down 24% and 39%; wholesales down 43.3%",
+            "Mixed causes"
+          ]
+        },
+        {
+          "element_id": "t3r4",
+          "role": "evidence",
+          "visible_text": "Working capital JLR free cash outflow of GBP 791 million and GBP 1.5 billion in two quarters Observed",
+          "claim_ids": [
+            "C-016"
+          ],
+          "zone": "table",
+          "table": "T3",
+          "row_cells": [
+            "Working capital",
+            "JLR free cash outflow of GBP 791 million and GBP 1.5 billion in two quarters",
+            "Observed"
+          ]
+        },
+        {
+          "element_id": "t3r5",
+          "role": "evidence",
+          "visible_text": "Supplier cascade Over 5,000 UK organisations (also given as more than 2,700); GBP 1.9 billion modelled loss Modelled only",
+          "claim_ids": [
+            "C-020",
+            "C-021"
+          ],
+          "zone": "table",
+          "table": "T3",
+          "row_cells": [
+            "Supplier cascade",
+            "Over 5,000 UK organisations (also given as more than 2,700); GBP 1.9 billion modelled loss",
+            "Modelled only"
+          ]
+        },
+        {
+          "element_id": "t3r6",
+          "role": "evidence",
+          "visible_text": "Macro-economic UK motor-vehicle output down 28.6% in the stop month; central bank cites weaker growth Observed",
+          "claim_ids": [
+            "C-022",
+            "C-024"
+          ],
+          "zone": "table",
+          "table": "T3",
+          "row_cells": [
+            "Macro-economic",
+            "UK motor-vehicle output down 28.6% in the stop month; central bank cites weaker growth",
+            "Observed"
+          ]
+        },
+        {
+          "element_id": "t3r7",
+          "role": "evidence",
+          "visible_text": "Insurance and insolvency Customer-side disruption often uninsured; no supplier insolvency officially attributed Insurance qualitative; insolvency not evidenced",
+          "claim_ids": [
+            "C-021",
+            "C-011"
+          ],
+          "zone": "table",
+          "table": "T3",
+          "row_cells": [
+            "Insurance and insolvency",
+            "Customer-side disruption often uninsured; no supplier insolvency officially attributed",
+            "Insurance qualitative; insolvency not evidenced"
+          ]
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Monitor facility drawdown, supply-chain finance usage and receivables concentration at manufacturing counterparties after a major customer incident, and test how a four-week OEM stop would surface in early-warning indicators.",
+          "claim_ids": [
+            "C-041",
+            "C-019",
+            "C-066"
+          ],
+          "zone": "bottom_left"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Values differ in currency, statistic type and population and are not summed; JLR revenue and cash effects also reflect tariffs and model wind-down; ransom and insurance recoveries were not disclosed.",
+          "claim_ids": [
+            "C-015",
+            "C-067"
+          ],
+          "zone": "bottom_right"
+        }
+      ],
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No substantive information in notes. All essential analysis must be visible."
+    },
+    {
+      "number": 4,
+      "title": "Financial Impact: Worst-Case Scenarios",
+      "decision": "Identify shared platforms, vendors and supplier dependencies across manufacturing counterparties.",
+      "executive_conclusion": "Three distinct stress pathways converge on lost output, supplier liquidity and liability; they are not forecasts.",
+      "claim_ids": [
+        "C-063",
+        "C-064",
+        "C-065",
+        "C-030",
+        "C-036",
+        "C-033",
+        "C-035",
+        "C-007",
+        "C-020"
+      ],
+      "metric_ids": [],
+      "scenario_ids": [
+        "SC-001",
+        "SC-002",
+        "SC-003"
+      ],
+      "visual_type": "Scenario comparison table",
+      "table_headers": {
+        "T4": [
+          "Dimension",
+          "1 Common digital dependency",
+          "2 Targeted operational disruption",
+          "3 Supply-chain concentration"
+        ]
+      },
+      "table_widths": {
+        "T4": [
+          1.9,
+          3.65,
+          3.55,
+          3.6
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "Three distinct stress pathways - a shared enterprise platform failure, a targeted stop at one large manufacturer and a compromise spreading through a supplier layer - converge on lost output, supplier liquidity and liability; they are stress narratives, not forecasts or loss estimates.",
+          "claim_ids": [
+            "C-063",
+            "C-064",
+            "C-065"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "t4r1",
+          "role": "evidence",
+          "visible_text": "Trigger Multi-day loss or misuse of identity, endpoint, ERP, MES or supplier-portal services used by many firms Ransomware or wipe at one high-volume OEM or tier-1 supplier for four to eight weeks Compromise of an OT vendor's fielded controllers, an integrator or a component supplier",
+          "claim_ids": [
+            "C-063",
+            "C-064",
+            "C-065"
+          ],
+          "zone": "table",
+          "table": "T4",
+          "row_cells": [
+            "Trigger",
+            "Multi-day loss or misuse of identity, endpoint, ERP, MES or supplier-portal services used by many firms",
+            "Ransomware or wipe at one high-volume OEM or tier-1 supplier for four to eight weeks",
+            "Compromise of an OT vendor's fielded controllers, an integrator or a component supplier"
+          ]
+        },
+        {
+          "element_id": "t4r2",
+          "role": "evidence",
+          "visible_text": "Propagation Many plants stop on precaution while OT is untouched Just-in-time call-offs stop; thousands of suppliers idle One supplier's weakness reaches many customers at once",
+          "claim_ids": [
+            "C-063",
+            "C-064",
+            "C-065",
+            "C-020"
+          ],
+          "zone": "table",
+          "table": "T4",
+          "row_cells": [
+            "Propagation",
+            "Many plants stop on precaution while OT is untouched",
+            "Just-in-time call-offs stop; thousands of suppliers idle",
+            "One supplier's weakness reaches many customers at once"
+          ]
+        },
+        {
+          "element_id": "t4r3",
+          "role": "evidence",
+          "visible_text": "Financial transmission Correlated delivery gaps; concurrent working-capital draws Emergency facilities, supplier prepayment, possible state guarantee Remediation, warranty and liability costs; component shortages",
+          "claim_ids": [
+            "C-063",
+            "C-064",
+            "C-065",
+            "C-017"
+          ],
+          "zone": "table",
+          "table": "T4",
+          "row_cells": [
+            "Financial transmission",
+            "Correlated delivery gaps; concurrent working-capital draws",
+            "Emergency facilities, supplier prepayment, possible state guarantee",
+            "Remediation, warranty and liability costs; component shortages"
+          ]
+        },
+        {
+          "element_id": "t4r4",
+          "role": "evidence",
+          "visible_text": "Early signposts Provider outage notices; government alerts on platform misuse Production-pause extensions; supplier short-time work CERT alerts naming products; disclosures citing an IT provider",
+          "claim_ids": [
+            "C-030",
+            "C-064",
+            "C-065"
+          ],
+          "zone": "table",
+          "table": "T4",
+          "row_cells": [
+            "Early signposts",
+            "Provider outage notices; government alerts on platform misuse",
+            "Production-pause extensions; supplier short-time work",
+            "CERT alerts naming products; disclosures citing an IT provider"
+          ]
+        },
+        {
+          "element_id": "t4r5",
+          "role": "evidence",
+          "visible_text": "Limiting conditions Offline production release; tenant isolation Segmented estates restored within weeks Exposure management; supported firmware",
+          "claim_ids": [
+            "C-063",
+            "C-029",
+            "C-033"
+          ],
+          "zone": "table",
+          "table": "T4",
+          "row_cells": [
+            "Limiting conditions",
+            "Offline production release; tenant isolation",
+            "Segmented estates restored within weeks",
+            "Exposure management; supported firmware"
+          ]
+        },
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Evidence base: the JLR and medical-device shutdowns, a reported administrative-tool wipe, a cross-sector software outage, the controller compromise and a supplier hit through its IT provider; durations are illustrative.",
+          "claim_ids": [
+            "C-012",
+            "C-031",
+            "C-030",
+            "C-036",
+            "C-033",
+            "C-035",
+            "C-007"
+          ],
+          "zone": "lower_left"
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "Scenario 1 is broad and shallow, scenario 2 narrow and deep, scenario 3 broad through one supplier; all three reach banks through counterparty liquidity and liability rather than direct loss.",
+          "claim_ids": [
+            "C-063",
+            "C-064",
+            "C-065",
+            "C-040"
+          ],
+          "zone": "lower_right"
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Ask which counterparties share the same enterprise platforms and OT vendors, and how many weeks of stop the largest manufacturing counterparties and their dependent suppliers can finance.",
+          "claim_ids": [
+            "C-066",
+            "C-041"
+          ],
+          "zone": "bottom_left"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "No probabilities are assigned because no defensible external basis exists; no multi-day common-platform outage across many manufacturers was observed in the period.",
+          "claim_ids": [
+            "C-063",
+            "C-067"
+          ],
+          "zone": "bottom_right"
+        }
+      ],
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No substantive information in notes. All essential analysis must be visible."
+    },
+    {
+      "number": 5,
+      "title": "Case Study: Jaguar Land Rover Cyber Incident",
+      "decision": "Treat a multi-week OEM stop as a foreseeable credit event for its supplier base.",
+      "executive_conclusion": "An enterprise-systems shutdown stopped production for about five weeks and transmitted to suppliers, bank liquidity, state guarantees and official vehicle-output statistics.",
+      "claim_ids": [
+        "C-012",
+        "C-013",
+        "C-014",
+        "C-015",
+        "C-016",
+        "C-017",
+        "C-018",
+        "C-019",
+        "C-020",
+        "C-022",
+        "C-024",
+        "C-025",
+        "C-026"
+      ],
+      "metric_ids": [
+        "M-001",
+        "M-002",
+        "M-007",
+        "M-009",
+        "M-010",
+        "M-011",
+        "M-012"
+      ],
+      "scenario_ids": [
+        "SC-002"
+      ],
+      "visual_type": "Phase timeline table",
+      "table_headers": {
+        "T5": [
+          "Phase",
+          "Elapsed time",
+          "What happened"
+        ]
+      },
+      "table_widths": {
+        "T5": [
+          1.9,
+          1.6,
+          5.3
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "A precautionary shutdown of JLR's enterprise systems stopped production for about five weeks; in the following quarter wholesales fell 43% and free cash outflow reached GBP 1.5 billion, with tariffs and model wind-down also contributing. Suppliers needed customer-funded prepayment and the state guaranteed a GBP 1.5 billion bank loan.",
+          "claim_ids": [
+            "C-012",
+            "C-013",
+            "C-014",
+            "C-016",
+            "C-018",
+            "C-019"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Evidence base: company statements and four quarterly releases, the government guarantee release, a parliamentary letter, the statistics office, the central bank, an industry output series and the Cyber Monitoring Centre model; selected as the only in-period case with this depth.",
+          "claim_ids": [
+            "C-012",
+            "C-015",
+            "C-018",
+            "C-026",
+            "C-022",
+            "C-024",
+            "C-023",
+            "C-020"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "Mechanism: production stopped because the systems that schedule, supply and release it were shut down; the plant control state and the initial access route were not disclosed, and a criminal group's claim was not confirmed.",
+          "claim_ids": [
+            "C-012",
+            "C-025",
+            "C-039"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "t5r1",
+          "role": "evidence",
+          "visible_text": "Shutdown Day 0 Enterprise systems shut down; production and retail disrupted",
+          "claim_ids": [
+            "C-012"
+          ],
+          "zone": "table",
+          "table": "T5",
+          "row_cells": [
+            "Shutdown",
+            "Day 0",
+            "Enterprise systems shut down; production and retail disrupted"
+          ]
+        },
+        {
+          "element_id": "t5r2",
+          "role": "evidence",
+          "visible_text": "Liquidity Weeks 3-4 GBP 2 billion bridge facility; state guarantee announced to support the supply chain",
+          "claim_ids": [
+            "C-017",
+            "C-018"
+          ],
+          "zone": "table",
+          "table": "T5",
+          "row_cells": [
+            "Liquidity",
+            "Weeks 3-4",
+            "GBP 2 billion bridge facility; state guarantee announced to support the supply chain"
+          ]
+        },
+        {
+          "element_id": "t5r3",
+          "role": "evidence",
+          "visible_text": "Restart Week 6 Phased restart from engines and batteries; suppliers prepaid through a bank",
+          "claim_ids": [
+            "C-013",
+            "C-019"
+          ],
+          "zone": "table",
+          "table": "T5",
+          "row_cells": [
+            "Restart",
+            "Week 6",
+            "Phased restart from engines and batteries; suppliers prepaid through a bank"
+          ]
+        },
+        {
+          "element_id": "t5r4",
+          "role": "evidence",
+          "visible_text": "Normal production About week 11 Output back to normal; distribution still catching up",
+          "claim_ids": [
+            "C-013",
+            "C-014"
+          ],
+          "zone": "table",
+          "table": "T5",
+          "row_cells": [
+            "Normal production",
+            "About week 11",
+            "Output back to normal; distribution still catching up"
+          ]
+        },
+        {
+          "element_id": "t5r5",
+          "role": "evidence",
+          "visible_text": "Financial trail Two quarters GBP 260 million cyber costs; wholesales down 43.3%; vehicle-output fall recorded",
+          "claim_ids": [
+            "C-015",
+            "C-014",
+            "C-022"
+          ],
+          "zone": "table",
+          "table": "T5",
+          "row_cells": [
+            "Financial trail",
+            "Two quarters",
+            "GBP 260 million cyber costs; wholesales down 43.3%; vehicle-output fall recorded"
+          ]
+        },
+        {
+          "element_id": "t5r6",
+          "role": "evidence",
+          "visible_text": "Year end About month 7 Guaranteed loan undrawn; production recovered",
+          "claim_ids": [
+            "C-017"
+          ],
+          "zone": "table",
+          "table": "T5",
+          "row_cells": [
+            "Year end",
+            "About month 7",
+            "Guaranteed loan undrawn; production recovered"
+          ]
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Treat a multi-week stop at a large OEM as a foreseeable credit event for its supplier base: map supplier revenue concentration and know which supply-chain finance and guarantee channels would be used.",
+          "claim_ids": [
+            "C-041",
+            "C-019",
+            "C-018"
+          ],
+          "zone": "bottom_left"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "The case does not show the access route, plant control state, any ransom, the full-year cyber cost or any supplier insolvency; the economy-wide loss is modelled and covers UK operations only.",
+          "claim_ids": [
+            "C-025",
+            "C-020",
+            "C-067"
+          ],
+          "zone": "bottom_right"
+        }
+      ],
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No substantive information in notes. All essential analysis must be visible."
+    },
+    {
+      "number": 6,
+      "title": "Systemic Dependencies & Regulatory Outlook",
+      "decision": "Align counterparty documentation with product-security, liability and supplier obligations.",
+      "executive_conclusion": "Concentration sits in enterprise systems, administrative tools, OT vendors' installed bases, integrators and supplier tiers; regulation reaches most manufacturers through product law and contracts.",
+      "claim_ids": [
+        "C-043",
+        "C-045",
+        "C-046",
+        "C-047",
+        "C-048",
+        "C-049",
+        "C-050",
+        "C-052",
+        "C-054",
+        "C-056",
+        "C-059",
+        "C-010"
+      ],
+      "metric_ids": [
+        "M-024"
+      ],
+      "scenario_ids": [],
+      "visual_type": "Dependency chain list and regulatory status table",
+      "table_headers": {
+        "T6": [
+          "Regime",
+          "Legal status",
+          "Meaning for Manufacturing"
+        ]
+      },
+      "table_widths": {
+        "T6": [
+          2.35,
+          2.15,
+          4.3
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "Manufacturing concentration sits in enterprise systems, administrative tools, OT vendors' installed bases, integrators and just-in-time supplier tiers; regulation reaches most manufacturers through product law and contracts, with NIS2 limited to named activities.",
+          "claim_ids": [
+            "C-039",
+            "C-041",
+            "C-043"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Evidenced dependency chains: enterprise IT to production release; administrative tools to every device; OT vendor installed base to many customer sites; integrators and managed IT to several plants; one OEM to thousands of suppliers; manufacturer software to customers in other sectors.",
+          "claim_ids": [
+            "C-012",
+            "C-030",
+            "C-033",
+            "C-035",
+            "C-007",
+            "C-020",
+            "C-036"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "Where NIS2 applies the population is large: Germany registered 4,739 entities under manufacturing of goods, while four Member States were referred to the Court of Justice for not transposing.",
+          "claim_ids": [
+            "C-010",
+            "C-047",
+            "C-048"
+          ],
+          "zone": "left"
+        },
+        {
+          "element_id": "t6r1",
+          "role": "evidence",
+          "visible_text": "NIS2 Binding via national law Named activities: electronics, electrical equipment, machinery and vehicles (NACE C26-C30), medical devices, chemicals, food and pharmaceuticals; others only by national extension",
+          "claim_ids": [
+            "C-045",
+            "C-046"
+          ],
+          "zone": "table",
+          "table": "T6",
+          "row_cells": [
+            "NIS2",
+            "Binding via national law",
+            "Named activities: electronics, electrical equipment, machinery and vehicles (NACE C26-C30), medical devices, chemicals, food and pharmaceuticals; others only by national extension"
+          ]
+        },
+        {
+          "element_id": "t6r2",
+          "role": "evidence",
+          "visible_text": "Cyber Resilience Act (CRA) Directly applicable; reporting live In-scope connected-product makers report exploited flaws; full duties in about 14 months",
+          "claim_ids": [
+            "C-049"
+          ],
+          "zone": "table",
+          "table": "T6",
+          "row_cells": [
+            "Cyber Resilience Act (CRA)",
+            "Directly applicable; reporting live",
+            "In-scope connected-product makers report exploited flaws; full duties in about 14 months"
+          ]
+        },
+        {
+          "element_id": "t6r3",
+          "role": "evidence",
+          "visible_text": "Machinery Regulation Applies in about three months Protection against corruption becomes a machine safety requirement",
+          "claim_ids": [
+            "C-050"
+          ],
+          "zone": "table",
+          "table": "T6",
+          "row_cells": [
+            "Machinery Regulation",
+            "Applies in about three months",
+            "Protection against corruption becomes a machine safety requirement"
+          ]
+        },
+        {
+          "element_id": "t6r4",
+          "role": "evidence",
+          "visible_text": "Product Liability Directive Transposition due within two months Software and missing security updates can create strict liability",
+          "claim_ids": [
+            "C-052"
+          ],
+          "zone": "table",
+          "table": "T6",
+          "row_cells": [
+            "Product Liability Directive",
+            "Transposition due within two months",
+            "Software and missing security updates can create strict liability"
+          ]
+        },
+        {
+          "element_id": "t6r5",
+          "role": "evidence",
+          "visible_text": "UN Regulation 155 Binding for vehicle type approval OEMs must manage cyber risk across development, production and suppliers",
+          "claim_ids": [
+            "C-059"
+          ],
+          "zone": "table",
+          "table": "T6",
+          "row_cells": [
+            "UN Regulation 155",
+            "Binding for vehicle type approval",
+            "OEMs must manage cyber risk across development, production and suppliers"
+          ]
+        },
+        {
+          "element_id": "t6r6",
+          "role": "evidence",
+          "visible_text": "UK Cyber Security and Resilience Bill Bill, not law Could reach managed providers and designated suppliers",
+          "claim_ids": [
+            "C-054"
+          ],
+          "zone": "table",
+          "table": "T6",
+          "row_cells": [
+            "UK Cyber Security and Resilience Bill",
+            "Bill, not law",
+            "Could reach managed providers and designated suppliers"
+          ]
+        },
+        {
+          "element_id": "t6r7",
+          "role": "evidence",
+          "visible_text": "US defence certification Contract requirement Defence-supply-chain manufacturers face certification gates",
+          "claim_ids": [
+            "C-056"
+          ],
+          "zone": "table",
+          "table": "T6",
+          "row_cells": [
+            "US defence certification",
+            "Contract requirement",
+            "Defence-supply-chain manufacturers face certification gates"
+          ]
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Check that lending and guarantee documentation for manufacturing counterparties reflects product-security reporting, liability exposure and customer-imposed cyber clauses, and track the UK Bill and liability transposition.",
+          "claim_ids": [
+            "C-049",
+            "C-052",
+            "C-054",
+            "C-066"
+          ],
+          "zone": "bottom_left"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "National NIS2 extensions were not surveyed exhaustively; several legal texts were confirmed from official metadata and reproductions; market shares of manufacturing software and OT vendors are not public.",
+          "claim_ids": [
+            "C-043",
+            "C-045"
+          ],
+          "zone": "bottom_right"
+        }
+      ],
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No substantive information in notes. All essential analysis must be visible."
+    },
+    {
+      "number": 7,
+      "title": "Mitigation Strategies & Security Framework",
+      "decision": "Assign 1LoD owners and completion evidence to seven evidence-linked priorities.",
+      "executive_conclusion": "Seven priorities address the evidenced pathways, each with a challenge question, completion evidence and external trigger.",
+      "claim_ids": [
+        "C-066",
+        "C-039",
+        "C-030",
+        "C-041",
+        "C-033",
+        "C-035",
+        "C-049",
+        "C-052",
+        "C-021"
+      ],
+      "metric_ids": [],
+      "scenario_ids": [],
+      "visual_type": "Action table with completion evidence and triggers",
+      "table_headers": {
+        "T7": [
+          "Priority and horizon",
+          "Challenge question for 1LoD",
+          "Evidence of completion",
+          "Monitoring trigger"
+        ]
+      },
+      "table_widths": {
+        "T7": [
+          3.75,
+          4.35,
+          2.55,
+          2.3
+        ]
+      },
+      "elements": [
+        {
+          "element_id": "conclusion",
+          "role": "conclusion",
+          "visible_text": "Seven evidence-linked priorities address the pathways: production release without IT, control of administrative tools, supplier liquidity, installed-base exposure, provider access, product-law readiness and insurance alignment.",
+          "claim_ids": [
+            "C-066"
+          ],
+          "zone": "conclusion"
+        },
+        {
+          "element_id": "t7r1",
+          "role": "evidence",
+          "visible_text": "A1 IT-OT production dependency (0-6 months) Can top counterparties release production and ship without ERP, MES and identity? Manual-release procedure; recovery tests Production-pause notice",
+          "claim_ids": [
+            "C-039",
+            "C-012"
+          ],
+          "zone": "table",
+          "table": "T7",
+          "row_cells": [
+            "A1 IT-OT production dependency (0-6 months)",
+            "Can top counterparties release production and ship without ERP, MES and identity?",
+            "Manual-release procedure; recovery tests",
+            "Production-pause notice"
+          ]
+        },
+        {
+          "element_id": "t7r2",
+          "role": "evidence",
+          "visible_text": "A2 Administrative tools (0-3 months) Do assessments test approval controls on mass wipe actions? Assessment evidence Alert on administrative-tool misuse",
+          "claim_ids": [
+            "C-030"
+          ],
+          "zone": "table",
+          "table": "T7",
+          "row_cells": [
+            "A2 Administrative tools (0-3 months)",
+            "Do assessments test approval controls on mass wipe actions?",
+            "Assessment evidence",
+            "Alert on administrative-tool misuse"
+          ]
+        },
+        {
+          "element_id": "t7r3",
+          "role": "evidence",
+          "visible_text": "A3 Supplier liquidity (0-6 months) Which programme suppliers depend on one customer? Concentration map; stress test OEM incident notice",
+          "claim_ids": [
+            "C-041",
+            "C-019"
+          ],
+          "zone": "table",
+          "table": "T7",
+          "row_cells": [
+            "A3 Supplier liquidity (0-6 months)",
+            "Which programme suppliers depend on one customer?",
+            "Concentration map; stress test",
+            "OEM incident notice"
+          ]
+        },
+        {
+          "element_id": "t7r4",
+          "role": "evidence",
+          "visible_text": "A4 Installed base (3-12 months) Do equipment makers track exposed and end-of-life units? Exposure and support register CERT alert naming a product",
+          "claim_ids": [
+            "C-033",
+            "C-034"
+          ],
+          "zone": "table",
+          "table": "T7",
+          "row_cells": [
+            "A4 Installed base (3-12 months)",
+            "Do equipment makers track exposed and end-of-life units?",
+            "Exposure and support register",
+            "CERT alert naming a product"
+          ]
+        },
+        {
+          "element_id": "t7r5",
+          "role": "evidence",
+          "visible_text": "A5 Provider access (3-12 months) Is provider remote access to OT restricted and logged? Access inventory and logs Disclosure citing an IT provider",
+          "claim_ids": [
+            "C-035",
+            "C-007"
+          ],
+          "zone": "table",
+          "table": "T7",
+          "row_cells": [
+            "A5 Provider access (3-12 months)",
+            "Is provider remote access to OT restricted and logged?",
+            "Access inventory and logs",
+            "Disclosure citing an IT provider"
+          ]
+        },
+        {
+          "element_id": "t7r6",
+          "role": "evidence",
+          "visible_text": "A6 Product-law readiness (0-6 months) Can counterparties meet new reporting and liability duties? Reporting procedure; support periods First enforcement action",
+          "claim_ids": [
+            "C-049",
+            "C-052"
+          ],
+          "zone": "table",
+          "table": "T7",
+          "row_cells": [
+            "A6 Product-law readiness (0-6 months)",
+            "Can counterparties meet new reporting and liability duties?",
+            "Reporting procedure; support periods",
+            "First enforcement action"
+          ]
+        },
+        {
+          "element_id": "t7r7",
+          "role": "evidence",
+          "visible_text": "A7 Insurance and contracts (6-12 months) Is customer-side disruption insured or priced? Documentation review Insurer product change",
+          "claim_ids": [
+            "C-021"
+          ],
+          "zone": "table",
+          "table": "T7",
+          "row_cells": [
+            "A7 Insurance and contracts (6-12 months)",
+            "Is customer-side disruption insured or priced?",
+            "Documentation review",
+            "Insurer product change"
+          ]
+        },
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Evidence base: CERT recommendations for exposed controllers, a US alert on administrative tools, the JLR supplier scheme, the independent loss model and the new product rules.",
+          "claim_ids": [
+            "C-033",
+            "C-030",
+            "C-019",
+            "C-020",
+            "C-006",
+            "C-049",
+            "C-052"
+          ],
+          "zone": "lower_left"
+        },
+        {
+          "element_id": "interpretation",
+          "role": "interpretation",
+          "visible_text": "Frameworks are reference vocabularies, not law: NIST CSF 2.0 and its draft manufacturing profile, NIST SP 800-82, IEC 62443, ISO/IEC 27001 and 27036, and VDA ISA with TISAX for automotive.",
+          "claim_ids": [
+            "C-066"
+          ],
+          "zone": "lower_right"
+        },
+        {
+          "element_id": "implication",
+          "role": "implication",
+          "visible_text": "Give each priority a First Line of Defence (1LoD) owner and a dated completion artefact, and escalate to the Risk Committee when a monitoring trigger fires.",
+          "claim_ids": [
+            "C-066"
+          ],
+          "zone": "bottom_left"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Actions are sector priorities drawn from public evidence, not findings about any institution's controls, losses or risk appetite.",
+          "claim_ids": [
+            "C-066"
+          ],
+          "zone": "bottom_right"
+        }
+      ],
+      "planning_visible_words": [
+        180,
+        300
+      ],
+      "notes_policy": "No substantive information in notes. All essential analysis must be visible."
+    }
+  ]
+}
