@@ -1,0 +1,11 @@
+{
+  "reviewer": "Drafting-side visual inspection of LibreOffice renders of the revision 2 PowerPoint and Word exports, 25 October 2026",
+  "all_slides_inspected": true,
+  "readable_text": true,
+  "no_clipped_elements": true,
+  "design_compliant": true,
+  "renderer": "LibreOffice headless to PDF via the pptx skill wrapper; pdftoppm at 110 dpi; seven slides and 30 report pages inspected; pptx skill office/validate.py PASS",
+  "pptx_sha256": "27b12039606a52df5d72e18b1c265519518009eea6866fe4e180703101a3c187",
+  "docx_sha256": "61b73b84b1b23c308176400739177d4ed62b827f806f71c2acc4695dcddba421",
+  "observations": "Revision 2 redesign: varied body layouts with native charts and shape diagrams; title, conclusion and limitation foot line kept constant. First render: slide 1 judgement rows overlapped (row heights underestimated for bold text), slide 2 legend items collided, slide 3 panel headings wrapped into subtitles and grid rows wrapped, slide 4 column A overran into the implication line, slide 6 one status cell wrapped into the next row, slide 7 one matrix box overflowed. Fixed by bold-aware row sizing, wider legend spacing, adaptive headings, shorter row text, tighter scenario column layout and shorter labels. After the editorial challenge, slides 2 to 7 were rebuilt (new legends, split capacity panel, manufacturer-only outage chart, roadmap legend and year ticks); a slide 2 legend overrun and wrapped invitation labels were fixed on re-render. Earlier second render: slide 3 lower guidance mark hidden behind the Q2 bar and then crossing its value label; fixed with narrower bars, wider dark marks and centred white value labels. Final render: no overlaps or clipping. Chart text 9-10.5 pt, body 10-11.5 pt, titles 28 pt, conclusions 15 pt. White background, dark text, emerald 00915E with tints 9BC9B4 and E8F4EF and greys; hairline rules; no imagery, icons, gradients, shadows or rounded shapes; no footers, page numbers, sources, URLs or speaker notes on slides. Word export: 30 A4 pages; the new Chapter 4 outage table renders on page 14."
+}

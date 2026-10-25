@@ -1,0 +1,140 @@
+{
+  "schema_version": "3.0.0",
+  "status": "PASS",
+  "reviewer": "Independent editorial challenge agent (session subagent a46e16bac4760317b, separate from the drafting role), two passes on 25 October 2026 against rendered slides, slide specification, claim ledger, metric dictionary and report; resolutions applied by the drafting role, final minor fixes (E-02 label, N-01, N-02) applied after the second pass and checked by the drafting role on the final render",
+  "review_date": "2026-10-25",
+  "independence_note": "The challenger is a separate agent instance of the same model family; this is role separation, not organisational independence. Its live web re-checks were blocked in this session, so source checks relied on the recorded ledger, metric dictionary and register; drafting-side live checks this session confirmed the Stryker Q1 2026 release on SEC (2.4% organic growth, 8.0-9.5% guidance). A documented human review is still advisable before Risk Committee use.",
+  "report_sha256": "39bb9e3bcee1415f79ac4a50297779b4266e6a2b6571f63c4cf4e7b2656772d1",
+  "docx_sha256": "61b73b84b1b23c308176400739177d4ed62b827f806f71c2acc4695dcddba421",
+  "pptx_sha256": "27b12039606a52df5d72e18b1c265519518009eea6866fe4e180703101a3c187",
+  "review_scope": "Revision 2 changes only: every chart value, timeline bar, roadmap marker and diagram label against claims C-001 to C-071 and metrics M-001 to M-036; chart integrity (shared axes, scales, colour meaning, Tier 3 labelling); standalone reading of each rendered slide; absence of sources, URLs, footers and page numbers; language controls; the new report section and judgement C-071.",
+  "criteria": {
+    "standalone_completeness": {
+      "status": "PASS",
+      "observation": "Each redesigned slide shows conclusion, evidence visual, interpretation, management implication and limitation; legends explain every colour, line and marker; acronyms expanded where used."
+    },
+    "evidence_specificity": {
+      "status": "PASS",
+      "observation": "Gantt bars, chart values and roadmap markers match M-005, M-015 to M-017, M-024, M-028 to M-036 and the cited claims; approximate and media-reported values are labelled."
+    },
+    "sector_relevance": {
+      "status": "PASS",
+      "observation": "Visuals cover manufacturers, a pharmaceutical-component supplier, a practice-software vendor, an acute hospital, a national screening programme and claims clearing, matching the report coverage."
+    },
+    "financial_transmission": {
+      "status": "PASS",
+      "observation": "Small multiples keep earnings, liquidity and evidence status on separate scales; nothing is summed; Boston Scientific amount shown as pending; the claims-clearing chart is labelled historical."
+    },
+    "scenario_distinctness": {
+      "status": "PASS",
+      "observation": "Three schematics show distinct failure modes (fan-out, local with spill-over, sequential depletion); the outage chart compares only manufacturers and is labelled single cases, not a forecast."
+    },
+    "regulatory_accuracy": {
+      "status": "PASS",
+      "observation": "Roadmap separates in-force or passed dates, future milestones, pending proposals and the NIS2 court referral; UK Bill and HIPAA shown as pending; marker dates match C-048 to C-063."
+    },
+    "actionability": {
+      "status": "PASS",
+      "observation": "Priority matrix places five numbered actions by time horizon and scenario addressed, linked to the question, completion-evidence and trigger table."
+    },
+    "readability": {
+      "status": "PASS",
+      "observation": "Final render at 110 dpi shows no overlap or clipping; chart text 9-10.5 pt and body 10-11.5 pt; layouts vary by slide while title, conclusion and limitation stay fixed."
+    },
+    "limitations_and_confidence": {
+      "status": "PASS",
+      "observation": "C-071 confidence medium with alternatives and contrary evidence; slide limitations state single cases, different end-points and no stock-out reported."
+    },
+    "cross_artifact_consistency": {
+      "status": "PASS",
+      "observation": "Report Chapter 4 table and judgement, C-071, executive story, evidence pack and slide 4 caption use the same wording on stock cover; research-bundle, publication, Word-retention and language checks re-run with no errors."
+    }
+  },
+  "objections_log": [
+    {
+      "id": "E-01",
+      "severity": "material",
+      "issue": "Slide 4 chart, caption, C-071 and report: outages compared with a two-week stock estimate that was made on day 7 and covers only Stryker products; AZ Monica (a provider) counted against a supplier buffer",
+      "resolution": "Chart limited to the three manufacturers; stock cover shown as a separate note (estimated on day 7, about two more weeks, so to about day 21); caption, C-071 and report now state a days-not-weeks margin, Stryker products only, single cases, no stock-out reported, not a forecast. Second pass: RESOLVED."
+    },
+    {
+      "id": "E-02",
+      "severity": "material",
+      "issue": "Slide 4 chart labelling: stock row under a 'days to full operation' title; Stryker end-point; approximate values; grey bar unexplained",
+      "resolution": "Stock row removed from the chart; bars labelled Stryker (full manufacturing), West, Boston Sci. (approx.); subtitle states the Boston Scientific end-point. Second pass found the Stryker label still open; fixed in the final build."
+    },
+    {
+      "id": "E-03",
+      "severity": "material",
+      "issue": "Slide 5 capacity chart mixed backup load and invitation volumes on one axis; follow-up 100 had no metric; Aug-Dec conflicted with six months",
+      "resolution": "Backup load shown as a separate ~150% headline figure with its own denominator and about-six-months period; separate chart of primary invitations as % of planned; follow-up stated in text. Second pass: RESOLVED."
+    },
+    {
+      "id": "E-04",
+      "severity": "material",
+      "issue": "Slide 6 legend treated entry-into-force dates, an identification deadline and a court referral as application dates",
+      "resolution": "Legend now reads in force, applied or deadline passed / future milestone / proposal or bill, pending / court referral (separate square marker for the NIS2 referral). Second pass: RESOLVED."
+    },
+    {
+      "id": "E-05",
+      "severity": "minor",
+      "issue": "Slide 6 year labels centred in bands every two years; pending line unexplained",
+      "resolution": "Every year labelled on its boundary; pending stated in legend. RESOLVED."
+    },
+    {
+      "id": "E-06",
+      "severity": "minor",
+      "issue": "Slide 3 Stryker chart: guidance ranges unlabelled; causal wording",
+      "resolution": "Ranges labelled with values; caption says the cyber effect is not separated. RESOLVED."
+    },
+    {
+      "id": "E-07",
+      "severity": "minor",
+      "issue": "Slide 3 colour clash, Boston Scientific marked quantified, 'required' overstated",
+      "resolution": "Repaid bar grey; row reads Boston Scientific amount pending; 'loans advanced'. RESOLVED."
+    },
+    {
+      "id": "E-08",
+      "severity": "minor",
+      "issue": "Slide 5 notification chart: grey bar and population unexplained",
+      "resolution": "Subtitle distinguishes people identified as affected from the notification population. RESOLVED."
+    },
+    {
+      "id": "E-09",
+      "severity": "minor",
+      "issue": "Slide 2 legend lacked the dashed window and cut-off line; Cegedim window start",
+      "resolution": "Five-item legend including detection window (start approximate) and evidence cut-off; window starts mid-December. RESOLVED."
+    },
+    {
+      "id": "E-10",
+      "severity": "minor",
+      "issue": "Report judgement cited Boston Scientific without a reference",
+      "resolution": "Reference [12] added before the judgement. RESOLVED."
+    },
+    {
+      "id": "E-11",
+      "severity": "minor",
+      "issue": "Slide 7 acronyms, overlapping horizon labels and heading wording",
+      "resolution": "1LoD, MFA, NIST CSF and IEC expanded; columns renamed Within 3 months / Within 6 months / 6-12 months; heading changed. RESOLVED."
+    },
+    {
+      "id": "N-01",
+      "severity": "minor",
+      "issue": "Second pass: slide 5 caption implied six months of backup before invitations were halved",
+      "resolution": "Caption now says backup laboratories ran at about 150% from August and the backlog forced the December halving. Fixed in final build."
+    },
+    {
+      "id": "N-02",
+      "severity": "minor",
+      "issue": "Second pass: 100% invitation baseline is implied",
+      "resolution": "Bar labelled Before 22 Dec (planned level). Fixed in final build."
+    },
+    {
+      "id": "R1",
+      "severity": "minor",
+      "issue": "Carried forward: revision 1 objections O1-O21, L1 and D1 recorded in healthcare/2025-09_2026-10/16_editorial_review.json",
+      "resolution": "All remain resolved; no finding changed except C-071 and the new chart metrics M-028 to M-036."
+    }
+  ],
+  "unresolved_material_issues": []
+}
