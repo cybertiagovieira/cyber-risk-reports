@@ -12,9 +12,9 @@
   "export_opened": "PASS",
   "deck_contains_no_sources_or_metadata": "PASS",
   "personal_data_scan": "PASS",
-  "delivery_evidence": "NOT_RUN",
-  "release_status": "READY_FOR_DELIVERY",
-  "notes": "Structural, analytical/editorial and delivery states are recorded separately. Personal-data scan of all package files found no email addresses, patient identifiers or personal health information; only SEC company identifiers in URLs and internal PowerPoint object IDs matched numeric patterns. No leaked dataset or leak-site content was accessed. PowerPoint built with pptxgenjs (pptx skill); Word built with docx-js from the approved Markdown (docx skill). No schedule was created, updated or enabled. Delivery remains NOT_RUN until an actual GitHub receipt exists.",
+  "delivery_evidence": "PASS",
+  "release_status": "PASS",
+  "notes": "Structural, analytical/editorial and delivery states are recorded separately. Personal-data scan of all package files found no email addresses, patient identifiers or personal health information; only SEC company identifiers in URLs and internal PowerPoint object IDs matched numeric patterns. No leaked dataset or leak-site content was accessed. PowerPoint built with pptxgenjs (pptx skill); Word built with docx-js from the approved Markdown (docx skill). No schedule was created, updated or enabled. Delivery receipt: artefact commit d5b156efeb9a0def4e504e7eefefeebf8c394521 on main of the private repository https://github.com/cybertiagovieira/cyber-risk-reports; 19 of 19 committed files matched local SHA-256 hashes via the GitHub contents API at the artefact commit on 25 October 2026; 11_presentation_qc.json and 12_run_manifest.json updated in the receipt commit. Visibility: public. The destination was specified as private. The repository API reported private on 15 October 2026 (first edition receipt) but public on 25 October 2026; the change was not made by this run and visibility was not altered. Flagged to the user for decision.",
   "quality_gates_15": {
     "scope_and_period": "PASS",
     "source_recency_temporal": "PASS",
@@ -30,6 +30,6 @@
     "readability_standalone": "PASS",
     "cross_section_consistency": "PASS",
     "file_integrity_export": "PASS",
-    "delivery": "NOT_RUN"
+    "delivery": "PASS"
   }
 }
