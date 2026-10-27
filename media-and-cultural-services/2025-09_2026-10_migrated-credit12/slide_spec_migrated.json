@@ -674,7 +674,7 @@
       "elements": [
         {
           "role": "evidence",
-          "visible_text": "Selection: in-period event or outcome, Tier 1 or 2 support, in-scope subsector, distinct lesson. The March 2026 shared ticketing ransomware is excluded because its detail rests on Tier 3 relays.",
+          "visible_text": "Selection: in-period event or outcome, Tier 1 or 2 support, in-scope subsector, distinct lesson. The March 2026 shared ticketing ransomware is excluded: its detail rests on Tier 3 relays.",
           "legacy": [
             "Ch2 selection criteria",
             "Ch2 considered but not selected"
@@ -1438,7 +1438,7 @@
         "rows": [
           [
             [
-              "1 Shared suppliers",
+              "Shared suppliers",
               "Which providers could stop your sales or delivery for a week, and what is your fallback?",
               "Provider outage or breach notice; prosecutor statement naming a supplier"
             ],
@@ -1449,7 +1449,7 @@
           ],
           [
             [
-              "2 Live-output integrity",
+              "Live-output integrity",
               "Do content-insertion and alerting devices meet a baseline comparable to the June 2026 FCC rule?",
               "Regulator device warning; hijack report"
             ],
@@ -1460,7 +1460,7 @@
           ],
           [
             [
-              "3 Online sales loss",
+              "Online sales loss",
               "How would a ten-day loss of online ticketing show up in your sales and fraud alerts?",
               "Ticketing or subscriber data notice; merchant-volume drop"
             ],
@@ -1472,7 +1472,7 @@
           ],
           [
             [
-              "4 Debt service after disruption",
+              "Debt service after disruption",
               "Would a multi-month advertising disruption require covenant or payment waivers, as at Lee?",
               "Waiver, amendment or liquidity request"
             ],
@@ -1483,7 +1483,7 @@
           ],
           [
             [
-              "5 Impersonation and AI content",
+              "Impersonation and AI content",
               "How do you detect brand impersonation and meet AI Act transparency duties?",
               "DDoS or FIMI alert ahead of elections or live events"
             ],

@@ -1,43 +1,38 @@
 <!-- Slide 1 -->
+Sector Intelligence Cover
 Sector Cyber Resilience & Credit Intelligence
 Media & Cultural Services
+Migrated edition - evidence as of 15 October 2026; no research update
 Reporting period: 1 September 2025 - 15 October 2026
 Geography: global, primary focus EU, EEA and UK; North American and other evidence comparative
-Migrated edition - evidence as of 15 October 2026; no research update
 Classification: not specified in source edition (external public data only)
 Version 1.0-M (migrated from the 15 October 2026 baseline) - Status: NEEDS_REVIEW, not a v4 edition
 Audience: Senior Credit Officers; inherent sector exposure, not a borrower assessment.
-Sector Intelligence Cover
 
 <!-- Slide 2 -->
 02  Executive Sector Risk Snapshot   A Executive intelligence
 Cyber/ICT and operational-resilience exposure is provisionally High, driven by shared platforms and live-output integrity; fraud and governance are not assessable from the source edition.
 Limitation: Provisional: no approved rubric and no 24-sector calibration; ratings are migrated analytical judgements with confidence capped at Medium, not borrower assessments.
 Sources: S-001, S-003, S-008, S-014, S-030, S-031, S-034, S-037, S-038, S-039, S-068 (Tier 1); S-042 (Tier 2); S-010 (Tier 3) - Period: Oct 2023 (historical) - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated
-Dimension
-Rating
-Status
-Confidence
-Justification from source edition
 Fraud
 Not assessable
-Not covered in source edition
--
+Status: Not covered in source edition
+Confidence: -
 Only a judgement that phishing and payment diversion can follow ticketing data exposure; no fraud research (Q10).
 Cyber / ICT
 High
-Provisional
-Medium
+Status: Provisional
+Confidence: Medium
 Media drew 14.2% of mitigated HTTP DDoS requests on one network in H1 2026; regulator-recorded live-output hijacks; state museum network attack.
 Operational Resilience / TPRM
 High
-Provisional
-Medium
+Status: Provisional
+Confidence: Medium
 Single points in cloud (14.5-hour AWS event), CDN and shared ticketing; British Library catalogue restored after about 26 months.
 Governance / Operating Model
 Not assessable
-Not covered in source edition
--
+Status: Not covered in source edition
+Confidence: -
 Fragments only (an audit recommending a Louvre information systems directorate); no governance research (Q13).
 Evidence: Key messages: (1) disruption runs through shared ticketing, payment, CDN and cloud platforms; (2) live-output integrity is under-secured in US and Pakistani evidence; (3) losses arrive through revenue lines, lender waivers and multi-year recovery.
 Significance: Threat direction: not assessable - baseline edition, no trend series. DDoS and information-manipulation pressure is high but rarely produces disclosed losses.
@@ -77,6 +72,7 @@ Credit Lens: Ask which ticketing, payment, cloud and delivery providers a borrow
 Shared platforms and live-output compromise carry the highest operational impact; DDoS and information manipulation are frequent but rarely produce disclosed losses.
 Limitation: Impact levels are migrated judgements from the source edition's sector-relevance ratings, not measured outcomes. Not covered in source edition: developments after the 15 October 2026 cut-off.
 Sources: S-001, S-008, S-014, S-018, S-030, S-034, S-038, S-039, S-043, S-086, S-087 (Tier 1); S-042 (Tier 2); S-009, S-010 (Tier 3) - Period: Oct 2023 (historical); Nov 2025 - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated
+Evidence: Last 12 months: five named incidents from November 2025 to October 2026. Last 30 days before cut-off: live-events group breach notice (1 October 2026) and class action (7 October 2026). Content theft (P5) rests on one court case and ranks below the five.
 Rank
 Pathway (pattern, not an attack)
 Observed evidence in source edition
@@ -101,7 +97,6 @@ Medium
 P6 Personal data exposure and litigation
 Live-events group breach notice and class action, October 2026
 Medium
-Evidence: Last 12 months: five named incidents from November 2025 to October 2026. Last 30 days before cut-off: live-events group breach notice (1 October 2026) and class action (7 October 2026). Content theft (P5) rests on one court case and ranks below the five.
 Significance: Hijacked live output and shared-platform outages reach audiences and customers within hours; ransomware against legacy estates sets the longest recovery tails.
 Credit Lens: Weight borrower discussions toward shared suppliers and live-output equipment, not only the borrower's own network.
 
@@ -134,6 +129,18 @@ Credit Lens: Ask media borrowers how they detect impersonation of their brands a
 Five named incidents meet the evidence standard but only one is in the EU; the Dresden case shows revenue channels failing first and recovering last.
 Limitation: Not covered in source edition: the second and third detailed case studies and incidents after 15 October 2026. Case study 1 does not establish cost, data loss, attacker or access vector.
 Sources: S-001, S-002, S-003, S-004, S-014, S-015, S-018, S-086, S-087 (Tier 1); S-006, S-013, S-017, S-019, S-074 (Tier 3) - Period: Nov 2025 - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated
+Sep 2025
+Nov 2025
+Jan 2026
+Mar 2026
+May 2026
+Jul 2026
+Sep 2026
+2
+1
+4
+3
+5
 Organisation and period
 Vector or documented weakness
 Disruption
@@ -164,7 +171,7 @@ Identity and health data exposure
 No operational impact (company statement, media-reported)
 Class action within a week
 Notice turns into litigation
-Evidence: Selection: in-period event or outcome, Tier 1 or 2 support, in-scope subsector, distinct lesson. The March 2026 shared ticketing ransomware is excluded because its detail rests on Tier 3 relays.
+Evidence: Selection: in-period event or outcome, Tier 1 or 2 support, in-scope subsector, distinct lesson. The March 2026 shared ticketing ransomware is excluded: its detail rests on Tier 3 relays.
 Significance: Disclosure is asymmetric: public cultural bodies publish chronologies but rarely costs; listed groups disclose costs; platforms surface through litigation.
 Credit Lens: Treat card-payment and online-sales loss at public cultural counterparties as a foreseeable multi-week event, and ask how merchant and donor flows continue.
 
@@ -176,7 +183,7 @@ Sources: S-001, S-003, S-008, S-014, S-018, S-034, S-038, S-039, S-043, S-044, S
 Weakness observed
 Linked evidence
 Capability that contains disruption
-Horizon
+Horizon (months)
 Confidence
 A1 Single points in ticketing, payment, CDN and cloud
 Ticketing outage 2026 (Tier 3); 2025 cloud and CDN outages
@@ -208,6 +215,11 @@ British Library; 35% of UK charities insured
 Recovery objectives, insurance and waiver triggers
 6-12 months
 Medium
+0
+3
+6
+9
+12
 Evidence: Frameworks named in the source edition - NIST CSF 2.0, ISO/IEC 27001 and 27036, EBU R 148, C2PA, PCI DSS v4.0.1 - are reference vocabularies, not law; EBU R 148 dates from April 2018.
 Significance: In the two quantified cases, revenue effects came from production and distribution outages rather than data theft, so continuity capabilities carry the cash-flow weight.
 Credit Lens: Ask for completion evidence - dependency maps, baseline attestations, restoration tests - rather than policy statements; only the US alerting order sets a mandatory equipment baseline.
@@ -250,37 +262,33 @@ Credit Lens: Ask whether key suppliers are regulated as managed service, cloud o
 Public loss evidence is sparse and not additive; quantified effects come through curtailed revenue lines, debt added through waivers and multi-year recovery.
 Limitation: Values differ in currency, statistic type and population and are never summed; both quantified attacks predate the period. Not covered in source edition: five-year cost trend and sector business-interruption benchmarks.
 Sources: S-001, S-003, S-030, S-031, S-032, S-033, S-034 (Tier 1) - Period: Attacks Oct 2023 - Jan 2026; disclosures May 2025 - Jul 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated
-Case
-Metric
-Value
-Period
-Lee Enterprises (US newspaper group)
-Loss of cash flows attributed to the February 2025 attack
 USD 10.5 million
+Loss of cash flows attributed to the February 2025 attack
+Lee Enterprises (US newspaper group)
 FY to 28 Sep 2025
-Lee Enterprises
-Restoration cost expensed (subset of the loss)
 USD 3.7 million
-FY to 28 Sep 2025
+Restoration cost expensed (subset of the loss)
 Lee Enterprises
-Insurance claims filed (claim, not recovery)
+FY to 28 Sep 2025
 USD 6.8 million
-FY to 28 Sep 2025
+Insurance claims filed (claim, not recovery)
 Lee Enterprises
-Debt added through waivers (not additive)
+FY to 28 Sep 2025
 USD 11.3 million
+Debt added through waivers (not additive)
+Lee Enterprises
 At 28 Sep 2025
-KADOKAWA (Japanese publisher and platform group)
-Sales effect, company estimate (June 2024 attack)
 JPY 8.3 billion
+Sales effect, company estimate (June 2024 attack)
+KADOKAWA (Japanese publisher and platform group)
 FY to 31 Mar 2025
-British Library
-KPIs within 10% of target
 72.8% vs 81.8%
+KPIs within 10% of target
+British Library
 2025/26 vs 2024/25
-Dresden State Art Collections
-Cost, data and insurance
 Not disclosed
+Cost, data and insurance
+Dresden State Art Collections
 2026
 Evidence: No EU or UK entity disclosed a quantified cyber cost for an in-period incident. Ransom payments are rarely disclosed, so their role cannot be assessed.
 Significance: Recovery tails run from days (Dresden website) to more than two years (British Library catalogue); revenue dips followed production and distribution outages in both quantified cases.
@@ -291,7 +299,7 @@ Credit Lens: Watch for unscheduled waiver or amendment requests, merchant-volume
 Illustrative, not a forecast or loss estimate: 1 week hits live revenue, 4 weeks of supplier outage hit ticketing cash flow, 8 weeks of targeted disruption reach margins and debt service.
 Limitation: Illustrative only: no probabilities, no numerical loss per band; durations come from single cases and several rest on Tier 3 reporting.
 Sources: S-001, S-003, S-008, S-023, S-030, S-031, S-032, S-034, S-038, S-039 (Tier 1); S-005, S-009, S-010 (Tier 3) - Period: Oct 2023 - Mar 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated
-Band
+Duration (illustrative)
 Mechanism
 Duration evidence in source edition
 Operational effect
@@ -360,19 +368,24 @@ Sources: S-008, S-014, S-030, S-031, S-043, S-053, S-086 (Tier 1); S-009 (Tier 3
 Topic
 Question for the client
 Early-warning indicator
-1 Shared suppliers
+1
+Shared suppliers
 Which providers could stop your sales or delivery for a week, and what is your fallback?
 Provider outage or breach notice; prosecutor statement naming a supplier
-2 Live-output integrity
+2
+Live-output integrity
 Do content-insertion and alerting devices meet a baseline comparable to the June 2026 FCC rule?
 Regulator device warning; hijack report
-3 Online sales loss
+3
+Online sales loss
 How would a ten-day loss of online ticketing show up in your sales and fraud alerts?
 Ticketing or subscriber data notice; merchant-volume drop
-4 Debt service after disruption
+4
+Debt service after disruption
 Would a multi-month advertising disruption require covenant or payment waivers, as at Lee?
 Waiver, amendment or liquidity request
-5 Impersonation and AI content
+5
+Impersonation and AI content
 How do you detect brand impersonation and meet AI Act transparency duties?
 DDoS or FIMI alert ahead of elections or live events
 Evidence: Topics reframe the source edition's five Risk Committee challenge questions and its monitoring triggers for client discussion.

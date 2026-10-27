@@ -209,7 +209,7 @@ Legacy statement references use claim IDs (C-nnn) from the legacy claim ledger a
 ### Slide 06 - Major Cyber Incidents & Lessons Learned
 
 - **Headline:** Five named incidents meet the evidence standard but only one is in the EU; the Dresden case shows revenue channels failing first and recovering last. <- Ch2 shortfall statement, C-078
-- **evidence:** Selection: in-period event or outcome, Tier 1 or 2 support, in-scope subsector, distinct lesson. The March 2026 shared ticketing ransomware is excluded because its detail rests on Tier 3 relays. <- Ch2 selection criteria, Ch2 considered but not selected
+- **evidence:** Selection: in-period event or outcome, Tier 1 or 2 support, in-scope subsector, distinct lesson. The March 2026 shared ticketing ransomware is excluded: its detail rests on Tier 3 relays. <- Ch2 selection criteria, Ch2 considered but not selected
 - **significance:** Disclosure is asymmetric: public cultural bodies publish chronologies but rarely costs; listed groups disclose costs; platforms surface through litigation. <- C-075
 - **credit_lens:** Treat card-payment and online-sales loss at public cultural counterparties as a foreseeable multi-week event, and ask how merchant and donor flows continue. <- Legacy slide 5 management implication
 - **limitation:** Not covered in source edition: the second and third detailed case studies and incidents after 15 October 2026. Case study 1 does not establish cost, data loss, attacker or access vector. <- Gap G-05, Gap G-01, Ch5 what the case does not establish
@@ -321,11 +321,11 @@ Legacy statement references use claim IDs (C-nnn) from the legacy claim ledger a
 
 | Topic | Question for the client | Early-warning indicator | Legacy statements |
 |---|---|---|---|
-| 1 Shared suppliers | Which providers could stop your sales or delivery for a week, and what is your fallback? | Provider outage or breach notice; prosecutor statement naming a supplier | Ch7 question 1, Ch7 trigger 1 |
-| 2 Live-output integrity | Do content-insertion and alerting devices meet a baseline comparable to the June 2026 FCC rule? | Regulator device warning; hijack report | Ch7 question 2, Ch7 trigger 2 |
-| 3 Online sales loss | How would a ten-day loss of online ticketing show up in your sales and fraud alerts? | Ticketing or subscriber data notice; merchant-volume drop | Ch7 question 3, Ch7 A4 trigger, Legacy slide 3 implication |
-| 4 Debt service after disruption | Would a multi-month advertising disruption require covenant or payment waivers, as at Lee? | Waiver, amendment or liquidity request | Ch7 question 4, Ch7 trigger 4 |
-| 5 Impersonation and AI content | How do you detect brand impersonation and meet AI Act transparency duties? | DDoS or FIMI alert ahead of elections or live events | Ch7 question 5, Ch7 trigger 3 |
+| Shared suppliers | Which providers could stop your sales or delivery for a week, and what is your fallback? | Provider outage or breach notice; prosecutor statement naming a supplier | Ch7 question 1, Ch7 trigger 1 |
+| Live-output integrity | Do content-insertion and alerting devices meet a baseline comparable to the June 2026 FCC rule? | Regulator device warning; hijack report | Ch7 question 2, Ch7 trigger 2 |
+| Online sales loss | How would a ten-day loss of online ticketing show up in your sales and fraud alerts? | Ticketing or subscriber data notice; merchant-volume drop | Ch7 question 3, Ch7 A4 trigger, Legacy slide 3 implication |
+| Debt service after disruption | Would a multi-month advertising disruption require covenant or payment waivers, as at Lee? | Waiver, amendment or liquidity request | Ch7 question 4, Ch7 trigger 4 |
+| Impersonation and AI content | How do you detect brand impersonation and meet AI Act transparency duties? | DDoS or FIMI alert ahead of elections or live events | Ch7 question 5, Ch7 trigger 3 |
 
 ## 4. Gap register
 
@@ -388,13 +388,30 @@ No approved rubric was supplied, so every rating is Provisional; confidence is c
 | Office package validation (pptx skill validate.py) | PASS |
 | Language rules (core check_language_rules.py) on migration_record.md, MIGRATION_NOTE.md, slide text and spec | PASS |
 | Visual inspection of all 12 exported slides at normal reading size | PASS - see section 8 |
-| Density bands (diagnostic) | Flagged: slide 1: 81 words outside band 20-80; slide 2: 285 words outside band 120-260; slide 6: 334 words outside band 150-320; slide 8: 352 words outside band 150-320. Excess comes mainly from the mandatory source strips (for example 22 source IDs on Slide 08); no evidence was cut to meet a band. |
+| Density bands (diagnostic) | Flagged: slide 1: 81 words outside band 20-80; slide 2: 285 words outside band 120-260; slide 6: 352 words outside band 150-320; slide 8: 352 words outside band 150-320. Excess comes mainly from the mandatory source strips (for example 22 source IDs on Slide 08) and, on Slide 06, the timeline month labels; no evidence was cut to meet a band. |
 
-Visible words per slide: 1: 81, 2: 285, 3: 303, 4: 300, 5: 292, 6: 334, 7: 314, 8: 352, 9: 297, 10: 311, 11: 300, 12: 284.
+Visible words per slide: 1: 81, 2: 285, 3: 303, 4: 300, 5: 292, 6: 352, 7: 320, 8: 352, 9: 293, 10: 312, 11: 300, 12: 284.
 
 ## 8. Visual review
 
-All 12 slides were rendered with LibreOffice (pptx skill soffice wrapper) to PDF and inspected as 80 dpi images. First render: the three-line headlines on Slides 04, 08 and 10 collided with the rule below; fixed by shortening those headlines and allowing for bold text in the height estimate. Final render: white background, dark text, emerald accent, hairline tables, no imagery, icons, gradients, shadows or rounded cards; no clipped text; tables 11.5 pt, prose 12.5 pt, headlines 18 pt bold; cover is typographic (no image).
+Visual revision 2 (27 October 2026, on request): content, sources and labels unchanged; one visual form per slide within the same palette (white background, dark text 1A1A1A, emerald 00915E with flat emerald tints, grey hairlines). No gradients, shadows, rounded corners, icons or imagery.
+
+| Slide | Visual form |
+|---|---|
+| 01 | Emerald side panel with sector name; metadata in ruled rows; typographic, no image |
+| 02 | Four rating scorecard tiles (rating word printed on its tint, status, confidence, justification) |
+| 03 | Dependency map: subsector -> dependency -> single point -> fallback, with arrows |
+| 04 | Ranked pathway rows with rank numerals and a four-step impact meter (word printed beside it) |
+| 05 | Pathway flow: driver block -> evidence -> attribution status |
+| 06 | Incident timeline September 2025 - October 2026 with numbered markers, above the incident table |
+| 07 | Weakness rows with a 0-12 month horizon bar chart and confidence column |
+| 08 | Three-jurisdiction matrix with emerald header; 'Not covered in source edition' cells greyed |
+| 09 | Stat tiles per metric (value, metric, case, period); 'Not disclosed' tile greyed |
+| 10 | Duration bars proportional to 1, 4 and 8 weeks, labelled Illustrative |
+| 11 | Mapping table with emerald header, emerald PROV- IDs and alternating row shading |
+| 12 | Numbered engagement rows with an emerald rule beside each early-warning indicator |
+
+Inspection: all 12 slides rendered with LibreOffice (pptx skill soffice wrapper) and inspected as 80 dpi images. Issues found and fixed during the revision: text-column collisions on Slides 06 and 07, header overlap on Slides 03 and 04, stat-tile wrapping on Slide 09, narrow-bar labels on Slide 07, missing column gutters on Slides 04, 10 and 12. Final render: no clipped or overlapping text. Slide 12 topic cells no longer carry a leading number; the number is drawn as a numeral. The first layout is retained in the run folder as render/deck_v1_layout.pptx.
 
 ## 9. Release status
 
