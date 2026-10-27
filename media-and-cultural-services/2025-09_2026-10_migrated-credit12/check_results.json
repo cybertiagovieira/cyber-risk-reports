@@ -1,0 +1,24 @@
+{
+  "errors": [],
+  "warnings": [
+    "slide 1: 81 words outside band 20-80",
+    "slide 2: 285 words outside band 120-260",
+    "slide 6: 334 words outside band 150-320",
+    "slide 8: 352 words outside band 150-320"
+  ],
+  "word_counts": {
+    "1": 81,
+    "2": 285,
+    "3": 303,
+    "4": 300,
+    "5": 292,
+    "6": 334,
+    "7": 314,
+    "8": 352,
+    "9": 297,
+    "10": 311,
+    "11": 300,
+    "12": 284
+  },
+  "figures_not_in_legacy": {}
+}

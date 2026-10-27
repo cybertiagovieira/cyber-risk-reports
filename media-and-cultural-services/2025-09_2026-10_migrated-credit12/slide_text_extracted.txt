@@ -1,0 +1,380 @@
+<!-- Slide 1 -->
+Sector Cyber Resilience & Credit Intelligence
+Media & Cultural Services
+Reporting period: 1 September 2025 - 15 October 2026
+Geography: global, primary focus EU, EEA and UK; North American and other evidence comparative
+Migrated edition - evidence as of 15 October 2026; no research update
+Classification: not specified in source edition (external public data only)
+Version 1.0-M (migrated from the 15 October 2026 baseline) - Status: NEEDS_REVIEW, not a v4 edition
+Audience: Senior Credit Officers; inherent sector exposure, not a borrower assessment.
+Sector Intelligence Cover
+
+<!-- Slide 2 -->
+02  Executive Sector Risk Snapshot   A Executive intelligence
+Cyber/ICT and operational-resilience exposure is provisionally High, driven by shared platforms and live-output integrity; fraud and governance are not assessable from the source edition.
+Limitation: Provisional: no approved rubric and no 24-sector calibration; ratings are migrated analytical judgements with confidence capped at Medium, not borrower assessments.
+Sources: S-001, S-003, S-008, S-014, S-030, S-031, S-034, S-037, S-038, S-039, S-068 (Tier 1); S-042 (Tier 2); S-010 (Tier 3) - Period: Oct 2023 (historical) - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated
+Dimension
+Rating
+Status
+Confidence
+Justification from source edition
+Fraud
+Not assessable
+Not covered in source edition
+-
+Only a judgement that phishing and payment diversion can follow ticketing data exposure; no fraud research (Q10).
+Cyber / ICT
+High
+Provisional
+Medium
+Media drew 14.2% of mitigated HTTP DDoS requests on one network in H1 2026; regulator-recorded live-output hijacks; state museum network attack.
+Operational Resilience / TPRM
+High
+Provisional
+Medium
+Single points in cloud (14.5-hour AWS event), CDN and shared ticketing; British Library catalogue restored after about 26 months.
+Governance / Operating Model
+Not assessable
+Not covered in source edition
+-
+Fragments only (an audit recommending a Louvre information systems directorate); no governance research (Q13).
+Evidence: Key messages: (1) disruption runs through shared ticketing, payment, CDN and cloud platforms; (2) live-output integrity is under-secured in US and Pakistani evidence; (3) losses arrive through revenue lines, lender waivers and multi-year recovery.
+Significance: Threat direction: not assessable - baseline edition, no trend series. DDoS and information-manipulation pressure is high but rarely produces disclosed losses.
+Credit Lens: Leveraged media borrowers may need waivers after a multi-month disruption, as Lee did (USD 11.3 million added debt); ticketing-dependent clients can lose online sales for days to weeks.
+
+<!-- Slide 3 -->
+03  Sector Anatomy: Key Operations & Dependencies   A Executive intelligence
+Sector operations depend on a few shared digital layers - ticketing and payment, cloud regions, content delivery, and content-insertion and satellite paths - where one failure reaches many organisations.
+Limitation: Market shares of ticketing, playout and collection-management providers are not public, so no provider is described as dominant. Not covered in source edition: operating-model and governance complexity (Q13).
+Sources: S-001, S-007, S-008, S-014, S-018, S-038, S-039, S-045, S-046 (Tier 1) - Period: Oct 2025 - Mar 2026; footprint 2024-2025 - Cut-off 15 Oct 2026 - v1.0-M Migrated
+Subsector and process
+Key dependency
+Single point or bottleneck
+Substitute or fallback
+Museums, monuments, libraries: visitor sales
+Shared ticketing platform (Vivaticket for the national monuments network)
+One provider hosts sales and data for many institutions
+Alternative ticket offices and on-site sales
+Streaming, online games, publishers: delivery
+Hyperscale cloud region (AWS US-EAST-1)
+One region failure affects many dependent services
+Multi-provider delivery
+News sites, streaming, ticketing: web delivery
+Content delivery network (Cloudflare)
+One configuration error caused global errors
+Multi-provider delivery; pre-recorded fallback
+Broadcasters: live output
+Content-insertion equipment and satellite uplinks
+Remote access or uplink path inserts content into live output
+Not evidenced at Tier 1 or 2 in source edition
+Evidence: Footprint: 8.9 million people in EU cultural employment in 2025 (4.3% of jobs); UK creative industries GBP 145.8 billion GVA in 2024 (5.5% of UK GVA). Eleven subsectors are covered, from broadcasters to museums and media technology providers.
+Significance: Front-of-house revenue channels - ticketing, shop, card payment - run on the same corporate IT and shared platforms that attacks and outages reach; at Dresden the security system stayed operational while these channels recovered last.
+Credit Lens: Ask which ticketing, payment, cloud and delivery providers a borrower shares with peers, and whether it can sell and deliver without them for a week.
+
+<!-- Slide 4 -->
+04  Cyber Threat Landscape & Attack Scenarios   B Threat and exposure intelligence
+Shared platforms and live-output compromise carry the highest operational impact; DDoS and information manipulation are frequent but rarely produce disclosed losses.
+Limitation: Impact levels are migrated judgements from the source edition's sector-relevance ratings, not measured outcomes. Not covered in source edition: developments after the 15 October 2026 cut-off.
+Sources: S-001, S-008, S-014, S-018, S-030, S-034, S-038, S-039, S-043, S-086, S-087 (Tier 1); S-042 (Tier 2); S-009, S-010 (Tier 3) - Period: Oct 2023 (historical); Nov 2025 - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated
+Rank
+Pathway (pattern, not an attack)
+Observed evidence in source edition
+Impact level (migrated judgement)
+1
+P2 Shared front-of-house platforms and SaaS integrations (supply-chain concentration)
+Ticketing provider ransomware, March 2026 (Tier 3 detail); cloud and CDN outages, October-November 2025
+High
+2
+P3 Broadcast signal and content-insertion compromise (targeted disruption)
+Regulator-recorded stream hijacks from November 2025; Pakistani satellite feeds, March 2026
+High
+3
+P1 Ransomware and extortion against institutions and publishers (targeted disruption)
+Dresden 2026; Lee 2025 and British Library 2023 (historical)
+High
+4
+P4 Hacktivist DDoS and information manipulation
+14.2% of mitigated HTTP DDoS requests in H1 2026; 540 FIMI incidents in 2025
+Medium
+5
+P6 Personal data exposure and litigation
+Live-events group breach notice and class action, October 2026
+Medium
+Evidence: Last 12 months: five named incidents from November 2025 to October 2026. Last 30 days before cut-off: live-events group breach notice (1 October 2026) and class action (7 October 2026). Content theft (P5) rests on one court case and ranks below the five.
+Significance: Hijacked live output and shared-platform outages reach audiences and customers within hours; ransomware against legacy estates sets the longest recovery tails.
+Credit Lens: Weight borrower discussions toward shared suppliers and live-output equipment, not only the borrower's own network.
+
+<!-- Slide 5 -->
+05  Geopolitical Cyber Threat Outlook   B Threat and exposure intelligence
+Conflicts, elections and major live events drive DDoS and information-manipulation pressure on media, but the source edition holds no confirmed state attribution for a sector incident.
+Limitation: Not covered in source edition: dedicated geopolitical analysis (Q07), exposed-region mapping and state-linked espionage against media; only fragments exist. Benchmarks measure targeting, not impact.
+Sources: S-018, S-041, S-043, S-047, S-051, S-059, S-075 (Tier 1); S-042 (Tier 2) - Period: 2025 - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated
+Geopolitical-to-cyber pathway
+Source-edition evidence
+Attribution status
+Conflict coverage -> DDoS against media
+Cloudflare links media's 14.2% DDoS share in H1 2026 to coverage of the wars in Iran and Ukraine and to the World Cup
+Provider interpretation; no actor named
+Hacktivist DDoS networks
+NoName057(16) made 35.8% of ideology-driven claims in ENISA's business-services group (2025); Europol disrupted its infrastructure in July 2025; Germany issued six arrest warrants against suspects in Russia
+Law-enforcement action; group claims stay claims
+Information manipulation against media brands
+EEAS: 540 FIMI incidents in 2025; impersonation of established outlets and fabricated media brands; 2026 elections listed as at risk
+Institutional reporting; not reproduced per incident
+Satellite broadcast hijack
+Pakistani news channels' satellite feeds hijacked on 1 March 2026
+No attribution published
+Evidence: Policy responses: European Democracy Shield (Commission Communication, 12 November 2025); European Media Freedom Act source protection from 8 August 2025; UK foreign interference offences in force since 20 December 2023.
+Significance: Brand impersonation and availability attacks matter most around elections, conflicts and major live events, when audiences, advertisers and rights holders concentrate.
+Credit Lens: Ask media borrowers how they detect impersonation of their brands and prepare for event-period DDoS; treat state-linked activity as a monitoring trigger rather than a rating driver.
+
+<!-- Slide 6 -->
+06  Major Cyber Incidents & Lessons Learned   B Threat and exposure intelligence
+Five named incidents meet the evidence standard but only one is in the EU; the Dresden case shows revenue channels failing first and recovering last.
+Limitation: Not covered in source edition: the second and third detailed case studies and incidents after 15 October 2026. Case study 1 does not establish cost, data loss, attacker or access vector.
+Sources: S-001, S-002, S-003, S-004, S-014, S-015, S-018, S-086, S-087 (Tier 1); S-006, S-013, S-017, S-019, S-074 (Tier 3) - Period: Nov 2025 - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated
+Organisation and period
+Vector or documented weakness
+Disruption
+Financial consequence
+Lesson
+1 Dresden State Art Collections, Jan 2026 (case study 1)
+Not disclosed; activity over several days before containment (media-relayed ministerial answer)
+Shop, visitor services and card payment lost; website back after 5 days
+Not disclosed
+Sales recover last
+2 US radio stations, Nov 2025 onward
+Improperly secured, remotely accessible streaming and alerting equipment
+Live output replaced with unauthorised audio
+Not disclosed; FCC rule June 2026
+Harden insertion devices
+3 Pakistani news channels, Mar 2026
+Satellite feed; possible uplink path
+Unauthorised content aired at the 9 pm bulletin
+Not disclosed
+Signal path is exposed
+4 Spotify and labels, Dec 2025 - Apr 2026
+Account-based scraping; circumvention of protection
+Catalogue copying alleged at scale
+Reported USD 322 million award (media-reported); collection doubtful
+Remedies may not recover value
+5 Live Nation, Oct 2026
+Identity and health data exposure
+No operational impact (company statement, media-reported)
+Class action within a week
+Notice turns into litigation
+Evidence: Selection: in-period event or outcome, Tier 1 or 2 support, in-scope subsector, distinct lesson. The March 2026 shared ticketing ransomware is excluded because its detail rests on Tier 3 relays.
+Significance: Disclosure is asymmetric: public cultural bodies publish chronologies but rarely costs; listed groups disclose costs; platforms surface through litigation.
+Credit Lens: Treat card-payment and online-sales loss at public cultural counterparties as a foreseeable multi-week event, and ask how merchant and donor flows continue.
+
+<!-- Slide 7 -->
+07  Control Weaknesses & Resilience Priorities   B Threat and exposure intelligence
+Six resilience priorities follow from observed attacks; hardening live-output equipment, fallback for shared suppliers and segregation of transactional systems address the highest-impact pathways.
+Limitation: Priorities are sector-informed, not findings about any borrower's controls; confidence is taken from the linked source-edition judgement.
+Sources: S-001, S-003, S-008, S-014, S-018, S-034, S-038, S-039, S-043, S-044, S-053, S-071, S-086 (Tier 1); S-009 (Tier 3) - Period: Apr 2018 (standard) - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated
+Weakness observed
+Linked evidence
+Capability that contains disruption
+Horizon
+Confidence
+A1 Single points in ticketing, payment, CDN and cloud
+Ticketing outage 2026 (Tier 3); 2025 cloud and CDN outages
+Tested fallback sales and delivery channels
+0-6 months
+Medium
+A2 Default passwords and remote access on insertion and alerting devices
+Regulator-recorded hijacks; satellite hijacks
+Password, patching and segmentation baseline
+0-6 months
+Medium
+A3 Corporate IT shared with ticketing, shop, newsroom and playout
+Dresden 2026
+Segregation and tested restoration of transactional channels
+3-12 months
+Medium
+A4 Exposed ticket-holder, subscriber and donor data
+Ticketing exposure (Tier 3); live-events notice
+Fraud typology monitoring; out-of-band payment verification
+0-3 months
+Medium
+A5 Spoofed outlets and synthetic media
+EEAS impersonation findings
+Provenance and labelling procedures
+6-12 months
+Medium
+A6 Legacy estates and thin insurance
+British Library; 35% of UK charities insured
+Recovery objectives, insurance and waiver triggers
+6-12 months
+Medium
+Evidence: Frameworks named in the source edition - NIST CSF 2.0, ISO/IEC 27001 and 27036, EBU R 148, C2PA, PCI DSS v4.0.1 - are reference vocabularies, not law; EBU R 148 dates from April 2018.
+Significance: In the two quantified cases, revenue effects came from production and distribution outages rather than data theft, so continuity capabilities carry the cash-flow weight.
+Credit Lens: Ask for completion evidence - dependency maps, baseline attestations, restoration tests - rather than policy statements; only the US alerting order sets a mandatory equipment baseline.
+
+<!-- Slide 8 -->
+08  Regulatory & Supervisory Resilience Expectations   C Resilience and financial implications
+EU and UK horizontal cyber law does not name media or culture; obligations arrive through providers, products, media and data rules, and US disclosure and broadcast rules.
+Limitation: Open items: Digital Omnibus effect on Article 50, AVMSD text, national Article 85 laws, UK telecoms security scope for broadcast transmission. Not covered in source edition: supervisory priorities, sanction consequences, US state breach and video privacy rules.
+Sources: S-014, S-048, S-049, S-050, S-051, S-052, S-053, S-055, S-060, S-061, S-063, S-064, S-065, S-066, S-069, S-070, S-075, S-076, S-081 (Tier 1); S-072, S-083 (Tier 3) - Period: Legal milestones 2016-2027 - Cut-off 15 Oct 2026 - v1.0-M Migrated
+Theme
+EU
+UK
+US (comparative)
+Horizontal cyber law
+NIS2 (binding via national law): media not listed; reached through CDN, cloud and managed service providers
+NIS Regulations 2018 in force, media outside scope; Cyber Security and Resilience Bill at Lords report stage
+CIRCIA final rule status unconfirmed
+Products and equipment
+Cyber Resilience Act reporting from 11 September 2026; main obligations 11 December 2027
+Connectable product security regime since 29 April 2024
+FCC alerting order adopted June 2026
+Media and information integrity
+Media Freedom Act from 8 August 2025; AI Act Article 50 from 2 August 2026; political advertising rules from 10 October 2025
+Media Act 2024 (no cyber duties in text read); foreign interference offences
+Not covered in source edition
+Data and disclosure
+GDPR breach notification within 72 hours; Article 85 national derogations
+Special purposes exemption does not list security or regulator notification
+SEC 8-K Item 1.05 within four business days; COPPA amendments
+Designated entities and ransomware
+CER Directive: media and culture not among eleven sectors
+Ransomware payment ban: proposal only
+Not covered in source edition
+Evidence: Status from primary instruments or official pages in the source edition; Australia's infrastructure security law alone names broadcasting assets.
+Significance: In-period movement came from AI transparency, product reporting and a US broadcast rule; the UK bill is not yet law.
+Credit Lens: Ask whether key suppliers are regulated as managed service, cloud or delivery providers, and how AI Act transparency duties are met.
+
+<!-- Slide 9 -->
+09  Financial Impact of Cyber Incidents   C Resilience and financial implications
+Public loss evidence is sparse and not additive; quantified effects come through curtailed revenue lines, debt added through waivers and multi-year recovery.
+Limitation: Values differ in currency, statistic type and population and are never summed; both quantified attacks predate the period. Not covered in source edition: five-year cost trend and sector business-interruption benchmarks.
+Sources: S-001, S-003, S-030, S-031, S-032, S-033, S-034 (Tier 1) - Period: Attacks Oct 2023 - Jan 2026; disclosures May 2025 - Jul 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated
+Case
+Metric
+Value
+Period
+Lee Enterprises (US newspaper group)
+Loss of cash flows attributed to the February 2025 attack
+USD 10.5 million
+FY to 28 Sep 2025
+Lee Enterprises
+Restoration cost expensed (subset of the loss)
+USD 3.7 million
+FY to 28 Sep 2025
+Lee Enterprises
+Insurance claims filed (claim, not recovery)
+USD 6.8 million
+FY to 28 Sep 2025
+Lee Enterprises
+Debt added through waivers (not additive)
+USD 11.3 million
+At 28 Sep 2025
+KADOKAWA (Japanese publisher and platform group)
+Sales effect, company estimate (June 2024 attack)
+JPY 8.3 billion
+FY to 31 Mar 2025
+British Library
+KPIs within 10% of target
+72.8% vs 81.8%
+2025/26 vs 2024/25
+Dresden State Art Collections
+Cost, data and insurance
+Not disclosed
+2026
+Evidence: No EU or UK entity disclosed a quantified cyber cost for an in-period incident. Ransom payments are rarely disclosed, so their role cannot be assessed.
+Significance: Recovery tails run from days (Dresden website) to more than two years (British Library catalogue); revenue dips followed production and distribution outages in both quantified cases.
+Credit Lens: Watch for unscheduled waiver or amendment requests, merchant-volume drops and fraud alerts at media and cultural counterparties after a sector incident.
+
+<!-- Slide 10 -->
+10  Cyber-to-Credit Risk Transmission & Stress Scenarios   C Resilience and financial implications
+Illustrative, not a forecast or loss estimate: 1 week hits live revenue, 4 weeks of supplier outage hit ticketing cash flow, 8 weeks of targeted disruption reach margins and debt service.
+Limitation: Illustrative only: no probabilities, no numerical loss per band; durations come from single cases and several rest on Tier 3 reporting.
+Sources: S-001, S-003, S-008, S-023, S-030, S-031, S-032, S-034, S-038, S-039 (Tier 1); S-005, S-009, S-010 (Tier 3) - Period: Oct 2023 - Mar 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated
+Band
+Mechanism
+Duration evidence in source edition
+Operational effect
+Credit channel
+1 week
+Common digital-dependency failure
+AWS event about 14.5 hours; Cloudflare outage about 6 hours; Dresden website back after 5 days
+Live streams, games, ticket sales and news publication stop
+Lost live audience and advertising, make-goods, refunds
+4 weeks
+Third- or fourth-party supply-chain concentration
+Monuments network reopened online sales after 10 days and the national library was still unable on 19 March; Dresden online booking within about a month (all Tier 3)
+Online ticketing and payments lost across many institutions
+Correlated ticketing cash-flow loss; phishing and payment fraud
+8 weeks
+Targeted operational disruption
+Lee print advertising capacity limited for several months; British Library catalogue about 26 months
+Output loss, rebuild, regulatory scrutiny
+Margin pressure, waivers, covenant pressure, public-funding draw
+Evidence: Transmission: disruption -> lost output, publication or sales -> advertising, subscription and ticketing cash flow -> temporary liquidity disruption (Lee) -> waivers and debt service (USD 11.3 million added debt at Lee) -> insurance recovery that lags costs.
+Significance: Duration, not data loss, drives the cash-flow effect; correlated outages across many borrowers can coincide with high-value live events. Offsets: multi-provider delivery, alternative sales channels, segregation and manual fallback.
+Credit Lens: Borrower data needed: reliance on online and live-event revenue, shared suppliers, recovery time objectives, insurance cover and waiver triggers.
+
+<!-- Slide 11 -->
+11  Questionnaire-to-Sector Intelligence Mapping   D Credit process integration
+Provisional map: six generic discussion items link sector threats and incident evidence to credit consequences; no questionnaire was supplied, so no real item IDs are used.
+Limitation: Provisional: no questionnaire supplied; replace PROV- IDs with actual item IDs once an approved item list is provided.
+Sources: S-001, S-008, S-014, S-018, S-030, S-034, S-038, S-039, S-043, S-086 (Tier 1); S-009 (Tier 3) - Period: Oct 2023 (historical); Oct 2025 - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated
+ID and item
+Threat -> incident evidence
+Operational -> credit consequence
+Suggested question
+PROV-01 Shared suppliers
+P2 -> ticketing outage 2026 (Tier 3); 2025 cloud and CDN outages
+Sales and delivery stop -> correlated revenue loss
+Which ticketing, payment, cloud and delivery providers do you share with peers?
+PROV-02 Live-output equipment
+P3 -> regulator-recorded and satellite hijacks
+Hijacked output -> regulatory scrutiny
+Do insertion and alerting devices meet a password, patch and segmentation baseline?
+PROV-03 Segregation and recovery
+P1 -> Dresden 2026
+Shop and card payment down -> weeks of lost online sales
+Are security, building and playout systems separate from corporate IT?
+PROV-04 Customer data and fraud
+P6 -> live-events notice; ticketing exposure
+Notification -> litigation and fraud losses
+How are ticket-holder and subscriber data exposures monitored?
+PROV-05 Brand provenance
+P4 -> EEAS impersonation findings
+Impersonation -> brand integrity
+How do you detect impersonation and meet AI Act transparency duties?
+PROV-06 Recovery and funding
+P1 -> Lee; British Library
+Long recovery -> waivers, funding draw
+What recovery time, insurance and waiver triggers apply?
+Evidence: Derived from the source edition's actions A1-A6 and pathways P1-P6; no borrower answers are ingested.
+Significance: Borrower factors that change materiality: multi-provider delivery, alternative sales channels, segregated playout, manual fallback, insurance cover and public-funding support.
+Credit Lens: Use answers as discussion input only; self-reported answers are not confirmed evidence and trigger no automatic adverse judgement.
+
+<!-- Slide 12 -->
+12  Credit Officer Engagement: Key Questions & Actions   D Credit process integration
+Five client discussion topics, each with an early-warning indicator, let credit officers test continuity of sales, output and debt service without assessing borrower controls.
+Limitation: Questions address inherent sector exposure; answers are self-reported and are not an audit, compliance or creditworthiness finding.
+Sources: S-008, S-014, S-030, S-031, S-043, S-053, S-086 (Tier 1); S-009 (Tier 3) - Period: Oct 2025 - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated
+Topic
+Question for the client
+Early-warning indicator
+1 Shared suppliers
+Which providers could stop your sales or delivery for a week, and what is your fallback?
+Provider outage or breach notice; prosecutor statement naming a supplier
+2 Live-output integrity
+Do content-insertion and alerting devices meet a baseline comparable to the June 2026 FCC rule?
+Regulator device warning; hijack report
+3 Online sales loss
+How would a ten-day loss of online ticketing show up in your sales and fraud alerts?
+Ticketing or subscriber data notice; merchant-volume drop
+4 Debt service after disruption
+Would a multi-month advertising disruption require covenant or payment waivers, as at Lee?
+Waiver, amendment or liquidity request
+5 Impersonation and AI content
+How do you detect brand impersonation and meet AI Act transparency duties?
+DDoS or FIMI alert ahead of elections or live events
+Evidence: Topics reframe the source edition's five Risk Committee challenge questions and its monitoring triggers for client discussion.
+Significance: Practical improvements a client can evidence: dependency map, fallback sales channel, baseline attestation for insertion devices, restoration test, insurance schedule.
+Credit Lens: Refer to cyber specialists when an indicator fires or a client cannot evidence a fallback; the proportionate next step is to record and monitor, not to change a rating.

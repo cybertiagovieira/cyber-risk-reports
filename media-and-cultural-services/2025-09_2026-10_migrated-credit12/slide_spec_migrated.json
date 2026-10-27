@@ -1,0 +1,1539 @@
+{
+  "profile_id": "credit_12",
+  "mode": "migration",
+  "source_edition": "media-and-cultural-services/2025-09_2026-10 (seven-slide baseline, cut-off 2026-10-15)",
+  "version": "1.0-M",
+  "slides": [
+    {
+      "number": 1,
+      "section": "A Executive intelligence",
+      "label": "Sector Intelligence Cover",
+      "kind": "cover",
+      "elements": [
+        {
+          "role": "kicker",
+          "visible_text": "Sector Cyber Resilience & Credit Intelligence",
+          "legacy": [
+            "Product name per credit_12 profile"
+          ]
+        },
+        {
+          "role": "sector",
+          "visible_text": "Media & Cultural Services",
+          "legacy": [
+            "Report header: sector"
+          ]
+        },
+        {
+          "role": "period",
+          "visible_text": "Reporting period: 1 September 2025 - 15 October 2026",
+          "legacy": [
+            "Report header: reporting period"
+          ]
+        },
+        {
+          "role": "geography",
+          "visible_text": "Geography: global, primary focus EU, EEA and UK; North American and other evidence comparative",
+          "legacy": [
+            "Report header: geography"
+          ]
+        },
+        {
+          "role": "cutoff",
+          "visible_text": "Migrated edition - evidence as of 15 October 2026; no research update",
+          "legacy": [
+            "Report header: evidence cut-off"
+          ]
+        },
+        {
+          "role": "classification",
+          "visible_text": "Classification: not specified in source edition (external public data only)",
+          "legacy": [
+            "Report header: boundary; no classification in source edition"
+          ]
+        },
+        {
+          "role": "version",
+          "visible_text": "Version 1.0-M (migrated from the 15 October 2026 baseline) - Status: NEEDS_REVIEW, not a v4 edition",
+          "legacy": [
+            "Report header: edition (baseline)"
+          ]
+        },
+        {
+          "role": "audience",
+          "visible_text": "Audience: Senior Credit Officers; inherent sector exposure, not a borrower assessment.",
+          "legacy": [
+            "Report header: audience; boundary"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "section": "A Executive intelligence",
+      "label": "Executive Sector Risk Snapshot",
+      "kind": "snapshot",
+      "headline": "Cyber/ICT and operational-resilience exposure is provisionally High, driven by shared platforms and live-output integrity; fraud and governance are not assessable from the source edition.",
+      "headline_legacy": [
+        "C-070",
+        "C-071",
+        "C-072",
+        "Ch1 principal judgements 1-3"
+      ],
+      "table": {
+        "headers": [
+          "Dimension",
+          "Rating",
+          "Status",
+          "Confidence",
+          "Justification from source edition"
+        ],
+        "widths": [
+          1.9,
+          1.35,
+          1.6,
+          1.05,
+          4.6
+        ],
+        "rating_col": 1,
+        "rows": [
+          [
+            [
+              "Fraud",
+              "Not assessable",
+              "Not covered in source edition",
+              "-",
+              "Only a judgement that phishing and payment diversion can follow ticketing data exposure; no fraud research (Q10)."
+            ],
+            [
+              "C-077",
+              "C-009",
+              "Ch3 ticketing and payment flows"
+            ]
+          ],
+          [
+            [
+              "Cyber / ICT",
+              "High",
+              "Provisional",
+              "Medium",
+              "Media drew 14.2% of mitigated HTTP DDoS requests on one network in H1 2026; regulator-recorded live-output hijacks; state museum network attack."
+            ],
+            [
+              "C-016",
+              "C-011",
+              "C-001",
+              "C-071"
+            ]
+          ],
+          [
+            [
+              "Operational Resilience / TPRM",
+              "High",
+              "Provisional",
+              "Medium",
+              "Single points in cloud (14.5-hour AWS event), CDN and shared ticketing; British Library catalogue restored after about 26 months."
+            ],
+            [
+              "C-023",
+              "C-025",
+              "C-006",
+              "C-030",
+              "C-070",
+              "C-076"
+            ]
+          ],
+          [
+            [
+              "Governance / Operating Model",
+              "Not assessable",
+              "Not covered in source edition",
+              "-",
+              "Fragments only (an audit recommending a Louvre information systems directorate); no governance research (Q13)."
+            ],
+            [
+              "C-033",
+              "C-056"
+            ]
+          ]
+        ]
+      },
+      "elements": [
+        {
+          "role": "evidence",
+          "visible_text": "Key messages: (1) disruption runs through shared ticketing, payment, CDN and cloud platforms; (2) live-output integrity is under-secured in US and Pakistani evidence; (3) losses arrive through revenue lines, lender waivers and multi-year recovery.",
+          "legacy": [
+            "C-070",
+            "C-071",
+            "C-073"
+          ]
+        },
+        {
+          "role": "significance",
+          "visible_text": "Threat direction: not assessable - baseline edition, no trend series. DDoS and information-manipulation pressure is high but rarely produces disclosed losses.",
+          "legacy": [
+            "Report header: baseline edition",
+            "C-072"
+          ]
+        },
+        {
+          "role": "credit_lens",
+          "visible_text": "Leveraged media borrowers may need waivers after a multi-month disruption, as Lee did (USD 11.3 million added debt); ticketing-dependent clients can lose online sales for days to weeks.",
+          "legacy": [
+            "C-027",
+            "C-077",
+            "C-002",
+            "C-008"
+          ]
+        },
+        {
+          "role": "limitation",
+          "visible_text": "Provisional: no approved rubric and no 24-sector calibration; ratings are migrated analytical judgements with confidence capped at Medium, not borrower assessments.",
+          "legacy": [
+            "Migration rule 6"
+          ]
+        },
+        {
+          "role": "source_strip",
+          "visible_text": "Sources: S-001, S-003, S-008, S-014, S-030, S-031, S-034, S-037, S-038, S-039, S-068 (Tier 1); S-042 (Tier 2); S-010 (Tier 3) - Period: Oct 2023 (historical) - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated",
+          "legacy": [
+            "Legacy references mapped to S- IDs (identity mapping)"
+          ]
+        }
+      ],
+      "strip": "Sources: S-001, S-003, S-008, S-014, S-030, S-031, S-034, S-037, S-038, S-039, S-068 (Tier 1); S-042 (Tier 2); S-010 (Tier 3) - Period: Oct 2023 (historical) - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated"
+    },
+    {
+      "number": 3,
+      "section": "A Executive intelligence",
+      "label": "Sector Anatomy: Key Operations & Dependencies",
+      "kind": "analytical",
+      "headline": "Sector operations depend on a few shared digital layers - ticketing and payment, cloud regions, content delivery, and content-insertion and satellite paths - where one failure reaches many organisations.",
+      "headline_legacy": [
+        "C-070",
+        "Ch6 dependency chains"
+      ],
+      "table": {
+        "headers": [
+          "Subsector and process",
+          "Key dependency",
+          "Single point or bottleneck",
+          "Substitute or fallback"
+        ],
+        "widths": [
+          2.05,
+          2.15,
+          2.05,
+          1.95
+        ],
+        "rows": [
+          [
+            [
+              "Museums, monuments, libraries: visitor sales",
+              "Shared ticketing platform (Vivaticket for the national monuments network)",
+              "One provider hosts sales and data for many institutions",
+              "Alternative ticket offices and on-site sales"
+            ],
+            [
+              "C-006",
+              "C-007",
+              "Ch6 dependency row 1"
+            ]
+          ],
+          [
+            [
+              "Streaming, online games, publishers: delivery",
+              "Hyperscale cloud region (AWS US-EAST-1)",
+              "One region failure affects many dependent services",
+              "Multi-provider delivery"
+            ],
+            [
+              "C-023",
+              "C-080",
+              "Ch4 scenario 1 limiting conditions"
+            ]
+          ],
+          [
+            [
+              "News sites, streaming, ticketing: web delivery",
+              "Content delivery network (Cloudflare)",
+              "One configuration error caused global errors",
+              "Multi-provider delivery; pre-recorded fallback"
+            ],
+            [
+              "C-025",
+              "Ch6 dependency row 3",
+              "Ch4 scenario 1 limiting conditions"
+            ]
+          ],
+          [
+            [
+              "Broadcasters: live output",
+              "Content-insertion equipment and satellite uplinks",
+              "Remote access or uplink path inserts content into live output",
+              "Not evidenced at Tier 1 or 2 in source edition"
+            ],
+            [
+              "C-010",
+              "C-012",
+              "Ch6 dependency row 5"
+            ]
+          ]
+        ]
+      },
+      "elements": [
+        {
+          "role": "evidence",
+          "visible_text": "Footprint: 8.9 million people in EU cultural employment in 2025 (4.3% of jobs); UK creative industries GBP 145.8 billion GVA in 2024 (5.5% of UK GVA). Eleven subsectors are covered, from broadcasters to museums and media technology providers.",
+          "legacy": [
+            "C-021",
+            "C-022",
+            "Ch1 subsector table"
+          ]
+        },
+        {
+          "role": "significance",
+          "visible_text": "Front-of-house revenue channels - ticketing, shop, card payment - run on the same corporate IT and shared platforms that attacks and outages reach; at Dresden the security system stayed operational while these channels recovered last.",
+          "legacy": [
+            "C-078",
+            "C-070"
+          ]
+        },
+        {
+          "role": "credit_lens",
+          "visible_text": "Ask which ticketing, payment, cloud and delivery providers a borrower shares with peers, and whether it can sell and deliver without them for a week.",
+          "legacy": [
+            "C-090",
+            "Ch7 challenge question 1"
+          ]
+        },
+        {
+          "role": "limitation",
+          "visible_text": "Market shares of ticketing, playout and collection-management providers are not public, so no provider is described as dominant. Not covered in source edition: operating-model and governance complexity (Q13).",
+          "legacy": [
+            "Ch6 dependency note",
+            "Gap G-03"
+          ]
+        },
+        {
+          "role": "source_strip",
+          "visible_text": "Sources: S-001, S-007, S-008, S-014, S-018, S-038, S-039, S-045, S-046 (Tier 1) - Period: Oct 2025 - Mar 2026; footprint 2024-2025 - Cut-off 15 Oct 2026 - v1.0-M Migrated",
+          "legacy": [
+            "Legacy references mapped to S- IDs (identity mapping)"
+          ]
+        }
+      ],
+      "strip": "Sources: S-001, S-007, S-008, S-014, S-018, S-038, S-039, S-045, S-046 (Tier 1) - Period: Oct 2025 - Mar 2026; footprint 2024-2025 - Cut-off 15 Oct 2026 - v1.0-M Migrated"
+    },
+    {
+      "number": 4,
+      "section": "B Threat and exposure intelligence",
+      "label": "Cyber Threat Landscape & Attack Scenarios",
+      "kind": "analytical",
+      "headline": "Shared platforms and live-output compromise carry the highest operational impact; DDoS and information manipulation are frequent but rarely produce disclosed losses.",
+      "headline_legacy": [
+        "C-070",
+        "C-071",
+        "C-072"
+      ],
+      "table": {
+        "headers": [
+          "Rank",
+          "Pathway (pattern, not an attack)",
+          "Observed evidence in source edition",
+          "Impact level (migrated judgement)"
+        ],
+        "widths": [
+          0.6,
+          2.75,
+          3.4,
+          1.45
+        ],
+        "rows": [
+          [
+            [
+              "1",
+              "P2 Shared front-of-house platforms and SaaS integrations (supply-chain concentration)",
+              "Ticketing provider ransomware, March 2026 (Tier 3 detail); cloud and CDN outages, October-November 2025",
+              "High"
+            ],
+            [
+              "Ch2 P2",
+              "C-070",
+              "C-008",
+              "C-023",
+              "C-025"
+            ]
+          ],
+          [
+            [
+              "2",
+              "P3 Broadcast signal and content-insertion compromise (targeted disruption)",
+              "Regulator-recorded stream hijacks from November 2025; Pakistani satellite feeds, March 2026",
+              "High"
+            ],
+            [
+              "Ch2 P3",
+              "C-011",
+              "C-012",
+              "C-071"
+            ]
+          ],
+          [
+            [
+              "3",
+              "P1 Ransomware and extortion against institutions and publishers (targeted disruption)",
+              "Dresden 2026; Lee 2025 and British Library 2023 (historical)",
+              "High"
+            ],
+            [
+              "Ch2 P1",
+              "C-001",
+              "C-026",
+              "C-030"
+            ]
+          ],
+          [
+            [
+              "4",
+              "P4 Hacktivist DDoS and information manipulation",
+              "14.2% of mitigated HTTP DDoS requests in H1 2026; 540 FIMI incidents in 2025",
+              "Medium"
+            ],
+            [
+              "Ch2 P4",
+              "C-016",
+              "C-018",
+              "C-072"
+            ]
+          ],
+          [
+            [
+              "5",
+              "P6 Personal data exposure and litigation",
+              "Live-events group breach notice and class action, October 2026",
+              "Medium"
+            ],
+            [
+              "Ch2 P6",
+              "C-067"
+            ]
+          ]
+        ]
+      },
+      "elements": [
+        {
+          "role": "evidence",
+          "visible_text": "Last 12 months: five named incidents from November 2025 to October 2026. Last 30 days before cut-off: live-events group breach notice (1 October 2026) and class action (7 October 2026). Content theft (P5) rests on one court case and ranks below the five.",
+          "legacy": [
+            "Ch2 Top 5",
+            "C-067",
+            "C-014"
+          ]
+        },
+        {
+          "role": "significance",
+          "visible_text": "Hijacked live output and shared-platform outages reach audiences and customers within hours; ransomware against legacy estates sets the longest recovery tails.",
+          "legacy": [
+            "C-071",
+            "C-076",
+            "C-023"
+          ]
+        },
+        {
+          "role": "credit_lens",
+          "visible_text": "Weight borrower discussions toward shared suppliers and live-output equipment, not only the borrower's own network.",
+          "legacy": [
+            "Legacy slide 2 management implication",
+            "C-090"
+          ]
+        },
+        {
+          "role": "limitation",
+          "visible_text": "Impact levels are migrated judgements from the source edition's sector-relevance ratings, not measured outcomes. Not covered in source edition: developments after the 15 October 2026 cut-off.",
+          "legacy": [
+            "Ch2 Top 5 sector relevance column",
+            "Gap G-01"
+          ]
+        },
+        {
+          "role": "source_strip",
+          "visible_text": "Sources: S-001, S-008, S-014, S-018, S-030, S-034, S-038, S-039, S-043, S-086, S-087 (Tier 1); S-042 (Tier 2); S-009, S-010 (Tier 3) - Period: Oct 2023 (historical); Nov 2025 - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated",
+          "legacy": [
+            "Legacy references mapped to S- IDs (identity mapping)"
+          ]
+        }
+      ],
+      "strip": "Sources: S-001, S-008, S-014, S-018, S-030, S-034, S-038, S-039, S-043, S-086, S-087 (Tier 1); S-042 (Tier 2); S-009, S-010 (Tier 3) - Period: Oct 2023 (historical); Nov 2025 - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated"
+    },
+    {
+      "number": 5,
+      "section": "B Threat and exposure intelligence",
+      "label": "Geopolitical Cyber Threat Outlook",
+      "kind": "analytical",
+      "headline": "Conflicts, elections and major live events drive DDoS and information-manipulation pressure on media, but the source edition holds no confirmed state attribution for a sector incident.",
+      "headline_legacy": [
+        "C-016",
+        "C-018",
+        "C-072",
+        "C-012"
+      ],
+      "table": {
+        "headers": [
+          "Geopolitical-to-cyber pathway",
+          "Source-edition evidence",
+          "Attribution status"
+        ],
+        "widths": [
+          2.3,
+          4.15,
+          1.75
+        ],
+        "rows": [
+          [
+            [
+              "Conflict coverage -> DDoS against media",
+              "Cloudflare links media's 14.2% DDoS share in H1 2026 to coverage of the wars in Iran and Ukraine and to the World Cup",
+              "Provider interpretation; no actor named"
+            ],
+            [
+              "C-016"
+            ]
+          ],
+          [
+            [
+              "Hacktivist DDoS networks",
+              "NoName057(16) made 35.8% of ideology-driven claims in ENISA's business-services group (2025); Europol disrupted its infrastructure in July 2025; Germany issued six arrest warrants against suspects in Russia",
+              "Law-enforcement action; group claims stay claims"
+            ],
+            [
+              "C-017",
+              "C-019"
+            ]
+          ],
+          [
+            [
+              "Information manipulation against media brands",
+              "EEAS: 540 FIMI incidents in 2025; impersonation of established outlets and fabricated media brands; 2026 elections listed as at risk",
+              "Institutional reporting; not reproduced per incident"
+            ],
+            [
+              "C-018"
+            ]
+          ],
+          [
+            [
+              "Satellite broadcast hijack",
+              "Pakistani news channels' satellite feeds hijacked on 1 March 2026",
+              "No attribution published"
+            ],
+            [
+              "C-012"
+            ]
+          ]
+        ]
+      },
+      "elements": [
+        {
+          "role": "evidence",
+          "visible_text": "Policy responses: European Democracy Shield (Commission Communication, 12 November 2025); European Media Freedom Act source protection from 8 August 2025; UK foreign interference offences in force since 20 December 2023.",
+          "legacy": [
+            "C-049",
+            "C-042",
+            "C-060"
+          ]
+        },
+        {
+          "role": "significance",
+          "visible_text": "Brand impersonation and availability attacks matter most around elections, conflicts and major live events, when audiences, advertisers and rights holders concentrate.",
+          "legacy": [
+            "C-072 sector relevance",
+            "C-080"
+          ]
+        },
+        {
+          "role": "credit_lens",
+          "visible_text": "Ask media borrowers how they detect impersonation of their brands and prepare for event-period DDoS; treat state-linked activity as a monitoring trigger rather than a rating driver.",
+          "legacy": [
+            "Ch7 challenge question 5",
+            "Ch7 monitoring trigger 3"
+          ]
+        },
+        {
+          "role": "limitation",
+          "visible_text": "Not covered in source edition: dedicated geopolitical analysis (Q07), exposed-region mapping and state-linked espionage against media; only fragments exist. Benchmarks measure targeting, not impact.",
+          "legacy": [
+            "Gap G-04",
+            "Ch8 limitations"
+          ]
+        },
+        {
+          "role": "source_strip",
+          "visible_text": "Sources: S-018, S-041, S-043, S-047, S-051, S-059, S-075 (Tier 1); S-042 (Tier 2) - Period: 2025 - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated",
+          "legacy": [
+            "Legacy references mapped to S- IDs (identity mapping)"
+          ]
+        }
+      ],
+      "strip": "Sources: S-018, S-041, S-043, S-047, S-051, S-059, S-075 (Tier 1); S-042 (Tier 2) - Period: 2025 - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated"
+    },
+    {
+      "number": 6,
+      "section": "B Threat and exposure intelligence",
+      "label": "Major Cyber Incidents & Lessons Learned",
+      "kind": "analytical",
+      "headline": "Five named incidents meet the evidence standard but only one is in the EU; the Dresden case shows revenue channels failing first and recovering last.",
+      "headline_legacy": [
+        "Ch2 shortfall statement",
+        "C-078"
+      ],
+      "table": {
+        "headers": [
+          "Organisation and period",
+          "Vector or documented weakness",
+          "Disruption",
+          "Financial consequence",
+          "Lesson"
+        ],
+        "widths": [
+          2.05,
+          1.95,
+          1.75,
+          1.35,
+          1.1
+        ],
+        "rows": [
+          [
+            [
+              "1 Dresden State Art Collections, Jan 2026 (case study 1)",
+              "Not disclosed; activity over several days before containment (media-relayed ministerial answer)",
+              "Shop, visitor services and card payment lost; website back after 5 days",
+              "Not disclosed",
+              "Sales recover last"
+            ],
+            [
+              "C-001",
+              "C-002",
+              "C-004",
+              "Ch5"
+            ]
+          ],
+          [
+            [
+              "2 US radio stations, Nov 2025 onward",
+              "Improperly secured, remotely accessible streaming and alerting equipment",
+              "Live output replaced with unauthorised audio",
+              "Not disclosed; FCC rule June 2026",
+              "Harden insertion devices"
+            ],
+            [
+              "C-011",
+              "C-010"
+            ]
+          ],
+          [
+            [
+              "3 Pakistani news channels, Mar 2026",
+              "Satellite feed; possible uplink path",
+              "Unauthorised content aired at the 9 pm bulletin",
+              "Not disclosed",
+              "Signal path is exposed"
+            ],
+            [
+              "C-012",
+              "C-013"
+            ]
+          ],
+          [
+            [
+              "4 Spotify and labels, Dec 2025 - Apr 2026",
+              "Account-based scraping; circumvention of protection",
+              "Catalogue copying alleged at scale",
+              "Reported USD 322 million award (media-reported); collection doubtful",
+              "Remedies may not recover value"
+            ],
+            [
+              "C-014",
+              "C-015"
+            ]
+          ],
+          [
+            [
+              "5 Live Nation, Oct 2026",
+              "Identity and health data exposure",
+              "No operational impact (company statement, media-reported)",
+              "Class action within a week",
+              "Notice turns into litigation"
+            ],
+            [
+              "C-067"
+            ]
+          ]
+        ]
+      },
+      "elements": [
+        {
+          "role": "evidence",
+          "visible_text": "Selection: in-period event or outcome, Tier 1 or 2 support, in-scope subsector, distinct lesson. The March 2026 shared ticketing ransomware is excluded because its detail rests on Tier 3 relays.",
+          "legacy": [
+            "Ch2 selection criteria",
+            "Ch2 considered but not selected"
+          ]
+        },
+        {
+          "role": "significance",
+          "visible_text": "Disclosure is asymmetric: public cultural bodies publish chronologies but rarely costs; listed groups disclose costs; platforms surface through litigation.",
+          "legacy": [
+            "C-075"
+          ]
+        },
+        {
+          "role": "credit_lens",
+          "visible_text": "Treat card-payment and online-sales loss at public cultural counterparties as a foreseeable multi-week event, and ask how merchant and donor flows continue.",
+          "legacy": [
+            "Legacy slide 5 management implication"
+          ]
+        },
+        {
+          "role": "limitation",
+          "visible_text": "Not covered in source edition: the second and third detailed case studies and incidents after 15 October 2026. Case study 1 does not establish cost, data loss, attacker or access vector.",
+          "legacy": [
+            "Gap G-05",
+            "Gap G-01",
+            "Ch5 what the case does not establish"
+          ]
+        },
+        {
+          "role": "source_strip",
+          "visible_text": "Sources: S-001, S-002, S-003, S-004, S-014, S-015, S-018, S-086, S-087 (Tier 1); S-006, S-013, S-017, S-019, S-074 (Tier 3) - Period: Nov 2025 - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated",
+          "legacy": [
+            "Legacy references mapped to S- IDs (identity mapping)"
+          ]
+        }
+      ],
+      "strip": "Sources: S-001, S-002, S-003, S-004, S-014, S-015, S-018, S-086, S-087 (Tier 1); S-006, S-013, S-017, S-019, S-074 (Tier 3) - Period: Nov 2025 - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated"
+    },
+    {
+      "number": 7,
+      "section": "B Threat and exposure intelligence",
+      "label": "Control Weaknesses & Resilience Priorities",
+      "kind": "analytical",
+      "headline": "Six resilience priorities follow from observed attacks; hardening live-output equipment, fallback for shared suppliers and segregation of transactional systems address the highest-impact pathways.",
+      "headline_legacy": [
+        "C-090",
+        "Ch7 action table"
+      ],
+      "table": {
+        "headers": [
+          "Weakness observed",
+          "Linked evidence",
+          "Capability that contains disruption",
+          "Horizon",
+          "Confidence"
+        ],
+        "widths": [
+          2.3,
+          1.9,
+          2.25,
+          0.95,
+          0.85
+        ],
+        "rows": [
+          [
+            [
+              "A1 Single points in ticketing, payment, CDN and cloud",
+              "Ticketing outage 2026 (Tier 3); 2025 cloud and CDN outages",
+              "Tested fallback sales and delivery channels",
+              "0-6 months",
+              "Medium"
+            ],
+            [
+              "Ch7 A1",
+              "C-070"
+            ]
+          ],
+          [
+            [
+              "A2 Default passwords and remote access on insertion and alerting devices",
+              "Regulator-recorded hijacks; satellite hijacks",
+              "Password, patching and segmentation baseline",
+              "0-6 months",
+              "Medium"
+            ],
+            [
+              "Ch7 A2",
+              "C-071",
+              "C-010"
+            ]
+          ],
+          [
+            [
+              "A3 Corporate IT shared with ticketing, shop, newsroom and playout",
+              "Dresden 2026",
+              "Segregation and tested restoration of transactional channels",
+              "3-12 months",
+              "Medium"
+            ],
+            [
+              "Ch7 A3",
+              "C-078"
+            ]
+          ],
+          [
+            [
+              "A4 Exposed ticket-holder, subscriber and donor data",
+              "Ticketing exposure (Tier 3); live-events notice",
+              "Fraud typology monitoring; out-of-band payment verification",
+              "0-3 months",
+              "Medium"
+            ],
+            [
+              "Ch7 A4",
+              "C-077",
+              "C-067"
+            ]
+          ],
+          [
+            [
+              "A5 Spoofed outlets and synthetic media",
+              "EEAS impersonation findings",
+              "Provenance and labelling procedures",
+              "6-12 months",
+              "Medium"
+            ],
+            [
+              "Ch7 A5",
+              "C-018",
+              "C-044"
+            ]
+          ],
+          [
+            [
+              "A6 Legacy estates and thin insurance",
+              "British Library; 35% of UK charities insured",
+              "Recovery objectives, insurance and waiver triggers",
+              "6-12 months",
+              "Medium"
+            ],
+            [
+              "Ch7 A6",
+              "C-076",
+              "C-020"
+            ]
+          ]
+        ]
+      },
+      "elements": [
+        {
+          "role": "evidence",
+          "visible_text": "Frameworks named in the source edition - NIST CSF 2.0, ISO/IEC 27001 and 27036, EBU R 148, C2PA, PCI DSS v4.0.1 - are reference vocabularies, not law; EBU R 148 dates from April 2018.",
+          "legacy": [
+            "Ch7 framework mapping",
+            "C-059"
+          ]
+        },
+        {
+          "role": "significance",
+          "visible_text": "In the two quantified cases, revenue effects came from production and distribution outages rather than data theft, so continuity capabilities carry the cash-flow weight.",
+          "legacy": [
+            "Ch3 advertising and subscription revenue judgement",
+            "C-073"
+          ]
+        },
+        {
+          "role": "credit_lens",
+          "visible_text": "Ask for completion evidence - dependency maps, baseline attestations, restoration tests - rather than policy statements; only the US alerting order sets a mandatory equipment baseline.",
+          "legacy": [
+            "Ch7 evidence of completion column",
+            "C-010"
+          ]
+        },
+        {
+          "role": "limitation",
+          "visible_text": "Priorities are sector-informed, not findings about any borrower's controls; confidence is taken from the linked source-edition judgement.",
+          "legacy": [
+            "Ch7 preamble",
+            "Ledger confidence"
+          ]
+        },
+        {
+          "role": "source_strip",
+          "visible_text": "Sources: S-001, S-003, S-008, S-014, S-018, S-034, S-038, S-039, S-043, S-044, S-053, S-071, S-086 (Tier 1); S-009 (Tier 3) - Period: Apr 2018 (standard) - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated",
+          "legacy": [
+            "Legacy references mapped to S- IDs (identity mapping)"
+          ]
+        }
+      ],
+      "strip": "Sources: S-001, S-003, S-008, S-014, S-018, S-034, S-038, S-039, S-043, S-044, S-053, S-071, S-086 (Tier 1); S-009 (Tier 3) - Period: Apr 2018 (standard) - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated"
+    },
+    {
+      "number": 8,
+      "section": "C Resilience and financial implications",
+      "label": "Regulatory & Supervisory Resilience Expectations",
+      "kind": "analytical",
+      "headline": "EU and UK horizontal cyber law does not name media or culture; obligations arrive through providers, products, media and data rules, and US disclosure and broadcast rules.",
+      "headline_legacy": [
+        "C-074",
+        "C-040",
+        "C-051",
+        "C-057",
+        "C-010"
+      ],
+      "table": {
+        "headers": [
+          "Theme",
+          "EU",
+          "UK",
+          "US (comparative)"
+        ],
+        "widths": [
+          1.55,
+          2.45,
+          2.35,
+          1.85
+        ],
+        "rows": [
+          [
+            [
+              "Horizontal cyber law",
+              "NIS2 (binding via national law): media not listed; reached through CDN, cloud and managed service providers",
+              "NIS Regulations 2018 in force, media outside scope; Cyber Security and Resilience Bill at Lords report stage",
+              "CIRCIA final rule status unconfirmed"
+            ],
+            [
+              "C-040",
+              "C-051",
+              "C-052",
+              "Ch6 CIRCIA sentence"
+            ]
+          ],
+          [
+            [
+              "Products and equipment",
+              "Cyber Resilience Act reporting from 11 September 2026; main obligations 11 December 2027",
+              "Connectable product security regime since 29 April 2024",
+              "FCC alerting order adopted June 2026"
+            ],
+            [
+              "C-045",
+              "C-053",
+              "C-010"
+            ]
+          ],
+          [
+            [
+              "Media and information integrity",
+              "Media Freedom Act from 8 August 2025; AI Act Article 50 from 2 August 2026; political advertising rules from 10 October 2025",
+              "Media Act 2024 (no cyber duties in text read); foreign interference offences",
+              "Not covered in source edition"
+            ],
+            [
+              "C-042",
+              "C-044",
+              "C-043",
+              "C-061",
+              "C-060"
+            ]
+          ],
+          [
+            [
+              "Data and disclosure",
+              "GDPR breach notification within 72 hours; Article 85 national derogations",
+              "Special purposes exemption does not list security or regulator notification",
+              "SEC 8-K Item 1.05 within four business days; COPPA amendments"
+            ],
+            [
+              "C-050",
+              "C-065",
+              "C-054",
+              "C-057",
+              "C-058"
+            ]
+          ],
+          [
+            [
+              "Designated entities and ransomware",
+              "CER Directive: media and culture not among eleven sectors",
+              "Ransomware payment ban: proposal only",
+              "Not covered in source edition"
+            ],
+            [
+              "C-041",
+              "C-055"
+            ]
+          ]
+        ]
+      },
+      "elements": [
+        {
+          "role": "evidence",
+          "visible_text": "Status from primary instruments or official pages in the source edition; Australia's infrastructure security law alone names broadcasting assets.",
+          "legacy": [
+            "Ch6 regulatory perimeter note",
+            "C-064"
+          ]
+        },
+        {
+          "role": "significance",
+          "visible_text": "In-period movement came from AI transparency, product reporting and a US broadcast rule; the UK bill is not yet law.",
+          "legacy": [
+            "Legacy slide 6 interpretation",
+            "C-052"
+          ]
+        },
+        {
+          "role": "credit_lens",
+          "visible_text": "Ask whether key suppliers are regulated as managed service, cloud or delivery providers, and how AI Act transparency duties are met.",
+          "legacy": [
+            "Ch4 scenario 3 management question",
+            "Ch7 challenge question 5"
+          ]
+        },
+        {
+          "role": "limitation",
+          "visible_text": "Open items: Digital Omnibus effect on Article 50, AVMSD text, national Article 85 laws, UK telecoms security scope for broadcast transmission. Not covered in source edition: supervisory priorities, sanction consequences, US state breach and video privacy rules.",
+          "legacy": [
+            "Ch8 confidence paragraph",
+            "Ch8 partly reviewed list",
+            "Gap G-06"
+          ]
+        },
+        {
+          "role": "source_strip",
+          "visible_text": "Sources: S-014, S-048, S-049, S-050, S-051, S-052, S-053, S-055, S-060, S-061, S-063, S-064, S-065, S-066, S-069, S-070, S-075, S-076, S-081 (Tier 1); S-072, S-083 (Tier 3) - Period: Legal milestones 2016-2027 - Cut-off 15 Oct 2026 - v1.0-M Migrated",
+          "legacy": [
+            "Legacy references mapped to S- IDs (identity mapping)"
+          ]
+        }
+      ],
+      "strip": "Sources: S-014, S-048, S-049, S-050, S-051, S-052, S-053, S-055, S-060, S-061, S-063, S-064, S-065, S-066, S-069, S-070, S-075, S-076, S-081 (Tier 1); S-072, S-083 (Tier 3) - Period: Legal milestones 2016-2027 - Cut-off 15 Oct 2026 - v1.0-M Migrated"
+    },
+    {
+      "number": 9,
+      "section": "C Resilience and financial implications",
+      "label": "Financial Impact of Cyber Incidents",
+      "kind": "analytical",
+      "headline": "Public loss evidence is sparse and not additive; quantified effects come through curtailed revenue lines, debt added through waivers and multi-year recovery.",
+      "headline_legacy": [
+        "Ch3 bottom line",
+        "C-073"
+      ],
+      "table": {
+        "headers": [
+          "Case",
+          "Metric",
+          "Value",
+          "Period"
+        ],
+        "widths": [
+          2.1,
+          3.25,
+          1.5,
+          1.35
+        ],
+        "rows": [
+          [
+            [
+              "Lee Enterprises (US newspaper group)",
+              "Loss of cash flows attributed to the February 2025 attack",
+              "USD 10.5 million",
+              "FY to 28 Sep 2025"
+            ],
+            [
+              "C-026"
+            ]
+          ],
+          [
+            [
+              "Lee Enterprises",
+              "Restoration cost expensed (subset of the loss)",
+              "USD 3.7 million",
+              "FY to 28 Sep 2025"
+            ],
+            [
+              "C-026"
+            ]
+          ],
+          [
+            [
+              "Lee Enterprises",
+              "Insurance claims filed (claim, not recovery)",
+              "USD 6.8 million",
+              "FY to 28 Sep 2025"
+            ],
+            [
+              "C-026"
+            ]
+          ],
+          [
+            [
+              "Lee Enterprises",
+              "Debt added through waivers (not additive)",
+              "USD 11.3 million",
+              "At 28 Sep 2025"
+            ],
+            [
+              "C-027"
+            ]
+          ],
+          [
+            [
+              "KADOKAWA (Japanese publisher and platform group)",
+              "Sales effect, company estimate (June 2024 attack)",
+              "JPY 8.3 billion",
+              "FY to 31 Mar 2025"
+            ],
+            [
+              "C-028"
+            ]
+          ],
+          [
+            [
+              "British Library",
+              "KPIs within 10% of target",
+              "72.8% vs 81.8%",
+              "2025/26 vs 2024/25"
+            ],
+            [
+              "C-030"
+            ]
+          ],
+          [
+            [
+              "Dresden State Art Collections",
+              "Cost, data and insurance",
+              "Not disclosed",
+              "2026"
+            ],
+            [
+              "Ch3 outcomes table"
+            ]
+          ]
+        ]
+      },
+      "elements": [
+        {
+          "role": "evidence",
+          "visible_text": "No EU or UK entity disclosed a quantified cyber cost for an in-period incident. Ransom payments are rarely disclosed, so their role cannot be assessed.",
+          "legacy": [
+            "Ch3 bottom line",
+            "Ch1 bottom line"
+          ]
+        },
+        {
+          "role": "significance",
+          "visible_text": "Recovery tails run from days (Dresden website) to more than two years (British Library catalogue); revenue dips followed production and distribution outages in both quantified cases.",
+          "legacy": [
+            "C-002",
+            "C-030",
+            "Ch3 revenue judgement"
+          ]
+        },
+        {
+          "role": "credit_lens",
+          "visible_text": "Watch for unscheduled waiver or amendment requests, merchant-volume drops and fraud alerts at media and cultural counterparties after a sector incident.",
+          "legacy": [
+            "Legacy slide 3 management implication"
+          ]
+        },
+        {
+          "role": "limitation",
+          "visible_text": "Values differ in currency, statistic type and population and are never summed; both quantified attacks predate the period. Not covered in source edition: five-year cost trend and sector business-interruption benchmarks.",
+          "legacy": [
+            "Ch3 comparability",
+            "Gap G-07"
+          ]
+        },
+        {
+          "role": "source_strip",
+          "visible_text": "Sources: S-001, S-003, S-030, S-031, S-032, S-033, S-034 (Tier 1) - Period: Attacks Oct 2023 - Jan 2026; disclosures May 2025 - Jul 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated",
+          "legacy": [
+            "Legacy references mapped to S- IDs (identity mapping)"
+          ]
+        }
+      ],
+      "strip": "Sources: S-001, S-003, S-030, S-031, S-032, S-033, S-034 (Tier 1) - Period: Attacks Oct 2023 - Jan 2026; disclosures May 2025 - Jul 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated"
+    },
+    {
+      "number": 10,
+      "section": "C Resilience and financial implications",
+      "label": "Cyber-to-Credit Risk Transmission & Stress Scenarios",
+      "kind": "analytical",
+      "headline": "Illustrative, not a forecast or loss estimate: 1 week hits live revenue, 4 weeks of supplier outage hit ticketing cash flow, 8 weeks of targeted disruption reach margins and debt service.",
+      "headline_legacy": [
+        "Ch4 scenarios 1-3",
+        "Ch3 transmission channels"
+      ],
+      "table": {
+        "headers": [
+          "Band",
+          "Mechanism",
+          "Duration evidence in source edition",
+          "Operational effect",
+          "Credit channel"
+        ],
+        "widths": [
+          0.8,
+          1.7,
+          2.45,
+          1.6,
+          1.65
+        ],
+        "rows": [
+          [
+            [
+              "1 week",
+              "Common digital-dependency failure",
+              "AWS event about 14.5 hours; Cloudflare outage about 6 hours; Dresden website back after 5 days",
+              "Live streams, games, ticket sales and news publication stop",
+              "Lost live audience and advertising, make-goods, refunds"
+            ],
+            [
+              "C-080",
+              "C-023",
+              "C-025",
+              "C-002"
+            ]
+          ],
+          [
+            [
+              "4 weeks",
+              "Third- or fourth-party supply-chain concentration",
+              "Monuments network reopened online sales after 10 days and the national library was still unable on 19 March; Dresden online booking within about a month (all Tier 3)",
+              "Online ticketing and payments lost across many institutions",
+              "Correlated ticketing cash-flow loss; phishing and payment fraud"
+            ],
+            [
+              "C-082",
+              "C-008",
+              "C-005",
+              "Ch3 outcomes table"
+            ]
+          ],
+          [
+            [
+              "8 weeks",
+              "Targeted operational disruption",
+              "Lee print advertising capacity limited for several months; British Library catalogue about 26 months",
+              "Output loss, rebuild, regulatory scrutiny",
+              "Margin pressure, waivers, covenant pressure, public-funding draw"
+            ],
+            [
+              "C-081",
+              "C-026",
+              "C-030",
+              "Ch4 scenario 2 financial transmission"
+            ]
+          ]
+        ]
+      },
+      "elements": [
+        {
+          "role": "evidence",
+          "visible_text": "Transmission: disruption -> lost output, publication or sales -> advertising, subscription and ticketing cash flow -> temporary liquidity disruption (Lee) -> waivers and debt service (USD 11.3 million added debt at Lee) -> insurance recovery that lags costs.",
+          "legacy": [
+            "Ch3 financial-system transmission",
+            "C-026",
+            "C-027",
+            "C-034"
+          ]
+        },
+        {
+          "role": "significance",
+          "visible_text": "Duration, not data loss, drives the cash-flow effect; correlated outages across many borrowers can coincide with high-value live events. Offsets: multi-provider delivery, alternative sales channels, segregation and manual fallback.",
+          "legacy": [
+            "Ch3 concentration judgement",
+            "Ch4 limiting conditions"
+          ]
+        },
+        {
+          "role": "credit_lens",
+          "visible_text": "Borrower data needed: reliance on online and live-event revenue, shared suppliers, recovery time objectives, insurance cover and waiver triggers.",
+          "legacy": [
+            "Ch7 A6",
+            "Ch7 challenge question 1"
+          ]
+        },
+        {
+          "role": "limitation",
+          "visible_text": "Illustrative only: no probabilities, no numerical loss per band; durations come from single cases and several rest on Tier 3 reporting.",
+          "legacy": [
+            "Ch4 preamble",
+            "Ch4 assumptions"
+          ]
+        },
+        {
+          "role": "source_strip",
+          "visible_text": "Sources: S-001, S-003, S-008, S-023, S-030, S-031, S-032, S-034, S-038, S-039 (Tier 1); S-005, S-009, S-010 (Tier 3) - Period: Oct 2023 - Mar 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated",
+          "legacy": [
+            "Legacy references mapped to S- IDs (identity mapping)"
+          ]
+        }
+      ],
+      "strip": "Sources: S-001, S-003, S-008, S-023, S-030, S-031, S-032, S-034, S-038, S-039 (Tier 1); S-005, S-009, S-010 (Tier 3) - Period: Oct 2023 - Mar 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated"
+    },
+    {
+      "number": 11,
+      "section": "D Credit process integration",
+      "label": "Questionnaire-to-Sector Intelligence Mapping",
+      "kind": "mapping",
+      "headline": "Provisional map: six generic discussion items link sector threats and incident evidence to credit consequences; no questionnaire was supplied, so no real item IDs are used.",
+      "headline_legacy": [
+        "Ch7 A1-A6",
+        "Ch2 P1-P6",
+        "Migration rule 7"
+      ],
+      "table": {
+        "headers": [
+          "ID and item",
+          "Threat -> incident evidence",
+          "Operational -> credit consequence",
+          "Suggested question"
+        ],
+        "widths": [
+          1.65,
+          2.05,
+          2.05,
+          2.45
+        ],
+        "rows": [
+          [
+            [
+              "PROV-01 Shared suppliers",
+              "P2 -> ticketing outage 2026 (Tier 3); 2025 cloud and CDN outages",
+              "Sales and delivery stop -> correlated revenue loss",
+              "Which ticketing, payment, cloud and delivery providers do you share with peers?"
+            ],
+            [
+              "Ch7 A1",
+              "C-070"
+            ]
+          ],
+          [
+            [
+              "PROV-02 Live-output equipment",
+              "P3 -> regulator-recorded and satellite hijacks",
+              "Hijacked output -> regulatory scrutiny",
+              "Do insertion and alerting devices meet a password, patch and segmentation baseline?"
+            ],
+            [
+              "Ch7 A2",
+              "C-071"
+            ]
+          ],
+          [
+            [
+              "PROV-03 Segregation and recovery",
+              "P1 -> Dresden 2026",
+              "Shop and card payment down -> weeks of lost online sales",
+              "Are security, building and playout systems separate from corporate IT?"
+            ],
+            [
+              "Ch7 A3",
+              "C-078"
+            ]
+          ],
+          [
+            [
+              "PROV-04 Customer data and fraud",
+              "P6 -> live-events notice; ticketing exposure",
+              "Notification -> litigation and fraud losses",
+              "How are ticket-holder and subscriber data exposures monitored?"
+            ],
+            [
+              "Ch7 A4",
+              "C-067",
+              "C-077"
+            ]
+          ],
+          [
+            [
+              "PROV-05 Brand provenance",
+              "P4 -> EEAS impersonation findings",
+              "Impersonation -> brand integrity",
+              "How do you detect impersonation and meet AI Act transparency duties?"
+            ],
+            [
+              "Ch7 A5",
+              "C-072"
+            ]
+          ],
+          [
+            [
+              "PROV-06 Recovery and funding",
+              "P1 -> Lee; British Library",
+              "Long recovery -> waivers, funding draw",
+              "What recovery time, insurance and waiver triggers apply?"
+            ],
+            [
+              "Ch7 A6",
+              "C-027",
+              "C-076"
+            ]
+          ]
+        ]
+      },
+      "elements": [
+        {
+          "role": "evidence",
+          "visible_text": "Derived from the source edition's actions A1-A6 and pathways P1-P6; no borrower answers are ingested.",
+          "legacy": [
+            "Ch7 action table",
+            "Ch2 pathways"
+          ]
+        },
+        {
+          "role": "significance",
+          "visible_text": "Borrower factors that change materiality: multi-provider delivery, alternative sales channels, segregated playout, manual fallback, insurance cover and public-funding support.",
+          "legacy": [
+            "Ch4 limiting conditions",
+            "Ch3 public funding"
+          ]
+        },
+        {
+          "role": "credit_lens",
+          "visible_text": "Use answers as discussion input only; self-reported answers are not confirmed evidence and trigger no automatic adverse judgement.",
+          "legacy": [
+            "Publication standard s.7 (reframed)"
+          ]
+        },
+        {
+          "role": "limitation",
+          "visible_text": "Provisional: no questionnaire supplied; replace PROV- IDs with actual item IDs once an approved item list is provided.",
+          "legacy": [
+            "Migration rule 7"
+          ]
+        },
+        {
+          "role": "source_strip",
+          "visible_text": "Sources: S-001, S-008, S-014, S-018, S-030, S-034, S-038, S-039, S-043, S-086 (Tier 1); S-009 (Tier 3) - Period: Oct 2023 (historical); Oct 2025 - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated",
+          "legacy": [
+            "Legacy references mapped to S- IDs (identity mapping)"
+          ]
+        }
+      ],
+      "strip": "Sources: S-001, S-008, S-014, S-018, S-030, S-034, S-038, S-039, S-043, S-086 (Tier 1); S-009 (Tier 3) - Period: Oct 2023 (historical); Oct 2025 - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated"
+    },
+    {
+      "number": 12,
+      "section": "D Credit process integration",
+      "label": "Credit Officer Engagement: Key Questions & Actions",
+      "kind": "analytical",
+      "headline": "Five client discussion topics, each with an early-warning indicator, let credit officers test continuity of sales, output and debt service without assessing borrower controls.",
+      "headline_legacy": [
+        "Ch7 challenge questions",
+        "Ch7 monitoring triggers"
+      ],
+      "table": {
+        "headers": [
+          "Topic",
+          "Question for the client",
+          "Early-warning indicator"
+        ],
+        "widths": [
+          1.75,
+          3.95,
+          2.5
+        ],
+        "rows": [
+          [
+            [
+              "1 Shared suppliers",
+              "Which providers could stop your sales or delivery for a week, and what is your fallback?",
+              "Provider outage or breach notice; prosecutor statement naming a supplier"
+            ],
+            [
+              "Ch7 question 1",
+              "Ch7 trigger 1"
+            ]
+          ],
+          [
+            [
+              "2 Live-output integrity",
+              "Do content-insertion and alerting devices meet a baseline comparable to the June 2026 FCC rule?",
+              "Regulator device warning; hijack report"
+            ],
+            [
+              "Ch7 question 2",
+              "Ch7 trigger 2"
+            ]
+          ],
+          [
+            [
+              "3 Online sales loss",
+              "How would a ten-day loss of online ticketing show up in your sales and fraud alerts?",
+              "Ticketing or subscriber data notice; merchant-volume drop"
+            ],
+            [
+              "Ch7 question 3",
+              "Ch7 A4 trigger",
+              "Legacy slide 3 implication"
+            ]
+          ],
+          [
+            [
+              "4 Debt service after disruption",
+              "Would a multi-month advertising disruption require covenant or payment waivers, as at Lee?",
+              "Waiver, amendment or liquidity request"
+            ],
+            [
+              "Ch7 question 4",
+              "Ch7 trigger 4"
+            ]
+          ],
+          [
+            [
+              "5 Impersonation and AI content",
+              "How do you detect brand impersonation and meet AI Act transparency duties?",
+              "DDoS or FIMI alert ahead of elections or live events"
+            ],
+            [
+              "Ch7 question 5",
+              "Ch7 trigger 3"
+            ]
+          ]
+        ]
+      },
+      "elements": [
+        {
+          "role": "evidence",
+          "visible_text": "Topics reframe the source edition's five Risk Committee challenge questions and its monitoring triggers for client discussion.",
+          "legacy": [
+            "Ch7 challenge questions",
+            "Ch7 monitoring triggers"
+          ]
+        },
+        {
+          "role": "significance",
+          "visible_text": "Practical improvements a client can evidence: dependency map, fallback sales channel, baseline attestation for insertion devices, restoration test, insurance schedule.",
+          "legacy": [
+            "Ch7 evidence of completion column"
+          ]
+        },
+        {
+          "role": "credit_lens",
+          "visible_text": "Refer to cyber specialists when an indicator fires or a client cannot evidence a fallback; the proportionate next step is to record and monitor, not to change a rating.",
+          "legacy": [
+            "Legacy slide 7 management implication (reframed)"
+          ]
+        },
+        {
+          "role": "limitation",
+          "visible_text": "Questions address inherent sector exposure; answers are self-reported and are not an audit, compliance or creditworthiness finding.",
+          "legacy": [
+            "Ch7 preamble",
+            "Publication standard L13"
+          ]
+        },
+        {
+          "role": "source_strip",
+          "visible_text": "Sources: S-008, S-014, S-030, S-031, S-043, S-053, S-086 (Tier 1); S-009 (Tier 3) - Period: Oct 2025 - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated",
+          "legacy": [
+            "Legacy references mapped to S- IDs (identity mapping)"
+          ]
+        }
+      ],
+      "strip": "Sources: S-008, S-014, S-030, S-031, S-043, S-053, S-086 (Tier 1); S-009 (Tier 3) - Period: Oct 2025 - Oct 2026 - Cut-off 15 Oct 2026 - v1.0-M Migrated"
+    }
+  ]
+}
