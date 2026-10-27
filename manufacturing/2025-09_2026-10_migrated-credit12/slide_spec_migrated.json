@@ -1,0 +1,1609 @@
+{
+ "profile_id": "credit_12",
+ "mode": "migration",
+ "source_edition": "manufacturing/2025-09_2026-10 (seven-slide baseline, cut-off 2026-10-16)",
+ "version": "1.0-M",
+ "slides": [
+  {
+   "number": 1,
+   "section": "A Executive intelligence",
+   "label": "Sector Intelligence Cover",
+   "kind": "cover",
+   "elements": [
+    {
+     "role": "kicker",
+     "visible_text": "Sector Cyber Resilience & Credit Intelligence",
+     "legacy": [
+      "Product name per credit_12 profile"
+     ]
+    },
+    {
+     "role": "sector",
+     "visible_text": "Manufacturing",
+     "legacy": [
+      "Report header: sector"
+     ]
+    },
+    {
+     "role": "period",
+     "visible_text": "Reporting period: 1 September 2025 - 16 October 2026",
+     "legacy": [
+      "Report header: reporting period"
+     ]
+    },
+    {
+     "role": "geography",
+     "visible_text": "Geography: global, primary focus EU, EEA and UK; North American and East Asian evidence comparative",
+     "legacy": [
+      "Report header: geography",
+      "Input contract geography"
+     ]
+    },
+    {
+     "role": "cutoff",
+     "visible_text": "Migrated edition - evidence as of 16 October 2026; no research update",
+     "legacy": [
+      "Report header: evidence cut-off"
+     ]
+    },
+    {
+     "role": "classification",
+     "visible_text": "Classification: not specified in source edition (external public data only)",
+     "legacy": [
+      "Report header: boundary; no classification in source edition"
+     ]
+    },
+    {
+     "role": "version",
+     "visible_text": "Version 1.0-M (migrated from the 16 October 2026 baseline) - Status: NEEDS_REVIEW, not a v4 edition",
+     "legacy": [
+      "Report header: edition (baseline)"
+     ]
+    },
+    {
+     "role": "audience",
+     "visible_text": "Audience: Senior Credit Officers; inherent sector exposure, not a borrower assessment.",
+     "legacy": [
+      "Report header: audience; boundary"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 2,
+   "section": "A Executive intelligence",
+   "label": "Executive Sector Risk Snapshot",
+   "kind": "snapshot",
+   "headline": "Cyber/ICT and operational-resilience exposure is provisionally High, driven by IT-dependent production and supplier cascades; fraud and governance are not assessable.",
+   "headline_legacy": [
+    "C-039",
+    "C-041",
+    "C-040",
+    "Ch1 principal judgements 1-3"
+   ],
+   "ratings": [
+    {
+     "dim": "Fraud",
+     "rating": "Not assessable",
+     "status": "Not covered in source edition",
+     "conf": "-",
+     "just": "No fraud research (Q10); the source edition covers cyber incidents and their outcomes only.",
+     "legacy": [
+      "Ch8 methodology scope",
+      "Gap G-02"
+     ]
+    },
+    {
+     "dim": "Cyber / ICT",
+     "rating": "High",
+     "status": "Provisional",
+     "conf": "Medium",
+     "just": "Manufacturing held 25.2% of EU ransomware claims in 2025 and about 65% of industrial ransomware in Q2 2026; four of five named incidents stopped production through IT.",
+     "legacy": [
+      "C-003",
+      "C-005",
+      "C-039"
+     ]
+    },
+    {
+     "dim": "Operational Resilience / TPRM",
+     "rating": "High",
+     "status": "Provisional",
+     "conf": "Medium",
+     "just": "One OEM stop was modelled to affect over 5,000 UK organisations; supplier prepayment and a GBP 1.5 billion state-guaranteed loan followed.",
+     "legacy": [
+      "C-020",
+      "C-018",
+      "C-019",
+      "C-041"
+     ]
+    },
+    {
+     "dim": "Governance / Operating Model",
+     "rating": "Not assessable",
+     "status": "Not covered in source edition",
+     "conf": "-",
+     "just": "Fragments only (NIS2 management-body accountability; MOD supplier flow-down); no governance research (Q13).",
+     "legacy": [
+      "C-046",
+      "C-061"
+     ]
+    }
+   ],
+   "elements": [
+    {
+     "role": "evidence",
+     "visible_text": "Key messages: (1) production stops when enterprise IT stops, not mainly through plant control systems; (2) one OEM stop cascades to thousands of suppliers; (3) losses arrive through lost output and cash, not response cost.",
+     "legacy": [
+      "C-039",
+      "C-041",
+      "C-040"
+     ]
+    },
+    {
+     "role": "significance",
+     "visible_text": "Threat direction: rising in claim-based data (European manufacturing ransomware victims up 85.4% in January-July 2026 year on year); no prior edition exists for a trend comparison.",
+     "legacy": [
+      "C-008",
+      "Report header: baseline edition"
+     ]
+    },
+    {
+     "role": "credit_lens",
+     "visible_text": "Most consequential credit implication: a multi-week stop at a large manufacturer drains cash (JLR free cash outflow of GBP 1.5 billion in one quarter, mixed causes) and transfers liquidity stress to suppliers.",
+     "legacy": [
+      "C-016",
+      "C-041"
+     ]
+    },
+    {
+     "role": "limitation",
+     "visible_text": "Provisional: no approved rubric and no 24-sector calibration; ratings are migrated analytical judgements with confidence capped at Medium, not borrower assessments.",
+     "legacy": [
+      "Migration rule 6"
+     ]
+    },
+    {
+     "role": "source_strip",
+     "visible_text": "Sources: S-001, S-004, S-006, S-009, S-041, S-045, S-049, S-081 (Tier 1); S-010, S-039, S-040 (Tier 2) - Period: Sep 2025 - Oct 2026; 2025 benchmarks - Cut-off 16 Oct 2026 - v1.0-M Migrated",
+     "legacy": [
+      "Legacy source register tiers and periods"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 3,
+   "section": "A Executive intelligence",
+   "label": "Sector Anatomy: Key Operations & Dependencies",
+   "kind": "analytical",
+   "headline": "Manufacturing output depends on the enterprise systems that release production and on just-in-time supplier tiers; one OEM or one shared tool can stop many firms at once.",
+   "headline_legacy": [
+    "C-039",
+    "C-041",
+    "Ch6 dependency chains"
+   ],
+   "stats": [
+    {
+     "value": "30.2 million",
+     "label": "EU manufacturing employment, 2023 (18.5% of business economy)",
+     "legacy": [
+      "C-001"
+     ]
+    },
+    {
+     "value": "23.1%",
+     "label": "Share of EU business-economy value added, 2023",
+     "legacy": [
+      "C-001"
+     ]
+    },
+    {
+     "value": "About 120,000",
+     "label": "UK supply-chain jobs supported by JLR alone",
+     "legacy": [
+      "C-018"
+     ]
+    }
+   ],
+   "chain": [
+    "Shared providers and admin tools",
+    "Enterprise IT (ERP, MES, identity)",
+    "Production release at plants",
+    "OEM output and delivery",
+    "Tier-1 to tier-3 suppliers"
+   ],
+   "table": {
+    "headers": [
+     "Dependency",
+     "Evidence in source edition",
+     "Single point or bottleneck",
+     "Fallback in source edition"
+    ],
+    "widths": [
+     2.0,
+     2.1,
+     2.3,
+     2.4
+    ],
+    "rows": [
+     [
+      [
+       "Enterprise IT that releases production",
+       "JLR, Asahi, Boston Scientific",
+       "Plants stop when enterprise systems stop",
+       "Offline production release (scenario limiting condition)"
+      ],
+      [
+       "C-012",
+       "C-027",
+       "C-031",
+       "C-063"
+      ]
+     ],
+     [
+      [
+       "Endpoint and identity administration",
+       "Stryker (mechanism media-reported); CISA alert",
+       "One administrative tool reaches every device",
+       "Approval controls on mass wipe actions (action A2)"
+      ],
+      [
+       "C-029",
+       "C-030",
+       "C-066"
+      ]
+     ],
+     [
+      [
+       "OT vendors' installed base",
+       "French controller compromise; US PLC advisory",
+       "One product family exposed across many sites",
+       "Remove internet exposure; supported firmware"
+      ],
+      [
+       "C-033",
+       "C-042",
+       "C-065"
+      ]
+     ],
+     [
+      [
+       "Just-in-time supplier tiers",
+       "JLR and the CMC model",
+       "One customer stop reaches thousands of suppliers",
+       "Buffered inventory, multi-sourcing, customer prepayment"
+      ],
+      [
+       "C-020",
+       "C-019",
+       "C-064"
+      ]
+     ],
+     [
+      [
+       "Integrators and managed IT",
+       "Egide; 117 ICS-ecosystem incidents",
+       "One provider's access reaches several plants",
+       "Restricted, logged provider access (action A5)"
+      ],
+      [
+       "C-035",
+       "C-007",
+       "C-066"
+      ]
+     ]
+    ]
+   },
+   "elements": [
+    {
+     "role": "evidence",
+     "visible_text": "Footprint: about 2.2 million EU manufacturing enterprises in 2023, with machinery, food and motor vehicles the largest divisions by value added; JLR employs 34,000 people in the UK.",
+     "legacy": [
+      "C-001",
+      "C-018"
+     ]
+    },
+    {
+     "role": "significance",
+     "visible_text": "Plant control systems can be intact while production stops: JLR, Asahi, Stryker and Boston Scientific halted or slowed plants after IT shutdowns or outages.",
+     "legacy": [
+      "C-039",
+      "C-012",
+      "C-027",
+      "C-029",
+      "C-031"
+     ]
+    },
+    {
+     "role": "credit_lens",
+     "visible_text": "Ask whether a borrower can release production and ship without ERP, MES and identity services, and which single customer or supplier accounts for most of its revenue.",
+     "legacy": [
+      "C-066",
+      "Ch7 challenge questions 1-2"
+     ]
+    },
+    {
+     "role": "limitation",
+     "visible_text": "Market shares of ERP, MES and OT vendors are not public, so no platform is described as dominant. Not covered in source edition: operating-model and governance complexity (Q13).",
+     "legacy": [
+      "Ch6 dependency note",
+      "Gap G-03"
+     ]
+    },
+    {
+     "role": "source_strip",
+     "visible_text": "Sources: S-001, S-003, S-009, S-016, S-021, S-025, S-027, S-034, S-035, S-043, S-089 (Tier 1); S-010, S-039 (Tier 2); S-024 (Tier 3) - Period: Sep 2025 - Oct 2026; footprint 2023 - Cut-off 16 Oct 2026 - v1.0-M Migrated",
+     "legacy": [
+      "Legacy source register"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 4,
+   "section": "B Threat and exposure intelligence",
+   "label": "Cyber Threat Landscape & Attack Scenarios",
+   "kind": "analytical",
+   "headline": "Ransomware against enterprise IT and misuse of administrative tools carry the highest disclosed production impact; exposed OT products and providers spread it across customers.",
+   "headline_legacy": [
+    "C-039",
+    "C-030",
+    "C-033",
+    "C-035",
+    "Ch2 threat pathways"
+   ],
+   "table": {
+    "headers": [
+     "Rank",
+     "Pathway (pattern, not an attack) and mechanism",
+     "Observed evidence in source edition",
+     "Impact level (migrated judgement)"
+    ],
+    "widths": [
+     0.55,
+     3.0,
+     3.55,
+     1.4
+    ],
+    "rows": [
+     [
+      [
+       "1",
+       "P1 Ransomware and data extortion against enterprise IT (targeted disruption)",
+       "JLR and Asahi, Sep 2025; Boston Scientific, Aug 2026; 25.2% of EU ransomware claims in 2025",
+       "High"
+      ],
+      [
+       "C-012",
+       "C-027",
+       "C-031",
+       "C-003"
+      ]
+     ],
+     [
+      [
+       "2",
+       "P2 Destructive misuse of administrative platforms (common dependency)",
+       "Stryker, Mar 2026 (mechanism media-reported); CISA endpoint-management alert",
+       "High"
+      ],
+      [
+       "C-029",
+       "C-030"
+      ]
+     ],
+     [
+      [
+       "3",
+       "P3 Internet-exposed OT and fielded products (supply-chain concentration)",
+       "Numerous refrigeration-controller compromises, Oct 2026; US PLC advisory, Apr 2026",
+       "High"
+      ],
+      [
+       "C-033",
+       "C-042"
+      ]
+     ],
+     [
+      [
+       "4",
+       "P4 Supplier and service-provider compromise (supply-chain concentration)",
+       "Egide via an IT provider, Oct 2026; 117 ICS-ecosystem incidents in Q2 2026",
+       "Medium"
+      ],
+      [
+       "C-035",
+       "C-007"
+      ]
+     ],
+     [
+      [
+       "5",
+       "P5 Data theft, intellectual-property and export-control exposure (other)",
+       "Asahi up to about 1.9 million records; West Pharmaceutical exfiltration, May 2026",
+       "Medium"
+      ],
+      [
+       "C-027",
+       "C-032"
+      ]
+     ]
+    ]
+   },
+   "elements": [
+    {
+     "role": "evidence",
+     "visible_text": "Last 12 months: five named incidents; industrial ransomware rose 12% from Q1 to Q2 2026, with manufacturing about 65%. Last 30 days before cut-off: Egide site interruption (6-9 October 2026) and refrigeration-controller compromises (12-13 October 2026).",
+     "legacy": [
+      "C-005",
+      "C-035",
+      "C-033"
+     ]
+    },
+    {
+     "role": "significance",
+     "visible_text": "Dragos found no Q2 2026 ransomware case reaching control-system manipulation; disruption came from losing the enterprise and virtualisation layers that OT depends on.",
+     "legacy": [
+      "C-006"
+     ]
+    },
+    {
+     "role": "credit_lens",
+     "visible_text": "Weight borrower discussions toward IT-OT production dependency, control of administrative tools and the exposure of products already sold, not ransomware claim counts.",
+     "legacy": [
+      "Legacy slide 2 management implication"
+     ]
+    },
+    {
+     "role": "limitation",
+     "visible_text": "Ranking and impact levels are migrated judgements, not measured outcomes; claim counts measure visibility, not attack rates. Not covered in source edition: developments after the 16 October 2026 cut-off.",
+     "legacy": [
+      "RJ-03",
+      "C-044",
+      "Gap G-01"
+     ]
+    },
+    {
+     "role": "source_strip",
+     "visible_text": "Sources: S-001, S-016, S-021, S-025, S-027, S-030, S-034, S-035, S-041, S-089 (Tier 1); S-039, S-040 (Tier 2); S-023 (Tier 3) - Period: Sep 2025 - Oct 2026; benchmarks 2023 - Q2 2026 - Cut-off 16 Oct 2026 - v1.0-M Migrated",
+     "legacy": [
+      "Legacy source register"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 5,
+   "section": "B Threat and exposure intelligence",
+   "label": "Geopolitical Cyber Threat Outlook",
+   "kind": "analytical",
+   "headline": "State-linked activity is a rising threat to industrial controllers and enterprise estates, but no official source in the period attributed a manufacturing disruption to a state actor.",
+   "headline_legacy": [
+    "C-042",
+    "Ch1 principal judgement 4"
+   ],
+   "lanes": [
+    [
+     [
+      "State-linked PLC targeting",
+      "US joint advisory on Iranian-affiliated actors exploiting internet-facing PLCs, Apr 2026",
+      "Makers and industrial users of the same controllers",
+      "Government advisory; manufacturing not a named sector"
+     ],
+     [
+      "C-042"
+     ]
+    ],
+    [
+     [
+      "Destructive activity claimed by a state-linked persona",
+      "Stryker device wipe, Mar 2026 (media reports)",
+      "Multi-site manufacturers through administrative tools",
+      "Claim unconfirmed; no US government attribution"
+     ],
+     [
+      "C-030"
+     ]
+    ],
+    [
+     [
+      "Nation-state share of national incidents",
+      "NCSC: most nationally significant UK incidents originate directly or indirectly from nation states",
+      "UK economy-wide, no manufacturing split",
+      "Official statement, not sector attribution"
+     ],
+     [
+      "C-042"
+     ]
+    ],
+    [
+     [
+      "Economic security and ownership",
+      "Revised EU investment-screening regulation published 26 Jun 2026; UK NSI Act covers 17 areas",
+      "Dual-use, advanced-technology and defence manufacturers",
+      "Policy context, not attribution"
+     ],
+     [
+      "C-058",
+      "C-043"
+     ]
+    ]
+   ],
+   "lane_headers": [
+    "Driver",
+    "Source-edition evidence",
+    "Manufacturing exposure",
+    "Attribution status"
+   ],
+   "elements": [
+    {
+     "role": "evidence",
+     "visible_text": "Unconfirmed claims: a criminal group's claim for JLR was not confirmed by the company or the NCA; ENISA recorded more unconfirmed hacktivist intrusion claims against manufacturing OT in 2025.",
+     "legacy": [
+      "C-025",
+      "C-004"
+     ]
+    },
+    {
+     "role": "significance",
+     "visible_text": "Defence, medical-device and OT-vendor manufacturers face added intent: US defence certification gates have applied since 10 November 2025 and controller fleets are reachable online.",
+     "legacy": [
+      "C-042",
+      "C-056",
+      "C-033"
+     ]
+    },
+    {
+     "role": "credit_lens",
+     "visible_text": "Treat state-linked activity as a monitoring trigger rather than a rating driver; ask defence and OT-vendor borrowers about certification status and installed-base exposure.",
+     "legacy": [
+      "RJ-04",
+      "Ch7 monitoring trigger 2"
+     ]
+    },
+    {
+     "role": "limitation",
+     "visible_text": "Not covered in source edition: dedicated geopolitical analysis (Q07), exposed-region mapping and espionage against manufacturers; evidence is US-centred and official attribution is absent.",
+     "legacy": [
+      "Gap G-04",
+      "C-042 limitations"
+     ]
+    },
+    {
+     "role": "source_strip",
+     "visible_text": "Sources: S-025, S-035, S-041, S-073, S-074, S-080, S-084, S-089, S-091, S-096 (Tier 1); S-015, S-023, S-024, S-090 (Tier 3) - Period: 2025 - Oct 2026 - Cut-off 16 Oct 2026 - v1.0-M Migrated",
+     "legacy": [
+      "Legacy source register"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 6,
+   "section": "B Threat and exposure intelligence",
+   "label": "Major Cyber Incidents & Lessons Learned",
+   "kind": "analytical",
+   "headline": "Five named incidents meet the evidence standard; four stopped production through IT, and the JLR case shows the path from shutdown to supplier liquidity and state support.",
+   "headline_legacy": [
+    "Ch2 Top 5",
+    "Ch5 case study",
+    "C-039"
+   ],
+   "timeline": [
+    [
+     [
+      "Sep 2025",
+      "Jaguar Land Rover - automotive, UK and Slovakia",
+      "Enterprise systems shut down proactively; access route not disclosed",
+      "About five weeks of halted production; GBP 260 million cyber costs over two quarters",
+      "Supplier liquidity needs a bridge (case study)"
+     ],
+     [
+      "C-012",
+      "C-013",
+      "C-015",
+      "C-019"
+     ]
+    ],
+    [
+     [
+      "Sep 2025",
+      "Asahi Group - beverages and food, Japan",
+      "Data-centre network entered via network equipment at a group site",
+      "Shipments halted; about JPY 40 billion 2025 impact; results delayed five months",
+      "Recovery tail outlasts the outage"
+     ],
+     [
+      "C-027",
+      "C-028"
+     ]
+    ],
+    [
+     [
+      "Mar 2026",
+      "Stryker - medical devices, global",
+      "Global IT disruption; device wipe media-reported",
+      "Material Q1 effect; manufacturing and ordering restored in about four weeks",
+      "One administrative plane reaches every site"
+     ],
+     [
+      "C-029",
+      "C-030"
+     ]
+    ],
+    [
+     [
+      "Aug 2026",
+      "Boston Scientific - medical devices, global",
+      "Unauthorised activity in IT systems; network outage",
+      "Manufacturing, ordering and shipping disrupted; guidance unlikely to be met",
+      "An IT outage reaches guidance"
+     ],
+     [
+      "C-031"
+     ]
+    ],
+    [
+     [
+      "Oct 2026",
+      "Refrigeration controller makers - France",
+      "Internet-reachable, partly end-of-life controllers",
+      "Numerous compromises; hundreds of stores affected; cost not disclosed",
+      "Products already sold become exposure"
+     ],
+     [
+      "C-033",
+      "C-034"
+     ]
+    ]
+   ],
+   "elements": [
+    {
+     "role": "evidence",
+     "visible_text": "Selection: in-period event or outcome, Tier 1 support, manufacturing subsector and a distinct lesson. Considered but not selected: West Pharmaceutical, Egide, Hasbro and RTX.",
+     "legacy": [
+      "Ch2 selection criteria",
+      "Ch2 considered but not selected"
+     ]
+    },
+    {
+     "role": "significance",
+     "visible_text": "Disclosure is asymmetric: two of five cases come from US securities filings and one from a Japanese company; only JLR and the controller case are EU or UK.",
+     "legacy": [
+      "Ch2 shortfall statement",
+      "C-044"
+     ]
+    },
+    {
+     "role": "credit_lens",
+     "visible_text": "Treat a multi-week stop at a large OEM as a foreseeable credit event for its supplier base; ask how a borrower would bridge a key customer's stop.",
+     "legacy": [
+      "Legacy slide 5 management implication",
+      "C-041"
+     ]
+    },
+    {
+     "role": "limitation",
+     "visible_text": "Not covered in source edition: the second and third detailed case studies (only JLR is reconstructed) and developments after 16 October 2026; JLR's access route, OT state and full-year cyber cost were not disclosed.",
+     "legacy": [
+      "Gap G-05",
+      "Gap G-01",
+      "Ch5 what the case does not establish"
+     ]
+    },
+    {
+     "role": "source_strip",
+     "visible_text": "Sources: S-001, S-003, S-004, S-006, S-009, S-016, S-019, S-021, S-022, S-026, S-027, S-030, S-031, S-034, S-035, S-037 (Tier 1); S-023, S-036 (Tier 3) - Period: Sep 2025 - Oct 2026 - Cut-off 16 Oct 2026 - v1.0-M Migrated",
+     "legacy": [
+      "Legacy source register"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 7,
+   "section": "B Threat and exposure intelligence",
+   "label": "Control Weaknesses & Resilience Priorities",
+   "kind": "analytical",
+   "headline": "Seven resilience priorities follow the observed attacks; production release without IT, control of administrative tools and supplier liquidity address the highest-impact pathways.",
+   "headline_legacy": [
+    "Ch7 action table",
+    "C-066"
+   ],
+   "table": {
+    "headers": [
+     "Priority and weakness observed",
+     "Linked evidence",
+     "1 Common dependency",
+     "2 Targeted disruption",
+     "3 Supply-chain concentration",
+     "Horizon",
+     "Confidence"
+    ],
+    "widths": [
+     3.45,
+     2.35,
+     1.05,
+     1.05,
+     1.2,
+     0.95,
+     0.95
+    ],
+    "rows": [
+     [
+      [
+       "A1 Production depends on ERP, MES and identity",
+       "JLR, Asahi, Boston Scientific",
+       "Primary",
+       "Primary",
+       "-",
+       "0-6 months",
+       "Medium"
+      ],
+      [
+       "C-039",
+       "C-012",
+       "C-027",
+       "C-031"
+      ]
+     ],
+     [
+      [
+       "A2 Administrative tools can wipe every device",
+       "Stryker (media-reported); CISA alert",
+       "Primary",
+       "Secondary",
+       "-",
+       "0-3 months",
+       "Medium"
+      ],
+      [
+       "C-030"
+      ]
+     ],
+     [
+      [
+       "A3 Suppliers depend on one customer",
+       "JLR supplier scheme; CMC model",
+       "-",
+       "Primary",
+       "Secondary",
+       "0-6 months",
+       "Medium"
+      ],
+      [
+       "C-019",
+       "C-020",
+       "C-041"
+      ]
+     ],
+     [
+      [
+       "A4 End-of-life controllers reachable online",
+       "CERT-FR alert",
+       "-",
+       "-",
+       "Primary",
+       "3-12 months",
+       "Medium"
+      ],
+      [
+       "C-033",
+       "C-034"
+      ]
+     ],
+     [
+      [
+       "A5 Provider access into plants",
+       "Egide; ICS-ecosystem counts",
+       "Secondary",
+       "-",
+       "Primary",
+       "3-12 months",
+       "Medium"
+      ],
+      [
+       "C-035",
+       "C-007"
+      ]
+     ],
+     [
+      [
+       "A6 New product reporting and liability duties",
+       "Product cybersecurity and liability rules",
+       "-",
+       "-",
+       "Secondary",
+       "0-6 months",
+       "High"
+      ],
+      [
+       "C-049",
+       "C-052"
+      ]
+     ],
+     [
+      [
+       "A7 Customer-side disruption often uninsured",
+       "CMC insurance finding",
+       "-",
+       "Primary",
+       "Secondary",
+       "6-12 months",
+       "Medium"
+      ],
+      [
+       "C-021"
+      ]
+     ]
+    ]
+   },
+   "elements": [
+    {
+     "role": "evidence",
+     "visible_text": "Capabilities that contain disruption in the source edition: offline production release, segmentation (Stryker restored in about four weeks), buffered inventory, multi-sourcing and supported firmware.",
+     "legacy": [
+      "C-063",
+      "C-064",
+      "C-065",
+      "C-029"
+     ]
+    },
+    {
+     "role": "significance",
+     "visible_text": "Labelled cyber costs were small beside lost output and cash, so continuity capabilities carry the cash-flow weight.",
+     "legacy": [
+      "RJ-05",
+      "C-040"
+     ]
+    },
+    {
+     "role": "credit_lens",
+     "visible_text": "Use the priorities as discussion topics with borrowers; they are not a control audit or a compliance finding.",
+     "legacy": [
+      "Ch7 framing",
+      "L13"
+     ]
+    },
+    {
+     "role": "limitation",
+     "visible_text": "Priorities are sector-informed; scenario links and confidence are migrated judgements; no control-effectiveness data exists for any firm.",
+     "legacy": [
+      "RJ-06",
+      "Ch7 framing"
+     ]
+    },
+    {
+     "role": "source_strip",
+     "visible_text": "Sources: S-001, S-003, S-016, S-021, S-025, S-027, S-034, S-035, S-057, S-066 (Tier 1); S-010, S-039 (Tier 2); S-023 (Tier 3) - Period: Sep 2025 - Oct 2026 - Cut-off 16 Oct 2026 - v1.0-M Migrated",
+     "legacy": [
+      "Legacy source register"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 8,
+   "section": "C Resilience and financial implications",
+   "label": "Regulatory & Supervisory Resilience Expectations",
+   "kind": "analytical",
+   "headline": "EU product law reaches in-scope connected-product makers and NIS2 covers named activities; UK NIS law does not reach manufacturing; US rules act through listing, defence and devices.",
+   "headline_legacy": [
+    "C-043",
+    "C-068",
+    "Ch6 regulatory perimeter"
+   ],
+   "columns": [
+    {
+     "title": "European Union",
+     "items": [
+      [
+       [
+        "NIS2 Directive",
+        "Binding via national law",
+        "Named activities only: NACE C26-C30, medical devices, chemicals, food, pharmaceuticals"
+       ],
+       [
+        "C-045",
+        "C-046"
+       ]
+      ],
+      [
+       [
+        "Cyber Resilience Act",
+        "Directly applicable",
+        "Reporting since 11 September 2026; full application 11 December 2027"
+       ],
+       [
+        "C-049"
+       ]
+      ],
+      [
+       [
+        "Machinery Regulation",
+        "Directly applicable",
+        "Applies 20 January 2027; protection against corruption"
+       ],
+       [
+        "C-050"
+       ]
+      ],
+      [
+       [
+        "Product Liability Directive",
+        "Transposition due",
+        "By 9 December 2026; software and missing security updates"
+       ],
+       [
+        "C-052"
+       ]
+      ]
+     ]
+    },
+    {
+     "title": "United Kingdom",
+     "items": [
+      [
+       [
+        "NIS Regulations 2018",
+        "Binding",
+        "Manufacturing not an essential-service sector"
+       ],
+       [
+        "C-068"
+       ]
+      ],
+      [
+       [
+        "Cyber Security and Resilience Bill",
+        "Bill, not law",
+        "Lords report stage; would add MSPs and designated suppliers"
+       ],
+       [
+        "C-054"
+       ]
+      ],
+      [
+       [
+        "Ransomware measures",
+        "Proposals",
+        "No bill identified at the cut-off"
+       ],
+       [
+        "C-055"
+       ]
+      ],
+      [
+       [
+        "COMAH and MOD Cyber Security Model",
+        "Binding duties; contractual",
+        "Major-hazard sites; Def Stan 05-138 flow-down"
+       ],
+       [
+        "C-060",
+        "C-061"
+       ]
+      ]
+     ]
+    },
+    {
+     "title": "United States (comparative)",
+     "items": [
+      [
+       [
+        "SEC Item 1.05 and Item 106",
+        "Binding disclosure",
+        "Source of most quantified incident evidence"
+       ],
+       [
+        "C-031",
+        "Ch6 regulatory table"
+       ]
+      ],
+      [
+       [
+        "CMMC via DFARS",
+        "Contract requirement",
+        "Effective 10 November 2025; next phase 10 November 2026"
+       ],
+       [
+        "C-056"
+       ]
+      ],
+      [
+       [
+        "FDA section 524B",
+        "Binding statute",
+        "Device cyber plans and SBOM since 29 March 2023"
+       ],
+       [
+        "Ch6 regulatory table"
+       ]
+      ],
+      [
+       [
+        "CIRCIA rule; chemical facility standards",
+        "Not final; lapsed",
+        "Rule not published at cut-off (Tier 3); authority lapsed July 2023"
+       ],
+       [
+        "C-057"
+       ]
+      ]
+     ]
+    }
+   ],
+   "elements": [
+    {
+     "role": "evidence",
+     "visible_text": "Status at cut-off: German NIS2 law in force since 6 December 2025, with 4,739 manufacturing registrations; four Member States referred to the Court of Justice on 8 July 2026; UK Bill without Royal Assent.",
+     "legacy": [
+      "C-048",
+      "C-010",
+      "C-047",
+      "C-054"
+     ]
+    },
+    {
+     "role": "significance",
+     "visible_text": "Supply-chain duties of in-scope customers reach out-of-scope suppliers through contracts, and liability for software and missing security updates applies once national laws are in place.",
+     "legacy": [
+      "Ch6 NIS2 scope judgement",
+      "C-052"
+     ]
+    },
+    {
+     "role": "credit_lens",
+     "visible_text": "Check that lending documentation reflects product-security reporting, liability exposure and customer-imposed cyber clauses; ask defence suppliers about certification status.",
+     "legacy": [
+      "Legacy slide 6 management implication",
+      "C-056"
+     ]
+    },
+    {
+     "role": "limitation",
+     "visible_text": "Not covered in source edition: supervisory priorities and consequences of non-compliance beyond fine maxima; national NIS2 extensions not surveyed; US items comparative only.",
+     "legacy": [
+      "Gap G-06",
+      "Gap G-07",
+      "Ch8 limitations"
+     ]
+    },
+    {
+     "role": "source_strip",
+     "visible_text": "Sources: S-045, S-046, S-049, S-051, S-055, S-056, S-057, S-063, S-065, S-066, S-075, S-076, S-077, S-079, S-081, S-083, S-084, S-087, S-094, S-095, S-096 (Tier 1); S-050, S-059, S-067, S-086, S-088 (Tier 3) - Period: Legal milestones 2018 - 2027; status at 16 Oct 2026 - Cut-off 16 Oct 2026 - v1.0-M Migrated",
+     "legacy": [
+      "Legacy source register"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 9,
+   "section": "C Resilience and financial implications",
+   "label": "Financial Impact of Cyber Incidents",
+   "kind": "analytical",
+   "headline": "Public financial evidence is thin and cannot be added up, but it shows lost output and cash, not response cost, drive the effect.",
+   "headline_legacy": [
+    "C-040",
+    "Ch3 bottom line"
+   ],
+   "chart": {
+    "title": "JLR by quarter, GBP million (same company and quarters; not additive)",
+    "categories": [
+     "Q2 FY26 (Jul-Sep 2025)",
+     "Q3 FY26 (Oct-Dec 2025)"
+    ],
+    "series": [
+     {
+      "name": "Cyber-related exceptional costs",
+      "values": [
+       196,
+       64
+      ]
+     },
+     {
+      "name": "Free cash outflow (cyber and non-cyber causes)",
+      "values": [
+       791,
+       1500
+      ]
+     }
+    ],
+    "legacy": [
+     "M-001",
+     "M-002",
+     "M-006",
+     "M-007"
+    ]
+   },
+   "stats": [
+    {
+     "value": "GBP 1.9 billion",
+     "label": "Modelled UK loss from the JLR event (range 1.6-2.1); modelled, not observed",
+     "legacy": [
+      "C-020",
+      "M-011"
+     ]
+    },
+    {
+     "value": "About JPY 40 billion",
+     "label": "Asahi 2025 impact, incl. JPY 17 billion incident-related expenses",
+     "legacy": [
+      "C-028",
+      "M-015",
+      "M-016"
+     ]
+    },
+    {
+     "value": "-28.6%",
+     "label": "UK motor-vehicle output, September 2025; ONS relays trade-body attribution",
+     "legacy": [
+      "C-022",
+      "M-012"
+     ]
+    },
+    {
+     "value": "Material",
+     "label": "Stryker Q1 2026 effect; full-year guidance kept",
+     "legacy": [
+      "C-029"
+     ]
+    },
+    {
+     "value": "Guidance at risk",
+     "label": "Boston Scientific: unlikely to meet Q3 and full-year 2026 guidance",
+     "legacy": [
+      "C-031"
+     ]
+    },
+    {
+     "value": "Not disclosed",
+     "label": "Ransom, insurance recoveries and supplier insolvencies",
+     "legacy": [
+      "C-067",
+      "C-011"
+     ]
+    }
+   ],
+   "elements": [
+    {
+     "role": "evidence",
+     "visible_text": "JLR booked GBP 196 million and GBP 64 million of cyber-related exceptional costs in two quarters, while free cash outflow reached GBP 791 million and GBP 1.5 billion with cyber and non-cyber causes.",
+     "legacy": [
+      "C-015",
+      "C-016"
+     ]
+    },
+    {
+     "role": "significance",
+     "visible_text": "Recovery tails outlast outages: JLR production was normal by mid-November 2025, but wholesales fell 43.3% in the following quarter; Asahi delayed its FY2025 results by five months.",
+     "legacy": [
+      "C-013",
+      "C-014",
+      "C-028"
+     ]
+    },
+    {
+     "role": "credit_lens",
+     "visible_text": "Watch facility drawdown and receivables concentration after a major customer incident; JLR's undrawn bridge fell from GBP 2.0 billion to GBP 1.0 billion by 31 March 2026.",
+     "legacy": [
+      "C-017",
+      "Ch3 transmission channels"
+     ]
+    },
+    {
+     "role": "limitation",
+     "visible_text": "Values differ in currency, statistic type and population and are not summed. Not covered in source edition: five-year cost trend, sector business-interruption benchmarks and ransom data.",
+     "legacy": [
+      "Ch3 comparability",
+      "Gap G-08"
+     ]
+    },
+    {
+     "role": "source_strip",
+     "visible_text": "Sources: S-004, S-005, S-006, S-007, S-011, S-017, S-019, S-021, S-027, S-047 (Tier 1); S-010, S-012 (Tier 2) - Period: Jul 2025 - Sep 2026 - Cut-off 16 Oct 2026 - v1.0-M Migrated",
+     "legacy": [
+      "Legacy source register"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 10,
+   "section": "C Resilience and financial implications",
+   "label": "Cyber-to-Credit Risk Transmission & Stress Scenarios",
+   "kind": "analytical",
+   "headline": "Illustrative - not a forecast or loss estimate: longer stops move the effect from delayed cash to working-capital drain and then to supplier liquidity and debt service.",
+   "headline_legacy": [
+    "Ch3 transmission channels",
+    "Ch4 scenarios"
+   ],
+   "chain": [
+    "Cyber disruption",
+    "Production and shipping stop",
+    "Revenue deferred or lost",
+    "Working capital and cash drawn",
+    "Liquidity facilities and state support",
+    "Supplier receivables and debt service"
+   ],
+   "bands": [
+    [
+     [
+      "1 week",
+      "Common digital dependency (shared enterprise platform)",
+      "Duration not evidenced: legacy assumption of three to ten days; no multi-firm outage observed",
+      "Many plants stop on precaution while OT is untouched",
+      "Correlated delivery gaps; concurrent working-capital draws"
+     ],
+     [
+      "C-063",
+      "SC-001"
+     ],
+     null
+    ],
+    [
+     [
+      "4 weeks",
+      "Targeted disruption at a segmented manufacturer",
+      "Stryker restored manufacturing and ordering in about four weeks (Tier 1)",
+      "Production and shipping lost for weeks",
+      "Deferred revenue; material quarterly effect"
+     ],
+     [
+      "C-029",
+      "SC-002"
+     ],
+     4
+    ],
+    [
+     [
+      "8 weeks",
+      "Targeted disruption at a just-in-time OEM",
+      "JLR: about five weeks halted, normal production by mid-November, distribution later (Tier 1)",
+      "Supplier tiers idle; dealers lose volume",
+      "OEM cash outflow, emergency facilities, supplier prepayment, state guarantee"
+     ],
+     [
+      "C-013",
+      "C-016",
+      "C-017",
+      "C-018",
+      "C-019",
+      "SC-002"
+     ],
+     8
+    ]
+   ],
+   "band_headers": [
+    "Band",
+    "Mechanism",
+    "Duration evidence in source edition",
+    "Operational effect",
+    "Credit channel"
+   ],
+   "band_note": "Supply-chain concentration (scenario 3): mechanism kept, band duration not evidenced; the controller case was days old at the cut-off.",
+   "band_note_legacy": [
+    "SC-003",
+    "C-065",
+    "C-034"
+   ],
+   "elements": [
+    {
+     "role": "evidence",
+     "visible_text": "Transmission evidence: JLR's GBP 2 billion bridge facility, GBP 1.5 billion UKEF-guaranteed loan and supplier prepayment through a banking partner; the CMC modelled about GBP 108 million a week of JLR fixed cost and lost profit.",
+     "legacy": [
+      "C-017",
+      "C-018",
+      "C-019",
+      "C-021"
+     ]
+    },
+    {
+     "role": "significance",
+     "visible_text": "Duration and supplier dependence, not data loss, drive the cash-flow effect; buffered inventory, multi-sourcing and offline production release shorten it.",
+     "legacy": [
+      "RJ-07",
+      "C-063",
+      "C-064"
+     ]
+    },
+    {
+     "role": "credit_lens",
+     "visible_text": "Borrower data needed: weeks of liquidity at zero output, revenue share of the largest customer, supply-chain finance use and insurance cover for customer-side disruption.",
+     "legacy": [
+      "Legacy slide 4 management implication",
+      "C-021"
+     ]
+    },
+    {
+     "role": "limitation",
+     "visible_text": "Illustrative: no probabilities and no loss estimates; the 1-week band and the supply-chain mechanism have no duration evidence in the source edition.",
+     "legacy": [
+      "Migration rule 8",
+      "Ch4 assumptions"
+     ]
+    },
+    {
+     "role": "source_strip",
+     "visible_text": "Sources: S-001, S-003, S-004, S-005, S-006, S-009, S-021, S-025, S-035, S-037 (Tier 1); S-010, S-039 (Tier 2); S-024 (Tier 3) - Period: Sep 2025 - Oct 2026 - Cut-off 16 Oct 2026 - v1.0-M Migrated",
+     "legacy": [
+      "Legacy source register"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 11,
+   "section": "D Credit process integration",
+   "label": "Questionnaire-to-Sector Intelligence Mapping",
+   "kind": "mapping",
+   "headline": "Provisional map: seven generic discussion items link sector threats and incident evidence to credit consequences; no questionnaire was supplied, so no real item IDs are used.",
+   "headline_legacy": [
+    "Ch7 actions A1-A7",
+    "Ch2 pathways P1-P5"
+   ],
+   "table": {
+    "headers": [
+     "ID and topic",
+     "Threat -> incident evidence",
+     "Operational -> credit consequence",
+     "Suggested question"
+    ],
+    "widths": [
+     2.2,
+     2.6,
+     2.9,
+     4.6
+    ],
+    "rows": [
+     [
+      [
+       "PROV-01 Production without IT",
+       "P1 -> JLR, Asahi",
+       "Plants stop -> revenue and cash loss",
+       "Can you release production and ship without ERP, MES and identity services for two weeks?"
+      ],
+      [
+       "C-012",
+       "C-027",
+       "C-066"
+      ]
+     ],
+     [
+      [
+       "PROV-02 Administrative tool controls",
+       "P2 -> Stryker (media-reported)",
+       "All devices lost -> global stop",
+       "Do destructive administrative actions need a second approver?"
+      ],
+      [
+       "C-030"
+      ]
+     ],
+     [
+      [
+       "PROV-03 Customer concentration",
+       "Cascade -> JLR, CMC model",
+       "Customer stop -> receivables and liquidity stress",
+       "What share of revenue comes from your largest customer, and how many weeks of stop could you finance?"
+      ],
+      [
+       "C-019",
+       "C-020",
+       "C-041"
+      ]
+     ],
+     [
+      [
+       "PROV-04 Installed-base exposure",
+       "P3 -> refrigeration controllers",
+       "Fleet compromise -> remediation and liability",
+       "Do you track internet exposure and end-of-support status of products you have sold?"
+      ],
+      [
+       "C-033",
+       "C-034"
+      ]
+     ],
+     [
+      [
+       "PROV-05 Provider remote access",
+       "P4 -> Egide",
+       "Provider compromise -> partial site stop",
+       "Is provider remote access to OT restricted and logged?"
+      ],
+      [
+       "C-035"
+      ]
+     ],
+     [
+      [
+       "PROV-06 Product-law readiness",
+       "Reporting and liability rules",
+       "Non-compliance -> liability and market access",
+       "How do you meet product vulnerability reporting that began in September 2026?"
+      ],
+      [
+       "C-049",
+       "C-052"
+      ]
+     ],
+     [
+      [
+       "PROV-07 Insurance and contracts",
+       "Customer-side gap -> CMC finding",
+       "Uninsured loss -> margin and covenant pressure",
+       "Does your cyber cover include disruption at a key customer?"
+      ],
+      [
+       "C-021"
+      ]
+     ]
+    ]
+   },
+   "elements": [
+    {
+     "role": "evidence",
+     "visible_text": "Derived from the source edition's seven actions (A1-A7) and five threat pathways (P1-P5); PROV IDs are placeholders, not questionnaire items.",
+     "legacy": [
+      "Ch7 action table",
+      "Ch2 pathways"
+     ]
+    },
+    {
+     "role": "significance",
+     "visible_text": "Factors that change materiality: just-in-time versus buffered production, customer concentration, segmentation, installed-base size, defence or device regulation and liquidity headroom.",
+     "legacy": [
+      "C-041",
+      "C-064",
+      "C-065",
+      "C-056"
+     ]
+    },
+    {
+     "role": "credit_lens",
+     "visible_text": "Borrower answers are self-reported, not confirmed evidence, and trigger no automatic adverse credit judgement.",
+     "legacy": [
+      "Publication standard 7"
+     ]
+    },
+    {
+     "role": "limitation",
+     "visible_text": "Provisional: no questionnaire item list was supplied; the map must be rebuilt against actual item IDs.",
+     "legacy": [
+      "Migration rule 7",
+      "Gap G-11"
+     ]
+    },
+    {
+     "role": "source_strip",
+     "visible_text": "Sources: S-001, S-003, S-016, S-021, S-034, S-035, S-057, S-066 (Tier 1); S-010 (Tier 2); S-024 (Tier 3) - Period: Sep 2025 - Oct 2026 - Cut-off 16 Oct 2026 - v1.0-M Migrated",
+     "legacy": [
+      "Legacy source register"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 12,
+   "section": "D Credit process integration",
+   "label": "Credit Officer Engagement: Key Questions & Actions",
+   "kind": "analytical",
+   "headline": "Five client discussion topics, each with an early-warning indicator, let credit officers test continuity of production, supplier liquidity and debt service without assessing borrower controls.",
+   "headline_legacy": [
+    "Ch7 challenge questions",
+    "Ch7 monitoring triggers"
+   ],
+   "topics": [
+    [
+     [
+      "Production without IT",
+      "How long can you release production and ship without ERP, MES and identity services?",
+      "Production-pause notice or exchange filing"
+     ],
+     [
+      "C-066",
+      "Ch7 question 1",
+      "Ch7 trigger 1"
+     ]
+    ],
+    [
+     [
+      "Customer and supplier concentration",
+      "Which customer stop would stop you, and how would you bridge four weeks?",
+      "OEM incident notice; supplier short-time work"
+     ],
+     [
+      "C-041",
+      "Ch7 question 2",
+      "Ch7 trigger 3"
+     ]
+    ],
+    [
+     [
+      "Administrative tools and provider access",
+      "Who can wipe or reach every device and plant, and who approves it?",
+      "Government alert on administrative-tool misuse; disclosure citing an IT provider"
+     ],
+     [
+      "C-030",
+      "C-035",
+      "Ch7 question 3",
+      "Ch7 trigger 2"
+     ]
+    ],
+    [
+     [
+      "Products already sold",
+      "How many of your connected units are online or out of support?",
+      "National CERT alert naming a product family"
+     ],
+     [
+      "C-033",
+      "Ch7 question 4",
+      "Ch7 trigger 2"
+     ]
+    ],
+    [
+     [
+      "Cover, contracts and product law",
+      "Is disruption at a key customer insured, and are reporting and liability duties met?",
+      "Insurer product change; first enforcement action"
+     ],
+     [
+      "C-021",
+      "C-049",
+      "Ch7 questions 5-6",
+      "Ch7 trigger 5"
+     ]
+    ]
+   ],
+   "referral": "Specialist referral: involve cyber specialists when an indicator fires or answers show no tested fallback; record and monitor rather than change a rating.",
+   "referral_legacy": [
+    "RJ-09",
+    "Legacy slide 7 implication"
+   ],
+   "elements": [
+    {
+     "role": "evidence",
+     "visible_text": "Topics reframe the source edition's six challenge questions and five monitoring triggers for client discussion.",
+     "legacy": [
+      "Ch7 challenge questions",
+      "Ch7 monitoring triggers"
+     ]
+    },
+    {
+     "role": "significance",
+     "visible_text": "Practical improvements a client can make: documented manual release, second-approver controls, revenue diversification, exposure monitoring, restricted provider access and aligned cover.",
+     "legacy": [
+      "Ch7 action table"
+     ]
+    },
+    {
+     "role": "credit_lens",
+     "visible_text": "Proportionate next steps: raise topics at review, record answers as self-reported and escalate to the Risk Committee when a trigger fires.",
+     "legacy": [
+      "Legacy slide 7 management implication"
+     ]
+    },
+    {
+     "role": "limitation",
+     "visible_text": "Topics are sector-informed priorities, not findings on any borrower's controls or creditworthiness.",
+     "legacy": [
+      "Legacy slide 7 limitation",
+      "L13"
+     ]
+    },
+    {
+     "role": "source_strip",
+     "visible_text": "Sources: S-001, S-003, S-025, S-034, S-035, S-057, S-066 (Tier 1); S-010 (Tier 2); S-024 (Tier 3) - Period: Sep 2025 - Oct 2026 - Cut-off 16 Oct 2026 - v1.0-M Migrated",
+     "legacy": [
+      "Legacy source register"
+     ]
+    }
+   ]
+  }
+ ]
+}
