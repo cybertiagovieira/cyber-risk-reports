@@ -1,0 +1,446 @@
+--- Slide 01 ---
+01  Sector Intelligence Cover
+Building & Public Works
+Sector Cyber Resilience & Credit Intelligence
+Migrated edition - evidence as of 14 October 2026; no research update
+
+Report period: 1 September 2025 to 14 October 2026
+Geographical scope: global, primary focus EU, EEA and UK; North America and Asia for comparison
+Evidence cut-off: 14 October 2026
+Classification: not specified in source edition
+Version: 1.0-M (migrated from the baseline seven-slide edition)
+
+--- Slide 02 ---
+02  Executive Sector Risk Snapshot
+A - Executive intelligence  |  Migrated 1.0-M
+Building & Public Works shows provisional High cyber and third-party exposure that reaches lenders mainly through contractor liquidity; fraud and governance cannot be assessed from the source edition.
+Dimension
+Rating
+Status
+Confidence
+One-line justification (source edition)
+Fraud
+Not assessable
+Not covered in source edition
+-
+Only cyber-enabled payment fraud covered (one police alert); wider fraud (Q10) not covered
+Cyber / ICT
+High
+Provisional
+Medium
+176 of 1,140 industrial ransomware claims in Q2 2026; third of all sectors over 12 months
+Operational resilience / TPRM
+High
+Provisional
+Low
+Best-documented disruptions spread through shared owner IT and a public-sector supplier
+Governance / operating model
+Not assessable
+Not covered in source edition
+-
+Q13 not covered; one auditor finding at a public owner is not sector evidence
+Evidence  Key sector messages: (1) shared digital layers are the best-documented propagation pathway; (2) time-sensitive site operations turn IT outages into schedule loss; (3) regulation reaches construction indirectly through owners, procurement, product and data rules.
+Significance  Threat direction: rising in cross-sector leak-site counts (industrial claims up 12% quarter on quarter; all-sector victims up 24.9% year on year); no construction-specific baseline exists.
+Credit Lens  Most consequential credit implications: owner payment constraint and programme delay strain contractor working capital; construction leads company insolvency counts in England and Wales (a count, not a rate).
+Limitation  Provisional ratings: no approved rubric; cross-sector comparison (Q14): not covered in source edition; confidence capped at Medium; public-owner cases over-represented.
+
+Sources: S-005, S-007, S-010, S-026, S-031 (Tier 1); S-018, S-020, S-021 (Tier 2) - Period: Apr 2025-Oct 2026
+
+--- Slide 03 ---
+03  Sector Anatomy: Key Operations & Dependencies
+A - Executive intelligence  |  Migrated 1.0-M
+Contractors depend on owner approvals and payments, shared project platforms on third-party cloud, ERP-reliant materials suppliers and exposed public-works OT - each a potential single point of failure.
+Dependency
+Essential process
+Concentration pathway (evidence)
+Who is exposed
+Public-sector project owners
+Planning consent, repairs ordering, supplier payment
+One shared IT estate served three London boroughs
+Contractors awaiting consents and payment
+Public-sector software suppliers
+Owner HR and records systems
+One supplier served a majority of Swedish municipalities
+Owners, contractors, data subjects
+Construction-management SaaS
+Drawings, RFIs, permits-to-work, valuations
+One platform: 17,850 customers hosted on third-party cloud
+Contractors, owners, consultants
+Building materials and equipment
+ERP-driven supply to tight timelines
+Supplier tier repeatedly targeted by ransomware
+Programmes on just-in-time materials
+Public-works operators (OT)
+Water and plant control
+Many small operators with internet-exposed controllers
+Owners, operators, maintenance contractors
+Payment chains
+Stage payments to subcontractors
+Supplier email and bank-detail changes
+Contractors, subcontractors, their banks
+Evidence  Subsectors in scope: construction companies, civil engineering, public works, engineering and project management, building materials, construction technology, building automation and public project owners. Only dependencies evidenced in the source edition are shown.
+Significance  A failure at an owner or shared platform stops several firms at once: the best-documented case halted planning for about 15 weeks.
+Credit Lens  Ask which owners, platforms and suppliers a borrower depends on, and whether it could value, certify and invoice without them.
+Limitation  Substitutability, bottleneck depth and platform market shares were not assessed in the source edition; no in-period building-automation incident was identified.
+
+Sources: S-005, S-006, S-010, S-013, S-026, S-027 (Tier 1); S-020 (Tier 2) - Period: Aug 2025-Sep 2026
+
+--- Slide 04 ---
+04  Cyber Threat Landscape & Attack Scenarios
+B - Threat and exposure intelligence  |  Migrated 1.0-M
+Five threat patterns drive sector exposure: phishing and exposed remote access open the door, while shared IT, OT and payment chains spread the impact.
+Pattern (mechanism)
+Exploitation technique
+Observed evidence, last 12 months
+Operational consequence
+P1 Ransomware and extortion (targeted disruption)
+Encryption and data theft
+176 construction claims in Q2 2026; Femern contractor; SANKO TECHNO
+ERP, scheduling and site access halted; about 24 days average downtime
+P2 Identity and edge access (other: entry route)
+Phishing; VPN without MFA; unpatched edge and backup servers
+EU baseline: phishing about 60%, exploitation 21.3% of initial access
+Data exfiltration in just over two hours in some Akira cases
+P3 Shared IT and SaaS (common dependency)
+Compromise of a shared estate or supplier
+Kensington and Chelsea shared IT; Miljödata
+Multi-organisation outage and data notifications
+P4 OT, field and building systems (targeted disruption)
+Internet-exposed PLCs and HMIs; weak passwords
+Minnesota water systems; Bremanger dam (contextual)
+Plant manipulation risk; precautionary isolation
+P5 Payment-chain fraud (supply-chain concentration)
+Supplier email compromise; bank-detail change
+Australian police alert on construction BEC
+Diverted stage payments
+Evidence  Five named incidents met the source edition's evidence standard over the year. Last 30 days before cut-off: the Femern Link Contractors incident (12-13 Oct 2026) and the Miljödata GDPR fine (22 Sep 2026).
+Significance  P3 and P5 propagate beyond the victim to owners, contractors and payment flows; P1 and P4 stop time-sensitive operations.
+Credit Lens  Weight borrower discussion towards propagation - shared services, platforms, exposed OT and payment changes - rather than counting ransomware claims.
+Limitation  Patterns are unranked and impact levels were not rated in the source edition; developments in the 30 days after 14 Oct 2026: not covered in source edition.
+
+Sources: S-001, S-010, S-012, S-013, S-015, S-022, S-023, S-026 (Tier 1); S-018, S-020 (Tier 2) - Period: Jul 2024-Oct 2026
+
+--- Slide 05 ---
+05  Geopolitical Cyber Threat Outlook
+B - Threat and exposure intelligence  |  Migrated 1.0-M
+Geopolitical exposure is evidenced only in fragments: exposed public-works OT faces state-linked pressure, while construction firms are more likely collateral than primary targets.
+Region
+State-linked signal (source edition)
+Attribution status
+Sector pathway
+United States and Canada
+Authority judged Iranian cyber retaliation very likely after Feb 2026 strikes; malicious activity at more than 30 Minnesota water systems (Jul 2026)
+Bulletin is an estimative judgement; state made no attribution; media-reported Iran link is unconfirmed
+Internet-exposed controllers at public-works operators
+Norway
+Bremanger dam outflow valves opened for about four hours (Apr 2025)
+Security service linked it to Russian methods (Aug 2025); contextual
+Weak passwords and poor IT/OT separation
+Denmark and Germany
+Femern Link Contractors cyber incident (Oct 2026)
+No attribution disclosed
+Cross-border infrastructure programme
+EU and UK wider view
+Dedicated geopolitical analysis (Q07)
+Not covered in source edition
+Not covered in source edition
+Evidence  Source edition fragments: one national threat bulletin, two state statements, one regulator notice and one owner statement; no conflict-driven campaign against construction firms was documented.
+Significance  State-linked intent towards poorly secured infrastructure reaches the public-works assets that contractors build, operate and maintain.
+Credit Lens  For public-works and infrastructure borrowers, ask about OT inventory, removal of internet exposure and IT/OT segregation.
+Limitation  Not covered in source edition: dedicated geopolitical analysis (Q07), exposed-region view and conflict-driven supply-chain exposure; attribution is preliminary or contextual.
+
+Sources: S-001, S-012, S-013, S-017, S-025 (Tier 1); S-018 (Tier 2); S-014 (Tier 3) - Period: Apr 2025-Oct 2026
+
+--- Slide 06 ---
+06  Major Cyber Incidents & Lessons Learned
+B - Threat and exposure intelligence  |  Migrated 1.0-M
+Five in-period incidents show disruption reaching owners, suppliers and site operations; only one is documented well enough for a detailed case study.
+Incident
+Vector and documented weakness
+Disruption and financial consequence
+Lesson
+Detailed case (A2)
+Femern Link Contractors, Oct 2026
+Not disclosed
+Media-reported network shutdown and idle vessels; no cost disclosed
+IT loss can reach marine and site works
+Monitor; evidence one to two days old
+Kensington and Chelsea shared IT, Nov 2025
+Human error per auditor; fragmented legacy estate
+Planning about 15 weeks, revenues about six months; GBP 1.2m recovery costs
+Owner outages reach contractor consents and payments
+Case 1 (source edition)
+Miljödata, Aug 2025
+Insufficient software checks; no real-time monitoring
+2.2m people affected; SEK 1.8m GDPR fine
+Regulators also review the supplier's customers
+Not covered in source edition
+Minnesota water systems, Jul 2026
+Remotely accessible PLCs and HMIs
+More than 30 systems affected; no water-use change
+Exposed OT is reachable at scale
+Not covered in source edition
+SANKO TECHNO, Aug 2026
+Ransomware at a subsidiary
+Contained by network isolation; cost under review
+Segregation limits supplier spread
+Not covered in source edition
+Evidence  Only the Kensington and Chelsea case combines official chronology, disclosed cost and auditor findings; the auditor attributes it to human error.
+Significance  Owner-side and supplier incidents disrupt the consents, instructions and payments that contractors depend on, even when the contractor itself is not attacked.
+Credit Lens  Treat owner digital disruption as foreseeable in contractor cash-flow and contract planning.
+Limitation  Second and third detailed case studies: not covered in source edition. No contractor disclosed cost or delay; developments after 14 Oct 2026: not covered in source edition.
+
+Sources: S-001, S-005, S-006, S-007, S-008, S-010, S-012, S-013, S-015 (Tier 1); S-002 (Tier 3) - Period: Aug 2025-Oct 2026
+
+--- Slide 07 ---
+07  Control Weaknesses & Resilience Priorities
+B - Threat and exposure intelligence  |  Migrated 1.0-M
+Documented weaknesses cluster in identity, segregation and monitoring; six priorities address the evidenced threat patterns.
+Priority
+Weakness evidenced (source edition)
+Patterns addressed
+Horizon
+Confidence
+A1 Map shared dependencies
+Single shared estates and SaaS platforms (Kensington and Chelsea, Miljödata)
+P3
+0-6 months
+Medium
+A2 Identity and remote access
+VPN without MFA, unpatched edge and backup (Akira); human error (Kensington and Chelsea)
+P1, P2
+0-3 months
+High
+A3 Segregate OT and site systems
+Weak passwords, poor IT/OT separation (Bremanger); 81% of OT cases with weak segmentation
+P4
+3-12 months
+Medium
+A4 Confirm payment changes
+Supplier email compromise and bank-detail replacement
+P5
+0-3 months
+High
+A5 Contractual flow-down
+Owner duties under NIS2, CER and procurement rules
+P3, P5
+6-12 months
+High
+A6 Tested manual fallback
+Time-sensitive operations stopped by IT loss (Femern, media-reported)
+P1, P4
+6-12 months
+Medium
+Evidence  Documented weaknesses: human error and a fragmented legacy estate; missing software checks and real-time monitoring; weak passwords and poor IT/OT separation; VPNs without MFA and unpatched backup servers.
+Significance  The same few weaknesses enable both ransomware and OT manipulation, so a small set of capabilities prevents or contains most evidenced disruption.
+Credit Lens  Use the priorities as discussion topics with borrowers; they are not a control audit or compliance finding.
+Limitation  Confidence reflects source-edition claim confidence; no control-effectiveness data for any firm exist in the source edition.
+
+Sources: S-001, S-005, S-007, S-010, S-013, S-017, S-022, S-026, S-032 (Tier 1); S-018 (Tier 2) - Period: Apr 2025-Oct 2026
+
+--- Slide 08 ---
+08  Regulatory & Supervisory Resilience Expectations
+C - Resilience and financial implications  |  Migrated 1.0-M
+Construction sits outside the direct scope of EU and UK cyber-resilience law; obligations reach contractors through owners, procurement, product and data rules, and US coverage is comparative only.
+Jurisdiction
+Instrument
+Legal status
+Relevance to Building & Public Works
+EU
+NIS2 Directive
+Binding via national law; 4 Member States referred (Jul 2026)
+Not a listed sector; owner duties flow down
+EU
+CER Directive
+Binding via national law; identification due 17 Jul 2026
+Designated operators may impose resilience terms
+EU
+Cyber Resilience Act
+Regulation; manufacturer reporting from 11 Sep 2026
+Building-automation and site-product makers
+EU and UK
+GDPR; UK GDPR and DPA 2018
+EU regulation; UK domestic law
+Breach notification and fines across the chain
+EU
+Public Procurement Act COM(2026) 590
+Proposal only
+Cyber and security-of-supply terms in tenders
+UK
+NIS Regulations 2018
+Binding regulation
+Construction not in scope
+UK
+Cyber Security and Resilience Bill
+Bill in House of Lords
+Could reach MSPs and designated suppliers
+UK
+PPN 014; Procurement Act 2023
+Policy note; statute (live 24 Feb 2025)
+Cyber Essentials for central-government suppliers
+US
+SEC Form 8-K Item 1.05
+Binding for SEC registrants
+Disclosure within four business days of materiality
+US
+Sector cyber regulation and supervision
+Not covered in source edition
+Not covered in source edition
+Evidence  Consequences of non-compliance in the source edition: penalties requested against four Member States; GDPR fines of SEK 1.8m (Miljödata) and GBP 4.4m (Interserve, historical).
+Significance  In-period pressure: CRA reporting began, CER identification fell due and an EU procurement reform with cyber terms was proposed.
+Credit Lens  Check that project and guarantee documentation reflects owner-imposed cyber and notification terms.
+Limitation  Not covered in source edition: US sector cyber rules beyond SEC disclosure, supervisory priorities and national NIS2 scope extensions.
+
+Sources: S-030, S-032 to S-042, S-046, S-047 (Tier 1) - Period: legal milestones 2016-2027; status at 14 Oct 2026
+
+--- Slide 09 ---
+09  Financial Impact of Cyber Incidents
+C - Resilience and financial implications  |  Migrated 1.0-M
+Public financial evidence is thin and cannot be added up; the evidence suggests time - weeks of site downtime and months of owner disruption - is the main cost driver.
+Metric
+Value
+Period
+Type and caveat
+Kensington and Chelsea recovery costs
+GBP 1.2m
+FY 2025/26
+Accounts; further costs unquantified
+Kensington and Chelsea planning outage
+105 days
+Nov 2025-Mar 2026
+Derived from two official dates
+Kensington and Chelsea revenues and benefits outage
+About six months
+Nov 2025-Jun 2026
+Approximate end date
+Miljödata GDPR fine
+SEK 1.8m
+Sep 2026
+Regulatory outcome only
+Construction ransomware downtime
+24 days average
+2025
+Insurer research; method undisclosed
+Interserve fine; recovery and advisory fees
+GBP 4.4m; GBP 7m
+2020 incident, 2022 penalty
+Historical; fees secondary
+Akira ransom proceeds
+USD 244.17m
+To late Sep 2025
+Criminal revenue, all sectors
+Ransom payments by sector firms
+Not covered in source edition
+-
+-
+Five-year cost trend
+Not supportable from source edition
+-
+-
+Evidence  In-period quantified outcomes come from one public owner and one regulator; no contractor or supplier disclosed a cyber-driven cost, delay or contractual effect.
+Significance  Values differ in currency, statistic type and population and are never summed; no sector loss estimate is produced.
+Credit Lens  Focus on duration and liquidity: how long a borrower could operate and collect cash without key systems or owner payments.
+Limitation  Absence of disclosure is a gap, not evidence of zero loss; ransom payments and multi-year trends are not covered in source edition.
+
+Sources: S-005, S-006, S-007, S-008, S-010, S-022, S-030 (Tier 1); S-018, S-019 (Tier 2) - Period: 2020-Sep 2026
+
+--- Slide 10 ---
+10  Cyber-to-Credit Risk Transmission & Stress Scenarios
+Illustrative - not a forecast or loss estimate   C - Resilience and financial implications  |  Migrated 1.0-M
+Cyber disruption reaches debt service through delayed certification and payment, programme slippage and supplier default; duration evidence supports only part of the 1-, 4- and 8-week bands.
+Mechanism
+1 week
+4 weeks
+8 weeks
+Common dependency: shared platform or cloud availability failure
+Multi-day outage; 77% tolerate no more than five days without project documentation
+Duration not evidenced
+Duration not evidenced
+Targeted disruption: major contractor or public-works operator
+Within the legacy one-to-four-week band; one US town reportedly restored a plant in about 90 minutes
+Within the legacy band; ransomware downtime averaged about 24 days
+Duration not evidenced for this mechanism; owner-side case restoration took about 15 weeks to six months
+Supply-chain concentration: shared supplier compromise
+Duration not evidenced
+Duration not evidenced
+Duration not evidenced
+Evidence  Transmission: disruption -> programme and site operations -> valuations and owner payments -> contractor cash flow and working capital -> margins and claims -> facility drawdown and debt service.
+Significance  Offsets in the source edition: offline copies, manual fallback, OT segregation and supplier segregation limit propagation.
+Credit Lens  Borrower data needed: dependence on public-owner payments, platform and supplier concentration, programme milestones and liquidity headroom.
+Limitation  Illustrative - not a forecast or loss estimate; no probabilities; bands marked duration not evidenced have no support in the source edition.
+
+Sources: S-001, S-005, S-013, S-027, S-029, S-031 (Tier 1); S-018 (Tier 2); S-014 (Tier 3) - Period: 2023 survey to Oct 2026
+
+--- Slide 11 ---
+11  Questionnaire-to-Sector Intelligence Mapping
+Provisional   D - Credit process integration  |  Migrated 1.0-M
+Provisional map: six generic questionnaire topics derived from the source edition link sector threats to credit consequences; no approved questionnaire was supplied.
+PROV ID and topic
+Threat and incident evidence
+Operational -> credit consequence
+Suggested question
+PROV-01 Owner and third-party dependency
+P3; Kensington and Chelsea, Miljödata
+Consents and payments stop -> working-capital strain
+Which owners, platforms and cloud regions do you rely on, and can you certify and invoice without them for 30 days?
+PROV-02 Identity and remote access
+P2; Akira advisory routes
+Fast entry and data theft -> outage and breach costs
+Is MFA enforced on all remote access, and are edge and backup systems patched?
+PROV-03 OT and site systems
+P4; Minnesota, Bremanger
+Plant or site stoppage -> delay damages
+Is OT inventoried, removed from internet exposure and segregated from IT?
+PROV-04 Payment controls
+P5; police construction BEC alert
+Diverted stage payments -> cash loss
+Are payment-detail changes confirmed out of band?
+PROV-05 Contractual cyber terms
+NIS2, CER and procurement flow-down
+Owner-term breach -> claims or exclusion
+Do contracts reflect owner cyber and notification terms?
+PROV-06 Continuity of time-sensitive works
+P1; Femern reported idle vessels
+Missed milestones -> liquidated damages
+Is manual fallback tested for access, positioning and scheduling?
+Evidence  Derived from the source edition's six mitigation actions (A1-A6) and five threat patterns (P1-P5); PROV IDs are placeholders, not questionnaire items.
+Significance  Factors that change materiality: revenue share from public owners, reliance on one platform or supplier, OT exposure, stage-payment volume and time-sensitive milestones.
+Credit Lens  Borrower answers are self-reported, are not confirmed evidence and never trigger an automatic adverse credit judgement.
+Limitation  Provisional: no questionnaire item list was supplied; the map must be rebuilt against actual question IDs.
+
+Sources: S-005, S-010, S-012, S-013, S-017, S-022, S-026, S-032, S-038 (Tier 1); S-018 (Tier 2) - Period: Apr 2025-Oct 2026
+
+--- Slide 12 ---
+12  Credit Officer Engagement: Key Questions & Actions
+D - Credit process integration  |  Migrated 1.0-M
+Five client discussion topics, with early-warning indicators and referral triggers, turn sector evidence into proportionate borrower engagement.
+Discussion topic
+Question for the client
+Early-warning indicator
+Specialist referral trigger
+1 Owner and platform dependency
+Could you certify and invoice for 30 days without your main owners and platforms?
+Owner or platform incident notice
+Reliance on one owner or platform without tested fallback
+2 Remote access and patching
+Is MFA on all remote access, with edge and backup systems patched?
+New joint advisory on edge flaws
+Remote access without MFA
+3 OT and site systems
+Are controllers off the internet and OT segregated from IT?
+Agency alert on exposed OT
+Internet-exposed controllers reported
+4 Payment controls
+Are payment-detail changes confirmed out of band?
+Police alert naming construction BEC
+No out-of-band confirmation
+5 Programme milestones
+Which milestones would a one-to-four-week outage cross?
+Incident notice on a major programme
+Outage would cross a contractual milestone
+Evidence  Indicators also include leak-site claims above the Q2 2026 baseline of 176 construction claims per quarter, the UK bill, NIS2 court rulings, procurement adoption and first CRA reporting.
+Significance  Practical resilience improvements: dependency mapping, MFA and patching, OT segregation, payment-change confirmation, contractual flow-down and tested fallback.
+Credit Lens  Proportionate next steps: raise the topics at review, record answers as self-reported, escalate to the Risk Committee when an indicator fires.
+Limitation  Topics are sector-informed priorities, not findings on any borrower's controls or creditworthiness; referral triggers are reframed from the source edition.
+
+Sources: S-001, S-012, S-013, S-022, S-026, S-033, S-036, S-038, S-039 (Tier 1); S-020 (Tier 2) - Period: Nov 2025-Oct 2026

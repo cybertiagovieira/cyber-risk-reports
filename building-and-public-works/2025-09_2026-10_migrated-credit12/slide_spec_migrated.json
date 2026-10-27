@@ -1,0 +1,1463 @@
+{
+  "profile_id": "credit_12",
+  "core_version": "4.0.0",
+  "edition_type": "migrated",
+  "source_edition": "building-and-public-works/2025-09_2026-10 (baseline, core 3.0.0)",
+  "evidence_cutoff": "2026-10-14",
+  "version": "1.0-M",
+  "slides": [
+    {
+      "number": 1,
+      "section": "A",
+      "label": "Sector Intelligence Cover",
+      "kind": "cover",
+      "elements": [
+        {
+          "element_id": "sector",
+          "role": "sector",
+          "visible_text": "Building & Public Works",
+          "claim_ids": [
+            "C-040"
+          ],
+          "legacy_source": "Report title"
+        },
+        {
+          "element_id": "subtitle",
+          "role": "subtitle",
+          "visible_text": "Sector Cyber Resilience & Credit Intelligence",
+          "claim_ids": [],
+          "legacy_source": "Product name (core 4.0.0)"
+        },
+        {
+          "element_id": "migrated",
+          "role": "migration_label",
+          "visible_text": "Migrated edition - evidence as of 14 October 2026; no research update",
+          "claim_ids": [],
+          "legacy_source": "Migration rule 2"
+        },
+        {
+          "element_id": "period",
+          "role": "period",
+          "visible_text": "Report period: 1 September 2025 to 14 October 2026",
+          "claim_ids": [],
+          "legacy_source": "Report header"
+        },
+        {
+          "element_id": "geography",
+          "role": "geography",
+          "visible_text": "Geographical scope: global, primary focus EU, EEA and UK; North America and Asia for comparison",
+          "claim_ids": [],
+          "legacy_source": "Report header"
+        },
+        {
+          "element_id": "cutoff",
+          "role": "cutoff",
+          "visible_text": "Evidence cut-off: 14 October 2026",
+          "claim_ids": [],
+          "legacy_source": "Report header"
+        },
+        {
+          "element_id": "classification",
+          "role": "classification",
+          "visible_text": "Classification: not specified in source edition",
+          "claim_ids": [],
+          "legacy_source": "Undefined in source edition"
+        },
+        {
+          "element_id": "version",
+          "role": "version",
+          "visible_text": "Version: 1.0-M (migrated from the baseline seven-slide edition)",
+          "claim_ids": [],
+          "legacy_source": "Report header: baseline edition"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "section": "A",
+      "label": "Executive Sector Risk Snapshot",
+      "kind": "snapshot",
+      "headline": "Building & Public Works shows provisional High cyber and third-party exposure that reaches lenders mainly through contractor liquidity; fraud and governance cannot be assessed from the source edition.",
+      "headline_claim_ids": [
+        "C-036",
+        "C-039",
+        "C-001",
+        "C-003"
+      ],
+      "table": {
+        "headers": [
+          "Dimension",
+          "Rating",
+          "Status",
+          "Confidence",
+          "One-line justification (source edition)"
+        ],
+        "rows": [
+          [
+            "Fraud",
+            "Not assessable",
+            "Not covered in source edition",
+            "-",
+            "Only cyber-enabled payment fraud covered (one police alert); wider fraud (Q10) not covered"
+          ],
+          [
+            "Cyber / ICT",
+            "High",
+            "Provisional",
+            "Medium",
+            "176 of 1,140 industrial ransomware claims in Q2 2026; third of all sectors over 12 months"
+          ],
+          [
+            "Operational resilience / TPRM",
+            "High",
+            "Provisional",
+            "Low",
+            "Best-documented disruptions spread through shared owner IT and a public-sector supplier"
+          ],
+          [
+            "Governance / operating model",
+            "Not assessable",
+            "Not covered in source edition",
+            "-",
+            "Q13 not covered; one auditor finding at a public owner is not sector evidence"
+          ]
+        ],
+        "widths": [
+          2.05,
+          1.2,
+          1.75,
+          1.05,
+          4.6
+        ],
+        "claim_ids": [
+          "C-009",
+          "C-001",
+          "C-003",
+          "C-036",
+          "C-013",
+          "C-017",
+          "C-015"
+        ],
+        "legacy_source": "Ch1 judgements; Ch2; Ch3; rule 6"
+      },
+      "rating_rows": [
+        [
+          "C-009"
+        ],
+        [
+          "C-001",
+          "C-003",
+          "C-004"
+        ],
+        [
+          "C-036",
+          "C-013",
+          "C-017"
+        ],
+        [
+          "C-015"
+        ]
+      ],
+      "elements": [
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Key sector messages: (1) shared digital layers are the best-documented propagation pathway; (2) time-sensitive site operations turn IT outages into schedule loss; (3) regulation reaches construction indirectly through owners, procurement, product and data rules.",
+          "claim_ids": [
+            "C-036",
+            "C-037",
+            "C-040"
+          ],
+          "legacy_source": "Ch1 principal judgements 1, 2, 5"
+        },
+        {
+          "element_id": "significance",
+          "role": "significance",
+          "visible_text": "Threat direction: rising in cross-sector leak-site counts (industrial claims up 12% quarter on quarter; all-sector victims up 24.9% year on year); no construction-specific baseline exists.",
+          "claim_ids": [
+            "C-001",
+            "C-003"
+          ],
+          "legacy_source": "Ch1 footprint; Ch2 benchmarks"
+        },
+        {
+          "element_id": "credit_lens",
+          "role": "credit_lens",
+          "visible_text": "Most consequential credit implications: owner payment constraint and programme delay strain contractor working capital; construction leads company insolvency counts in England and Wales (a count, not a rate).",
+          "claim_ids": [
+            "C-039",
+            "C-014",
+            "C-025"
+          ],
+          "legacy_source": "Ch1 judgement 4; Ch3 transmission"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Provisional ratings: no approved rubric; cross-sector comparison (Q14): not covered in source edition; confidence capped at Medium; public-owner cases over-represented.",
+          "claim_ids": [
+            "C-042",
+            "C-036"
+          ],
+          "legacy_source": "Methodology and limitations; rule 6"
+        },
+        {
+          "element_id": "source_strip",
+          "role": "source_strip",
+          "visible_text": "Sources: S-005, S-007, S-010, S-026, S-031 (Tier 1); S-018, S-020, S-021 (Tier 2) - Period: Apr 2025-Oct 2026",
+          "claim_ids": [],
+          "legacy_source": "Legacy references [5],[7],[10],[26],[31],[18],[20],[21]"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "section": "A",
+      "label": "Sector Anatomy: Key Operations & Dependencies",
+      "kind": "analytical",
+      "headline": "Contractors depend on owner approvals and payments, shared project platforms on third-party cloud, ERP-reliant materials suppliers and exposed public-works OT - each a potential single point of failure.",
+      "headline_claim_ids": [
+        "C-036",
+        "C-024",
+        "C-002",
+        "C-014",
+        "C-018"
+      ],
+      "table": {
+        "headers": [
+          "Dependency",
+          "Essential process",
+          "Concentration pathway (evidence)",
+          "Who is exposed"
+        ],
+        "rows": [
+          [
+            "Public-sector project owners",
+            "Planning consent, repairs ordering, supplier payment",
+            "One shared IT estate served three London boroughs",
+            "Contractors awaiting consents and payment"
+          ],
+          [
+            "Public-sector software suppliers",
+            "Owner HR and records systems",
+            "One supplier served a majority of Swedish municipalities",
+            "Owners, contractors, data subjects"
+          ],
+          [
+            "Construction-management SaaS",
+            "Drawings, RFIs, permits-to-work, valuations",
+            "One platform: 17,850 customers hosted on third-party cloud",
+            "Contractors, owners, consultants"
+          ],
+          [
+            "Building materials and equipment",
+            "ERP-driven supply to tight timelines",
+            "Supplier tier repeatedly targeted by ransomware",
+            "Programmes on just-in-time materials"
+          ],
+          [
+            "Public-works operators (OT)",
+            "Water and plant control",
+            "Many small operators with internet-exposed controllers",
+            "Owners, operators, maintenance contractors"
+          ],
+          [
+            "Payment chains",
+            "Stage payments to subcontractors",
+            "Supplier email and bank-detail changes",
+            "Contractors, subcontractors, their banks"
+          ]
+        ],
+        "widths": [
+          2.0,
+          2.0,
+          2.45,
+          1.95
+        ],
+        "claim_ids": [
+          "C-013",
+          "C-014",
+          "C-017",
+          "C-024",
+          "C-002",
+          "C-018",
+          "C-009"
+        ],
+        "legacy_source": "Ch1 subsector table; Ch6 dependency chains"
+      },
+      "elements": [
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Subsectors in scope: construction companies, civil engineering, public works, engineering and project management, building materials, construction technology, building automation and public project owners. Only dependencies evidenced in the source edition are shown.",
+          "claim_ids": [
+            "C-036"
+          ],
+          "legacy_source": "Report header; Ch1 subsector coverage; Ch6"
+        },
+        {
+          "element_id": "significance",
+          "role": "significance",
+          "visible_text": "A failure at an owner or shared platform stops several firms at once: the best-documented case halted planning for about 15 weeks.",
+          "claim_ids": [
+            "C-014",
+            "C-036"
+          ],
+          "legacy_source": "Ch5 operational consequences"
+        },
+        {
+          "element_id": "credit_lens",
+          "role": "credit_lens",
+          "visible_text": "Ask which owners, platforms and suppliers a borrower depends on, and whether it could value, certify and invoice without them.",
+          "claim_ids": [
+            "C-047"
+          ],
+          "legacy_source": "Ch7 action A1; challenge question 1"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Substitutability, bottleneck depth and platform market shares were not assessed in the source edition; no in-period building-automation incident was identified.",
+          "claim_ids": [
+            "C-024"
+          ],
+          "legacy_source": "Ch6 note; methodology limitations"
+        },
+        {
+          "element_id": "source_strip",
+          "role": "source_strip",
+          "visible_text": "Sources: S-005, S-006, S-010, S-013, S-026, S-027 (Tier 1); S-020 (Tier 2) - Period: Aug 2025-Sep 2026",
+          "claim_ids": [],
+          "legacy_source": "Legacy references [5],[6],[10],[13],[26],[27],[20]"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "section": "B",
+      "label": "Cyber Threat Landscape & Attack Scenarios",
+      "kind": "analytical",
+      "headline": "Five threat patterns drive sector exposure: phishing and exposed remote access open the door, while shared IT, OT and payment chains spread the impact.",
+      "headline_claim_ids": [
+        "C-006",
+        "C-008",
+        "C-036"
+      ],
+      "table": {
+        "headers": [
+          "Pattern (mechanism)",
+          "Exploitation technique",
+          "Observed evidence, last 12 months",
+          "Operational consequence"
+        ],
+        "rows": [
+          [
+            "P1 Ransomware and extortion (targeted disruption)",
+            "Encryption and data theft",
+            "176 construction claims in Q2 2026; Femern contractor; SANKO TECHNO",
+            "ERP, scheduling and site access halted; about 24 days average downtime"
+          ],
+          [
+            "P2 Identity and edge access (other: entry route)",
+            "Phishing; VPN without MFA; unpatched edge and backup servers",
+            "EU baseline: phishing about 60%, exploitation 21.3% of initial access",
+            "Data exfiltration in just over two hours in some Akira cases"
+          ],
+          [
+            "P3 Shared IT and SaaS (common dependency)",
+            "Compromise of a shared estate or supplier",
+            "Kensington and Chelsea shared IT; Miljödata",
+            "Multi-organisation outage and data notifications"
+          ],
+          [
+            "P4 OT, field and building systems (targeted disruption)",
+            "Internet-exposed PLCs and HMIs; weak passwords",
+            "Minnesota water systems; Bremanger dam (contextual)",
+            "Plant manipulation risk; precautionary isolation"
+          ],
+          [
+            "P5 Payment-chain fraud (supply-chain concentration)",
+            "Supplier email compromise; bank-detail change",
+            "Australian police alert on construction BEC",
+            "Diverted stage payments"
+          ]
+        ],
+        "widths": [
+          2.2,
+          2.0,
+          2.3,
+          1.9
+        ],
+        "claim_ids": [
+          "C-001",
+          "C-011",
+          "C-020",
+          "C-004",
+          "C-006",
+          "C-008",
+          "C-013",
+          "C-017",
+          "C-018",
+          "C-021",
+          "C-009"
+        ],
+        "legacy_source": "Ch2 threat pathways table and narrative"
+      },
+      "elements": [
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Five named incidents met the source edition's evidence standard over the year. Last 30 days before cut-off: the Femern Link Contractors incident (12-13 Oct 2026) and the Miljödata GDPR fine (22 Sep 2026).",
+          "claim_ids": [
+            "C-011",
+            "C-017"
+          ],
+          "legacy_source": "Ch2 top five; Ch1 what changed"
+        },
+        {
+          "element_id": "significance",
+          "role": "significance",
+          "visible_text": "P3 and P5 propagate beyond the victim to owners, contractors and payment flows; P1 and P4 stop time-sensitive operations.",
+          "claim_ids": [
+            "C-036",
+            "C-037"
+          ],
+          "legacy_source": "Ch1 judgements 1-2; Ch2 pathways"
+        },
+        {
+          "element_id": "credit_lens",
+          "role": "credit_lens",
+          "visible_text": "Weight borrower discussion towards propagation - shared services, platforms, exposed OT and payment changes - rather than counting ransomware claims.",
+          "claim_ids": [
+            "C-047",
+            "C-036"
+          ],
+          "legacy_source": "Legacy slide 2 implication"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Patterns are unranked and impact levels were not rated in the source edition; developments in the 30 days after 14 Oct 2026: not covered in source edition.",
+          "claim_ids": [
+            "C-042"
+          ],
+          "legacy_source": "Gap register G-01, G-02"
+        },
+        {
+          "element_id": "source_strip",
+          "role": "source_strip",
+          "visible_text": "Sources: S-001, S-010, S-012, S-013, S-015, S-022, S-023, S-026 (Tier 1); S-018, S-020 (Tier 2) - Period: Jul 2024-Oct 2026",
+          "claim_ids": [],
+          "legacy_source": "Legacy references [1],[10],[12],[13],[15],[22],[23],[26],[18],[20]"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "section": "B",
+      "label": "Geopolitical Cyber Threat Outlook",
+      "kind": "analytical",
+      "headline": "Geopolitical exposure is evidenced only in fragments: exposed public-works OT faces state-linked pressure, while construction firms are more likely collateral than primary targets.",
+      "headline_claim_ids": [
+        "C-038"
+      ],
+      "table": {
+        "headers": [
+          "Region",
+          "State-linked signal (source edition)",
+          "Attribution status",
+          "Sector pathway"
+        ],
+        "rows": [
+          [
+            "United States and Canada",
+            "Authority judged Iranian cyber retaliation very likely after Feb 2026 strikes; malicious activity at more than 30 Minnesota water systems (Jul 2026)",
+            "Bulletin is an estimative judgement; state made no attribution; media-reported Iran link is unconfirmed",
+            "Internet-exposed controllers at public-works operators"
+          ],
+          [
+            "Norway",
+            "Bremanger dam outflow valves opened for about four hours (Apr 2025)",
+            "Security service linked it to Russian methods (Aug 2025); contextual",
+            "Weak passwords and poor IT/OT separation"
+          ],
+          [
+            "Denmark and Germany",
+            "Femern Link Contractors cyber incident (Oct 2026)",
+            "No attribution disclosed",
+            "Cross-border infrastructure programme"
+          ],
+          [
+            "EU and UK wider view",
+            "Dedicated geopolitical analysis (Q07)",
+            "Not covered in source edition",
+            "Not covered in source edition"
+          ]
+        ],
+        "widths": [
+          1.6,
+          3.0,
+          2.3,
+          1.5
+        ],
+        "claim_ids": [
+          "C-010",
+          "C-018",
+          "C-019",
+          "C-021",
+          "C-011"
+        ],
+        "legacy_source": "Ch1 judgement 3; Ch2 incidents 1, 4; considered-not-selected"
+      },
+      "elements": [
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Source edition fragments: one national threat bulletin, two state statements, one regulator notice and one owner statement; no conflict-driven campaign against construction firms was documented.",
+          "claim_ids": [
+            "C-010",
+            "C-018",
+            "C-021",
+            "C-011"
+          ],
+          "legacy_source": "Ch1 judgement 3; Ch2"
+        },
+        {
+          "element_id": "significance",
+          "role": "significance",
+          "visible_text": "State-linked intent towards poorly secured infrastructure reaches the public-works assets that contractors build, operate and maintain.",
+          "claim_ids": [
+            "C-038"
+          ],
+          "legacy_source": "Ch1 judgement 3"
+        },
+        {
+          "element_id": "credit_lens",
+          "role": "credit_lens",
+          "visible_text": "For public-works and infrastructure borrowers, ask about OT inventory, removal of internet exposure and IT/OT segregation.",
+          "claim_ids": [
+            "C-047"
+          ],
+          "legacy_source": "Ch7 action A3; challenge question 3"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Not covered in source edition: dedicated geopolitical analysis (Q07), exposed-region view and conflict-driven supply-chain exposure; attribution is preliminary or contextual.",
+          "claim_ids": [
+            "C-038",
+            "C-019"
+          ],
+          "legacy_source": "Gap register G-04"
+        },
+        {
+          "element_id": "source_strip",
+          "role": "source_strip",
+          "visible_text": "Sources: S-001, S-012, S-013, S-017, S-025 (Tier 1); S-018 (Tier 2); S-014 (Tier 3) - Period: Apr 2025-Oct 2026",
+          "claim_ids": [],
+          "legacy_source": "Legacy references [1],[12],[13],[17],[25],[18],[14]"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "section": "B",
+      "label": "Major Cyber Incidents & Lessons Learned",
+      "kind": "analytical",
+      "headline": "Five in-period incidents show disruption reaching owners, suppliers and site operations; only one is documented well enough for a detailed case study.",
+      "headline_claim_ids": [
+        "C-011",
+        "C-013",
+        "C-017",
+        "C-018",
+        "C-020",
+        "C-041"
+      ],
+      "table": {
+        "headers": [
+          "Incident",
+          "Vector and documented weakness",
+          "Disruption and financial consequence",
+          "Lesson",
+          "Detailed case (A2)"
+        ],
+        "rows": [
+          [
+            "Femern Link Contractors, Oct 2026",
+            "Not disclosed",
+            "Media-reported network shutdown and idle vessels; no cost disclosed",
+            "IT loss can reach marine and site works",
+            "Monitor; evidence one to two days old"
+          ],
+          [
+            "Kensington and Chelsea shared IT, Nov 2025",
+            "Human error per auditor; fragmented legacy estate",
+            "Planning about 15 weeks, revenues about six months; GBP 1.2m recovery costs",
+            "Owner outages reach contractor consents and payments",
+            "Case 1 (source edition)"
+          ],
+          [
+            "Miljödata, Aug 2025",
+            "Insufficient software checks; no real-time monitoring",
+            "2.2m people affected; SEK 1.8m GDPR fine",
+            "Regulators also review the supplier's customers",
+            "Not covered in source edition"
+          ],
+          [
+            "Minnesota water systems, Jul 2026",
+            "Remotely accessible PLCs and HMIs",
+            "More than 30 systems affected; no water-use change",
+            "Exposed OT is reachable at scale",
+            "Not covered in source edition"
+          ],
+          [
+            "SANKO TECHNO, Aug 2026",
+            "Ransomware at a subsidiary",
+            "Contained by network isolation; cost under review",
+            "Segregation limits supplier spread",
+            "Not covered in source edition"
+          ]
+        ],
+        "widths": [
+          1.85,
+          1.75,
+          2.05,
+          1.6,
+          1.25
+        ],
+        "claim_ids": [
+          "C-011",
+          "C-012",
+          "C-013",
+          "C-014",
+          "C-015",
+          "C-017",
+          "C-018",
+          "C-020",
+          "C-041"
+        ],
+        "legacy_source": "Ch2 top-five table; Ch5 case study; Ch5 selection matrix"
+      },
+      "elements": [
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Only the Kensington and Chelsea case combines official chronology, disclosed cost and auditor findings; the auditor attributes it to human error.",
+          "claim_ids": [
+            "C-041",
+            "C-015"
+          ],
+          "legacy_source": "Ch5 why this case; disruption mechanism"
+        },
+        {
+          "element_id": "significance",
+          "role": "significance",
+          "visible_text": "Owner-side and supplier incidents disrupt the consents, instructions and payments that contractors depend on, even when the contractor itself is not attacked.",
+          "claim_ids": [
+            "C-043"
+          ],
+          "legacy_source": "Ch5 sector lesson"
+        },
+        {
+          "element_id": "credit_lens",
+          "role": "credit_lens",
+          "visible_text": "Treat owner digital disruption as foreseeable in contractor cash-flow and contract planning.",
+          "claim_ids": [
+            "C-043",
+            "C-039"
+          ],
+          "legacy_source": "Legacy slide 5 implication"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Second and third detailed case studies: not covered in source edition. No contractor disclosed cost or delay; developments after 14 Oct 2026: not covered in source edition.",
+          "claim_ids": [
+            "C-042"
+          ],
+          "legacy_source": "Gap register G-01, G-07"
+        },
+        {
+          "element_id": "source_strip",
+          "role": "source_strip",
+          "visible_text": "Sources: S-001, S-005, S-006, S-007, S-008, S-010, S-012, S-013, S-015 (Tier 1); S-002 (Tier 3) - Period: Aug 2025-Oct 2026",
+          "claim_ids": [],
+          "legacy_source": "Legacy references [1],[5]-[8],[10],[12],[13],[15],[2]"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "section": "B",
+      "label": "Control Weaknesses & Resilience Priorities",
+      "kind": "analytical",
+      "headline": "Documented weaknesses cluster in identity, segregation and monitoring; six priorities address the evidenced threat patterns.",
+      "headline_claim_ids": [
+        "C-047",
+        "C-015",
+        "C-017",
+        "C-021",
+        "C-008"
+      ],
+      "table": {
+        "headers": [
+          "Priority",
+          "Weakness evidenced (source edition)",
+          "Patterns addressed",
+          "Horizon",
+          "Confidence"
+        ],
+        "rows": [
+          [
+            "A1 Map shared dependencies",
+            "Single shared estates and SaaS platforms (Kensington and Chelsea, Miljödata)",
+            "P3",
+            "0-6 months",
+            "Medium"
+          ],
+          [
+            "A2 Identity and remote access",
+            "VPN without MFA, unpatched edge and backup (Akira); human error (Kensington and Chelsea)",
+            "P1, P2",
+            "0-3 months",
+            "High"
+          ],
+          [
+            "A3 Segregate OT and site systems",
+            "Weak passwords, poor IT/OT separation (Bremanger); 81% of OT cases with weak segmentation",
+            "P4",
+            "3-12 months",
+            "Medium"
+          ],
+          [
+            "A4 Confirm payment changes",
+            "Supplier email compromise and bank-detail replacement",
+            "P5",
+            "0-3 months",
+            "High"
+          ],
+          [
+            "A5 Contractual flow-down",
+            "Owner duties under NIS2, CER and procurement rules",
+            "P3, P5",
+            "6-12 months",
+            "High"
+          ],
+          [
+            "A6 Tested manual fallback",
+            "Time-sensitive operations stopped by IT loss (Femern, media-reported)",
+            "P1, P4",
+            "6-12 months",
+            "Medium"
+          ]
+        ],
+        "widths": [
+          1.9,
+          3.45,
+          1.05,
+          1.0,
+          1.0
+        ],
+        "claim_ids": [
+          "C-013",
+          "C-017",
+          "C-008",
+          "C-015",
+          "C-021",
+          "C-004",
+          "C-009",
+          "C-040",
+          "C-037",
+          "C-012"
+        ],
+        "legacy_source": "Ch7 action table; Ch2 vulnerabilities"
+      },
+      "elements": [
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Documented weaknesses: human error and a fragmented legacy estate; missing software checks and real-time monitoring; weak passwords and poor IT/OT separation; VPNs without MFA and unpatched backup servers.",
+          "claim_ids": [
+            "C-015",
+            "C-017",
+            "C-021",
+            "C-008"
+          ],
+          "legacy_source": "Ch5 mechanism; Ch2 incidents; Ch2 advisory"
+        },
+        {
+          "element_id": "significance",
+          "role": "significance",
+          "visible_text": "The same few weaknesses enable both ransomware and OT manipulation, so a small set of capabilities prevents or contains most evidenced disruption.",
+          "claim_ids": [
+            "C-047"
+          ],
+          "legacy_source": "Ch7 action links"
+        },
+        {
+          "element_id": "credit_lens",
+          "role": "credit_lens",
+          "visible_text": "Use the priorities as discussion topics with borrowers; they are not a control audit or compliance finding.",
+          "claim_ids": [
+            "C-047"
+          ],
+          "legacy_source": "Ch7 preamble"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Confidence reflects source-edition claim confidence; no control-effectiveness data for any firm exist in the source edition.",
+          "claim_ids": [
+            "C-042"
+          ],
+          "legacy_source": "Methodology; Ch7 preamble"
+        },
+        {
+          "element_id": "source_strip",
+          "role": "source_strip",
+          "visible_text": "Sources: S-001, S-005, S-007, S-010, S-013, S-017, S-022, S-026, S-032 (Tier 1); S-018 (Tier 2) - Period: Apr 2025-Oct 2026",
+          "claim_ids": [],
+          "legacy_source": "Legacy references [1],[5],[7],[10],[13],[17],[22],[26],[32],[18]"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "section": "C",
+      "label": "Regulatory & Supervisory Resilience Expectations",
+      "kind": "analytical",
+      "headline": "Construction sits outside the direct scope of EU and UK cyber-resilience law; obligations reach contractors through owners, procurement, product and data rules, and US coverage is comparative only.",
+      "headline_claim_ids": [
+        "C-040",
+        "C-026",
+        "C-028",
+        "C-033",
+        "C-035"
+      ],
+      "table": {
+        "headers": [
+          "Jurisdiction",
+          "Instrument",
+          "Legal status",
+          "Relevance to Building & Public Works"
+        ],
+        "rows": [
+          [
+            "EU",
+            "NIS2 Directive",
+            "Binding via national law; 4 Member States referred (Jul 2026)",
+            "Not a listed sector; owner duties flow down"
+          ],
+          [
+            "EU",
+            "CER Directive",
+            "Binding via national law; identification due 17 Jul 2026",
+            "Designated operators may impose resilience terms"
+          ],
+          [
+            "EU",
+            "Cyber Resilience Act",
+            "Regulation; manufacturer reporting from 11 Sep 2026",
+            "Building-automation and site-product makers"
+          ],
+          [
+            "EU and UK",
+            "GDPR; UK GDPR and DPA 2018",
+            "EU regulation; UK domestic law",
+            "Breach notification and fines across the chain"
+          ],
+          [
+            "EU",
+            "Public Procurement Act COM(2026) 590",
+            "Proposal only",
+            "Cyber and security-of-supply terms in tenders"
+          ],
+          [
+            "UK",
+            "NIS Regulations 2018",
+            "Binding regulation",
+            "Construction not in scope"
+          ],
+          [
+            "UK",
+            "Cyber Security and Resilience Bill",
+            "Bill in House of Lords",
+            "Could reach MSPs and designated suppliers"
+          ],
+          [
+            "UK",
+            "PPN 014; Procurement Act 2023",
+            "Policy note; statute (live 24 Feb 2025)",
+            "Cyber Essentials for central-government suppliers"
+          ],
+          [
+            "US",
+            "SEC Form 8-K Item 1.05",
+            "Binding for SEC registrants",
+            "Disclosure within four business days of materiality"
+          ],
+          [
+            "US",
+            "Sector cyber regulation and supervision",
+            "Not covered in source edition",
+            "Not covered in source edition"
+          ]
+        ],
+        "widths": [
+          1.0,
+          2.35,
+          2.65,
+          2.4
+        ],
+        "claim_ids": [
+          "C-026",
+          "C-027",
+          "C-028",
+          "C-029",
+          "C-030",
+          "C-031",
+          "C-033",
+          "C-032",
+          "C-034",
+          "C-035"
+        ],
+        "legacy_source": "Ch6 regulatory perimeter table"
+      },
+      "elements": [
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Consequences of non-compliance in the source edition: penalties requested against four Member States; GDPR fines of SEK 1.8m (Miljödata) and GBP 4.4m (Interserve, historical).",
+          "claim_ids": [
+            "C-027",
+            "C-017",
+            "C-022"
+          ],
+          "legacy_source": "Ch6; Ch3 outcomes"
+        },
+        {
+          "element_id": "significance",
+          "role": "significance",
+          "visible_text": "In-period pressure: CRA reporting began, CER identification fell due and an EU procurement reform with cyber terms was proposed.",
+          "claim_ids": [
+            "C-029",
+            "C-028",
+            "C-031"
+          ],
+          "legacy_source": "Ch1 judgement 5"
+        },
+        {
+          "element_id": "credit_lens",
+          "role": "credit_lens",
+          "visible_text": "Check that project and guarantee documentation reflects owner-imposed cyber and notification terms.",
+          "claim_ids": [
+            "C-047",
+            "C-040"
+          ],
+          "legacy_source": "Ch7 action A5"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Not covered in source edition: US sector cyber rules beyond SEC disclosure, supervisory priorities and national NIS2 scope extensions.",
+          "claim_ids": [
+            "C-040"
+          ],
+          "legacy_source": "Gap register G-05"
+        },
+        {
+          "element_id": "source_strip",
+          "role": "source_strip",
+          "visible_text": "Sources: S-030, S-032 to S-042, S-046, S-047 (Tier 1) - Period: legal milestones 2016-2027; status at 14 Oct 2026",
+          "claim_ids": [],
+          "legacy_source": "Legacy references [30],[32]-[42],[46],[47]"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "section": "C",
+      "label": "Financial Impact of Cyber Incidents",
+      "kind": "analytical",
+      "headline": "Public financial evidence is thin and cannot be added up; the evidence suggests time - weeks of site downtime and months of owner disruption - is the main cost driver.",
+      "headline_claim_ids": [
+        "C-042",
+        "C-004",
+        "C-014"
+      ],
+      "table": {
+        "headers": [
+          "Metric",
+          "Value",
+          "Period",
+          "Type and caveat"
+        ],
+        "rows": [
+          [
+            "Kensington and Chelsea recovery costs",
+            "GBP 1.2m",
+            "FY 2025/26",
+            "Accounts; further costs unquantified"
+          ],
+          [
+            "Kensington and Chelsea planning outage",
+            "105 days",
+            "Nov 2025-Mar 2026",
+            "Derived from two official dates"
+          ],
+          [
+            "Kensington and Chelsea revenues and benefits outage",
+            "About six months",
+            "Nov 2025-Jun 2026",
+            "Approximate end date"
+          ],
+          [
+            "Miljödata GDPR fine",
+            "SEK 1.8m",
+            "Sep 2026",
+            "Regulatory outcome only"
+          ],
+          [
+            "Construction ransomware downtime",
+            "24 days average",
+            "2025",
+            "Insurer research; method undisclosed"
+          ],
+          [
+            "Interserve fine; recovery and advisory fees",
+            "GBP 4.4m; GBP 7m",
+            "2020 incident, 2022 penalty",
+            "Historical; fees secondary"
+          ],
+          [
+            "Akira ransom proceeds",
+            "USD 244.17m",
+            "To late Sep 2025",
+            "Criminal revenue, all sectors"
+          ],
+          [
+            "Ransom payments by sector firms",
+            "Not covered in source edition",
+            "-",
+            "-"
+          ],
+          [
+            "Five-year cost trend",
+            "Not supportable from source edition",
+            "-",
+            "-"
+          ]
+        ],
+        "widths": [
+          3.0,
+          1.85,
+          1.75,
+          1.8
+        ],
+        "claim_ids": [
+          "C-015",
+          "C-014",
+          "C-017",
+          "C-004",
+          "C-022",
+          "C-008"
+        ],
+        "legacy_source": "Ch3 outcomes table"
+      },
+      "elements": [
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "In-period quantified outcomes come from one public owner and one regulator; no contractor or supplier disclosed a cyber-driven cost, delay or contractual effect.",
+          "claim_ids": [
+            "C-042"
+          ],
+          "legacy_source": "Ch3 bottom line"
+        },
+        {
+          "element_id": "significance",
+          "role": "significance",
+          "visible_text": "Values differ in currency, statistic type and population and are never summed; no sector loss estimate is produced.",
+          "claim_ids": [
+            "C-042"
+          ],
+          "legacy_source": "Ch3 comparability"
+        },
+        {
+          "element_id": "credit_lens",
+          "role": "credit_lens",
+          "visible_text": "Focus on duration and liquidity: how long a borrower could operate and collect cash without key systems or owner payments.",
+          "claim_ids": [
+            "C-039",
+            "C-014"
+          ],
+          "legacy_source": "Ch3 transmission; challenge question 1"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Absence of disclosure is a gap, not evidence of zero loss; ransom payments and multi-year trends are not covered in source edition.",
+          "claim_ids": [
+            "C-042"
+          ],
+          "legacy_source": "Methodology limitations; gap register G-08"
+        },
+        {
+          "element_id": "source_strip",
+          "role": "source_strip",
+          "visible_text": "Sources: S-005, S-006, S-007, S-008, S-010, S-022, S-030 (Tier 1); S-018, S-019 (Tier 2) - Period: 2020-Sep 2026",
+          "claim_ids": [],
+          "legacy_source": "Legacy references [5]-[8],[10],[22],[30],[18],[19]"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "section": "C",
+      "label": "Cyber-to-Credit Risk Transmission & Stress Scenarios",
+      "kind": "analytical",
+      "headline": "Cyber disruption reaches debt service through delayed certification and payment, programme slippage and supplier default; duration evidence supports only part of the 1-, 4- and 8-week bands.",
+      "headline_claim_ids": [
+        "C-039",
+        "C-044",
+        "C-045",
+        "C-046"
+      ],
+      "banner": "Illustrative - not a forecast or loss estimate",
+      "table": {
+        "headers": [
+          "Mechanism",
+          "1 week",
+          "4 weeks",
+          "8 weeks"
+        ],
+        "rows": [
+          [
+            "Common dependency: shared platform or cloud availability failure",
+            "Multi-day outage; 77% tolerate no more than five days without project documentation",
+            "Duration not evidenced",
+            "Duration not evidenced"
+          ],
+          [
+            "Targeted disruption: major contractor or public-works operator",
+            "Within the legacy one-to-four-week band; one US town reportedly restored a plant in about 90 minutes",
+            "Within the legacy band; ransomware downtime averaged about 24 days",
+            "Duration not evidenced for this mechanism; owner-side case restoration took about 15 weeks to six months"
+          ],
+          [
+            "Supply-chain concentration: shared supplier compromise",
+            "Duration not evidenced",
+            "Duration not evidenced",
+            "Duration not evidenced"
+          ]
+        ],
+        "widths": [
+          2.45,
+          2.0,
+          2.0,
+          1.95
+        ],
+        "claim_ids": [
+          "C-044",
+          "C-005",
+          "C-045",
+          "C-019",
+          "C-004",
+          "C-014",
+          "C-046"
+        ],
+        "legacy_source": "Ch4 scenarios 1-3; Ch3; Ch5"
+      },
+      "elements": [
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Transmission: disruption -> programme and site operations -> valuations and owner payments -> contractor cash flow and working capital -> margins and claims -> facility drawdown and debt service.",
+          "claim_ids": [
+            "C-039",
+            "C-014",
+            "C-023"
+          ],
+          "legacy_source": "Ch3 financial-system transmission; Ch4 financial transmission"
+        },
+        {
+          "element_id": "significance",
+          "role": "significance",
+          "visible_text": "Offsets in the source edition: offline copies, manual fallback, OT segregation and supplier segregation limit propagation.",
+          "claim_ids": [
+            "C-044",
+            "C-045",
+            "C-046",
+            "C-020"
+          ],
+          "legacy_source": "Ch4 limiting conditions"
+        },
+        {
+          "element_id": "credit_lens",
+          "role": "credit_lens",
+          "visible_text": "Borrower data needed: dependence on public-owner payments, platform and supplier concentration, programme milestones and liquidity headroom.",
+          "claim_ids": [
+            "C-039",
+            "C-047"
+          ],
+          "legacy_source": "Ch7 challenge questions 1, 5, 6 (reframed)"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Illustrative - not a forecast or loss estimate; no probabilities; bands marked duration not evidenced have no support in the source edition.",
+          "claim_ids": [
+            "C-044",
+            "C-045",
+            "C-046"
+          ],
+          "legacy_source": "Ch4 preamble; rule 8"
+        },
+        {
+          "element_id": "source_strip",
+          "role": "source_strip",
+          "visible_text": "Sources: S-001, S-005, S-013, S-027, S-029, S-031 (Tier 1); S-018 (Tier 2); S-014 (Tier 3) - Period: 2023 survey to Oct 2026",
+          "claim_ids": [],
+          "legacy_source": "Legacy references [1],[5],[13],[27],[29],[31],[18],[14]"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "section": "D",
+      "label": "Questionnaire-to-Sector Intelligence Mapping",
+      "kind": "mapping",
+      "headline": "Provisional map: six generic questionnaire topics derived from the source edition link sector threats to credit consequences; no approved questionnaire was supplied.",
+      "headline_claim_ids": [
+        "C-047"
+      ],
+      "banner": "Provisional",
+      "table": {
+        "headers": [
+          "PROV ID and topic",
+          "Threat and incident evidence",
+          "Operational -> credit consequence",
+          "Suggested question"
+        ],
+        "rows": [
+          [
+            "PROV-01 Owner and third-party dependency",
+            "P3; Kensington and Chelsea, Miljödata",
+            "Consents and payments stop -> working-capital strain",
+            "Which owners, platforms and cloud regions do you rely on, and can you certify and invoice without them for 30 days?"
+          ],
+          [
+            "PROV-02 Identity and remote access",
+            "P2; Akira advisory routes",
+            "Fast entry and data theft -> outage and breach costs",
+            "Is MFA enforced on all remote access, and are edge and backup systems patched?"
+          ],
+          [
+            "PROV-03 OT and site systems",
+            "P4; Minnesota, Bremanger",
+            "Plant or site stoppage -> delay damages",
+            "Is OT inventoried, removed from internet exposure and segregated from IT?"
+          ],
+          [
+            "PROV-04 Payment controls",
+            "P5; police construction BEC alert",
+            "Diverted stage payments -> cash loss",
+            "Are payment-detail changes confirmed out of band?"
+          ],
+          [
+            "PROV-05 Contractual cyber terms",
+            "NIS2, CER and procurement flow-down",
+            "Owner-term breach -> claims or exclusion",
+            "Do contracts reflect owner cyber and notification terms?"
+          ],
+          [
+            "PROV-06 Continuity of time-sensitive works",
+            "P1; Femern reported idle vessels",
+            "Missed milestones -> liquidated damages",
+            "Is manual fallback tested for access, positioning and scheduling?"
+          ]
+        ],
+        "widths": [
+          2.05,
+          1.95,
+          2.0,
+          2.4
+        ],
+        "claim_ids": [
+          "C-047",
+          "C-013",
+          "C-017",
+          "C-008",
+          "C-018",
+          "C-021",
+          "C-009",
+          "C-026",
+          "C-028",
+          "C-031",
+          "C-012"
+        ],
+        "legacy_source": "Ch7 actions A1-A6; Ch2 patterns P1-P5; challenge questions"
+      },
+      "elements": [
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Derived from the source edition's six mitigation actions (A1-A6) and five threat patterns (P1-P5); PROV IDs are placeholders, not questionnaire items.",
+          "claim_ids": [
+            "C-047"
+          ],
+          "legacy_source": "Ch7; rule 7"
+        },
+        {
+          "element_id": "significance",
+          "role": "significance",
+          "visible_text": "Factors that change materiality: revenue share from public owners, reliance on one platform or supplier, OT exposure, stage-payment volume and time-sensitive milestones.",
+          "claim_ids": [
+            "C-039",
+            "C-047"
+          ],
+          "legacy_source": "Ch7 challenge questions (reframed)"
+        },
+        {
+          "element_id": "credit_lens",
+          "role": "credit_lens",
+          "visible_text": "Borrower answers are self-reported, are not confirmed evidence and never trigger an automatic adverse credit judgement.",
+          "claim_ids": [
+            "C-047"
+          ],
+          "legacy_source": "Standard section 7 (no new fact)"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Provisional: no questionnaire item list was supplied; the map must be rebuilt against actual question IDs.",
+          "claim_ids": [
+            "C-047"
+          ],
+          "legacy_source": "Rule 7"
+        },
+        {
+          "element_id": "source_strip",
+          "role": "source_strip",
+          "visible_text": "Sources: S-005, S-010, S-012, S-013, S-017, S-022, S-026, S-032, S-038 (Tier 1); S-018 (Tier 2) - Period: Apr 2025-Oct 2026",
+          "claim_ids": [],
+          "legacy_source": "Legacy references [5],[10],[12],[13],[17],[22],[26],[32],[38],[18]"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "section": "D",
+      "label": "Credit Officer Engagement: Key Questions & Actions",
+      "kind": "analytical",
+      "headline": "Five client discussion topics, with early-warning indicators and referral triggers, turn sector evidence into proportionate borrower engagement.",
+      "headline_claim_ids": [
+        "C-047"
+      ],
+      "table": {
+        "headers": [
+          "Discussion topic",
+          "Question for the client",
+          "Early-warning indicator",
+          "Specialist referral trigger"
+        ],
+        "rows": [
+          [
+            "1 Owner and platform dependency",
+            "Could you certify and invoice for 30 days without your main owners and platforms?",
+            "Owner or platform incident notice",
+            "Reliance on one owner or platform without tested fallback"
+          ],
+          [
+            "2 Remote access and patching",
+            "Is MFA on all remote access, with edge and backup systems patched?",
+            "New joint advisory on edge flaws",
+            "Remote access without MFA"
+          ],
+          [
+            "3 OT and site systems",
+            "Are controllers off the internet and OT segregated from IT?",
+            "Agency alert on exposed OT",
+            "Internet-exposed controllers reported"
+          ],
+          [
+            "4 Payment controls",
+            "Are payment-detail changes confirmed out of band?",
+            "Police alert naming construction BEC",
+            "No out-of-band confirmation"
+          ],
+          [
+            "5 Programme milestones",
+            "Which milestones would a one-to-four-week outage cross?",
+            "Incident notice on a major programme",
+            "Outage would cross a contractual milestone"
+          ]
+        ],
+        "widths": [
+          2.0,
+          2.65,
+          1.9,
+          1.85
+        ],
+        "claim_ids": [
+          "C-047",
+          "C-008",
+          "C-018",
+          "C-009",
+          "C-037",
+          "C-011"
+        ],
+        "legacy_source": "Ch7 challenge questions 1-4, 6; monitoring triggers (reframed)"
+      },
+      "elements": [
+        {
+          "element_id": "evidence",
+          "role": "evidence",
+          "visible_text": "Indicators also include leak-site claims above the Q2 2026 baseline of 176 construction claims per quarter, the UK bill, NIS2 court rulings, procurement adoption and first CRA reporting.",
+          "claim_ids": [
+            "C-001",
+            "C-032",
+            "C-027",
+            "C-031",
+            "C-029"
+          ],
+          "legacy_source": "Ch7 monitoring triggers"
+        },
+        {
+          "element_id": "significance",
+          "role": "significance",
+          "visible_text": "Practical resilience improvements: dependency mapping, MFA and patching, OT segregation, payment-change confirmation, contractual flow-down and tested fallback.",
+          "claim_ids": [
+            "C-047"
+          ],
+          "legacy_source": "Ch7 actions A1-A6"
+        },
+        {
+          "element_id": "credit_lens",
+          "role": "credit_lens",
+          "visible_text": "Proportionate next steps: raise the topics at review, record answers as self-reported, escalate to the Risk Committee when an indicator fires.",
+          "claim_ids": [
+            "C-047"
+          ],
+          "legacy_source": "Legacy slide 7 implication (reframed)"
+        },
+        {
+          "element_id": "limitation",
+          "role": "limitation",
+          "visible_text": "Topics are sector-informed priorities, not findings on any borrower's controls or creditworthiness; referral triggers are reframed from the source edition.",
+          "claim_ids": [
+            "C-047"
+          ],
+          "legacy_source": "Ch7 preamble; reframing list"
+        },
+        {
+          "element_id": "source_strip",
+          "role": "source_strip",
+          "visible_text": "Sources: S-001, S-012, S-013, S-022, S-026, S-033, S-036, S-038, S-039 (Tier 1); S-020 (Tier 2) - Period: Nov 2025-Oct 2026",
+          "claim_ids": [],
+          "legacy_source": "Legacy references [1],[12],[13],[22],[26],[33],[36],[38],[39],[20]"
+        }
+      ]
+    }
+  ]
+}
