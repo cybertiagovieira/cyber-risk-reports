@@ -7,4 +7,6 @@
 - Status: NEEDS_REVIEW (user-supplied evidence not validated; conflict E-01 open; Q07, Q12 and Q14 partial).
 - The baseline edition (2025-09_2026-10) and the migrated edition (2025-09_2026-10_migrated-credit12) are unchanged.
 
+Input copy: inputs/fc0b3cea-manufacturing.md (user-supplied, Portuguese, unchanged).
+
 File: Manufacturing_research_Q01-Q15.md (SHA-256 46730335bfcd39276c725045089147f6d4fff1e68f738d3df817d67b5670db6a)
