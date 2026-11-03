@@ -1,0 +1,465 @@
+# Comprehensive Analysis of Cybersecurity Trends and Risks (2026)
+
+## Executive Summary
+
+Recent cybersecurity trends demonstrate concerning advances in the speed and sophistication of cyber threats. In 2025, attacks conducted by artificial intelligence (AI)-enabled adversaries increased by **89%**, with threat actors exploiting legitimate AI tools to generate malicious commands.
+
+The average compromise time in cybercrime incidents fell to just **29 minutes**, representing a 65% increase in speed compared with 2024. In exceptional cases, attackers reportedly achieved full system control within only **27 seconds**.
+
+Meanwhile, ransomware and Distributed Denial-of-Service (DDoS) attacks remain dominant threats across the European Union (EU).
+
+From a regulatory perspective, the EU Artificial Intelligence Act (AI Act) was scheduled to become broadly applicable on 2 August 2026, while Portugal's transposition of the Network and Information Security Directive (NIS2) was expected to be completed during 2026, introducing more demanding obligations for businesses and public-sector organisations.
+
+Immediate priorities include strengthening cyber threat intelligence capabilities, incorporating AI-enabled detection technologies, reinforcing perimeter security and risk management, and preparing for compliance with emerging regulatory requirements.
+
+**Sources:** [CrowdStrike Global Threat Report 2026](https://www.crowdstrike.com/pt-br/global-threat-report/) | [ENISA Threat Landscape](https://www.enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience)
+
+---
+
+## 1. Possible Interpretations of the Research Request and Research Directions
+
+As the original research request was not clearly identified in the previous report, three potential research approaches were considered:
+
+**1. Emerging Cyber Threats (2025-2026)**
+
+Analysis of global cyberattack trends, including the use of artificial intelligence, ransomware, supply-chain vulnerabilities and infiltration techniques such as fileless malware.
+
+**2. Cybersecurity Regulation and Policy**
+
+Assessment of emerging regulatory frameworks, including the AI Act, NIS2, the Digital Operational Resilience Act (DORA) and the Cyber Resilience Act, alongside recent regulatory obligations within the EU and Portugal.
+
+**3. Cyber Threat Intelligence in the Corporate Context (Portugal/EU)**
+
+Examination of how organisations across essential sectors, government and infrastructure manage cyber risk, collaborate through information-sharing initiatives and adopt threat intelligence solutions.
+
+### Selected Research Direction
+
+The previous report adopted **Approach 1: Emerging Global Cyber Threats and Their Implications for Defence Strategy**.
+
+The underlying assumption was that the intended objective was to understand the evolving technical and regulatory risk landscape.
+
+The report also assumed that:
+
+- The target audience consisted of cybersecurity decision-makers, including Chief Information Security Officers (CISOs) and risk managers.
+- The central topic was cybersecurity and threat intelligence in the context of 2025-2026.
+- The analysis should include practical implications, such as costs, implementation schedules and mitigation alternatives.
+
+---
+
+## 2. Global Cyber Threat Landscape (2025-2026)
+
+The CrowdStrike Global Threat Report 2026 indicates that 2025 was characterised by increasingly rapid and automated cyberattacks.
+
+### 2.1 Acceleration of Cyberattacks
+
+The average time to compromise in cybercrime incidents reportedly fell to **29 minutes**, representing a 65% increase in speed compared with 2024.
+
+In exceptional cases, attackers were reported to have achieved full system control in just **27 seconds**.
+
+This acceleration substantially reduces the time available for defensive intervention, increasing the importance of real-time detection technologies, automated responses and continuous security monitoring.
+
+### 2.2 Increased Use of Artificial Intelligence by Threat Actors
+
+The report identified an **89% increase in attacks conducted by AI-enabled adversaries**.
+
+CrowdStrike describes artificial intelligence as both a force multiplier for cyberattacks and an additional attack surface.
+
+Legitimate AI tools were reportedly exploited to generate malicious code and extract sensitive information from more than 90 organisations.
+
+Another finding was that **ChatGPT was mentioned 550% more frequently in criminal forums than any other AI model**, indicating substantial cybercriminal interest in generative artificial intelligence.
+
+Threat actors are increasingly integrating AI into phishing campaigns, social engineering and intrusion strategies, expanding the efficiency and potential scale of malicious operations.
+
+### 2.3 Fileless Attacks and Vulnerability Exploitation
+
+In 2025:
+
+- **82% of detected intrusions were malware-free**, reflecting the increasing exploitation of legitimate system tools and malicious scripts.
+- Exploitation of zero-day vulnerabilities before public disclosure reportedly increased by **42%**.
+
+These developments highlight the limitations of traditional antivirus controls when attackers exploit legitimate tools, credentials and system functionality.
+
+### 2.4 Ransomware and Conventional Cyber Threats
+
+Ransomware continues to represent one of the most consequential categories of cyber incidents in the short term across the EU.
+
+Data exfiltration and system-encryption attacks remain major sources of operational and financial losses.
+
+CrowdStrike also reported **US$1.46 billion in cryptocurrency theft during 2025**.
+
+Politically motivated hacktivism and DDoS campaigns have increased, particularly against public-sector organisations and essential infrastructure.
+
+### 2.5 Cross-Domain Movement and Edge Infrastructure
+
+Threat actors increasingly exploit security visibility gaps and move across different technology environments, including identity infrastructure, cloud systems and virtualised environments.
+
+CrowdStrike describes attackers as moving fluidly across these domains to bypass traditional endpoint-focused detection.
+
+Additional findings for 2025 include:
+
+- **40% of vulnerabilities exploited by China-linked threat actors targeted edge devices**, including Internet of Things (IoT) infrastructure.
+- Cloud-aware intrusions attributed to state-linked adversaries reportedly increased by **266%**.
+
+These findings point to increasing attacker attention towards cloud infrastructure, edge devices and hybrid technology environments.
+
+**Source:** [CrowdStrike Global Threat Report 2026](https://www.crowdstrike.com/pt-br/global-threat-report/)
+
+---
+
+## 3. Cybersecurity Regulation, Standards and Implementation Timeline
+
+Cybersecurity regulation across the European Union has intensified, introducing additional requirements for organisations operating within regulated sectors.
+
+### 3.1 Network and Information Security Directive (NIS2)
+
+**Directive (EU) 2022/2555**
+
+NIS2 establishes strengthened cybersecurity requirements for essential and important entities across sectors including energy, transport, finance and digital infrastructure.
+
+The original deadline for Member States to transpose the directive into national legislation was **17 October 2024**.
+
+In Portugal, the previous report referenced the publication of an enabling law in October 2025 and anticipated further implementation through a national decree-law during 2026.
+
+The report also described a proposed 120-day implementation period following publication, alongside transitional arrangements for certain obligations.
+
+These statements reflect the regulatory expectations presented in the original research and were not subsequently updated.
+
+### 3.2 Artificial Intelligence Act
+
+**Regulation (EU) 2024/1689**
+
+The EU AI Act entered into force in August 2024 and establishes requirements governing the development, deployment and use of artificial intelligence systems.
+
+The original report identified several implementation milestones:
+
+- **August 2024:** Entry into force.
+- **February 2025:** Application of certain prohibitions and AI literacy obligations.
+- **August 2025:** Application of obligations relating to general-purpose AI models.
+- **August 2026:** Broad application of the regulation, subject to exceptions.
+- **August 2027:** Application of certain additional high-risk AI provisions.
+
+The regulation introduces requirements concerning transparency, safety, accountability and prohibited AI practices.
+
+### 3.3 Digital Operational Resilience Act (DORA)
+
+**Regulation (EU) 2022/2554**
+
+DORA establishes a common digital operational resilience framework for the European financial sector.
+
+The regulation entered into force in January 2023 and has applied since **17 January 2025**.
+
+It establishes requirements covering:
+
+- Information and Communication Technology (ICT) risk management.
+- ICT-related incident management and reporting.
+- Digital operational resilience testing.
+- ICT third-party risk management.
+- Information-sharing arrangements.
+
+Banks, insurance companies and other financial entities within scope must implement arrangements aligned with the regulation.
+
+### 3.4 Data Act and Cyber Resilience Act
+
+**Data Act - Regulation (EU) 2023/2854**
+
+The Data Act establishes harmonised rules concerning access to and use of data. Its general application began on **12 September 2025**.
+
+**Cyber Resilience Act - Regulation (EU) 2024/2847**
+
+The Cyber Resilience Act introduces cybersecurity requirements for products with digital elements.
+
+Its principal obligations are scheduled to apply from **11 December 2027**.
+
+### 3.5 Regulatory Implementation Timeline
+
+| Regulation | Key date | Main area |
+|---|---|---|
+| NIS2 | January 2023 - entry into force | Cybersecurity obligations for essential and important entities |
+| AI Act | August 2024 - entry into force | Governance and security of artificial intelligence |
+| DORA | January 2025 - application | Digital operational resilience in the financial sector |
+| Data Act | September 2025 - general application | Fair access to and use of data |
+| Cyber Resilience Act | December 2027 - main obligations | Cybersecurity requirements for digital products |
+
+**Figure 1 - Timeline of major EU and Portuguese cybersecurity regulations (2022-2027).**
+
+The original report included a placeholder for a timeline illustration covering NIS2, the AI Act, DORA, the Data Act and the Cyber Resilience Act. No rendered figure was included in the original output.
+
+**Sources:** [EU Regulatory Overview - Abreu Advogados](https://abreuadvogados.com/en/conhecimento/publicacoes/data-protection-day-2025/) | [NIS2 Transposition in Portugal - Bird & Bird](https://www.twobirds.com/en/insights/2025/nis2-directive-transposition-in-portugal-status-and-brief-overview)
+
+---
+
+## 4. Main Threat Actors and Affected Sectors
+
+According to the European Union Agency for Cybersecurity (ENISA), **73% of targeted organisations in the analysed incident dataset were classified as essential or important entities under NIS2**.
+
+Public administration remained the most frequently targeted sector, accounting for **32% of reported cases**.
+
+Ideologically motivated DDoS campaigns represented a substantial proportion of attacks affecting public administrations, reaching 82% in the dataset described by the original report.
+
+Other frequently targeted sectors included:
+
+| Sector | Share of reported cases |
+|---|---:|
+| Public administration | 32% |
+| Business services | 8% |
+| Transport | 8% |
+| Manufacturing | 7% |
+| Finance and banking | 6% |
+
+### Third-Party and Supply-Chain Exposure
+
+Increasing dependence on external technology providers expands the attack surface of organisations across sectors.
+
+ENISA highlights the operational consequences of supply-chain compromises and attacks involving third-party service providers.
+
+Such incidents can affect multiple organisations simultaneously, resulting in large-scale disruption.
+
+### Portuguese Context
+
+In Portugal, the National Cybersecurity Centre (Centro Nacional de Cibersegurança - CNCS) coordinates cybersecurity initiatives, supports incident response and promotes awareness through events such as the C-Days conference.
+
+The original report characterised cybersecurity maturity across some essential sectors, including energy, healthcare and telecommunications, as ranging from medium to low.
+
+This characterisation was not accompanied by a specific supporting dataset in the original report.
+
+**Source:** [ENISA - Exploring the Evolution of the Cyber Threat Landscape](https://www.enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience)
+
+---
+
+## 5. Risk Assessment, Costs and Cybersecurity Investment
+
+Cyber risk assessment should consider two interconnected dimensions:
+
+1. Technical threats and operational exposure.
+2. The financial cost of prevention, detection, response and recovery.
+
+### 5.1 Technical Threats
+
+The increasing use of artificial intelligence expands the potential attack surface and enables more sophisticated attack methods.
+
+Examples include:
+
+- AI-assisted phishing and social engineering.
+- Deepfake-enabled impersonation.
+- Automated intrusion tools.
+- Exploitation of identity and cloud infrastructure.
+- Cross-domain attacks involving endpoint, cloud and network environments.
+- State-linked cyber intrusions targeting strategic infrastructure.
+
+These developments increase the importance of integrated visibility across systems and the ability to respond rapidly to changing attacker behaviour.
+
+### 5.2 Global Cybersecurity Expenditure
+
+Gartner projected worldwide spending on information security to reach approximately **US$212 billion in 2025**, representing an increase of **15.1% compared with 2024**.
+
+This growth reflects increasing investment in:
+
+- Cybersecurity technologies and platforms.
+- Specialist personnel and security operations.
+- Advanced detection and monitoring capabilities.
+- Organisational resilience and risk management.
+
+### 5.3 Organisational Cybersecurity Costs
+
+Cybersecurity expenditure varies considerably according to organisational size, operational complexity and sector-specific requirements.
+
+The original report suggested that implementing a comprehensive security architecture could require annual expenditure of several million euros for larger medium-sized organisations.
+
+Such architectures may include:
+
+- Endpoint Detection and Response (EDR).
+- Extended Detection and Response (XDR).
+- Next-generation firewalls.
+- Security Operations Centres (SOCs).
+- Advanced monitoring and security analytics.
+
+These are illustrative cost considerations rather than figures derived from an identified industry dataset.
+
+### 5.4 Indirect Financial Costs
+
+Cyber incidents and cybersecurity obligations may also generate substantial indirect expenditure.
+
+Potential financial consequences include:
+
+**Cyber insurance:** Changes in insurance premiums and policy conditions resulting from the evolving cyber risk environment.
+
+**Regulatory penalties:** Financial penalties associated with non-compliance with relevant data protection and cybersecurity obligations.
+
+**Operational disruption:** Losses arising from downtime, service interruption and reduced organisational productivity.
+
+**Ransomware:** Financial consequences arising from ransom demands, system restoration, incident response and business interruption.
+
+The original report noted that ransomware-related operational losses could exceed hundreds of thousands of euros per incident, depending on circumstances.
+
+This amount was not supported by a specified dataset or sample in the original report.
+
+Cyber resilience therefore requires sustained investment, calibrated to an organisation's operational importance, exposure and risk profile.
+
+**Source:** [Gartner - Global Information Security Spending Forecast, August 2024](https://www.gartner.com/en/newsroom/press-releases/2024-08-28-gartner-forecasts-global-information-security-spending-to-grow-15-percent-in-2025)
+
+---
+
+## 6. Conclusions and Recommendations
+
+The evidence presented in the original report indicates that the 2026 cybersecurity landscape is characterised by increasingly rapid and sophisticated attacks, greater adoption of artificial intelligence by adversaries and expanding regulatory obligations.
+
+### 6.1 Key Conclusions
+
+**1. Attack Speed and Automation**
+
+The reduction in attacker breakout times considerably compresses the defensive response window.
+
+Organisations require continuous monitoring and increasingly automated detection and containment capabilities.
+
+**2. Artificial Intelligence and Malware**
+
+Artificial intelligence is being used both to facilitate cyberattacks and as a technology environment targeted by malicious actors.
+
+Criminal and state-linked groups exploit AI to increase the reach and effectiveness of their operations.
+
+Organisations should consider AI-enabled defensive technologies, including machine-learning detection and behavioural analytics, alongside specialised training.
+
+**3. Expanding Regulatory Obligations**
+
+EU regulatory frameworks, including NIS2, the AI Act and DORA, establish additional requirements affecting cybersecurity, governance and operational resilience.
+
+Organisations must assess the applicability of these requirements and align their internal governance, risk management and security arrangements accordingly.
+
+### 6.2 Recommended Priority Actions
+
+**Priority 1 - Risk Assessment and Governance Framework**
+
+- Conduct cybersecurity risk assessments focused on essential systems and assets, including AI technologies.
+- Review existing governance and accountability arrangements.
+- Establish an implementation plan aligned with applicable NIS2 and AI Act requirements.
+- Integrate cybersecurity considerations into enterprise risk management.
+
+**Priority 2 - Strengthening Technical Defences**
+
+- Implement or modernise security detection and response capabilities, including Security Information and Event Management (SIEM), EDR and XDR.
+- Strengthen network segmentation and microsegmentation.
+- Improve visibility across cloud, identity and IoT environments.
+- Review perimeter security and vulnerability management capabilities.
+
+**Priority 3 - Continuous Monitoring and Threat Intelligence**
+
+- Participate in cybersecurity information-sharing arrangements, including national authorities and relevant Information Sharing and Analysis Centres (ISACs).
+- Incorporate threat intelligence feeds into security monitoring and risk assessment processes.
+- Monitor ransomware trends, emerging exploitation techniques and newly disclosed vulnerabilities.
+- Use threat intelligence to inform defensive priorities and detection engineering.
+
+**Priority 4 - Training and Cybersecurity Awareness**
+
+- Develop specialised cybersecurity capabilities, including expertise in AI security and incident response.
+- Deliver security awareness initiatives across the organisation.
+- Conduct phishing simulations and exercises addressing social engineering.
+- Strengthen access management practices and employee understanding of security responsibilities.
+
+**Priority 5 - Recovery Preparedness**
+
+- Establish comprehensive incident response and recovery plans.
+- Maintain secure offline backups and assess their integrity.
+- Conduct regular response and recovery exercises.
+- Review the effectiveness of detection, containment and restoration processes.
+- Incorporate lessons learned into continuous improvement programmes.
+
+**Priority 6 - Regulatory Monitoring and Implementation**
+
+- Monitor developments affecting cybersecurity and digital operational resilience requirements.
+- Maintain internal regulatory implementation schedules.
+- Review the need for formal cybersecurity accountability roles, including CISOs.
+- Identify applicable reporting and governance obligations.
+- Coordinate implementation across information technology, legal, compliance and executive management functions.
+
+### Overall Conclusion
+
+The combination of accelerated cyberattacks, AI-enabled threat activity, expanding third-party dependencies and evolving regulatory obligations reinforces the importance of coordinated cybersecurity risk management.
+
+Cyber resilience should be addressed through an integrated approach involving technical security, governance, operational preparedness and regulatory compliance.
+
+Regular reassessment is necessary to reflect changes in the threat landscape, technology infrastructure and organisational exposure.
+
+---
+
+## 7. Assumptions Made in the Original Research
+
+The original report was developed using the following assumptions:
+
+- The principal objective was to provide strategic cybersecurity guidance for organisational decision-makers in 2026.
+- The research request concerned emerging cyber threats and cyber threat intelligence.
+- International research, market studies and official cybersecurity reports were considered relevant to the Portuguese and wider European context.
+- The intended audience included cybersecurity executives, risk managers and other decision-makers.
+- Practical implications concerning security investment, governance and implementation priorities were expected to form part of the analysis.
+
+---
+
+## 8. References
+
+**1. CrowdStrike - Global Threat Report 2026**
+
+Publisher: CrowdStrike
+
+Relevant topics:
+- AI-enabled cyberattacks.
+- Cybercriminal breakout times.
+- Malware-free intrusions.
+- Zero-day exploitation.
+- Cloud-aware intrusions.
+- Cryptocurrency theft.
+
+Source: https://www.crowdstrike.com/pt-br/global-threat-report/
+
+**2. ENISA - Exploring the Evolution of the Cyber Threat Landscape: How Dependencies Weaken Our Digital Resilience**
+
+Publisher: European Union Agency for Cybersecurity
+
+Relevant topics:
+- European cyber threat landscape.
+- Ransomware and DDoS activity.
+- Cyber incidents affecting essential and important entities.
+- Sectoral distribution of observed incidents.
+- Third-party and supply-chain dependencies.
+
+Source: https://www.enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience
+
+**3. Abreu Advogados - Data Protection Day 2025**
+
+Publisher: Abreu Advogados
+
+Relevant topics:
+- EU AI Act.
+- DORA.
+- Data Act.
+- Cyber Resilience Act.
+- NIS2 regulatory developments.
+
+Source: https://abreuadvogados.com/en/conhecimento/publicacoes/data-protection-day-2025/
+
+**4. Bird & Bird - NIS2 Directive Transposition in Portugal: Status and Brief Overview**
+
+Publisher: Bird & Bird
+
+Relevant topics:
+- Portuguese implementation of NIS2.
+- Legislative developments.
+- Implementation timelines.
+- Obligations for essential and important entities.
+
+Source: https://www.twobirds.com/en/insights/2025/nis2-directive-transposition-in-portugal-status-and-brief-overview
+
+**5. Gartner - Gartner Forecasts Global Information Security Spending to Grow 15% in 2025**
+
+Publisher: Gartner
+
+Publication date: 28 August 2024
+
+Relevant topics:
+- Global cybersecurity expenditure.
+- Information security spending forecasts.
+- Annual spending growth.
+
+Source: https://www.gartner.com/en/newsroom/press-releases/2024-08-28-gartner-forecasts-global-information-security-spending-to-grow-15-percent-in-2025
+
+---
+
+**Research reproduction note:** This document retains the findings, assumptions, structure and source references of the previous Portuguese-language Deep Research output. It is an English translation, not a refreshed evidence assessment. Regulatory implementation statements and other time-dependent claims reflect the original report and should not be interpreted as independently confirmed positions as at 3 November 2026.
