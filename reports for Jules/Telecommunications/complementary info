@@ -1,0 +1,258 @@
+# Telecommunications exposure and preparedness assessment
+
+**Research date:** 3 November 2026  
+**Evidence cut-off:** 3 November 2026, 12:21 UTC  
+**Geographic scope:** Worldwide, with separate European Union (EU), United Kingdom (UK) and United States (US) findings where supported.
+
+## Evidence conventions
+
+
+- **High confidence:** Direct primary evidence with clear scope and metric.
+- **Medium confidence:** Direct evidence with incomplete metadata, restricted coverage or uncertain representativeness.
+- **Low confidence:** Limited evidence that cannot support a broader conclusion.
+- Confidence describes support for the stated finding, not a numerical risk score.
+- **Gap** means the requested indicator was not established by the retrieved evidence. It does not mean zero.
+- Publications before 3 May 2025 are labelled **contextual**.
+- Source-register entries provide publication, observation and locator metadata shared by the tables below. Currency is not applicable unless expressly stated.
+
+
+## A. Telecom structural exposure indicators
+
+
+
+| Indicator | Subsector | Value or finding | Source and locator | Publication date | Confidence |
+|---|---|---|---|---|---|
+| Standalone fifth-generation mobile network deployment | Mobile network operators (MNOs) | 94 operators had launched or soft-launched standalone 5G networks. This is an operator count, not a measure of software security or virtualisation penetration. | Global mobile Suppliers Association (GSA), *Public Networks and Mobile Operators*, public summary | 24 February 2026 | High for the reported count; Medium for market coverage. ([gsacom.com](https://gsacom.com/paper/public-networks-and-mobile-operators-february-2026/)) |
+| Commercial 5G deployment | MNOs | 383 operators in 146 countries had launched commercial 5G services. Do not interpret all these deployments as standalone 5G. | GSA, same edition and summary | 24 February 2026 | High for the reported count. ([gsacom.com](https://gsacom.com/paper/public-networks-and-mobile-operators-february-2026/)) |
+| Exposed network-device management | MNOs, fixed broadband and network service providers | The joint government advisory identifies exploitation of Cisco IOS XE vulnerabilities CVE-2023-20198 and CVE-2023-20273 and other edge-device flaws. It also describes movement through trusted provider interconnections. No sector prevalence denominator is supplied. | Joint cybersecurity advisory, technical details and Appendix B, Table 21 | Initial publication 27 August 2025; retrieved version September 2025 | High for documented techniques. ([cisa.gov](https://www.cisa.gov/sites/default/files/2025-08/CSA_COUNTERING_CHINA_STATE_ACTORS_COMPROMISE_OF_NETWORKS.pdf)) |
+| Known exploited vulnerability evidence | Operators using affected Cisco equipment | The National Vulnerability Database records CVE-2023-20198 in the Cybersecurity and Infrastructure Security Agency (CISA) Known Exploited Vulnerabilities catalogue, added 16 October 2023. Catalogue inclusion is not telecom-specific incidence evidence. | National Institute of Standards and Technology, vulnerability record, catalogue section | 16 October 2023; updated June 2026 | High. **Contextual vulnerability record**, relevant because the 2025 advisory documents continuing exploitation. ([nvd.nist.gov](https://nvd.nist.gov/vuln/detail/cve-2023-20198?utm_source=openai)) |
+| Mobile signalling access | MNOs and organisations leasing signalling identifiers | Ofcom identified leased Global Titles as a persistent source of malicious signalling. Its April 2025 action prohibited new leases and set transition dates for existing arrangements. | Ofcom, announcement and “Next steps” | 22 April 2025 | High. **Contextual**, relevant to the continuing control of signalling access. ([ofcom.org.uk](https://www.ofcom.org.uk/phones-and-broadband/telecoms-infrastructure/ofcom-takes-world-leading-action-to-crack-down-on-exploitation-of-mobile-networks-by-criminals)) |
+| Shared ownership of tower and fibre infrastructure | Tower companies; fixed and wholesale fibre | Vodafone’s 2025 accounts show 50% interests in Oak Holdings and OXG. Oak owned 89.3% of Vantage Towers. These are group-specific indicators of shared control, not sector-wide complexity measures. | Vodafone, *Annual Report 2025*, Note 12, printed p.159 | 2025; exact publication day not established | High for the historical ownership snapshot. ([reports.investors.vodafone.com](https://reports.investors.vodafone.com/view/897876789/161)) |
+
+
+
+
+
+| Indicator | Subsector | Value or finding | Source and locator | Publication date | Confidence |
+|---|---|---|---|---|---|
+| Fixed-network technology migration | Fixed broadband | Fibre to the home represented 36% of Personal’s broadband base, exceeding 1.5 million accesses. Scope: Telecom Argentina, first half of 2026, not the global subsector. | Telecom Argentina results, “Investments in PP&E, intangible assets and rights of use assets” | 7 August 2026 | High for company disclosure; no sector extrapolation. [1](https://my.silobreaker.com/v2/document/5_2281652470281142276) |
+| Digital customer operations | Integrated mobile and fixed operator | Telecom Argentina attributed reduced call-centre service hours to increased customer self-service through digital channels. No automation penetration or security-effectiveness percentage was disclosed. | Same results, “Consolidated Operating Costs”, services and maintenance | 7 August 2026 | Medium; qualitative, single organisation. [1](https://my.silobreaker.com/v2/document/5_2281652470281142276) |
+
+
+
+
+**Interpretation:** These indicators establish technology change, exposed management interfaces and shared-control arrangements. They do not establish that technology adoption itself causes breaches, or that outsourcing and joint ownership necessarily weaken controls.
+
+
+## B. Telecom maturity and preparedness evidence
+
+
+
+| Finding | Type | Scope | Source and locator | Publication date | Confidence |
+|---|---|---|---|---|---|
+| Progress alongside unresolved weaknesses: improved legacy-asset management, backup restoration testing and incident management; continuing problems in supplier oversight, pre-contract security testing and identity/access implementation | Supervisory | UK: supervision of 38 large and medium providers; not every UK provider | Ofcom second security report, “Developments” and “Providers’ progress” | 6 March 2026 | High within supervisory scope. ([gov.uk](https://www.gov.uk/government/publications/ofcom-security-report-for-the-period-october-2024-to-october-2025/ofcom-security-report-for-the-period-october-2024-to-october-2025)) |
+| Telecommunications remains in the high-maturity group; cloud and data-centre services have a different maturity profile | Study using authority and company evidence | EU sector ecosystems, not individual-company certification | European Union Agency for Cybersecurity (ENISA), *NIS360 2026*, pp.21–22 | 28 May 2026 | Medium for sector generalisation. ([enisa.europa.eu](https://www.enisa.europa.eu/sites/default/files/2026-05/ENISA%20NIS360%202026.pdf)) |
+| 35% of surveyed telecommunications and cloud providers tested business continuity/disaster recovery arrangements only after significant events | Study | Combined telecom/cloud respondent group; not telecom-only | ENISA, same report, p.51 | 28 May 2026 | Medium; subgroup denominator not established. ([enisa.europa.eu](https://www.enisa.europa.eu/sites/default/files/2026-05/ENISA%20NIS360%202026.pdf)) |
+| A shared wireless/wireline Internet Protocol core and a router configuration error propagated disruption across services | Independent regulator-commissioned assessment | Rogers only, Canada; outage on 8 July 2022 | Canadian Radio-television and Telecommunications Commission (CRTC), assessment §3.2 | Full page updated 8 November 2024 | High for the case. **Contextual**, relevant to common-mode failure and change control. ([crtc.gc.ca](https://crtc.gc.ca/eng/publications/reports/xonarp2023.htm)) |
+| Emergency-call access failed for 2,145 people; 369 required welfare checks were not performed | Regulatory investigation | Optus only, Australia; outage on 8 November 2023 | Australian Communications and Media Authority (ACMA), findings announcement | 8 November 2024 | High for the case. **Contextual**, relevant to continuity obligations and post-outage response. ([acma.gov.au](https://www.acma.gov.au/articles/2024-11/optus-pays-12-million-penalty-triple-zero-outage)) |
+
+
+
+
+**Preparedness conclusion:** The UK and EU findings support differentiated, improving preparedness rather than a uniform sector-wide weakness. The Rogers and Optus cases demonstrate failure mechanisms, not the frequency of those mechanisms across telecommunications.
+
+**Unresolved measurements:** No harmonised telecom-only median dwell time, eviction duration, tested recovery time or restoration-time distribution was established. An outage restoration milestone must not be substituted for a tested recovery capability.
+
+
+## C. Telecom incident and ransomware trends
+
+### European reporting series
+
+
+
+| Observation year | Reported incidents | Classification and dataset | Locator | Confidence |
+|---|---:|---|---|---|
+| 2020 | 170 | ENISA significant telecom security incidents; not cyber-only | *Telecom Security Incidents 2024*, Figure 27 | High for reported count |
+| 2021 | 168 | Same historical series | Figure 27 | High |
+| 2022 | 155 | Same historical series | Figure 27 | High |
+| 2023 | 156 | Same historical series | Figure 27 | High |
+| 2024 | 188 | Same historical series | Figure 27 | High |
+
+These counts measure reported service-affecting incidents, not organisation-level attack probabilities. The report notes changes in coverage, including over-the-top services. A 2025 observation was not established in the retrieved annual series. ([enisa.europa.eu](https://www.enisa.europa.eu/sites/default/files/2025-07/ENISA_Telecom_Security_Incidents_2024_en.pdf))
+
+For 2024, the report records 113 system-failure incidents, 35 human-error incidents, 25 natural-phenomena incidents and 15 malicious-action incidents. “Malicious action” is not synonymous with ransomware. The report’s executive summary and root-cause section also give different participating-country counts, limiting precision about geographic coverage. ([enisa.europa.eu](https://www.enisa.europa.eu/sites/default/files/2025-07/ENISA_Telecom_Security_Incidents_2024_en.pdf))
+
+
+
+### UK reporting series
+
+
+
+| Observation period | Cyber reports | Non-malicious resilience reports | Total | Dataset and locator |
+|---|---:|---:|---:|---|
+| 1 October 2023–30 September 2024 | 8 | 1,518 | 1,526 | Ofcom second security report, Table 1 |
+| 1 October 2024–30 September 2025 | 9 | 616 | 625 | Same |
+
+Ofcom links much of the resilience-report reduction to the transition from copper telephony to fibre-enabled voice services. It should not be interpreted as an equivalent reduction in cyber exposure. Confidence: High for the reported counts; Medium for broader trend interpretation. ([gov.uk](https://www.gov.uk/government/publications/ofcom-security-report-for-the-period-october-2024-to-october-2025/ofcom-security-report-for-the-period-october-2024-to-october-2025))
+
+
+
+
+**Ransomware gap:** A consistent five-year telecom-only ransomware series meeting the requested source and metadata standard was not established. No all-sector ransomware percentage has been inserted as a telecom value.
+
+**Normalisation:** Neither series supplies the complete, stable operator/customer/revenue denominator needed for a cross-sector incident rate. Mandatory reporting thresholds, changing coverage and incident definitions prevent direct comparison with voluntary breach-investigation datasets.
+
+
+## D. Comparative exposure matrix
+
+**Conventions:** “Gap” indicates no suitable value established. Broader categories are named explicitly rather than relabelled.
+
+
+
+| Dimension | Indicator | Telecommunications | Financial services | Energy and utilities | Healthcare | Manufacturing | Dataset and normalisation basis | Comparability |
+|---|---|---|---|---|---|---|---|---|
+| Fraud | Median occupational-fraud loss, US dollars; submitted cases | Telecom-only: Gap. **Information proxy:** $160,000; 37 cases | Banking/financial services: $100,000; 439 cases | Energy: $220,000; 89 cases. Utilities: $37,000; 24 cases. Not pooled | $100,000; 140 cases | $170,000; 193 cases | Association of Certified Fraud Examiners (ACFE), 2026, Figure 25, p.35. Median per submitted case, not annual loss per organisation | **Partly comparable** within the case study; **Not comparable** as telecom-only exposure. ([acfe.jp](https://www.acfe.jp/wp-content/uploads/2026/05/RTTN_2026-Digital.pdf)) |
+| Fraud | Mean loss and population frequency | Gap | Gap | Gap | Gap | Gap | No aligned sector-specific mean or population denominator established | **Not comparable** |
+| Cyber / information and communications technology (ICT) | Incident and breach counts | Telecom-only: Gap. **Information, NAICS 51:** 1,703 incidents / 1,099 breaches | Finance/insurance, NAICS 52: 3,809 / 1,300; not banking-only | Utilities, NAICS 22: 638 / 597; not combined energy/utilities | NAICS 62: 1,492 / 1,438 | NAICS 31–33: 3,627 / 2,713 | Verizon *Data Breach Investigations Report* (DBIR) 2026, industry table, p.76. Counts in contributed case corpus | **Partly comparable** as corpus counts; **Not comparable** as population incidence. ([verizon.com](https://www.verizon.com/business/resources/T343/reports/2026-dbir-data-breach-investigations-report.pdf)) |
+| Cyber / ICT | Observed maturity | High-maturity group | Banking: high-maturity group | Electricity: high-maturity group; gas differs | Moderate band | General manufacturing outside this assessment’s scope | ENISA *NIS360 2026*, common ecosystem assessment; not loss or attack incidence | **Partly comparable**; energy and manufacturing scope mismatch. ([enisa.europa.eu](https://www.enisa.europa.eu/sites/default/files/2026-05/ENISA%20NIS360%202026.pdf)) |
+| Operational resilience / third-party risk management (TPRM) | Cloud concentration | Gap | UK financial-services artificial-intelligence hosting: top three cloud/compute providers account for 79% of reported relationships; **not banking-only or total cloud spending** | Gap | Gap | Gap | Bank of England/Financial Conduct Authority (FCA), 2026, §4; relationship share | **Not comparable** across sectors. ([bankofengland.co.uk](https://www.bankofengland.co.uk/report/2026/artificial-intelligence-in-uk-financial-services-2026)) |
+| Operational resilience / TPRM | Comparable outage frequency and duration | Regulator case evidence and reporting series above; no common exposure denominator | Gap | Gap | Gap | Gap | No aligned organisation-year, customer-hour or service-hour dataset established | **Not comparable** |
+| Governance / operating model | Shared ownership and infrastructure separation | Vodafone historical tower/fibre joint-control examples in A | Gap | Gap | Gap | Gap | One group’s ownership disclosures, not sector prevalence | **Not comparable**. ([reports.investors.vodafone.com](https://reports.investors.vodafone.com/view/897876789/161)) |
+| Governance / operating model | Enforcement frequency or loss per regulated organisation | Individual telecom findings in B; no sector-normalised rate | Gap | Gap | Gap | Gap | Enforcement populations, legal duties and selection processes not aligned | **Not comparable** |
+
+
+
+### Dataset qualifications
+
+
+**ACFE:** The study contains 2,402 usable cases across 143 countries/territories. Respondents described their largest completed occupational-fraud investigation within January 2024–September 2025. Question-level denominators vary. Industry case counts therefore do not measure fraud frequency in industry populations; sector mean losses were not established. ([acfe.jp](https://www.acfe.jp/wp-content/uploads/2026/05/RTTN_2026-Digital.pdf))
+
+**DBIR:** This is a contributed, non-random case corpus. Its methodology explicitly acknowledges disclosure and sampling bias, including possible ransomware overrepresentation. The edition’s main data relate to 2025; an exact common observation window for every industry-table entry was not established. ([verizon.com](https://www.verizon.com/business/resources/T343/reports/2026-dbir-data-breach-investigations-report.pdf))
+
+**UK cloud indicator:** The 2026 survey received 196 responses, with 105 completing the full questionnaire. Most detailed results use full-survey, valid question-level responses. The cloud indicator concerns artificial-intelligence provision, not all outsourced technology. ([bankofengland.co.uk](https://www.bankofengland.co.uk/report/2026/artificial-intelligence-in-uk-financial-services-2026))
+
+
+
+**Loss boundary:** Occupational fraud, telecom revenue fraud, customer scam losses and breach-response costs are different outcomes. Combining them would obscure who loses money, what caused the loss and which controls are relevant.
+
+
+## E. Relative position by dimension and peer
+
+
+
+The following statements concern **overall exposure**, not the narrower maturity assessment. “Not assessable” is retained where a direction would require an unsupported comparison. Confidence is confidence in any directional exposure conclusion.
+
+| Dimension | Peer | Telecom relative position | Evidence-based reason | Confidence |
+|---|---|---|---|---|
+| Fraud | Banking | **Not assessable** | ACFE offers conditional case-loss medians, but the telecom comparator is mixed “information”; customer/payment fraud and telecom revenue fraud are outside that comparison. | Low |
+| Fraud | Energy and utilities | **Not assessable** | Energy and utilities are separate ACFE categories. Neither can be compared with telecom-only population losses. | Low |
+| Fraud | Healthcare | **Not assessable** | A healthcare case median exists, but no telecom-only equivalent or frequency denominator was established. | Low |
+| Fraud | Manufacturing | **Not assessable** | The manufacturing median describes submitted occupational-fraud cases, not total fraud exposure relative to telecommunications. | Low |
+| Cyber / ICT | Banking | **Not assessable** | Both have mature EU ecosystems, but DBIR’s information and finance/insurance categories do not isolate either requested sector. | Low |
+| Cyber / ICT | Energy and utilities | **Not assessable** | Electricity maturity cannot represent all energy/utilities; utilities case counts cannot establish relative incident rates. | Low |
+| Cyber / ICT | Healthcare | **Not assessable** | The common EU assessment indicates stronger telecom maturity, but maturity is not equivalent to lower inherent exposure or lower residual loss. | Low |
+| Cyber / ICT | Manufacturing | **Not assessable** | Manufacturing has a larger DBIR case count, but the corpus lacks the denominators needed for a directional population comparison. | Low |
+| Operational resilience / TPRM | Banking | **Not assessable** | Financial-services cloud concentration and telecom outage findings measure different dependencies and outcomes. | Low |
+| Operational resilience / TPRM | Energy and utilities | **Not assessable** | No matched concentration, substitutability or disruption-duration indicator was established. | Low |
+| Operational resilience / TPRM | Healthcare | **Not assessable** | Telecom service disruption can affect dependent organisations, but aligned impact denominators are absent. | Low |
+| Operational resilience / TPRM | Manufacturing | **Not assessable** | No common service-hour, production-hour or revenue-normalised disruption series was established. | Low |
+| Governance / operating model | Banking | **Not assessable** | Telecom joint-control examples do not provide comparable sector-wide measures of subsidiary, outsourcing or governance complexity. | Low |
+| Governance / operating model | Energy and utilities | **Not assessable** | Equivalent ownership, contractor and enforcement-population indicators are missing. | Low |
+| Governance / operating model | Healthcare | **Not assessable** | No matched organisational-complexity or governance-enforcement denominator was established. | Low |
+| Governance / operating model | Manufacturing | **Not assessable** | Company examples cannot establish relative sector-wide mergers-and-acquisitions integration or outsourcing exposure. | Low |
+
+**Narrower conclusion:** The common EU maturity evidence permits a more favourable assessment of telecom preparedness than of healthcare preparedness. It does **not** justify converting that result into “telecommunications is less exposed”.
+
+
+## F. Preliminary telecommunications statement
+
+
+**Inherent cyber / ICT exposure - Medium confidence:** Telecommunications has documented exposure through network-device management and trusted interconnections, alongside continuing technology migration and shared infrastructure arrangements. The evidence establishes these mechanisms, but not a quantified sector-wide likelihood or a ranking against the four peers.
+
+**Observed maturity - Medium confidence:** The retrieved EU and UK evidence supports an established and improving security baseline, with remaining weaknesses in supplier assurance, security testing and access management. It does not support describing the whole sector as uniformly immature.
+
+**Preparedness - Medium confidence for identified gaps; Low for global generalisation:** Recovery testing is not uniformly routine in the combined telecom/cloud survey group. Historical operator outages also demonstrate common-mode failure and emergency-service continuity weaknesses. Neither establishes a global telecom recovery-time distribution.
+
+**Overall:** Inherent technological exposure and observed control effectiveness should remain separate conclusions. Evidence of investment or supervisory maturity does not eliminate the documented attack pathways; evidence of an intrusion or outage does not establish sector-wide control failure.
+
+
+## G. Subsector variation, limitations and missing indicators
+
+### Subsector boundaries
+
+
+
+| Subsector | Supported distinction | Remaining gap |
+|---|---|---|
+| MNOs | Deployment and signalling-access evidence applies most directly here | No harmonised prevalence of network functions virtualisation, Open Radio Access Network deployment, second-/third-generation legacy exposure or signalling-control effectiveness |
+| Mobile virtual network operators (MVNOs) | No MVNO-specific metric was established | Separate full/light operating models, host-network dependencies and retained provisioning responsibilities before comparison |
+| Fixed-line and broadband | Company-level fibre migration and common-core failure evidence exists | No comparable population measure of exposed customer equipment, legacy platforms or restoration performance |
+| Wholesale subsea cable, dark fibre and landing stations | Separate physical-route, landing-site and active-equipment questions are required | No route-diversity, repair-capacity, supplier concentration or cyber-control denominator established |
+| Tower companies | Shared ownership is documented, but should not be equated with operating the mobile core | No tower-specific security maturity, power-autonomy or outage distribution established |
+| Managed network, cloud and Unified Communications as a Service (UCaaS) | Must remain separate from network operators | The combined telecom/cloud testing statistic cannot establish UCaaS or managed-network preparedness |
+
+
+
+### Geographic limits
+
+
+- **EU:** The strongest cross-sector maturity evidence is available here, but it is an ecosystem assessment rather than a representative audit of every operator.
+- **UK:** Supervisory and incident evidence is more specific, but its reporting periods and provider coverage are not interchangeable with the EU series.
+- **US:** The retrieved government advisory establishes attack techniques and affected provider types, not a sector-wide maturity or remediation-completion rate.
+- **Worldwide:** GSA deployment counts and multinational case studies provide breadth, but not a harmonised global security denominator.
+
+
+### Evidence gaps and conflicts
+
+
+- **CFCA:** The publisher identifies a *Global Fraud Loss Survey 2025*, with a publication announcement dated 10 December 2025. Its full methodology and tables were not retrieved, so no loss estimate is admitted here as a benchmark. ([cfca.org](https://cfca.org/?utm_source=openai))
+- **IBM:** The publisher’s 2026 breach-cost landing page was retrieved, but not an inspectable industry table and methodology sufficient for this comparison. Consequently, no secondary breach-cost figure is inserted into peer columns. ([ibm.com](https://www.ibm.com/reports/data-breach))
+- **ENISA incident-report consistency:** The executive summary and detailed section disagree on participating-country coverage. The human-error chart rounds differently from the narrative, and third-party-failure counts/percentages vary within the report. Those percentages are not used as comparative indicators. ([enisa.europa.eu](https://www.enisa.europa.eu/sites/default/files/2025-07/ENISA_Telecom_Security_Incidents_2024_en.pdf))
+
+
+
+Additional missing indicators include:
+
+- Exposure and control effectiveness for Signalling System No. 7 (SS7), Diameter and GPRS Tunnelling Protocol (GTP).
+- Lawful-interception access, customer portals/application programming interfaces and subscriber identity module (SIM) provisioning.
+- Toll fraud, international revenue share fraud, SIM swap and subscription-fraud distributions, including who bears the loss.
+- Remote/vendor-access prevalence; core, radio-network, cloud and signalling-hub concentration.
+- Operations/business support systems automation; IT/operational technology convergence measured consistently across peers.
+- Supplier substitutability, customer switching constraints, route diversity and power/cloud dependency.
+- Sector-normalised subsidiary counts, network-sharing arrangements, agent networks, acquisition integration and governance enforcement.
+- Telecom-only dwell time, eviction difficulty and tested restoration performance.
+
+**Bias controls:** Listed-company disclosures cannot represent private operators automatically. Mandatory outage reports cannot be merged with voluntary breach investigations. More reports may reflect reporting scope or detection rather than more underlying events. No count in this assessment has been converted into a probability.
+
+
+## H. Source register
+
+**Access date for all entries:** 3 November 2026. “Day not established” and “denominator not established” are explicit metadata gaps.
+
+
+
+| Name / title and publisher URL | Publication / edition | Observation period; geography; population | Tier / exact locator |
+|---|---|---|---|
+| **GSA, Public Networks and Mobile Operators** - [publisher summary](https://gsacom.com/paper/public-networks-and-mobile-operators-february-2026/) | 24 February 2026 | February 2026 snapshot; worldwide; operator database, not a random sample | Tier 2; public summary; coverage methodology only partly public. ([gsacom.com](https://gsacom.com/paper/public-networks-and-mobile-operators-february-2026/)) |
+| **Ofcom, Second security report** - [publisher copy](https://www.gov.uk/government/publications/ofcom-security-report-for-the-period-october-2024-to-october-2025/ofcom-security-report-for-the-period-october-2024-to-october-2025) | 6 March 2026 | 1 October 2024–30 September 2025; UK; 38 supervised providers for the stated monitoring programme | Tier 1; developments, progress, incident Table 1. ([gov.uk](https://www.gov.uk/government/publications/ofcom-security-report-for-the-period-october-2024-to-october-2025/ofcom-security-report-for-the-period-october-2024-to-october-2025)) |
+| **ENISA, NIS360 2026** - [publisher PDF](https://www.enisa.europa.eu/sites/default/files/2026-05/ENISA%20NIS360%202026.pdf) | 28 May 2026 | Evidence collected in 2025; EU; around 300 companies from 25 Member States and 100 authorities; voluntary participation | Tier 1; pp.10, 21–22, 51, 74; telecom subgroup sizes not established. ([enisa.europa.eu](https://www.enisa.europa.eu/sites/default/files/2026-05/ENISA%20NIS360%202026.pdf)) |
+| **ENISA, Telecom Security Incidents 2024** - [publisher PDF](https://www.enisa.europa.eu/sites/default/files/2025-07/ENISA_Telecom_Security_Incidents_2024_en.pdf) | 15 July 2025 | Calendar 2024, historical series 2020–2024; EU/European Free Trade Association reporting authorities; 188 incident reports in 2024 | Tier 1; executive summary, §3.1, Figure 27; country-count conflict noted. ([enisa.europa.eu](https://www.enisa.europa.eu/publications/telecom-security-incidents-2024?utm_source=openai)) |
+| **CISA and international partners, Countering Chinese State-Sponsored Actors Compromise of Networks Worldwide to Feed Global Espionage System** - [government PDF](https://www.cisa.gov/sites/default/files/2025-08/CSA_COUNTERING_CHINA_STATE_ACTORS_COMPROMISE_OF_NETWORKS.pdf) | 27 August 2025 initial; September 2025 retrieved version | Multi-year operational observations; worldwide; affected networks, undisclosed sample | Tier 1; technical details, Appendix B/Table 21. ([cisa.gov](https://www.cisa.gov/sites/default/files/2025-08/CSA_COUNTERING_CHINA_STATE_ACTORS_COMPROMISE_OF_NETWORKS.pdf)) |
+| **NIST, CVE-2023-20198 record** - [government record](https://nvd.nist.gov/vuln/detail/cve-2023-20198) | 16 October 2023; June 2026 update | Vulnerability record, not an incident sample | Tier 1; catalogue inclusion and required-action section. ([nvd.nist.gov](https://nvd.nist.gov/vuln/detail/cve-2023-20198?utm_source=openai)) |
+| **Ofcom, Global Titles action** - [publisher announcement](https://www.ofcom.org.uk/phones-and-broadband/telecoms-infrastructure/ofcom-takes-world-leading-action-to-crack-down-on-exploitation-of-mobile-networks-by-criminals) | 22 April 2025; contextual | UK numbering/signalling policy; no prevalence sample | Tier 1; findings, next steps and exceptions. ([ofcom.org.uk](https://www.ofcom.org.uk/phones-and-broadband/telecoms-infrastructure/ofcom-takes-world-leading-action-to-crack-down-on-exploitation-of-mobile-networks-by-criminals)) |
+| **CRTC/Xona, Assessment of Rogers Networks** - [regulator copy](https://crtc.gc.ca/eng/publications/reports/xonarp2023.htm) | Full page updated 8 November 2024; contextual | 8 July 2022 outage and subsequent remediation; Canada; one operator | Tier 1 commissioned assessment; §3.2 and incident timeline. ([crtc.gc.ca](https://crtc.gc.ca/eng/publications/reports/xonarp2023.htm)) |
+| **ACMA, Optus emergency-call findings** - [regulator announcement](https://www.acma.gov.au/articles/2024-11/optus-pays-12-million-penalty-triple-zero-outage) | 8 November 2024; contextual | 8 November 2023 outage; Australia; one operator group | Tier 1; investigation findings. ([acma.gov.au](https://www.acma.gov.au/articles/2024-11/optus-pays-12-million-penalty-triple-zero-outage)) |
+| **ACFE, Occupational Fraud 2026: A Report to the Nations** - [ACFE chapter-hosted publisher copy](https://www.acfe.jp/wp-content/uploads/2026/05/RTTN_2026-Digital.pdf) | 2026; exact release day not established | Investigations January 2024–September 2025; worldwide; 2,402 usable cases | Tier 2; Figure 25 p.35; methodology pp.79–80. ([acfe.jp](https://www.acfe.jp/wp-content/uploads/2026/05/RTTN_2026-Digital.pdf)) |
+| **Verizon, DBIR 2026** - [publisher PDF](https://www.verizon.com/business/resources/T343/reports/2026-dbir-data-breach-investigations-report.pdf) | 19 May 2026 | Primarily 2025; multinational contributed corpus; 31,861 incidents / 22,625 breaches | Tier 2; industry table p.76; methodology pp.111–112. ([verizon.com](https://www.verizon.com/business/resources/T343/reports/2026-dbir-data-breach-investigations-report.pdf)) |
+| **Bank of England/FCA, Artificial intelligence in UK financial services 2026** - [publisher report](https://www.bankofengland.co.uk/report/2026/artificial-intelligence-in-uk-financial-services-2026) | 26 October 2026 | 2026 survey; UK operations; 196 responses, 105 full questionnaires | Tier 1; §1.2 and third-party provision section; valid-question denominators vary. ([bankofengland.co.uk](https://www.bankofengland.co.uk/report/2026/artificial-intelligence-in-uk-financial-services-2026)) |
+| **Vodafone, Annual Report 2025** - [publisher financial note](https://reports.investors.vodafone.com/view/897876789/161) | 2025; day not established | Financial year ended 31 March 2025; multinational group; one group | Tier 1 company accounts; Note 12, printed p.159. ([reports.investors.vodafone.com](https://reports.investors.vodafone.com/view/897876789/161)) |
+| **CFCA, Global Fraud Loss Survey 2025** - [publisher index](https://cfca.org/sitemap/) | Announcement 10 December 2025 | Full observation period, population and sample not retrieved | Tier 2 candidate; index only; no quantitative claim admitted. ([cfca.org](https://cfca.org/sitemap/?utm_source=openai)) |
+| **IBM, Cost of a Data Breach Report 2026** - [publisher landing page](https://www.ibm.com/reports/data-breach) | 2026; day not established | Industry-table population and observation metadata not retrieved | Tier 2 candidate; landing page only; no cost benchmark admitted. ([ibm.com](https://www.ibm.com/reports/data-breach)) |
+
+
+
+
+
+| Name / title and publisher URL | Publication / edition | Observation period; geography; population | Tier / exact locator |
+|---|---|---|---|
+| **Telecom Argentina, First-half 2026 results** - [company-issued release](https://www.prnewswire.com/news-releases/telecom-argentina-sa-announces-consolidated-results-for-the-first-half-1h26-and-second-quarter-of-fiscal-year-2026-2q26-302846086.html) | 7 August 2026 | Six months ended 30 June 2026; Argentina and group operations; one company, customer/access records rather than a research sample | Primary company disclosure; investment and operating-cost sections; non-financial information described as unaudited. [1](https://my.silobreaker.com/v2/document/5_2281652470281142276) |
