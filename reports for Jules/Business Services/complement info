@@ -1,0 +1,431 @@
+# Business Services: cyber resilience, financial transmission and cross-sector exposure
+
+**Research date:** 3 November 2026  
+**Evidence cut-off:** 3 November 2026  
+**Scope:** NACE divisions 62, 69, 70, 71, 73, 74, 78, 80, 81 and 82, as specified.
+
+## Executive findings
+
+
+
+- **Provider access can transmit an incident across clients.** Joint government guidance identifies managed service providers’ trusted connectivity and privileged access as pathways into customer networks. The Kaseya VSA incident provides a documented example of compromise through management tooling. ([nsa.gov](https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/3027304/nsa-partners-issue-guidance-to-secure-managed-service-providers-their-customers/?utm_source=openai))
+- **Detection is not equivalent to containment.** In Capita’s March 2023 incident, a security alert arose within ten minutes, but the affected device was not quarantined for 58 hours. The Information Commissioner’s Office (ICO) subsequently imposed combined penalties of **£14 million** in October 2025. These are findings about one organisation, not sector averages. ([ico.org.uk](https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2025/10/capita-fined-14m-for-data-breach-affecting-over-6m-people?utm_source=openai))
+- **Financial effects extend beyond ransom and restoration expenditure.** Primary disclosures separately identify incident expenses, cash outflows, revenue effects and insurance arrangements at Capita, ISS, Cognizant and Sopra Steria. Their measures and observation periods differ and should not be pooled. ([capita.com](https://www.capita.com/dam/documents/investors/results-reports-presentations/2023/full-year-results-2023/Capita-plc-Annual-Report-and-Accounts-2023.pdf))
+- **Recent statistics do not isolate the requested Business Services perimeter.** UK survey categories combine professional activities with scientific and technical businesses, and administrative services with real estate. Verizon separates professional services and administrative services under the North American Industry Classification System (NAICS), rather than the requested NACE divisions. ([gov.uk](https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026?utm_source=openai))
+
+
+
+
+
+**Overall judgement:** a single Business Services risk ranking would conceal material differences. Managed service providers warrant emphasis on cross-client access; staffing on payroll, worker identity and funding continuity; legal services on confidential files and payment instructions; facilities management and security services on maintaining site-level delivery when shared information technology fails.
+
+The evidence supports targeted control priorities and borrower-specific financial analysis. It does **not** support a defensible worldwide Business Services breach-cost average, a five-year sector cost trend, or an overall ranking against all five peer sectors.
+
+
+
+# A. Part 1: capabilities and control benchmarks
+
+## A1. Applicability of the named instruments
+
+
+
+| Instrument | Jurisdiction and scope | Status and practical boundary |
+|---|---|---|
+| **NIS2, Directive (EU) 2022/2555**, Articles 2, 3, 20, 21 and Annex I | EU entities meeting the relevant activity, size, designation and jurisdiction tests, including covered managed service providers (MSPs) and managed security service providers (MSSPs) | Mandatory through national implementation for covered entities. It is not a blanket obligation applying to every Business Services firm. Article 21 covers risk management, incident handling, continuity, supply-chain security, access controls and other measures. ([eur-lex.europa.eu](https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng?utm_source=openai)) |
+| **Commission Implementing Regulation (EU) 2024/2690**, Article 2 and Annex | Specified digital providers within its scope, including covered MSPs and MSSPs | Binding technical and methodological requirements. Applicability follows the entity’s legal scope, not merely its NACE label. ([eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/en/TXT/?uri=OJ%3AL_202402690&utm_source=openai)) |
+| **Portugal: Decreto-Lei n.º 125/2025** and **Regulamento n.º 756/2026** | Portugal’s cybersecurity regime and its implementing framework | The decree transposes NIS2. It specifies entry into force 120 days after publication on 4 December 2025. The implementing regulation was published on 22 June 2026 and entered into force the following day. Deferred-effect provisions and dependencies on technical instructions mean that not every duty should be treated as having the same compliance date. ([diariodarepublica.pt](https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401)) |
+| **General Data Protection Regulation (GDPR), Articles 28, 32 and 33** | EU personal-data processing within territorial scope | Mandatory processor-contract and security obligations. A processor must notify its controller without undue delay after becoming aware of a personal-data breach; this is distinct from the controller’s supervisory-authority notification duty. ([eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/ALL/?tid=+121430163&uri=celex%3A32016R0679&utm_source=openai)) |
+| **Digital Operational Resilience Act (DORA), Regulation (EU) 2022/2554**, Articles 28–30 | EU financial entities and their information and communication technology (ICT) arrangements | Financial clients must obtain specified contractual protections, including service descriptions, assistance, access and termination provisions. Additional requirements apply to ICT supporting important functions. This is not a general direct prudential regime for all Business Services providers. ([eur-lex.europa.eu](https://eur-lex.europa.eu/eli/reg/2022/2554/oj?uri=CELEX%3A32022R2554&utm_source=openai)) |
+| **UK National Cyber Security Centre (NCSC) Cyber Assessment Framework (CAF), version 4.0** | UK assessment framework, including use in regulated and public-sector settings | Recommended as a framework; legal or contractual force depends on the applicable regulatory or procurement arrangement. ([ncsc.gov.uk](https://www.ncsc.gov.uk/collection/cyber-assessment-framework?adhoc_referrer=568642635)) |
+| **UK Cyber Essentials** | Baseline assurance for organisations; procurement relevance depends on the contract | Covers five technical control areas. Cyber Essentials Plus adds independent technical testing. Neither should be treated as evidence that all operational-resilience or cross-client risks have been addressed. ([ncsc.gov.uk](https://www.ncsc.gov.uk/cyberessentials/overview?adhoc_referrer=4194000833533&utm_source=openai)) |
+| **Joint MSP advisory AA22-131A** | Guidance from UK, US, Australian, Canadian and New Zealand authorities | Recommended baseline for MSPs and customers, including contractual allocation of security responsibilities. It is not itself a universal statutory obligation. ([media.defense.gov](https://media.defense.gov/2022/May/11/2002994383/-1/-1/0/CSA_Protecting_Against_Cyber_Threats_to_MSPs_and_their_Customers_05112022.PDF?utm_source=openai)) |
+| **NIST Cybersecurity Framework (CSF) 2.0** and **NIST SP 800-161 Rev. 1, updated 2024** | US-origin frameworks with international application | Recommended governance and supply-chain risk-management references unless incorporated into a binding requirement. ([nist.gov](https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework?utm_source=openai)) |
+| **ISO/IEC 27001:2022** and **ISO 22301:2019** | International information-security and business-continuity management standards | Voluntary standards unless contractually or otherwise required. ISO/IEC 27001 certification is optional; implementation and certification are separate decisions. ([iso.org](https://www.iso.org/standard/27001?utm_source=openai)) |
+| **System and Organisation Controls (SOC) 2** | Assurance over the defined service-system scope and selected trust-services categories | Contract-dependent assurance, not legislation. Review the report period, system boundaries and categories covered rather than treating the report’s existence as complete assurance. ([assets.ctfassets.net](https://assets.ctfassets.net/rb9cdnjh59cm/3xbcLlNc5rd72So4nQpNIk/7a3e8e5945c78c35fc5e116859b96e6a/SOC_2_Report_%C3%82_Review_Checklist.pdf?utm_source=openai)) |
+| **Payment Card Industry Data Security Standard (PCI DSS) v4.0.1** | Card-handling activities and relevant service-provider environments | Context-dependent payment-ecosystem requirements. Relevant to card-taking contact centres and business process outsourcing (BPO), not every BPO process. ([blog.pcisecuritystandards.org](https://blog.pcisecuritystandards.org/just-published-pci-dss-v4-0-1?utm_source=openai)) |
+| **US federal contractor requirements** | Depends on the solicitation, contract, information handled and flow-down provisions | Assess the actual Federal Acquisition Regulation/Defense Federal Acquisition Regulation Supplement clauses and Cybersecurity Maturity Model Certification requirements. Do not infer identical requirements for all engineering, consulting or IT contractors. ([acquisition.gov](https://www.acquisition.gov/dfars/part-252-solicitation-provisions-and-contract-clauses?partname=242&utm_source=openai)) |
+
+
+
+
+
+**UK legislative boundary:** the parliamentary record includes an amended Cyber Security and Resilience Bill dated 26 October 2026. Government implementation material describes phased commencement and further secondary legislation. Proposed MSP extensions are therefore not treated here as automatically operative obligations at the cut-off. ([bills.parliament.uk](https://bills.parliament.uk/bills/4035/publications?utm_source=openai))
+
+
+
+## A2. Prioritised capability table
+
+
+
+The following is an **analytical prioritisation and proposed evidence-of-control benchmark**, not a measured industry percentile. “Mandatory where scoped” refers to the applicability table above; it does not mean that every implementation detail is prescribed for every provider.
+
+| Capability | Priority subsectors | Process protected | Pathways mitigated and documented case basis | Consequence of failure | Status | Proposed benchmark |
+|---|---|---|---|---|---|---|
+| Privileged access and client-tenant segregation | MSP/MSSP first; BPO and technical services with customer access | Remote administration and customer delivery | Management-tool compromise and lateral movement; Kaseya case | Multi-client interruption or disclosure | Mandatory where scoped under NIS2/2690 and GDPR; otherwise recommended or contractual | Separate administrative identities, bounded client access, recorded privileged sessions and demonstrated isolation |
+| Multifactor authentication (MFA) and help-desk identity proofing | MSP, BPO, staffing; all privileged users | Authentication and credential resets | Stolen credentials and fraudulent resets; no provider-specific reset case established here | Account takeover, data access and payment diversion | Risk-based legal requirements where applicable; reset design recommended | Phishing-resistant authentication for privileged access; reset exercises that cannot be satisfied through caller knowledge alone |
+| Alert triage and containment authority | MSP, BPO, legal; shared platforms across all subsectors | Detection-to-action workflow | Capita’s documented gap between alert and quarantine | Longer attacker access and wider impact | Incident handling mandatory where scoped; implementation risk-based | Measure alert-to-triage and alert-to-isolation separately; test authority to disconnect systems |
+| Asset visibility and vulnerability management | IT, engineering, security technology and facilities technology | Exposure discovery and remediation | Internet-facing management tooling; Kaseya case | Initial compromise or interruption | Mandatory where scoped; otherwise recommended | Inventory includes remote management, software as a service (SaaS), inherited acquisitions and unsupported systems |
+| Secrets management and secure transfer | Legal/accounting, IT, consulting, BPO and R&D | Tickets, files, code and client exchanges | Persistent service-account access; DPP Law case supports account-lifecycle concerns | Client-data disclosure and privileged reuse | GDPR/NIS2 duties where applicable; detailed design recommended | No reusable secrets in ordinary tickets; controlled vault access, rotation and secure transfer |
+| Monitoring with client-specific visibility | MSP/MSSP and multi-client BPO | Attribution, investigation and customer assurance | Cross-client access and shared infrastructure | Inability to identify affected clients promptly | Mandatory where scoped or contracted | Logs attributable to user, tenant and administrative action; retained independently of compromised tooling |
+| Incident response and client notification | All; particularly processors and multi-client providers | Containment, evidence and communications | Capita and DPP Law | Regulatory exposure, client claims and delayed containment | Mandatory notification duties where applicable; contractual duties may be earlier | Tested controller/client contact list, legal decision tree and out-of-band communications |
+| Payment approval and independent call-back | Legal/accounting, staffing, BPO and facilities procurement | Payroll, client money, invoices and supplier changes | Business email compromise and payment diversion; no sector-specific loss rate established | Immediate cash loss and reconciliation disputes | Recommended; contract and professional rules may add requirements | Separate creation and approval; confirm bank changes through a previously established channel |
+| Hiring and contractor identity proofing | Staffing, IT, engineering and R&D | Recruitment, onboarding and device issuance | Fraudulent remote-worker identities documented by US authorities | Unauthorised access, data theft and sanctions exposure | Recommended; employment and sanctions duties depend on jurisdiction | Match identity, location, device destination and subcontractor; investigate inconsistencies before access |
+| Payroll and invoicing continuity | Staffing first; facilities, security and BPO | Time capture, wages, billing and collections | Shared-IT outages; ISS provides a facilities-management anchor | Payroll funding pressure and delayed receipts | Continuity duties where scoped; otherwise recommended | Run a payroll and invoice cycle without the main platform, then reconcile safely |
+| Disaster recovery, backup integrity and recovery testing | All, tailored to service | Restoration of delivery and data | Ransomware and infrastructure rebuilds; ISS and Sopra Steria | Extended interruption, rework and unrecoverable records | Mandatory where scoped; ISO 22301 supports management approach | Restore identity, applications and data in an isolated environment; demonstrate business acceptance |
+| Exit and substitution planning | MSP, BPO, payroll and embedded professional services | Transfer to another provider or in-house operation | Supplier failure or unavailable platform | Prolonged customer dependency and contract losses | DORA contractual relevance for ICT; otherwise recommended or contractual | Usable data export, documented dependencies, alternative access and a practicable transfer exercise |
+
+
+
+## A3. Preparedness weaknesses supported by evidence
+
+
+
+- **Legal-services account governance:** the DPP Law penalty notice identifies failures in least privilege and administrative-account review. It also records dependence on a supplier-managed legacy account. **Contextual:** the notice is dated 14 April 2025, more than 18 months before the cut-off, but remains relevant to persistent service accounts and unsupported applications. ([ico.org.uk](https://ico.org.uk/media2/pr4bg5hq/dpp-law-ltd-monetary-penalty-notice.pdf))
+- **Client-provider coordination:** in an Australian Securities and Investments Commission (ASIC) in-depth review of ten financial-sector responsible entities, five had not tested their offshore provider’s incident-response capability, seven had not integrated provider contingency plans, and five did not require documented recovery timeframes. This is a **customer-side outsourcing sample**, not a prevalence estimate for Business Services providers. ([asic.gov.au](https://www.asic.gov.au/about-asic/news-centre/articles/review-of-offshore-outsourcing-responsible-entities/))
+- **Supply-chain review remains an all-sector weakness:** the UK 2025/2026 survey found that 15% of businesses reviewed immediate-supplier cybersecurity risks and 6% reviewed wider supply-chain risks. These are **all-business proxies**, not Business Services benchmarks. ([gov.uk](https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026))
+
+
+
+
+
+**Improvement areas:** demonstrate containment rather than merely detection; test complete payroll and billing cycles rather than server availability alone; maintain security ownership over legacy supplier accounts; and exercise provider-client recovery jointly. Certificates and policy documents should support, not replace, these demonstrations.
+
+
+
+## A4. Subsector priorities
+
+
+
+| NACE division | Leading priorities | Differentiation and evidence boundary |
+|---|---|---|
+| **62: IT services/MSPs** | Privileged access, client segregation, management-tool security, rapid containment and customer notification | Largest emphasis on transmission through customer access; do not equate software vendors with all MSPs |
+| **69: Legal and accounting** | Confidential files, service accounts, secure transfer, payment changes and deadlines | Legal incident evidence is available; separate accounting-sector cyber-cost benchmarks were not established |
+| **70: Management consulting** | Client workspaces, identity, confidential strategic data and engagement governance | Governance enforcement must be distinguished from cyber incidents |
+| **71: Engineering/testing** | Project data, technical integrity, remote access and contractor requirements | Add operational-technology controls only where the provider actually connects to such systems |
+| **73: Advertising/market research** | Client campaign accounts, SaaS access, research data and subcontractor access | No defensible division-specific financial benchmark established |
+| **74: Other professional activities** | Data- and workflow-specific access and continuity | Too heterogeneous for an undifferentiated control or cost benchmark |
+| **78: Staffing** | Payroll continuity, worker identity, bank-detail changes, timesheets and funding access | Explicitly test payment execution and recovery of billing evidence; quantified payroll-outage loss evidence remains a gap |
+| **80: Security services** | Dispatch, rostering, access-control administration and separation from customer systems | Physical guarding and electronic security need different continuity tests; no primary quantified incident-cost case established |
+| **81: Facilities management** | Rostering, work orders, procurement, invoicing and shared-IT recovery | ISS is a relevant individual-company case; it is not evidence that all on-site work stops during an IT outage |
+| **82: Office administration/BPO/contact centres** | Client-data segregation, agent identity, secure transfer, notification and alternative delivery | Add PCI DSS only to relevant card-handling scope |
+
+**Captive shared services/global business services:** analyse internal platform concentration, intercompany responsibilities and group liquidity support rather than assuming an external customer contract.
+
+**R&D centres:** distinguish intellectual-property integrity and access to source code or designs from ordinary office administration. No separate defensible R&D-centre loss distribution was established.
+
+
+
+# B. Part 2: financial impact and credit transmission
+
+## B1. Metrics and their limits
+
+
+
+| Metric | Published value | Population, sample and geography | Period, method and locator | Confidence and limitation |
+|---|---|---|---|---|
+| Mean breach cost, **all-sector proxy** | **US$4.99m** | 602 breached organisations globally | IBM/Ponemon, 2026 edition; published 29 July 2026; breaches March 2025–February 2026; publisher release, opening and methodology paragraphs | High for the reported mean; not a Business Services estimate. ([newsroom.ibm.com](https://newsroom.ibm.com/2026-07-29-ibm-study-one-in-four-malicious-breaches-are-ai-enabled%2C-costing-companies-6-million-on-average?linkedin_auth_error=user_cancelled_login)) |
+| Incident expense, Capita | **£25.3m** | One issuer group; UK-headquartered international provider | FY2023; accounting charge; Annual Report 2023, CFO review and “Cyber incident” explanation, pp. 26 and 167 | High; includes response, remediation and security investment, not a sector mean. ([capita.com](https://www.capita.com/dam/documents/investors/results-reports-presentations/2023/full-year-results-2023/Capita-plc-Annual-Report-and-Accounts-2023.pdf)) |
+| Incident cash outflow, Capita | **£20.1m** | Same individual-company population | FY2023; cash-flow measure; CFO review | High; expense and cash outflow are not interchangeable. ([capita.com](https://www.capita.com/dam/documents/investors/results-reports-presentations/2023/full-year-results-2023/Capita-plc-Annual-Report-and-Accounts-2023.pdf)) |
+| Regulatory penalties, Capita entities | **£14m combined** | Two named entities; one incident | ICO, 15 October 2025; penalty amount; opening paragraphs | High; not total incident cost. ([ico.org.uk](https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2025/10/capita-fined-14m-for-data-breach-affecting-over-6m-people?utm_source=openai)) |
+| Recovery and infrastructure-enhancement cost, ISS | **DKK887m** | One international facilities-services group | FY2020; disclosed recognised expense; company announcement 2/2021, recovery discussion | High; contextual historical case, including enhancement expenditure. ([issworldservicesas.gcs-web.com](https://issworldservicesas.gcs-web.com/static-files/d206e9f0-3452-46b9-a9e0-e2a544ef3cf0)) |
+| Expected revenue and corresponding margin impact, Cognizant | **US$50m–70m** | One international IT-services group | Q2 2020 expectation stated on 7 May 2020; earnings-call transcript, p. 8 | High for management’s estimate; not realised total cost or ransom. ([cognizant.q4cdn.com](https://cognizant.q4cdn.com/123993165/files/doc_financials/2020/q1/CORRECTED-TRANSCRIPT_-Cognizant-Technology-Solutions-Corp.%28CTSH-US%29%2C-Q1-2020-Earnings-Call%2C-7-May-2020-5_00-PM-ET.pdf?utm_source=openai)) |
+| Expected gross operating-margin impact, Sopra Steria | **€40m–50m** | One international IT-services group | 25 November 2020 update; company estimate, financial-impact paragraph | High for the disclosed estimate; not an industry average. ([soprasteria.com](https://www.soprasteria.com/newsroom/press-releases/details/cyberattack-updated-information?utm_source=openai)) |
+| Cyber insurance coverage, Sopra Steria | **€30m** | Same issuer | Same release; stated insurance coverage | High for coverage stated; not evidence of equal cash recovery. ([soprasteria.com](https://www.soprasteria.com/newsroom/press-releases/details/cyberattack-updated-information?utm_source=openai)) |
+
+
+
+
+
+### Requested metrics not established
+
+| Requested measure | Business Services-wide conclusion | Subsector boundary |
+|---|---|---|
+| Mean and median total breach cost | No defensible estimate for the specified NACE perimeter established | Individual-company costs cannot supply a sector distribution |
+| Ransom demand and actual payment | No representative sector mean or median established | Demand, payment and total loss must remain separate |
+| Disruption frequency and duration | No comparable worldwide series established | Reports of attacks include events without business interruption |
+| Mean/median operational recovery time | Not established | Technical restoration, backlog clearance and return to normal trading require separate clocks |
+| Identification and containment lifecycle | No representative subsector benchmark established | A case-specific quarantine delay is not a breach-lifecycle average |
+| Recovery/remediation spend | Available for selected issuers | Accounting scope differs across disclosures |
+| Revenue/profit impact | Available for selected IT-services cases | No reliable staffing, security-services or legal-sector average established |
+| Insurance recovery, client claims and contract losses | Incomplete organisation-level evidence | Coverage limits cannot be substituted for recoveries received |
+| Ratings, borrowing and covenant impact | No incident-isolated rating or covenant action established in this review | Wider trading and financing developments cannot automatically be attributed to cyber events |
+
+
+
+## B2. Five-year trend table
+
+
+
+The five-year window is **2022–2026**, with 2026 incomplete at the cut-off.
+
+| Year | Comparable Business Services mean/median breach cost | Interpretation |
+|---|---|---|
+| 2022 | Not established | No matched sector perimeter and method |
+| 2023 | Not established | Capita’s disclosed costs are an organisation case |
+| 2024 | Not established | Subsequent case disclosures do not create an annual sector sample |
+| 2025 | Not established | Regulatory penalties are not annual sector breach costs |
+| 2026 to 3 November | Not established | IBM’s global mean is an all-sector proxy, not a replacement |
+
+**Conclusion:** no defensible five-year Business Services cost trend is asserted. A sequence combining issuer expenses, penalties and global survey means would be misleading.
+
+
+
+## B3. Documented financial and credit-impact cases
+
+
+
+| Case | Disclosed effect | Credit-relevant distinction |
+|---|---|---|
+| **Capita, 2023 incident; 2024 financial disclosure** | Incident expense and cash outflow were reported separately; potential insurance recovery was not recognised at the 2023 year-end | Reported and adjusted profit measures differed. The initial expense did not include an estimable provision for all possible claims or penalties. **Contextual**, but relevant to accounting and cash timing. ([capita.com](https://www.capita.com/dam/documents/investors/results-reports-presentations/2023/full-year-results-2023/Capita-plc-Annual-Report-and-Accounts-2023.pdf)) |
+| **Capita, October 2025 enforcement** | Combined £14m penalty | A later regulatory consequence, not evidence that the 2023 expense represented the final economic cost. ([ico.org.uk](https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2025/10/capita-fined-14m-for-data-breach-affecting-over-6m-people?utm_source=openai)) |
+| **ISS, 2020 incident** | Recovery involved rebuilding infrastructure; recognised recovery/enhancement cost was DKK887m | The company’s aggregate cash-flow deterioration also reflected other items and pandemic conditions. It cannot all be attributed to the incident. **Contextual**, relevant to shared-IT recovery in facilities management. ([issworldservicesas.gcs-web.com](https://issworldservicesas.gcs-web.com/static-files/d206e9f0-3452-46b9-a9e0-e2a544ef3cf0)) |
+| **Cognizant, April 2020 incident** | Management expected a Q2 revenue and corresponding margin effect, plus additional investigation, restoration and legal costs | Revenue loss and remediation expenditure are different components. **Contextual**, relevant to IT-services delivery interruption. ([cognizant.q4cdn.com](https://cognizant.q4cdn.com/123993165/files/doc_financials/2020/q1/CORRECTED-TRANSCRIPT_-Cognizant-Technology-Solutions-Corp.%28CTSH-US%29%2C-Q1-2020-Earnings-Call%2C-7-May-2020-5_00-PM-ET.pdf?utm_source=openai)) |
+| **Sopra Steria, October 2020 incident** | Systems and customer connections were progressively restored; November guidance included operating-margin and cash-flow effects | Insurance coverage was disclosed separately. Later reporting attributed a one-percentage-point revenue effect and a 0.2-percentage-point operating-margin effect to the attack. **Contextual**, relevant to multi-week disruption. ([soprasteria.com](https://www.soprasteria.com/newsroom/press-releases/details/cyberattack-updated-information?utm_source=openai)) |
+| **DPP Law, 2025 penalty notice** | £60,000 penalty for security and notification infringements | No total recovery spend, lost-fee income, insurance recovery or covenant impact established. **Contextual**, relevant to smaller legal practices and legacy access. ([ico.org.uk](https://ico.org.uk/media2/pr4bg5hq/dpp-law-ltd-monetary-penalty-notice.pdf)) |
+| **Kelly, FY2025 cybersecurity disclosure** | Describes annual external assessment against NIST CSF, continuity arrangements, insurance and third-party oversight | Evidence of one staffing issuer’s governance arrangements, not a quantified payroll-outage case or proof of sector-wide effectiveness. ([sec.gov](https://www.sec.gov/Archives/edgar/data/55135/000005513526000053/R34.htm)) |
+
+
+
+
+
+**Evidence gaps:** no primary quantified security-services incident case was established. For staffing, the retrieved issuer disclosure supports capability analysis but not a realised payroll-outage loss estimate. No incident-isolated change in days sales outstanding, payroll borrowing, covenant headroom, credit rating or contract termination rate is assigned to these subsectors.
+
+
+
+## B4. Credit transmission by subsector
+
+
+
+The following are **analytical transmission pathways**, not observed sector coefficients.
+
+| Subsector | Initial operating effect | Potential financial transmission | Borrower evidence needed |
+|---|---|---|---|
+| IT/MSP | Management tooling unavailable; customers suspend access | Unbillable delivery, service credits, client claims, remediation expenditure and retention pressure | Revenue by affected platform/client; liability terms; subcontractor recovery; customer-access restart approvals |
+| BPO/contact centres | Client data compromised or workflow suspended | Lost transaction volumes, overtime, alternative-site costs, notification and claims | Revenue model; minimum-volume commitments; delivery-centre portability; data-access restrictions |
+| Staffing | Timesheets/payroll or payment interfaces unavailable | Wages fall due before collections; billing evidence is delayed; funding availability may tighten | Payroll calendar; cash balances; receivables-finance eligibility; manual payroll controls; timesheet recovery |
+| Facilities management | Shared work-order, rostering or finance systems unavailable | Overtime, missed service evidence, invoice disputes and slower cash conversion | Ability to continue on-site work; contract penalties; mobile/offline processes; client acceptance of service evidence |
+| Security services | Dispatch, rostering or access administration disrupted | Replacement labour, service failure claims and customer-site restrictions | Contract type; dispatch redundancy; site procedures; separation of physical operations from corporate IT |
+| Legal/accounting/consulting | Files or communications unavailable or disclosed | Lost billable time, rework, deadline exposure, client claims and retention risk | Work-in-progress, client-money arrangements, engagement terms, insurance exclusions and partner funding |
+| Engineering/testing | Project systems or technical records unavailable | Project delays, re-performance, milestone-billing delays and contractual disputes | Project dependencies; testing-data integrity; delivery milestones; access to customer systems |
+
+**Cash modelling:** separate lost contribution from deferred revenue, incremental cash expenditure, delayed collections, claim payments and insurance receipts. Avoid counting both a delayed invoice and its eventual receipt as a permanent revenue loss.
+
+**Covenants:** test the actual contractual earnings definition. Exclusion of an incident charge from management’s adjusted earnings does not establish an equivalent covenant add-back.
+
+
+
+## B5. Illustrative disruption scenarios
+
+
+
+**Assumptions:** these are stress-test bands, not forecasts or sector recovery benchmarks. One, four and eight weeks describe the assumed disruption of the specified process, not necessarily complete shutdown of the company. No exact-duration case was established for most combinations.
+
+| Band | Subsector and trigger | Anchoring case and duration boundary | Assumed operational effect and transmission | Potential offsets | Borrower data and signposts |
+|---|---|---|---|---|---|
+| **1 week** | MSP tooling compromise propagating to clients | Kaseya supports the pathway, not this duration | Tool isolation; customer reconnection delayed; service credits and response costs | Separate management plane; customer-side access; clean tooling | Tenants affected; daily delivery backlog; clean-access approvals |
+| **4 weeks** | Same MSP trigger | Sopra Steria supports multi-week restoration, not identical propagation or an exact four-week outage | Rebuild and phased reconnection; unbillable work and collections delay | Alternate teams; staged client recovery; contract caps where enforceable | Revenue by platform; restart milestones; customer claims |
+| **8 weeks** | Same MSP trigger | No matched eight-week provider case established | Prolonged isolation; client substitution and remediation overlap | Data portability; substitute tooling; insurer-approved specialists | Renewal exposure; liquidity runway; customer exit notices |
+| **1 week** | BPO data extortion | Capita supports data-loss and response consequences, not this duration | Suspend sensitive workflows; investigate client scope | Unaffected delivery centres; bounded data access | Clients/data sets affected; transaction volumes; notification decisions |
+| **4 weeks** | Same BPO trigger | No matched four-week case established | Client approvals constrain restart; notification and rework costs | Alternative centre where independently operable | Backlog age; security acceptance; service-credit accruals |
+| **8 weeks** | Same BPO trigger | No matched eight-week case established | Contract retention and claims become additional stress channels | Replacement workflows; negotiated transition | Termination rights; concentration; claims; cash burn |
+| **1 week** | Staffing payroll-system outage | No matched primary loss case established | Manual wage calculation; delayed timesheets and invoicing | Offline roster/time records; controlled emergency payroll | Next payroll date; cash requirement; bank-file readiness |
+| **4 weeks** | Same staffing trigger | No duration-matched anchor | Repeated payroll cycles precede receipts; reconciliation backlog | Client advances where agreed; available facilities | Receivables eligibility; payroll borrowing; disputed invoices |
+| **8 weeks** | Same staffing trigger | No duration-matched anchor | Funding strain plus worker/client attrition assumptions | Alternative payroll provider; group support | Facility availability; collections; worker payment exceptions |
+| **1 week** | Facilities shared-IT outage | ISS supports shared-infrastructure risk, not this duration | Site work partly continues; scheduling and evidence capture degrade | Local supervisors; offline work orders | Sites operating; missed tasks; payroll/invoice readiness |
+| **4 weeks** | Same facilities trigger | ISS is a mechanism anchor; exact duration not used | Overtime and billing disputes accumulate | Manual client sign-off; prioritised finance restoration | Service evidence; invoice rejection; overdue receivables |
+| **8 weeks** | Same facilities trigger | No duration-matched anchor | Persistent reconciliation problems and possible contract losses | Client-agreed simplified billing; substitute systems | Contract notices; cost to serve; cash conversion |
+| **1 week** | Professional-services client-data breach | DPP Law supports access-governance pathway, not duration | File isolation; deadline and communication workarounds | Secure copies; unaffected practice teams | Deadlines; affected matters; client instructions |
+| **4 weeks** | Same professional-services trigger | No matched four-week case established | Billable-time loss, reconstruction and client review | Alternative document environment; agreed extensions | Work-in-progress; utilisation; claim notifications |
+| **8 weeks** | Same professional-services trigger | No matched eight-week case established | Retention, claims and funding pressure assumptions | Partner/group support; controlled matter transfer | Client departures; insurance decisions; cash runway |
+
+**Offsets must be evidenced:** insurance deductibles, waiting periods, exclusions, insurer consent and payment timing; the wording and enforceability of liability caps and indemnities; the actual independence of alternative centres; and tested manual capacity. None should be assumed to eliminate exposure.
+
+
+
+# C. Part 3: comparative exposure
+
+## C1. Comparable observations, with classification limits
+
+### Fraud losses
+
+
+
+The Association of Certified Fraud Examiners’ (ACFE) 2026 report uses investigator-submitted occupational-fraud cases. The following are **US-dollar losses per reported case**, not annual loss per firm or fraud incidence. Means are winsorised at 5%. Counts below follow **Figure 39**, not the separate industry infographic. ([acfe.jp](https://www.acfe.jp/wp-content/uploads/2026/05/RTTN_2026-Digital.pdf))
+
+| Reported category | Cases | Median loss | Mean loss |
+|---|---:|---:|---:|
+| Professional services | 47 | $150,000 | $1,133,000 |
+| Other services | 32 | $68,000 | $1,576,000 |
+| Banking and financial services | 431 | $100,000 | $1,535,000 |
+| Manufacturing | 191 | $170,000 | $1,559,000 |
+| Healthcare | 137 | $100,000 | $1,313,000 |
+| Retail | 110 | $59,000 | $883,000 |
+| Wholesale trade | 18 | $256,000 | $1,270,000 |
+| Energy | 89 | $220,000 | $2,606,000 |
+| Utilities | 24 | $37,000 | $320,000 |
+
+These categories are not a complete mapping to the specified Business Services perimeter. ([acfe.jp](https://www.acfe.jp/wp-content/uploads/2026/05/RTTN_2026-Digital.pdf))
+
+
+
+### Cyber observations
+
+
+
+| Dataset and statistic | Business Services-related categories | Financial services | Manufacturing | Healthcare | Retail/wholesale | Energy/utilities |
+|---|---|---|---|---|---|---|
+| **UK Cyber Security Breaches Survey 2025/2026:** share identifying a breach or attack in the preceding 12 months | Professional/scientific/technical **54%, n=217**; administration/real estate **48%, n=306**; information/communication **63%, n=81** | Finance/insurance **44%, n=101** | Separate value not reported in this table | Health/social care **33%, n=101** | Retail/wholesale **31%, n=302** | Separate value not reported; utilities/production combined **49%, n=205** |
+| **Verizon DBIR 2026:** contributed incidents / breaches | Professional NAICS 54: **3,578 / 2,558**; administrative NAICS 56: **422 / 419** | **3,809 / 1,300** | **3,627 / 2,713** | **1,492 / 1,438** | Retail **997 / 806**; wholesale **1,057 / 1,048** | Utilities **638 / 597**; no combined energy/utilities value |
+
+UK survey source: Figure 4.2. Verizon source: Table 3, p. 77. ([gov.uk](https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026?utm_source=openai))
+
+
+
+
+
+**Comparability:** UK percentages share a survey and question, but the category boundaries are broader than the requested subsectors. Verizon counts share a collection framework but lack a denominator of exposed firms; they must not be converted into sector incident probabilities or rankings.
+
+
+
+## C2. Four-dimension exposure matrix
+
+
+
+“Not comparable” means the evidence does not support the requested sector-wide comparison. It does not mean equal exposure.
+
+| Dimension / indicator | Business Services | Financial services | Manufacturing | Healthcare | Retail and wholesale | Energy and utilities | Normalisation and comparability |
+|---|---|---|---|---|---|---|---|
+| **Fraud: conditional loss severity** | Professional and other-services proxies differ | Available ACFE category | Available | Available | Separate categories | Separate categories | Same study and currency; incomplete NACE match; not incidence |
+| **Fraud: frequency and payment-diversion exposure** | No matched firm-denominated series | No matched comparison established | Same gap | Same gap | Same gap | Same gap | **Not comparable** |
+| **Cyber: identified attacks** | UK broad-category observations available | UK category available | Bundled with production/utilities | Health/social-care proxy | Combined trade category | Bundled with production | Limited within-survey comparison; no global rank |
+| **Cyber: breach and ransomware cost** | No exact-perimeter matched industry table established | No matched value used | No matched value used | No matched value used | No matched value used | No matched value used | **Not comparable**; IBM global mean remains outside peer cells |
+| **Cyber: preparedness** | Organisation examples; no representative subsector control-effectiveness distribution | Different legal and reporting environment | No harmonised comparison established | Same limitation | Same limitation | Same limitation | **Not comparable** |
+| **Operational resilience/third-party risk management (TPRM)** | MSP/BPO providers can transmit disruption to several customers | Customer-side dependency and outsourcing duties | Customer/platform dependency requires borrower evidence | Same | Same | Same | Provider-versus-customer roles are not equivalent; no normalised outage ranking |
+| **Outage duration and substitutability** | Embedded access, bespoke workflows and data portability matter | Requires function-level analysis | Requires plant/process analysis | Requires care-process analysis | Requires fulfilment/payment analysis | Requires network/service analysis | **Not comparable** at sector aggregate |
+| **Governance/operating model** | Assess partnerships, subsidiaries, ownership, acquisitions and subcontractors individually | Different regulated population | No matched ownership-adjusted series established | Same gap | Same gap | Same gap | No harmonised denominator for enforcement or governance failures |
+
+
+
+## C3. Relative-position statements
+
+
+
+| Peer | Evidence-bounded relative position | Confidence |
+|---|---|---|
+| **Financial services** | Professional-services proxy has a higher fraud-loss median but lower mean. UK professional-services attack-identification point estimate is higher. Neither establishes greater inherent Business Services exposure or weaker controls | **Medium** for proxy comparison; **Low** for sector-wide inference |
+| **Manufacturing** | Professional-services proxy has lower conditional fraud losses on both reported measures. Cyber probability and operational-resilience rankings remain **not comparable** | **Medium** for fraud proxy; **Low** overall |
+| **Healthcare** | Professional-services proxy has a higher fraud median but lower mean. UK attack-identification point estimate is higher, but healthcare’s broader classification and reporting setting limit interpretation | **Medium** for observed proxies; **Low** overall |
+| **Retail and wholesale** | Professional-services conditional fraud losses exceed retail’s but fall below wholesale’s. These peers cannot be collapsed into one position. UK professional-services attack-identification point estimate exceeds the combined trade category | **Medium** for proxy direction; **Low** overall |
+| **Energy and utilities** | Professional-services conditional fraud losses are below energy’s but above utilities’. The available UK cyber category bundles utilities with production. An overall “more/less” conclusion is **not comparable** | **Medium** for fraud proxy; **Low** overall |
+
+**Inherent exposure versus observed outcomes:** privileged multi-client access is an exposure mechanism; a survey’s identified incidents are observed outcomes; certification and control adoption are preparedness indicators. None alone measures control effectiveness.
+
+
+
+## C4. Governance and third-party evidence
+
+
+
+- **DORA-designated providers:** the November 2025 official list includes Accenture, Capgemini, IBM, Kyndryl, NTT DATA and Tata Consultancy Services. This demonstrates the relevance of selected ICT providers to financial-sector oversight, not an equivalent designation of the entire Business Services sector. ([esma.europa.eu](https://www.esma.europa.eu/sites/default/files/2025-11/List_of_designated_CTPPs.pdf?utm_source=openai))
+- **Accounting/audit:** the Financial Reporting Council’s 2026 enforcement review highlights firm-level systems and controls alongside financial-reporting and audit quality. Audit enforcement must not be counted as cyber enforcement. ([frc.org.uk](https://www.frc.org.uk/news-and-events/news/2026/07/frc-annual-enforcement-review-highlights-lessons-to-strengthen-audit-market/?utm_source=openai))
+- **Consulting corruption:** McKinsey Africa agreed to a **US$122.85m** criminal penalty in December 2024 concerning bribery linked to South African consulting contracts. This is an organisation-specific, non-cyber case. **Contextual:** it remains relevant to intermediary and engagement governance, not a current sector frequency estimate. ([justice.gov](https://www.justice.gov/usao-sdny/pr/mckinsey-company-africa-pay-over-120-million-connection-bribery-south-african?utm_source=openai))
+
+
+
+# D. Geographic variation, limitations and missing indicators
+
+## D1. Regional findings
+
+
+
+| Geography | Supported finding | Boundary |
+|---|---|---|
+| **EU** | NIS2 and Regulation 2024/2690 supply scoped cybersecurity requirements; DORA adds financial-client contractual and oversight considerations | Do not apply the same legal status to every Business Services activity. ([eur-lex.europa.eu](https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng?utm_source=openai)) |
+| **Portugal** | National transposition and a June 2026 implementing regulation are available | Entity qualification, deferred-effect provisions and technical instructions require separate checking. ([diariodarepublica.pt](https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401)) |
+| **UK** | Recent survey evidence, ICO provider cases and NCSC frameworks support analysis | Survey sectors do not isolate staffing, legal, guarding or facilities management. ([gov.uk](https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026?utm_source=openai)) |
+| **US** | Federal contractor requirements depend on contract scope; 2026 FBI guidance documents fraudulent remote-worker tactics | No representative US Business Services loss distribution established. ([acquisition.gov](https://www.acquisition.gov/dfars/204.7504-solicitation-provision-and-contract-clause.?utm_source=openai)) |
+| **Worldwide** | International issuer cases and ACFE evidence extend coverage beyond one jurisdiction | Case geography and global samples cannot supply EU, UK, US or Portugal subsector estimates automatically. ([issworldservicesas.gcs-web.com](https://issworldservicesas.gcs-web.com/static-files/d206e9f0-3452-46b9-a9e0-e2a544ef3cf0)) |
+
+Eurostat’s October 2025 release reports **21.5%** of covered EU enterprises experiencing consequential ICT-security incidents in **2023**. Its population covers enterprises with at least ten employees in specified activities, including non-malicious causes. It is not a 2025 attack rate, excludes several requested peer populations, and is not a Portugal Business Services estimate. ([ec.europa.eu](https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20251008-1?utm_source=openai))
+
+
+
+## D2. Missing indicators and source conflicts
+
+
+
+- **Portugal detail:** no defensible NACE-division loss, payroll-outage, recovery-duration or borrower-credit series was established from the retrieved INE/CNCS-related material.
+- **Staffing and security services:** primary quantified incident-impact evidence is thinner than for IT/BPO and facilities management. Absence here is an evidence gap, not zero losses.
+- **Legal versus accounting:** a legal enforcement case cannot establish an accounting-firm loss distribution.
+- **Classification:** NACE 62 IT services may sit in information and communication, while professional services and administrative/support activities occupy other categories. NAICS 54 and 56 are useful but incomplete proxies.
+- **Reporting bias:** contributed breach databases, voluntary surveys, regulatory notifications and investigator-selected fraud cases have different selection mechanisms and denominators.
+- **Fraud statistics:** means and medians can imply different relative positions. A higher case median does not establish a higher annual expected loss per firm.
+- **Enforcement:** no harmonised cross-sector frequency series was established for data-protection fines, audit sanctions and corporate resolutions. These are different legal events and should not be added together.
+- **Ownership and operating model:** no matched sector evidence was established for private-equity ownership, partnership structure, subcontracting intensity or acquisitions after controlling for firm size and geography.
+- **Company disclosures:** expense, cash outflow, revenue impact, insurance coverage and realised recovery remain separate measures. Earlier estimates should not be relabelled as final outcomes.
+- **Historical anchors:** sources before **3 May 2025** are contextual. Their use here is limited to documented mechanisms, accounting distinctions and scenario design, not an assertion of present-day frequency.
+
+
+
+# E. Combined evidence metadata register
+
+**Access date for all entries: 3 November 2026.** “Not applicable” covers sample size, statistic type and currency for legal instruments and qualitative guidance. Dates below distinguish report dates from website crawl dates.
+
+
+
+| Evidence / publisher and URL | Edition and publication date | Observation period / geography / population | Tier, locator and confidence |
+|---|---|---|---|
+| [Cyber Security Breaches Survey - UK Government](https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026) | 2025/2026; 30 April 2026 | Fieldwork August–December 2025; preceding-12-month recall; UK businesses; n=2,112 overall | Tier 1; Table 1.1, Figures 3.13 and 4.2; shares; no currency; **High** for reported categories. ([gov.uk](https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026)) |
+| [Data Breach Investigations Report - Verizon](https://www.verizon.com/business/resources/T1e0/reports/2026-dbir-data-breach-investigations-report.pdf) | 2026; 19 May 2026 | 1 November 2024–31 October 2025; global contributed cases; 31,861 incidents, 22,625 breaches | Tier 2; Table 3, p. 77, and methodology; counts; no currency; **High** for sample counts, limited representativeness. ([verizon.com](https://www.verizon.com/about/news/breach-industry-wide-dbir-finds?trk=article-ssr-frontend-pulse_x-social-details_comments-action_comment-text&utm_source=openai)) |
+| [Occupational Fraud: A Report to the Nations - ACFE](https://www.acfe.jp/wp-content/uploads/2026/05/RTTN_2026-Digital.pdf) | 2026; publisher coverage available May 2026; exact initial publication day not established | Investigations January 2024–September 2025; global; 2,402 submitted cases, 143 countries/territories | Tier 2; Figure 39, p. 51; methodology p. 79; USD medians/winsorised means; **High** for reported values, limited population inference. ([acfe.com](https://www.acfe.com/report-to-the-nations)) |
+| [Cost of a Data Breach findings - IBM/Ponemon](https://newsroom.ibm.com/2026-07-29-ibm-study-one-in-four-malicious-breaches-are-ai-enabled,-costing-companies-6-million-on-average?linkedin_auth_error=user_cancelled_login) | 2026; 29 July 2026 | March 2025–February 2026; global; 602 breached organisations | Tier 2; opening/methodology paragraphs; USD mean; **High** for global proxy, not sector-specific. ([newsroom.ibm.com](https://newsroom.ibm.com/2026-07-29-ibm-study-one-in-four-malicious-breaches-are-ai-enabled%2C-costing-companies-6-million-on-average?linkedin_auth_error=user_cancelled_login)) |
+| [Consequential ICT incidents - Eurostat](https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20251008-1) | 8 October 2025 | 2023 incidents; 2024 survey; EU covered enterprises with 10+ employees; article does not provide respondent count | Tier 1; opening and methodological notes; share; **High** for stated population. ([ec.europa.eu](https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20251008-1?utm_source=openai)) |
+| [Offshore outsourcing review - ASIC](https://www.asic.gov.au/about-asic/news-centre/articles/review-of-offshore-outsourcing-responsible-entities/) | Indexed 9 October 2025 | Australia; review dates not specified on retrieved page; 30 initial entities, ten in-depth | Tier 1; Table 1, incident response and continuity sections; counts; **High** for review findings. ([asic.gov.au](https://www.asic.gov.au/about-asic/news-centre/articles/review-of-offshore-outsourcing-responsible-entities/)) |
+| [Annual Report and Accounts - Capita](https://www.capita.com/dam/documents/investors/results-reports-presentations/2023/full-year-results-2023/Capita-plc-Annual-Report-and-Accounts-2023.pdf) | FY2023; report dated 5 March 2024; **contextual** | FY2023; one international issuer group | Tier 1 issuer disclosure; CFO review and p. 167; GBP expense/cash measures; **High**. ([capita.com](https://www.capita.com/dam/documents/investors/results-reports-presentations/2023/full-year-results-2023/Capita-plc-Annual-Report-and-Accounts-2023.pdf)) |
+| [Capita enforcement statement - ICO](https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2025/10/capita-fined-14m-for-data-breach-affecting-over-6m-people) | 15 October 2025 | March 2023 incident; UK; two penalised entities | Tier 1; opening and attack chronology; GBP penalty and elapsed time; **High**. ([ico.org.uk](https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2025/10/capita-fined-14m-for-data-breach-affecting-over-6m-people?utm_source=openai)) |
+| [Company announcement 2/2021 - ISS](https://issworldservicesas.gcs-web.com/static-files/d206e9f0-3452-46b9-a9e0-e2a544ef3cf0) | 25 February 2021; **contextual** | FY2020; international facilities-services group; n=1 organisation | Tier 1 issuer disclosure; recovery discussion; DKK recognised cost; **High**. ([issworldservicesas.gcs-web.com](https://issworldservicesas.gcs-web.com/static-files/d206e9f0-3452-46b9-a9e0-e2a544ef3cf0)) |
+| [Q1 earnings-call transcript - Cognizant](https://cognizant.q4cdn.com/123993165/files/doc_financials/2020/q1/CORRECTED-TRANSCRIPT_-Cognizant-Technology-Solutions-Corp.%28CTSH-US%29%2C-Q1-2020-Earnings-Call%2C-7-May-2020-5_00-PM-ET.pdf) | 7 May 2020; **contextual** | Expected Q2 2020 effect; international group; n=1 | Tier 1 issuer-hosted transcript; p. 8; USD management estimate; **High** for expectation only. ([cognizant.q4cdn.com](https://cognizant.q4cdn.com/123993165/files/doc_financials/2020/q1/CORRECTED-TRANSCRIPT_-Cognizant-Technology-Solutions-Corp.%28CTSH-US%29%2C-Q1-2020-Earnings-Call%2C-7-May-2020-5_00-PM-ET.pdf?utm_source=openai)) |
+| [Cyberattack update - Sopra Steria](https://www.soprasteria.com/newsroom/press-releases/details/cyberattack-updated-information) | 25 November 2020; **contextual** | October–November 2020; international group; n=1 | Tier 1 issuer statement; financial-impact paragraphs; EUR estimates/coverage; **High**. ([soprasteria.com](https://www.soprasteria.com/newsroom/press-releases/details/cyberattack-updated-information?utm_source=openai)) |
+| [2020 registration document - Sopra Steria](https://www.soprasteria.com/Content/SopraSteria/SOP_SOPRA_STERIA_2020_URD_EN_COMPLET_HD.html) | FY2020; 2021 publication; exact day not established; **contextual** | FY2020; international group | Tier 1; operating-performance discussion; percentage-point effects; **High** for issuer attribution. ([soprasteria.com](https://www.soprasteria.com/Content/SopraSteria/SOP_SOPRA_STERIA_2020_URD_EN_COMPLET_HD.html?utm_source=openai)) |
+| [DPP Law penalty notice - ICO](https://ico.org.uk/media2/pr4bg5hq/dpp-law-ltd-monetary-penalty-notice.pdf) | 14 April 2025; **contextual** | Individual UK legal practice; incident and legacy-account history | Tier 1; summary, paragraphs 25–28 and 58–59; GBP penalty; **High**. ([ico.org.uk](https://ico.org.uk/media2/pr4bg5hq/dpp-law-ltd-monetary-penalty-notice.pdf)) |
+| [FY2025 cybersecurity disclosure - Kelly/SEC](https://www.sec.gov/Archives/edgar/data/55135/000005513526000053/R34.htm) | 2026 filing; exact filing day not established | Year ended 28 December 2025; international staffing issuer; n=1 | Tier 1 issuer filing; cybersecurity risk-management/governance text; qualitative; **High** for disclosed practices. ([sec.gov](https://www.sec.gov/Archives/edgar/data/55135/000005513526000053/R34.htm)) |
+| [McKinsey Africa resolution - US DOJ](https://www.justice.gov/usao-sdny/pr/mckinsey-company-africa-pay-over-120-million-connection-bribery-south-african) | 5 December 2024; **contextual** | Conduct at least 2012–2016; South Africa/US enforcement; one resolution | Tier 1; admissions and penalty paragraphs; USD penalty; **High**. ([justice.gov](https://www.justice.gov/usao-sdny/pr/mckinsey-company-africa-pay-over-120-million-connection-bribery-south-african?utm_source=openai)) |
+| [Annual Enforcement Review announcement - FRC](https://www.frc.org.uk/news-and-events/news/2026/07/frc-annual-enforcement-review-highlights-lessons-to-strengthen-audit-market/) | 23 July 2026 | UK audit/accounting enforcement; no comparative population used here | Tier 1; review summary; qualitative; **High** for stated themes. ([frc.org.uk](https://www.frc.org.uk/news-and-events/news/2026/07/frc-annual-enforcement-review-highlights-lessons-to-strengthen-audit-market/?utm_source=openai)) |
+
+
+
+### Legal, standards and incident-mechanism register
+
+
+
+| Instrument / publisher and URL | Date and geography | Locator / evidence role |
+|---|---|---|
+| [NIS2 - EU legislature](https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng) | 14 December 2022; EU; **contextual legal baseline** | Articles 2, 3, 20–21 and Annex I; Tier 1; **High**. ([eur-lex.europa.eu](https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng?utm_source=openai)) |
+| [Regulation 2024/2690 - European Commission](https://eur-lex.europa.eu/legal-content/en/TXT/?uri=OJ%3AL_202402690) | 17 October 2024, published 18 October; EU; **contextual legal baseline** | Articles 1–2 and Annex; Tier 1; **High**. ([eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/en/TXT/?uri=OJ%3AL_202402690&utm_source=openai)) |
+| [Decreto-Lei 125/2025 - Diário da República](https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401) | 4 December 2025; Portugal | Articles 10–11 and annexed regime; Tier 1; **High**; current national implementation. ([diariodarepublica.pt](https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401)) |
+| [Regulamento 756/2026 - CNCS](https://files.diariodarepublica.pt/2s/2026/06/118000000/0003200120.pdf) | 22 June 2026; Portugal | Articles 34–35 and Annex I; Tier 1; **High**. ([files.diariodarepublica.pt](https://files.diariodarepublica.pt/2s/2026/06/118000000/0003200120.pdf)) |
+| [GDPR - EU legislature](https://eur-lex.europa.eu/legal-content/EN/ALL/?tid=+121430163&uri=celex%3A32016R0679) | 27 April 2016; EU; **contextual legal baseline** | Articles 28, 32 and 33; Tier 1; **High**. ([eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/ALL/?tid=+121430163&uri=celex%3A32016R0679&utm_source=openai)) |
+| [DORA - EU legislature](https://eur-lex.europa.eu/eli/reg/2022/2554/oj?uri=CELEX%3A32022R2554) | 14 December 2022; EU; **contextual legal baseline** | Articles 28–31; Tier 1; **High**. ([eur-lex.europa.eu](https://eur-lex.europa.eu/eli/reg/2022/2554/oj?uri=CELEX%3A32022R2554&utm_source=openai)) |
+| [Designated ICT providers - European Supervisory Authorities](https://www.esma.europa.eu/sites/default/files/2025-11/List_of_designated_CTPPs.pdf) | 18 November 2025; EU | Article 31(9) list, p. 1; Tier 1; **High**. ([esma.europa.eu](https://www.esma.europa.eu/sites/default/files/2025-11/List_of_designated_CTPPs.pdf?utm_source=openai)) |
+| [CAF - UK NCSC](https://www.ncsc.gov.uk/collection/cyber-assessment-framework?adhoc_referrer=568642635) | Version 4.0; page reviewed 6 August 2025; UK | Framework/version information; Tier 1; **High**. ([ncsc.gov.uk](https://www.ncsc.gov.uk/collection/cyber-assessment-framework?adhoc_referrer=568642635)) |
+| [Cyber Essentials - UK NCSC](https://www.ncsc.gov.uk/cyberessentials/overview?adhoc_referrer=4194000833533) | Current page at access; UK; original publication date not stated | Certification-level comparison; Tier 1; **High**. ([ncsc.gov.uk](https://www.ncsc.gov.uk/cyberessentials/overview?adhoc_referrer=4194000833533&utm_source=openai)) |
+| [MSP advisory AA22-131A - joint national authorities](https://www.cisa.gov/sites/default/files/publications/AA22-131A_Protecting_Against_Cyber_Threats_to_MSPs_and_their_Customers.pdf) | 11 May 2022; multinational; **contextual** | Provider-customer access and recommendations; Tier 1; **High**; continuing architectural relevance. ([cisa.gov](https://www.cisa.gov/sites/default/files/publications/AA22-131A_Protecting_Against_Cyber_Threats_to_MSPs_and_their_Customers.pdf)) |
+| [NIST CSF 2.0 - NIST](https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework) | 26 February 2024; international use; **contextual** | Framework release and governance role; Tier 1; **High**. ([nist.gov](https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework?utm_source=openai)) |
+| [SP 800-161 Rev. 1 update - NIST](https://csrc.nist.gov/pubs/sp/800/161/r1/upd1/final) | May 2022, updated 1 November 2024; **contextual** | Supply-chain risk-management publication; Tier 1; **High**. ([csrc.nist.gov](https://csrc.nist.gov/pubs/sp/800/161/r1/upd1/final?utm_source=openai)) |
+| [ISO/IEC 27001:2022 - ISO](https://www.iso.org/standard/27001) and [management-system standards catalogue - ISO](https://www.iso.org/management-system-standards-list.html) | 2022 and ISO 22301:2019; international; **contextual** | Public scope/catalogue only; standards-body primary sources; **High** for scope, not clause-level assessment. ([iso.org](https://www.iso.org/standard/27001?utm_source=openai)) |
+| [SOC services - AICPA](https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services?wvideo=t0gfmlcvqz) | Current page at access; original page date not established | Assurance scope; standards-owner primary source; **High**. ([aicpa-cima.com](https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services?wvideo=t0gfmlcvqz&utm_source=openai)) |
+| [PCI DSS v4.0.1 publication - PCI SSC](https://blog.pcisecuritystandards.org/just-published-pci-dss-v4-0-1) | 11 June 2024; international; **contextual** | Version and service-provider clarifications; standards-owner primary source; **High**. ([blog.pcisecuritystandards.org](https://blog.pcisecuritystandards.org/just-published-pci-dss-v4-0-1?utm_source=openai)) |
+| [US contractor CMMC clause application - Acquisition.gov](https://www.acquisition.gov/dfars/204.7504-solicitation-provision-and-contract-clause.) | Current rule at access; US | DFARS 204.7504; Tier 1; **High**, subject to actual contract. ([acquisition.gov](https://www.acquisition.gov/dfars/204.7504-solicitation-provision-and-contract-clause.?utm_source=openai)) |
+| [Kaseya mechanism assessment - US government](https://www.dni.gov/files/NCSC/documents/SafeguardingOurFuture/Kaseya%20VSA%20Supply%20Chain%20Ransomware%20Attack.pdf) | 2021 incident; publication day not established; **contextual** | Incident summary; Tier 1; **High** for management-tool propagation, not present frequency. ([dni.gov](https://www.dni.gov/files/NCSC/documents/SafeguardingOurFuture/Kaseya%20VSA%20Supply%20Chain%20Ransomware%20Attack.pdf?utm_source=openai)) |
+| [Remote-worker advisory - FBI/IC3](https://www.ic3.gov/PSA/2026/PSA261013?trk=public_post_comment-text) | 13 October 2026; US-facing threat guidance | Identity and recruitment tactics; Tier 1; **High** for agency-described pathways. ([ic3.gov](https://www.ic3.gov/PSA/2026/PSA261013?trk=public_post_comment-text&utm_source=openai)) |
+| [Cyber Security and Resilience Bill - UK Parliament](https://bills.parliament.uk/bills/4035/publications) | Amended version 26 October 2026; UK | Parliamentary publication history; Tier 1; **High** for legislative-stage evidence. ([bills.parliament.uk](https://bills.parliament.uk/bills/4035/publications?utm_source=openai)) |
+
+
+
+
+
+## Bottom line
+
+The strongest defensible conclusion is **differentiated exposure, not a single sector score**. Underwriting and resilience assessment should connect the provider’s actual service architecture to its cash obligations, customer dependencies and recovery evidence.
+
+For staffing, payroll execution and funding are the central stress channels. For MSPs, customer-access containment is central. For legal services, confidential information, legacy access and payment integrity lead. For facilities management and security services, the decisive question is which site-level activities can continue safely and be evidenced for billing while shared systems are unavailable.
