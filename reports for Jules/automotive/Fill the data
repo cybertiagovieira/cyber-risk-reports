@@ -1,0 +1,330 @@
+# Automotive: Slides 09-12 fill sheet
+
+## 1. Header
+
+| Item | Value |
+|---|---|
+| Sector | Automotive. Core scope, as defined in the merged findings: original equipment manufacturers (OEMs), Tier-1 and Tier-n suppliers, and the dealer and captive-finance channels |
+| Findings files | `Automotive_Q01-Q15_merged__1_.md` (File M, the main evidence base); `automotive_complement__1_.md` (File C, complement) |
+| Prompt file | `attachment.txt` (instructions only; not used as evidence) |
+| Research cut-off stated in the findings | File M: neither underlying file states one (C-01); gap-fill research was accessed on 2 November 2026. File C: not stated |
+| Today's date | 4 November 2026 |
+
+## 2. Fill sheet, Slides 09-12
+
+### Slide 09 - Financial Impact of Cyber Incidents
+
+| Field | Text to paste | Chars | Evidence type | Source ID | Status (FILL / OMIT + manual edit instruction) |
+|---|---|---|---|---|---|
+| S09.LABEL | Automotive Sector Intelligence \| Financial Impact of Cyber Incidents | - | Fixed | - | FILL |
+| S09.HEAD | A cyber intrusion halted a UK carmaker for five weeks; quarterly revenue then fell 39% | 86 | Fact | S-013; S-009 | FILL |
+| S09.SUM | Ransom-related incidents more than doubled in 2025 to 44% of 494 publicly reported automotive and smart-mobility cyber incidents. Margins often below 5% leave little room for downtime: Jaguar Land Rover (JLR) revenue fell 39% in Q3 of financial year 2026 (FY26) after a five-week shutdown. Documented credit channels are production stoppage, shared dealer software and financing fraud. | 385 | Fact | S-037; FILE-A; S-013; S-009; S-031; S-025; S-067 | FILL |
+| S09.A.TITLE | Ransom share of incidents, 2025 | 31 | Fact | S-037 | FILL |
+| S09.A.SUB | Public automotive and smart-mobility cyber incidents, global, 2025 (% of 494) | 77 | Fact | S-037 | FILL |
+| S09.A.CHART | Other incident types = 56%; Ransom-related = 44% (last segment, highlighted) | - | Fact / Derived (56%, D1) | S-037 | FILL |
+| S09.A.TILE1.VAL | 494 | 3 | Fact | S-037 | FILL |
+| S09.A.TILE1.LBL | publicly reported automotive and mobility incidents | 51 | Fact | S-037 | FILL |
+| S09.A.TILE2.VAL | 34% | 3 | Fact | S-037 | FILL |
+| S09.A.TILE2.LBL | of incidents caused service or business disruption | 50 | Fact | S-037 | FILL |
+| S09.A.TILE3.VAL (highlighted) | 44% | 3 | Fact | S-037 | FILL |
+| S09.A.TILE3.LBL | ransom-related; their number more than doubled on 2024 | 54 | Fact | S-037 | FILL |
+| S09.B.TITLE | Disclosed cost of one shutdown | 30 | Fact | S-009; S-011 | FILL (retitled under the Exhibit B substitution rule: the findings have no sourced sector financial aggregates) |
+| S09.B.SUB | JLR company results, Q2-Q3 FY26 (Jul-Dec 2025); single company, not sector | 74 | Fact | S-009; S-011 | FILL |
+| S09.B.KPI1.VAL | -24% | 4 | Fact | S-011 | FILL |
+| S09.B.KPI1.LBL | revenue change, Q2 FY26 | 23 | Fact | S-011 | FILL |
+| S09.B.KPI2.VAL | -39% | 4 | Fact | S-009 | FILL |
+| S09.B.KPI2.LBL | revenue change, Q3 FY26 | 23 | Fact | S-009 | FILL |
+| S09.B.KPI3.VAL | £260m | 5 | Derived (D2) | S-011; S-009 | FILL |
+| S09.B.KPI3.LBL | direct cyber costs, Q2-Q3 | 25 | Derived (D2) | S-011; S-009 | FILL |
+| S09.B.KPI4.VAL | -43% | 4 | Fact | S-023 | FILL |
+| S09.B.KPI4.LBL | wholesale volumes, Q3 FY26 | 26 | Fact | S-023 | FILL |
+| S09.B.DONUT | Share = 82%; segment label = cyber costs; remainder label = other exceptional items (18%) | - | Derived (D3) | S-011 | FILL |
+| S09.B.DONUT.TEXT | JLR, Q2 FY26 (single company): £196m of £238m exceptional items were cyber costs, beside a £485m loss before tax and exceptional items; Q3 FY26 added £64m of cyber costs. | 170 | Fact | S-011; S-009 | FILL |
+| S09.C.CH1.TITLE | Production stoppage | 19 | Fact | S-013; S-031 | FILL |
+| S09.C.CH1.TEXT | Jaguar Land Rover halted UK output for five weeks in 2025; ransomware at one supplier stopped 28 lines at 14 Toyota plants for a day in 2022. | 141 | Fact | S-013; S-031; S-033 | FILL |
+| S09.C.CH1.ICON | Factory with stop sign | - | - | - | FILL |
+| S09.C.CH2.TITLE | Shared dealer software outage | 29 | Fact | S-025; S-026 | FILL |
+| S09.C.CH2.TEXT | CDK Global ransomware took systems offline for about 15,000 dealerships, 19 Jun-5 Jul 2024; estimated direct dealer losses $1.02bn. | 131 | Fact | S-025; S-026; S-027 | FILL |
+| S09.C.CH2.ICON | Storefront with broken link | - | - | - | FILL |
+| S09.C.CH3.TITLE | Financing fraud | 15 | Fact | S-061; S-067 | FILL |
+| S09.C.CH3.TEXT | Alleged double-pledged collateral at Tricolor and undisclosed off-balance-sheet debt at First Brands (2025); JPMorgan took a $170m hit on Tricolor. | 147 | Fact | S-061; S-066; S-067 | FILL |
+| S09.C.CH3.ICON | Invoice with warning mark | - | - | - | FILL |
+| S09.T1 | Treat production downtime, not ransom, as the main cyber loss driver. | 69 | Analytical | S-009; S-025 | FILL |
+| S09.T2 | Size loss absorption on margins below 5% and several weeks of lost output. | 74 | Analytical | FILE-A; S-013 | FILL |
+| S09.T3 | Assess stoppage, dealer software and financing fraud channels separately. | 73 | Analytical | S-013; S-025; S-067 | FILL |
+
+### Slide 10 - Cyber-to-Credit Risk Transmission & Stress Scenarios
+
+| Field | Text to paste | Chars | Evidence type | Source ID | Status (FILL / OMIT + manual edit instruction) |
+|---|---|---|---|---|---|
+| S10.LABEL | Automotive Sector Intelligence \| Cyber-to-Credit Risk Transmission & Stress Scenarios | - | Fixed | - | FILL |
+| S10.HEAD | Longer outages move the credit impact from deferred revenue to liquidity and covenants | 86 | Analytical | S-031; S-025; S-009; S-017 | FILL |
+| S10.SUM | A cyber trigger that halts plant systems, a key supplier or dealer software reaches credit through lost output, supplier cash calls and covenant pressure. The 1, 4 and 8 week scenarios are stress narratives, not forecasts: pressure moves from deferred revenue to liquidity and debt service as outages lengthen. Margins often start below 5%; borrower-level headroom must be obtained directly. | 391 | Analytical / Fact (margins) | S-013; S-031; S-025; S-017; FILE-A | FILL |
+| S10.FLOW1.TITLE | Cyber trigger | 13 | Fact | S-037; S-031; S-025 | FILL |
+| S10.FLOW1.CAPTION | Ransomware, supplier or software failure | 40 | Fact | S-037; S-031; S-025 | FILL |
+| S10.FLOW2.TITLE | Production stoppage | 19 | Fact | S-013; S-031; S-025 | FILL |
+| S10.FLOW2.CAPTION | Plants, a key supplier or dealer software | 41 | Fact | S-013; S-031; S-025 | FILL |
+| S10.FLOW3.TITLE | Lost output and sales | 21 | Fact | S-023; S-025 | FILL |
+| S10.FLOW3.CAPTION | Wholesale volumes and dealer sales fall | 39 | Fact | S-023; S-025 | FILL |
+| S10.FLOW4.TITLE | Working capital strain | 22 | Analytical | FILE-A; S-017 | FILL |
+| S10.FLOW4.CAPTION | Fixed costs run on; supplier cash calls | 39 | Analytical | FILE-A; S-017 | FILL |
+| S10.FLOW5.TITLE | Credit profile | 14 | Analytical | S-017; S-018 | FILL |
+| S10.FLOW5.CAPTION | Covenants, rating and support reliance | 38 | Analytical | S-017; S-018 | FILL |
+| S10.HM.COLHEAD | Automotive equivalent | - | Fixed | - | FILL |
+| S10.HM.EQ1 (Production) | Plant output, line uptime and dealer sales | 42 | Analytical | S-031; S-025 | FILL |
+| S10.HM.EQ2 (Cash flow) | Wholesale revenue and free cash flow | 36 | Analytical | S-023; S-024 | FILL |
+| S10.HM.EQ3 (Liquidity) | Cash, committed facilities and support | 38 | Analytical | S-017 | FILL |
+| S10.HM.EQ4 (Margins) | Operating margin on high fixed plant costs | 42 | Analytical | FILE-A; S-009 | FILL |
+| S10.HM.EQ5 (Working capital) | Inventory, receivables, payables and factoring | 46 | Analytical | S-062; S-017 | FILL |
+| S10.HM.EQ6 (Debt service) | Covenants, refinancing and parent or state aid | 46 | Analytical | S-017; S-018 | FILL |
+| S10.HM.R1.1W (Production) | Moderate - Lines idle; catch-up | 20 (driver) | Analytical | S-031; S-032 | FILL |
+| S10.HM.R1.4W (Production) | High - Multi-week line stoppage | 24 (driver) | Analytical | S-025; S-013 | FILL |
+| S10.HM.R1.8W (Production) | High - Most of a quarter lost | 22 (driver) | Analytical | S-013; S-021; S-023 | FILL |
+| S10.HM.R2.1W (Cash flow) | Low - Revenue deferred | 16 (driver) | Analytical | S-025 | FILL |
+| S10.HM.R2.4W (Cash flow) | Moderate - Lost sales not recouped | 23 (driver) | Analytical | S-025 | FILL |
+| S10.HM.R2.8W (Cash flow) | High - Large cash outflow | 18 (driver) | Analytical | S-024 | FILL |
+| S10.HM.R3.1W (Liquidity) | Low - Cash buffers absorb | 19 (driver) | Analytical | S-031 | FILL |
+| S10.HM.R3.4W (Liquidity) | Moderate - Fixed costs drain cash | 22 (driver) | Analytical | FILE-A; S-011 | FILL |
+| S10.HM.R3.8W (Liquidity) | High - State or parent support | 23 (driver) | Analytical | S-017; S-018 | FILL |
+| S10.HM.R4.1W (Margins) | Low - Overtime catch-up cost | 22 (driver) | Analytical | S-031 | FILL |
+| S10.HM.R4.4W (Margins) | High - Margins turn negative | 21 (driver) | Analytical | S-011; FILE-A | FILL |
+| S10.HM.R4.8W (Margins) | High - Loss-making quarter | 19 (driver) | Analytical | S-009 | FILL |
+| S10.HM.R5.1W (Working capital) | Moderate - Supplier payments due | 21 (driver) | Analytical | S-015 | FILL |
+| S10.HM.R5.4W (Working capital) | High - Supplier cash calls | 19 (driver) | Analytical | S-015; S-017 | FILL |
+| S10.HM.R5.8W (Working capital) | High - Supplier failure risk | 21 (driver) | Analytical | S-015; S-017 | FILL |
+| S10.HM.R6.1W (Debt service) | Low - Headroom intact | 15 (driver) | Analytical | S-031 | FILL |
+| S10.HM.R6.4W (Debt service) | Moderate - Covenant headroom tight | 23 (driver) | Analytical | S-011 | FILL |
+| S10.HM.R6.8W (Debt service) | High - Covenant pressure | 17 (driver) | Analytical | S-009; S-017 | FILL |
+| S10.PANEL.M1.VAL | <5% | 3 | Fact | FILE-A | FILL |
+| S10.PANEL.M1.LBL | margins, often below this level; global automotive sector, undated | 66 | Fact | FILE-A | FILL |
+| S10.PANEL.M2 | - | - | - | - | OMIT: the findings have no second sector aggregate for capital, leverage, liquidity, interest cover or margin. Delete tile M2 and widen M1 |
+| S10.PANEL.M3 | - | - | - | - | OMIT: the findings have no third aggregate. Delete tile M3 and keep the caveat line under M1 |
+| S10.PANEL.CAVEAT | Sector indications, not counterparty headroom. | 46 | Analytical | - | FILL |
+| S10.T1 | Obtain the borrower's tested restart time for plants and key systems. | 69 | Analytical | S-013; S-021 | FILL |
+| S10.T2 | Test liquidity against a four-week stoppage with fixed costs still running. | 75 | Analytical | S-025; S-011 | FILL |
+| S10.T3 | Reflect untested single-supplier or software dependence in covenant views. | 74 | Analytical | S-031; S-025 | FILL |
+
+### Slide 11 - Questionnaire-to-Sector Intelligence Mapping
+
+| Field | Text to paste | Chars | Evidence type | Source ID | Status (FILL / OMIT + manual edit instruction) |
+|---|---|---|---|---|---|
+| S11.LABEL | Automotive Sector Intelligence \| Questionnaire-to-Sector Intelligence Mapping | - | Fixed | - | FILL |
+| S11.HEAD | Shared software, plant recovery and financing integrity carry the clearest credit links | 87 | Analytical | S-025; S-013; S-067 | FILL |
+| S11.SUM | No questionnaire was supplied, so five working items, PROV-01 to PROV-05, link common borrower control gaps to automotive evidence. Shared software, plant recovery and financing-integrity gaps have documented credit channels; supplier access and board ownership links rest partly on analysis. Significance depends on supply-chain position, substitutability and margin headroom. | 377 | Analytical | S-025; S-013; S-067; S-031; S-040 | FILL |
+| S11.PROV-01.Control gap | Provider concentration: one platform runs sales or ordering | 59 | Analytical | S-025 | FILL |
+| S11.PROV-01.Sector evidence | CDK Global outage hit about 15,000 dealers; dealer losses estimated at $1.02bn (2024) | 85 | Fact | S-025; S-027 | FILL |
+| S11.PROV-01.Operational consequence | Sales, financing and service stop across a dealer network | 57 | Fact | S-025; S-026 | FILL |
+| S11.PROV-01.Credit relevance | Lost sales and cash flow with no substitute | 43 | Fact | S-025 | FILL |
+| S11.PROV-01.Suggested question | Which outside software, if down for three weeks, would stop your sales? | 71 | Analytical | File M Q08 (PROV-002) | FILL |
+| S11.PROV-02.Control gap | Recovery testing: plant restart after systems loss untested | 59 | Analytical | S-013; S-021 | FILL |
+| S11.PROV-02.Sector evidence | Jaguar Land Rover (JLR): five-week UK production halt; normal output only by mid-Nov 2025 | 89 | Fact | S-013; S-021 | FILL |
+| S11.PROV-02.Operational consequence | Weeks of lost output while fixed costs continue | 47 | Fact | S-013; FILE-A | FILL |
+| S11.PROV-02.Credit relevance | Revenue fall, losses and cash outflow, as at JLR | 48 | Fact | S-009; S-011; S-024 | FILL |
+| S11.PROV-02.Suggested question | If office systems shut down tomorrow, how long until plants run normally? | 73 | Analytical | File M Q08 (PROV-001) | FILL |
+| S11.PROV-03.Control gap | Supplier access: partner and platform links not controlled | 58 | Analytical | S-031; S-035 | FILL |
+| S11.PROV-03.Sector evidence | Supplier ransomware halted 14 Toyota plants (2022); Stellantis data taken via a partner | 87 | Fact | S-031; S-035 | FILL |
+| S11.PROV-03.Operational consequence | Line stoppages and data theft through partner links | 51 | Fact | S-031; S-034 | FILL |
+| S11.PROV-03.Credit relevance | Earnings hit: about 13,000 vehicles lost in one day | 51 | Fact | S-032 | FILL |
+| S11.PROV-03.Suggested question | Which suppliers could stop your lines in a day, and how are they checked? | 73 | Analytical | File M Q08 (PROV-003) | FILL |
+| S11.PROV-04.Control gap | Financing integrity: invoices and collateral not checked | 56 | Analytical | S-061; S-066 | FILL |
+| S11.PROV-04.Sector evidence | First Brands, Tricolor (2025): alleged duplicate invoices, collateral; JPMorgan $170m hit | 89 | Fact | S-066; S-067; S-061 | FILL |
+| S11.PROV-04.Operational consequence | Hidden leverage and sudden insolvency | 37 | Fact | S-062; S-066 | FILL |
+| S11.PROV-04.Credit relevance | Direct lender loss and collateral shortfall | 43 | Fact | S-067 | FILL |
+| S11.PROV-04.Suggested question | How are invoices and collateral confirmed as not pledged to two lenders? | 72 | Analytical | File M Q08 (PROV-005) | FILL |
+| S11.PROV-05.Control gap | Board ownership: no board view of supplier technology risk | 58 | Analytical | S-040 | FILL |
+| S11.PROV-05.Sector evidence | Moody's: automotive had the top share of rated issuers with a cyber incident to Dec 2025 | 88 | Fact | S-040 | FILL |
+| S11.PROV-05.Operational consequence | Analytical: supplier risk decisions sit below board level | 57 | Analytical | - | FILL |
+| S11.PROV-05.Credit relevance | Analytical: slower response and weaker disclosure | 49 | Analytical | S-061 (disclosure basis) | FILL |
+| S11.PROV-05.Suggested question | Who on the board owns supplier and technology risk, and how is it reviewed? | 75 | Analytical | - | FILL |
+| S11.RAISE | Single plant system or dealer software with no fallback; just-in-time lines with single-source parts; margins below 5%; opaque factoring or supply-chain finance; one dominant customer. | 184 | Analytical | S-013; S-025; S-031; FILE-A; S-062 | FILL |
+| S11.LOWER | Tested plant restart and manual fallback; qualified alternative suppliers; stock buffers for key parts; audited receivables and collateral; earnings that cover fixed costs in an outage. | 185 | Analytical | S-021; S-026; S-033; S-062 | FILL |
+| S11.T1 | Seek evidence on PROV-01, 02 and 04 first; their credit links are documented. | 77 | Analytical | S-025; S-067 | FILL |
+| S11.T2 | Weigh each gap against supply-chain position, substitutes and margin headroom. | 78 | Analytical | FILE-A | FILL |
+| S11.T3 | Record Analytical links as discussion points, not adverse credit findings. | 74 | Analytical | - | FILL |
+
+### Slide 12 - Credit Officer Engagement: Key Questions & Actions
+
+| Field | Text to paste | Chars | Evidence type | Source ID | Status (FILL / OMIT + manual edit instruction) |
+|---|---|---|---|---|---|
+| S12.LABEL | Automotive Sector Intelligence \| Credit Officer Engagement: Key Questions & Actions | - | Fixed | - | FILL |
+| S12.HEAD | Five discussions test restart capability, software dependence and financing integrity | 85 | Analytical | S-013; S-025; S-067 | FILL |
+| S12.SUM | Five topics structure the discussion with an automotive borrower: each pairs a sector observation with two questions and the evidence to look for. Answers remain self-reported until supported by documents or independent testing. Follow-up stays proportionate: record, request evidence, refer to a second-line specialist, then reflect the outcome in the credit review. | 367 | Analytical | - | FILL |
+| S12.CARD1.TITLE | Provider concentration | 22 | Fixed topic | - | FILL |
+| S12.CARD1.OBS | CDK Global's 2024 outage hit about 15,000 dealers; dealer losses estimated at $1.02bn. | 86 | Fact | S-025; S-027 | FILL |
+| S12.CARD1.ASK1 | Which systems rely on one provider? | 35 | Analytical | - | FILL |
+| S12.CARD1.ASK2 | Is a manual fallback tested? | 28 | Analytical | - | FILL |
+| S12.CARD1.LOOKFOR | Provider map with tested fallbacks | 34 | Analytical | - | FILL |
+| S12.CARD1.ICON | Network hub | - | - | - | FILL |
+| S12.CARD2.TITLE | Recovery capability | 19 | Fixed topic | - | FILL |
+| S12.CARD2.OBS | Jaguar Land Rover (JLR) halted UK production for five weeks after a 2025 cyberattack. | 85 | Fact | S-013 | FILL |
+| S12.CARD2.ASK1 | How long would a plant restart take? | 36 | Analytical | - | FILL |
+| S12.CARD2.ASK2 | When was a full restart last tested? | 36 | Analytical | - | FILL |
+| S12.CARD2.LOOKFOR | Dated restart tests and recovery times | 38 | Analytical | - | FILL |
+| S12.CARD2.ICON | Circular arrow | - | - | - | FILL |
+| S12.CARD3.TITLE | Access control | 14 | Fixed topic | - | FILL |
+| S12.CARD3.OBS | Stellantis customer data was taken via a third-party service platform in 2025. | 78 | Fact | S-035; S-034 | FILL |
+| S12.CARD3.ASK1 | Which partners can access your systems? | 39 | Analytical | - | FILL |
+| S12.CARD3.ASK2 | How is supplier access reviewed? | 32 | Analytical | - | FILL |
+| S12.CARD3.LOOKFOR | Access reviews and supplier assessments | 39 | Analytical | - | FILL |
+| S12.CARD3.ICON | Key | - | - | - | FILL |
+| S12.CARD4.TITLE | Financing integrity | 19 | Fixed topic | - | FILL |
+| S12.CARD4.OBS | Tricolor's 2025 collapse cost JPMorgan $170m amid alleged double-pledged collateral. | 84 | Fact | S-067; S-066 | FILL |
+| S12.CARD4.ASK1 | Who checks invoices before factoring? | 37 | Analytical | - | FILL |
+| S12.CARD4.ASK2 | Could collateral be pledged twice? | 34 | Analytical | - | FILL |
+| S12.CARD4.LOOKFOR | Audited receivables and lender pledge records | 45 | Analytical | - | FILL |
+| S12.CARD4.ICON | Document with magnifier | - | - | - | FILL |
+| S12.CARD5.TITLE | Governance | 10 | Fixed topic | - | FILL |
+| S12.CARD5.OBS | Moody's: automotive had the top share of rated issuers with a cyber incident to Dec 2025. | 89 | Fact | S-040 | FILL |
+| S12.CARD5.ASK1 | Who on the board owns supplier risk? | 36 | Analytical | - | FILL |
+| S12.CARD5.ASK2 | How often does the board review it? | 35 | Analytical | - | FILL |
+| S12.CARD5.LOOKFOR | Board minutes and supplier risk reports | 39 | Analytical | - | FILL |
+| S12.CARD5.ICON | Boardroom table | - | - | - | FILL |
+| S12.EWI1 | Plant, supplier or dealer stoppage lasting over one week | 56 | Analytical | S-013; S-031; S-025 | FILL |
+| S12.EWI2 | Outage at a shared dealer, ordering or customer platform | 56 | Analytical | S-025; S-035 | FILL |
+| S12.EWI3 | Rising factoring, revolver use or days sales outstanding | 56 | Analytical | S-C01; S-062 | FILL |
+| S12.REF1 | No tested restart for plants or single-provider systems | 55 | Analytical | S-013; S-025 | FILL |
+| S12.REF2 | Opaque factoring or collateral pledged to two lenders | 53 | Analytical | S-062; S-066 | FILL |
+| S12.REF3 | Answers contradicted by public disclosures | 42 | Analytical | S-061 | FILL |
+| S12.STEPS | Record > Request evidence > Refer to second-line specialist > Reflect in credit review | - | Fixed | - | FILL |
+| S12.T1 | Open with recovery and provider concentration: the clearest cyber channels. | 75 | Analytical | S-013; S-025 | FILL |
+| S12.T2 | Ask for documents behind any answer that shapes the credit view. | 64 | Analytical | - | FILL |
+| S12.T3 | Refer open restart or financing-integrity issues to a second-line specialist. | 77 | Analytical | S-013; S-067 | FILL |
+
+## 3. PROV-04 rationale
+
+PROV-04 is **Financing integrity**: controls over receivables, inventory finance and collateral. It has the most direct documented credit link in the findings. Alleged double-pledged collateral and undisclosed off-balance-sheet financing at Tricolor and First Brands led to sudden insolvency and to disclosed bank losses: JPMorgan $170m and Fifth Third $200m [S-061, S-062, S-066, S-067].
+The other sector-specific candidates were not selected. Restart capability for plant IT and operational technology (IT/OT) is already covered by PROV-02 (Recovery testing). Controls against payment diversion through business email compromise (BEC) rest on one historical case, Toyota Boshoku in 2019 [S-073].
+
+## 4. Source register
+
+None of the URLs used contains a tracking parameter such as `utm_source`, so nothing was stripped. URLs are copied exactly as given in File M Section 10.2. Tiers follow File M's merge classification.
+
+| Source ID | Source / title | Publisher | URL as given | Publication date | Source tier (1/2/3) | Slides used |
+|---|---|---|---|---|---|---|
+| FILE-A | Underlying File A (`automotive_q1-q9.md`) as preserved in File M: "margins often <5%", high fixed costs (Q05.1, FIN-A17) | Not stated (uncited) | not supplied | Not stated | n/s (uncited) | 09, 10, 11 |
+| S-009 | JLR Q3 performance impacted by previously indicated challenges (Q3 FY26 results) | JLR | https://media.jaguarlandrover.com/news/2026/02/jlr-q3-performance-impacted-previously-indicated-challenges | Feb 2026 | 1 | 09, 10, 11 |
+| S-010 | Jaguar Land Rover cyberattack cost the company over $220 million | BleepingComputer | https://www.bleepingcomputer.com/news/security/jaguar-land-rover-cyberattack-cost-the-company-over-220-million/ | Nov 2025 | 3 | None (conflict record only) |
+| S-011 | JLR cites cyberattack, US tariffs for 24% drop in Q2 revenue | Yahoo Finance (Wards Auto) | https://finance.yahoo.com/news/jlr-cites-cyberattack-u-tariffs-094900056.html | Nov 2025 | 3 (reports company results) | 09, 10, 11 |
+| S-013 | Jaguar Land Rover plunges to loss after heavy cyber attack costs | Express & Star (PA) | https://www.expressandstar.com/uk-news/jaguar-land-rover-plunges-to-loss-after-heavy-cyber-attack-costs-5654637 | Nov 2025 | 3 | 09, 10, 11, 12 |
+| S-014 | Jaguar Land Rover attack costs UK estimated £1.9bn | Silicon UK | https://www.silicon.co.uk/security/cyberwar/jlr-attack-cost-627136/amp | Oct 2025 | 3 (reports CMC) | None (conflict record only) |
+| S-015 | JLR hack cost UK economy £1.9 billion (CMC report) | Insurance Journal (Reuters) | https://www.insurancejournal.com/news/international/2025/10/22/844686.htm | 22 Oct 2025 | 3 (reports CMC) | 10 |
+| S-017 | Government backs Jaguar Land Rover with £1.5 billion loan guarantee | UK Government (Department for Business and Trade) | https://www.gov.uk/government/news/government-backs-jaguar-land-rover-with-15-billion-loan-guarantee | 28 Sep 2025 | 1 | 10 |
+| S-018 | UK Government backs £1.5bn loan guarantee for Jaguar Land Rover (UKEF direction) | Autocar Professional | https://www.autocarpro.in/news/uk-government-backs-%C2%A315bn-loan-guarantee-for-jaguar-land-rover-129409 | 27 Oct 2025 | 3 (reports ministerial direction) | 10 |
+| S-021 | JLR production normalised, demand softness now key risk: CFO | Autocar Professional | https://www.autocarpro.in/news/jlr-production-normalised-demand-softness-now-key-risk-cfo-131015 | Feb 2026 | 3 (reports company call) | 10, 11 |
+| S-022 | JLR posts £310M loss after cyberattack halts production for five weeks | Fintool | https://fintool.com/news/jlr-cyber-attack-q3-loss | 5 Feb 2026 | 3 (secondary) | None (conflict record only) |
+| S-023 | Jaguar Land Rover wholesale volumes plummet 43% in cyberattack aftermath | The Register | https://www.theregister.com/2026/01/07/jlr_wholesale_volumes/ | 7 Jan 2026 | 3 | 09, 10 |
+| S-024 | Tata Motors Q3 FY26 earnings analysis (JLR FCF) | Whalesbook | https://www.whalesbook.com/news/English/Auto/Tata-Motors-Slumps-on-JLR-Cyber-Chaos-But-Domestic-PV-Shines/69848746bf48f011a29cb38b | 2026 | 3 (secondary) | 10, 11 |
+| S-025 | Dealer losses due to CDK cyberattack reach $1.02 billion | Anderson Economic Group | https://www.andersoneconomicgroup.com/dealer-losses-due-to-cdk-cyberattack-reach-1-02-billion/ | Jul 2024 | 2 | 09, 10, 11, 12 |
+| S-026 | CDK cyberattack expected to cost car dealers more than $1 billion | Yahoo Finance (Detroit Free Press) | https://uk.finance.yahoo.com/news/cdk-cyberattack-expected-cost-car-135946215.html | Jul 2024 | 3 | 09, 11 |
+| S-027 | CDK Global cyberattack to cost auto dealers more than $1 billion | Channel Futures | https://channelfutures.com/security/cdk-global-attack-costs-auto-dealers-over-1-billion | Jul 2024 | 3 | 09, 11, 12 |
+| S-030 | Cyber incident: CDK Global (ransom reported) | Longterm Wiki | https://www.longtermwiki.com/events/cyber-incident-cdk-global | n/s | 3 (aggregator; low) | None (S09.T1 basis only) |
+| S-031 | Toyota forced to halt car production following supplier cyberattack | TechRadar | https://www.techradar.com/news/toyota-forced-to-halt-car-production-following-supplier-cyberattack | Feb-Mar 2022 | 3 (quotes company statement) | 09, 10, 11, 12 |
+| S-032 | Suspected supplier cyberattack halts Toyota Japanese production | IndustryWeek | https://www.industryweek.com/technology-and-iiot/cybersecurity/article/21234739/suspected-supplier-cyberattack-halts-toyotas-japanese-production | 28 Feb 2022 | 3 | 10, 11 |
+| S-033 | Toyota Group resumes production in Japan after major supplier hit by ransomware | SoyaCincau | https://soyacincau.com/2022/03/04/toyota-group-resumes-production-in-japan-after-major-supplier-hit-by-ransomware-here-are-the-series-of-events/ | 4 Mar 2022 | 3 | 09, 11 |
+| S-034 | Automaker giant Stellantis confirms data breach after Salesforce hack | BleepingComputer | https://bleepingcomputer.com/news/security/automaker-giant-stellantis-confirms-data-breach-after-salesforce-hack | 22 Sep 2025 | 3 | 11, 12 |
+| S-035 | Stellantis becomes latest target in Salesforce data breach (company statement) | Salesforce Ben | https://www.salesforceben.com/stellantis-becomes-latest-target-in-salesforce-data-hack/ | Sep 2025 | 3 (quotes company statement) | 11, 12 |
+| S-037 | 2026 Global Automotive and Smart Mobility Cybersecurity Report (summary page) | Upstream | https://upstream.auto/?p=14857 | 2026 | 2 (vendor with stated dataset) | 09, 10 |
+| S-040 | AI doubles automotive cyber attacks (Upstream; Moody's quote) | WardsAuto | https://www.wardsauto.com/news/ai-doubles-automotive-cyber-attacks-sdvs-updtream/813455/ | Feb 2026 | 3 | 11, 12 |
+| S-061 | US prosecutors file criminal charges against First Brands founder | Global Trade Review | https://www.gtreview.com/?p=121167 | Jan 2026 | 3 (reports indictment) | 09, 11, 12 |
+| S-062 | First Brands accuses founder of receivables and inventory finance fraud (affidavit figures) | Global Trade Review | https://www.gtreview.com/?p=118845 | Nov 2025 | 3 (reports court filing) | 10, 11, 12 |
+| S-066 | Fraud charges follow subprime auto lender Tricolor Holdings collapse | ABC News (Good Morning America) | https://www.goodmorningamerica.com/amp/news/story/fraud-charges-follow-subprime-auto-lender-tricolor-holdings-128480305 | 17 Dec 2025 | 3 (reports indictment) | 09, 11, 12 |
+| S-067 | Executives at subprime auto lender Tricolor face fraud charges following bankruptcy | CNN (via ABC17) | https://abc17news.com/money/cnn-business-consumer/2025/12/17/executives-at-subprime-auto-lender-tricolor-face-fraud-charges-foll | 17 Dec 2025 | 3 | 09, 11, 12 |
+| S-073 | Over $37 million lost by Toyota Boshoku subsidiary in BEC scam | BleepingComputer | https://www.bleepingcomputer.com/news/security/over-37-million-lost-by-toyota-boshoku-subsidiary-in-bec-scam/ | 6 Sep 2019 | 3 (reports company statement) | None (PROV-04 rationale only) |
+| S-077 | Auto dealership cybersecurity news: October 2026 | Helion Technologies | https://heliontechnologies.com/dealership-cybersecurity-news/ | Oct 2026 | 3 (vendor blog) | None (NEEDS_REVIEW item 4 only) |
+| S-C01 | File C, Part 2 note on borrower signals: rising days sales outstanding (DSO), covenant breach alerts, high revolver use | Not stated (File C; uncited) | not supplied | Not stated | n/s (uncited) | 12 |
+
+ID note: File C has no source IDs or URLs. "S-C01" is used instead of "S1" so it cannot be confused with File M's S-001 series.
+
+## 5. Derived calculations
+
+| Figure | Formula | Result | Rounding | Slides |
+|---|---|---|---|---|
+| D1 Other incident types | 100% - 44% ransom-related share (494 incidents, 2025) [S-037] | 56% | None | 09 (S09.A.CHART) |
+| D2 JLR direct cyber costs, Q2-Q3 FY26 | £196m (Q2 FY26) [S-011] + £64m (Q3 FY26) [S-009]; same company, currency and cost basis, consecutive quarters | £260m | None | 09 (S09.B.KPI3) |
+| D3 Cyber share of Q2 exceptional items | £196m cyber costs / £238m total exceptional items, Q2 FY26 [S-011] = 82.35% | 82% (remainder 18%) | Nearest whole percent | 09 (S09.B.DONUT) |
+
+## 6. Analytical content
+
+| Field(s) | Basis |
+|---|---|
+| S09.T1 | JLR and CDK losses came from weeks of downtime; the only ransom figure (CDK, about $25m) is unconfirmed [S-009, S-025, S-030] |
+| S09.T2 | Margins often below 5% (File A), combined with JLR's five-week halt and its Q2-Q3 losses [FILE-A, S-013, S-011] |
+| S09.T3 | The three channels rest on different evidence types and different loss carriers (OEM, dealer network, lender), so they are not additive (File M check 5) |
+| S10.HEAD, S10.SUM | File M scenario narratives SCN-1W, SCN-4W and SCN-8W: revenue deferral at one week, supplier liquidity strain at four weeks, covenant pressure and state support at eight weeks [S-031, S-025, S-009, S-017] |
+| S10.FLOW4, S10.FLOW5 | Liquidity strain in JLR's supply chain and the £1.5bn state guarantee; File A high fixed costs [S-017, S-018, FILE-A] |
+| S10.HM.EQ1-EQ6 | Maps the six fixed credit lines to the automotive operating model in File M Q01: just-in-time plants, the dealer channel and supply-chain finance |
+| S10.HM Production | 1W: the one-day Toyota/Kojima halt cost about 13,000 vehicles [S-032]. 4W: the three-week CDK outage [S-025]. 8W: JLR's five-week halt plus recovery to mid-November, with wholesale volumes down 43% [S-013, S-021, S-023] |
+| S10.HM Cash flow | 1W: revenue deferral (SCN-1W). 4W: CDK lost sales of about 56,200 units [S-025]. 8W: JLR free cash flow outflow of £1.5bn, from a secondary source [S-024] |
+| S10.HM Liquidity | 1W: the one-day stoppage ended without a disclosed funding need [S-031]. 4W: fixed costs continue while output stops [FILE-A, S-011]. 8W: the £1.5bn government-backed guarantee [S-017] |
+| S10.HM Margins | 1W: catch-up through overtime (SCN-1W). 4W: JLR's Q2 loss before tax and exceptional items of £485m, with about four weeks of halt in the quarter [S-011]. 8W: Q3 loss and an earnings before interest and tax (EBIT) margin of -6.8% [S-009] |
+| S10.HM Working capital | JLR's effect on more than 5,000 UK organisations and the guarantee aimed at suppliers [S-015, S-017]; 8W supplier defaults per SCN-8W |
+| S10.HM Debt service | SCN-4W losses at thin margins; SCN-8W covenant pressure and state or parent support [S-011, S-009, S-017] |
+| S10.PANEL.CAVEAT | The File A margin statement describes the sector; it is not borrower headroom |
+| S10.T1-T3 | Restart duration drove JLR's losses; the four-week stress matches the CDK outage length; Kojima and CDK show single-source dependence [S-021, S-025, S-031] |
+| S11.HEAD, S11.SUM | Credit links are documented for PROV-01 (CDK dealer losses), PROV-02 (JLR results) and PROV-04 (lender losses); for PROV-03 and PROV-05 they rest partly on analysis |
+| S11 control-gap cells (all five) | Framed from File M Q04 (CTL-C1 to CTL-C4) and Q13, and written as hypotheses for discussion with the borrower |
+| S11 suggested questions | Adapted from the non-technical questions in File M Q08 (PROV-001, 002, 003, 005); the PROV-05 question is new |
+| S11.PROV-05 consequence and credit cells | No finding links board ownership directly to a loss. Based on Moody's statement that key cyber controls are implemented unevenly [S-040] and on the disclosure failures at First Brands [S-061] |
+| S11.RAISE, S11.LOWER | The inverse of the documented failure modes (no fallback, single source, thin margin, opaque financing) and of the recovery factors in the CDK and Kojima cases [S-026, S-033] |
+| S11.T1-T3 | Items ranked by strength of documented credit link |
+| S12.HEAD, S12.SUM | Card structure and follow-up path (fixed method) |
+| S12 ASK and LOOK FOR cells | Each evidence request matches the documented failure in that card's observation |
+| S12.EWI1-3 | File M Q15 triggers 1, 2 and 4 [S-013, S-031, S-025, S-035, S-062]; File C borrower signals: days sales outstanding (DSO) and revolver use [S-C01] |
+| S12.REF1-3 | Unresolved PROV-02 and PROV-04 gaps. REF3 rests on the allegation that First Brands lenders received incorrect financing information [S-061] |
+| S12.T1-T3 | Same priorities as Slide 11 |
+
+## 7. Conflicts and duplicates
+
+| Item | File M | File C | Version used |
+|---|---|---|---|
+| CDK Global dealer losses | $1.02bn and about 56,200 lost sales (AEG, Tier 2) [S-025]; earlier $944m estimate | "~$1B loss" from "industry analysis", no named source | $1.02bn (S-025) |
+| CDK outage scope | About 15,000 dealerships; 19 Jun - 5 Jul 2024 [S-025, S-026, S-027] | 15,000 dealers; about a three-week outage | Consistent; duplicate removed and File M used |
+| Toyota/Kojima stoppage length | One day: lines suspended 1 Mar and resumed 2 Mar 2022 [S-031, S-033] | "~1 day" in a note but "1-week plant stoppage" in the scenario table (internal conflict) | One day (S-031) |
+| Stellantis breach date and filing | Disclosed 21-22 Sep 2025, via a third-party platform [S-034, S-035] | Dated "Jan 2025"; cites both a "10-K (2025)" and a "20-F" | File M date; File C filing references not used |
+| Honda 2020 (Snake ransomware) | Not in File M | "~2 days" and "~3-day delay" (internal conflict); "8-K filings"; analyst estimate of $50-100m | Not used (no traceable source) |
+| JLR Q2 FY26 cyber costs | £196m [S-010, S-011, S-013] vs £178m from a secondary source [S-022] (C-29) | Not covered | £196m |
+| JLR UK economic cost | £1.9bn [S-014, S-015] vs £2.1bn from a secondary source [S-023] (C-30) | Not covered | Not placed on slides; S-015 used only for the reach of more than 5,000 organisations |
+| Ransom statistic | CDK about $25m, reported but not confirmed [S-030] | "Median ransom demand $5.08M" in the table but "mean demanded ~$5.08M" in the text; cross-sector | Neither used |
+| Breach cost | No sector-specific figure | IBM 2025: manufacturing (including auto) about $4.5M mean; population stated as "All sectors" | Not used (not automotive-specific, per the slide rule) |
+| Upstream incident statistics | 44% ransom-related and 34% disruption, from the vendor summary [S-037]; telematics and cloud share 61% vs 67% across summaries (C-33) | Not covered | Vendor page figures from S-037 only; 61% and 67% not used |
+| Kia (2021 ransom; 2025 vendor breach), Renault WannaCry (2017), unnamed DMS breach (Aug 2025, 766k records), Part 3 cross-sector estimates | Not in File M | Present without traceable sources; several marked as estimates | Not used |
+
+## 8. NEEDS_REVIEW list
+
+1. **Secondary or aggregator links still to trace to primary documents:**
+   - S-011, S-013, S-021 and S-023: trace to JLR's Q2 and Q3 FY26 results and call transcript.
+   - S-024: JLR free cash flow, taken from a secondary analysis site.
+   - S-015: the CMC report.
+   - S-018: the UK Export Finance (UKEF) ministerial direction.
+   - S-026, S-027: the AEG and CDK disclosures.
+   - S-031, S-032, S-033: the Toyota and Kojima statements.
+   - S-034, S-035: the Stellantis notice.
+   - S-040: Moody's figure, quoted second-hand by a vendor executive (G-11).
+   - S-061, S-062, S-066, S-067: the indictments, affidavit, SEC complaint and JPMorgan disclosure.
+2. **Unnamed organisations or sources:** the File A margin statement ("often <5%") has no publisher or date (FILE-A); File C's CDK "industry analysis"; File C's borrower-signal note (S-C01); the title of Moody's publication is not given.
+3. **Missing questionnaire:** none was supplied, so PROV-01 to PROV-05 are working items.
+4. **Missing Q05 / Q10 cost data:** the findings have no automotive-specific breach cost, ransom paid, recovery-duration dataset, fraud-loss dataset or five-year trend. The only nearby value is an average dealer downtime of 3.4 weeks (vendor survey, 2023, secondary) [S-077]; it is not placed on the slides.
+5. **Missing access dates:** File M gives one access date (2 November 2026) for all gap-fill sources, not one per item; sources in File A, File B and File C have no access dates.
+6. **Populations or periods that do not match the sector:**
+   - S-037 covers automotive and smart mobility, which is wider than the sector; S09.A.SUB states this.
+   - Exhibit B is a single company (JLR), not a sector aggregate.
+   - JLR's revenue falls also reflect US tariffs (S-011), so the headline states a sequence of events, not a sole cause.
+   - Tricolor is a subprime auto lender (partial scope).
+   - The FILE-A margin figure is undated.
+   - The First Brands and Tricolor allegations have not been tried (G-12).
+7. **OMIT slots:** S10.PANEL.M2 (delete the tile and widen M1); S10.PANEL.M3 (delete the tile).
+8. **Evidence cut-off:** no findings file states one (C-01); the slides should not imply a cut-off later than 2 November 2026.
+9. **Tier 3 dependence:** S09.C.CH3, S11.PROV-04 and S12.CARD4 rest on Tier 3 reporting of court documents and bank disclosures.
+
+## 9. Quality check
+
+| Check | Result |
+|---|---|
+| Character limits respected (all limited fields; summaries 330-400) | Pass (checked by script; summaries are 385, 391, 377 and 367) |
+| Acronyms defined at first use on each slide | Pass. S09: JLR and FY26 defined in the summary; EBIT is not used on slides 09-10. S10: no acronyms used. S11: JLR defined in the PROV-02 evidence cell. S12: JLR defined in card 2. UK, Q2/Q3 and PROV identifiers are treated as standard labels, as in the Banking edition |
+| No banned words or em dashes | Pass (slide text and this document scanned by script) |
+| No web or memory data used | Pass (File M and File C only) |
+| Every Fact and Derived field has a Source ID | Pass |
+| Durations are 1 / 4 / 8 weeks | Pass |
+| Fixed labels exact | Pass (all four labels as specified) |
+| No Committee or watchlist escalation | Pass (the File M Q15 trigger list is used only as a basis for the early warning and referral lines; the slides contain no escalation language) |
